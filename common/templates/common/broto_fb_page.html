@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style/fb.css' %}">
+    <title>facebook signup</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <!-- <a class="logo_text" href="{% url 'common:broto_fb_page' %}">facebook</a> -->
+                <img src="{% static 'images/fb_logo.png' %}" alt="" height="80px" width="220px">
+            </div>
+            <div class="login">
+                <table class="table_controls">
+                    <tr>
+                        <td>
+                            <label for="">E-mail</label>
+                        </td>
+                        <td>
+                            <label for="">Password</label>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text">
+                        </td>
+                        <td>
+                            <input type="password">
+                        </td>
+                        <td>
+                            <button class="btn_class">
+                                Log In
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                        </td>
+                        <td>
+                            Forgotten Account?
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="main_body"><br>
+            <div class="left_body">
+                <p class="para_class">
+                    Facebook helps you connect and share with <br> the people in your life.
+                </p>
+            </div>
+            <div class="right_body">
+                <p>
+                    asdsds
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

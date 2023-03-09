@@ -1,0 +1,39 @@
+{% extends 'common/master_common.html' %}
+{% load static %}
+{% block title %}
+<title>Seller Login</title>
+{% endblock %}
+{% block content %}
+
+
+
+<div style="background-color: rgb(190, 103, 149);">
+
+
+    <div class="container" style="display: grid;  justify-content: center;">
+        <h1 style="color: rgb(91, 48, 84);">
+            <b><u>SELLER LOGIN</u></b>
+        </h1><br>
+        <form action="" method="POST">
+            {% csrf_token %}
+            {{message}}
+            <div>
+                <label for="inputEmail4" class="form-label" style="color: white;">User Name</label>
+                <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your User Name"
+                    style="width: 400px;" name="username">
+            </div>
+            <div>
+                <label for="inputPassword4" class="form-label" style="color: white;">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Enter your Password"
+                    style="width: 400px;" name="password">
+            </div>
+            <a href="{% url 'common:seller_signup' %}" style="color: white;">New to ShopEhuB?</a>
+            <a href="#forgot_password" style="color: white;">Forgot Password?</a>
+            <br>
+            <div>
+                <button type="submit" class="btn btn-warning text-light">Login</button>
+            </div><br>
+        </form>
+    </div>
+</div>
+{% endblock %}

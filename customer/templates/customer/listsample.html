@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var num = 'sample string'
+        console.log(num.length)
+        console.log(num.charAt(0))
+        str = 'for more information ,c chapter 3, 4, 5,1'
+        str1 = 'just doing it for a test sample'
+        words = str1.split(' ')
+        for (i = 0; i < words.length; i++) {
+            words[i] = words[i][0].toUpperCase() + words[i].substr(1)
+            //console.log(words[i][0].toUpperCase())
+        }
+
+        var num1 = 786
+        console.log(num.concat(str))
+        console.log(num.toUpperCase())
+    </script>
+</body>
+
+</html>

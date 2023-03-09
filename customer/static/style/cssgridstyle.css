@@ -1,0 +1,25 @@
+.grid-container{
+    display: grid;
+  grid-template-columns: 100px 300px;
+  grid-auto-rows: minmax(120px,auto);
+  gap: 10px;
+  padding: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  justify-content: center;
+}
+ .item1{
+    background-color: rgb(21, 75, 156); 
+    grid-column:span 2;
+} 
+.item2{
+    grid-row: span 2;
+    background-color: rgb(26, 208, 181); 
+} 
+.item3{
+    grid-column: span 1;
+    background-color: rgb(193, 214, 72); 
+} 
+.item4{
+    background-color: rgb(239, 128, 73); 
+} 

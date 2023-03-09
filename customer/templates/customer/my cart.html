@@ -1,0 +1,173 @@
+{% extends 'customer/master_customer.html' %}
+{% load static %}
+
+{% block title %}
+<title>My Cart</title>
+{% endblock %}
+
+{% block content %}
+<!-- <div style="color: white;"> 
+    <h1>This is my cart</h1>
+    <h1>Your products</h1>
+    <h1>Save for later</h1>
+    <h1>Delete</h1>
+    <h1>Based on your browsing history</h1>
+    <input type="text" value="login">
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+    <p class="qwerty">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </div> -->
+
+<!-- <div id="zxcv">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum nulla reiciendis necessitatibus eveniet, sint <span> praesentium </span> magnam consectetur tempore. Odit, soluta.
+    </div>
+    <h1>This is done for testing border properties</h1>
+    <h2 id="first">Lorem ipsum dolor sit.</h2>
+    <h2 id="second">Lorem ipsum dolor sit.</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
+    <img class="myimg" src="https://m.media-amazon.com/images/I/81XyIoZ8+HL._SL1500_.jpg" alt="" height="250" width="350"> -->
+<!-- <h1>heading</h1>
+    <h1>sub heading</h1>
+    <p>this is to test sample</p>
+    <div id="parent1">
+        comment for parent1
+        <div id="child1">
+            comment for child1        
+        </div>
+    </div>
+
+    <div id="new">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+
+    </div>-->
+
+<!-- <div class="family">
+     <h1>Test for fixed Navigation Bar</h1>
+    </div> -->
+<!-- <div class="parent">
+        <div class="child1">
+        </div>
+        <div class="child2">
+        </div>
+        <div class="child3">
+        </div>
+    </div> -->
+<!-- <div class="asdf">lorem</div>
+    <div class="asdf">lore ipsum</div>
+    <ul>
+        <li class="fghj">Home</li>
+        <li class="fghj">About</li>
+        <li class="fghj">History</li>
+    </ul> -->
+<!-- <div class="p1">
+        <div class="c1">
+            boxA
+        </div>
+        <div class="c2">
+            boxB
+        </div>
+        <div class="c3">
+            boxC
+        </div>
+    </div>
+    <div class="new1">
+        yahya
+        yahya
+    </div>
+    <button class="btn1">Log In</button>
+    <h1 class="testi">fsdfsdaadasdasdsadssad</h1> -->
+<!-- <p class="sa1"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique maxime minima, eveniet animi porro quod corporis quos accusantium, rem, asperiores quam quis! Alias totam est sequi nihil impedit ipsa tempora quisquam consequuntur non quaerat. Fugit laboriosam, explicabo nemo asperiores tempora maiores omnis quidem pariatur deleniti facere eum mollitia provident dignissimos quas numquam, officiis consectetur nam? Expedita quasi dolor molestiae vel ex culpa vero voluptatum neque dicta distinctio ipsum, iste natus nobis libero temporibus harum, explicabo, voluptatem similique ut quo molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt et illo quis, iure odit nemo dolor dolorem impedit maiores! Libero repellendus consequuntur, voluptatem nulla qui eum quam harum. A, illo.</p> -->
+
+
+
+<div class="container" style="margin-bottom: 50px;">
+    <h1>MY CART</h1><br>
+    <!-- <div class="card mb-3" style="max-width: 450px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="{% static 'images/blue_shirt.jpg' %}" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Jack & Jones</h5>
+                    <p class="card-text">Men Blue Long Sleeves Casual Shirt</p>
+                    <label for="">Quantity</label>
+                    <input type="text" style="width: 30px; height: 20px;"><br>
+                    <label for="">Total Price</label>
+                    <input type="text" style="width: 30px; height: 20px;"><br>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-success">Save for later</button>
+                        <button type="button" class="btn btn-danger">Remove</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-3" style="max-width: 450px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="{% static 'images/yellow_shirt.jpg' %}" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">BOSSINI </h5>
+                    <p class="card-text">Men Solid Slim Fit Full Sleeves Shirt</p>
+                    <label for="">Quantity</label>
+                    <input type="text" style="width: 30px; height: 20px;"><br>
+                    <label for="">Total Price</label>
+                    <input type="text" style="width: 30px; height: 20px;"><br>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-success">Save for later</button>
+                        <button type="button" class="btn btn-danger">Remove</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-3" style="max-width: 450px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="{% static 'images/black_shirt.jpg' %}" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">BOSSINI</h5>
+                    <p class="card-text">Men Blue Long Sleeves Casual Shirt</p>
+                    <label for="">Quantity</label>
+                    <input type="text" style="width: 30px; height: 20px;"><br>
+                    <label for="">Total Price</label>
+                    <input type="text" style="width: 30px; height: 20px;"><br>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-success">Save for later</button>
+                        <button type="button" class="btn btn-danger">Remove</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-3" style="max-width: 450px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="{% static 'images/dark_green_shirt.jpg' %}" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">BOSSINI</h5>
+                    <p class="card-text">Men Checked Casual Shirt</p>
+                    <label for="">Quantity</label>
+                    <input type="text" style="width: 30px; height: 20px;"><br>
+                    <label for="">Total Price</label>
+                    <input type="text" style="width: 30px; height: 20px;"><br>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-success">Save for later</button>
+                        <button type="button" class="btn btn-danger">Remove</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <label for="">Total Amount</label>
+    <input type="text" name="" id=""><br><br>
+    <button class="btn btn-warning">Place Order</button>
+</div>
+{% endblock %}

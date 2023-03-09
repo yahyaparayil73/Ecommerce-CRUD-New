@@ -1,0 +1,14 @@
+.sample{
+    color: brown;
+}
+
+.maindiv{
+    height: 300px;
+    width: 400px;
+    border: solid white;
+    background-color: rgb(56, 118, 56);
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px; 
+    
+}

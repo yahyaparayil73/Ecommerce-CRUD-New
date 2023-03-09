@@ -1,0 +1,43 @@
+.maindiv {
+    height: 500px;
+    width: 100%;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.subdiv_1 {
+    
+    margin: 10px;
+    height: 30%;
+    width: 40%;
+    background-color: green;
+    float: left;
+}
+
+.subdiv_2 {
+    margin: 10px;
+    height: 30%;
+    width: 40%;
+    background-color: blue;
+    float: left;
+
+}
+
+.subdiv_3 {
+    margin: 10px;
+    height: 30%;
+    width: 40%;
+    background-color: red;
+    float: left;
+
+}
+
+.subdiv_4 {
+    margin: 10px;
+    height: 30%;
+    width: 40%;
+    background-color: black;
+    float: left;
+
+
+}

@@ -1,0 +1,24 @@
+{% extends 'seller/master_seller.html' %}
+{% load static %}
+
+{% block title %}
+<title>Seller Home</title>
+{% endblock %}
+
+{% block content %}
+<div class="maindiv" style="display: inline-flex;">
+    <div class="image_div" style="margin-left: 200px;">
+        <img src="{% static 'images/standing_man.png' %}" height="500px" width="400px" alt="" class="imagediv2">
+    </div>
+    <div class="sale_main_heading" style="margin-top: 140px;">
+        <div class="sale_heading">
+            <h6><i>New Year's Sale</i></h6>
+        </div>
+        <div class="yahyasample">
+            <h1>Men's Clothing</h1>
+        </div>
+        <h4>UP TO 50% OFF</h4>
+        <button class="btn btn-warning" type="submit"> <b>Shop Now !!</b></button>
+    </div>
+</div>
+{% endblock %}

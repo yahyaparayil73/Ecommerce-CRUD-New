@@ -1,0 +1,36 @@
+{% extends 'seller/master_seller.html' %}
+{% load static %}
+
+{% block title %}
+<title>Update Stock</title>
+{% endblock %}
+
+{% block content %}
+<h1
+    style="text-align: center; color: rgb(50, 91, 134); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 30px;margin-top: 20px;">
+    <u>UPDATE STOCK</u>
+</h1><br>
+<div class="container"
+    style="background-color: rgb(147, 186, 228); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;height: 400px; width: 400px;border-radius: 10px;">
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Select Category</label>
+            <input type="email" class="form-control" id="nameField" name="p_name">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Product No</label>
+            <textarea class="form-control" id="descriptionField" rows="1" name="p_description"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Current Stock</label>
+            <input type="text" class="form-control" id="categoryField" name="p_category">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">New Stock</label>
+            <input type="text" class="form-control" id="categoryField" name="p_no">
+        </div>
+        <button type="submit" class="btn btn-danger">Update</button>
+    </form>
+</div>
+{% endblock %}

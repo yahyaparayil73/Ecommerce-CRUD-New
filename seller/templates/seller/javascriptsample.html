@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <h1 id="test">This is a test</h1>
+    <p class="p_class1">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam magni minima reprehenderit sequi amet, iste
+        non earum totam soluta aut quaerat eaque labore necessitatibus atque possimus est at ducimus maiores?
+    </p>
+    <p class="p_class1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ea suscipit officia quisquam eius dicta et omnis
+        laboriosam quidem culpa obcaecati mollitia laudantium, voluptas vero sed minima! Maxime, natus tenetur.
+    </p> -->
+
+    <!-- <input type="button" onclick="change()" value="Click Me"> -->
+    <!-- <input type="text" id="num1"><br><br>
+    <input type="text" id="num2"><br><br>
+    <button onclick="sum()">Answer</button><br><br>
+    <input type="text" id="answer"> -->
+    <label for="">Enter The First Number</label>
+    <input type="text" id="num1"><br><br>
+    <label for="">Select the Operation</label> &nbsp;
+     <select name="" id="select">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select> <br><br>
+     <label for="">Enter The Second Number</label>
+    <input type="text" id="num2"><br><br>
+    <button onclick="answer()">Show Result</button> <br><br>
+    <label for="">Your Result is</label>
+    <input type="text" id="result"><br><br>
+    <select name="" id="fruit" >
+        <option value="apple">apple</option>
+        <option value="orange">orange</option>
+        <option value="mango">mango</option>
+        <option value="lemon">lemon</option>
+    </select><br><br>
+    <button onclick="delete_option()">delete</button>  
+   <!-- <input type="password" id="password">
+   <button onclick="show()">show password</button> -->
+    <script>
+        // h = document.getElementById('test')
+        // console.log(h)
+        // var1 = document.getElementsByTagName('p')
+        // console.log(var1[1])
+        // a1 = document.getElementsByClassName('p_class1')
+        // console.log(a1)
+        // function change() {
+        //     h.innerHTML = "Hello Welcome"
+        // }
+        // function sum() {
+        //    num1 = document.getElementById('num1').value
+        //    num2 = document.getElementById('num2').value
+        //    result =  parseInt(num1) + parseInt(num2)
+        //    document.getElementById('answer').value = result
+        // }
+
+        // function answer() {
+        //     num1 = document.getElementById('num1').value
+        //     num2 = document.getElementById('num2').value
+        //     a = document.getElementById('select').value
+        //     if (a == '+'){
+        //         document.getElementById('result').value = parseInt(num1) + parseInt(num2)
+        //     }else if (a == '-'){
+        //         document.getElementById('result').value = parseInt(num1) - parseInt(num2)
+        //     }else if (a == '*'){
+        //         document.getElementById('result').value = parseInt(num1) * parseInt(num2)
+        //     }else {
+        //         document.getElementById('result').value = parseInt(num1) / parseInt(num2)
+        //     }
+           
+        // }
+        // document.getElementById('result').style.color = 'red'
+        // function show(){
+        //     document.getElementById('password').type = 'text'
+        // }
+        function delete_option(){
+            x = document.getElementById('fruit')
+                x.remove(x.selectedIndex)
+            }
+        
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+{% extends 'common/master_common.html' %}
+{% load static %}
+{% block title %}
+<title>Seller Registration</title>
+{% endblock %}
+
+
+{% block content %}
+<div style="background-color: rgb(190, 170, 103); ">
+    <div class="container" style="display: grid;  justify-content: center;">
+        <h1 style="color: rgb(91, 72, 48);">
+            <b><u>SELLER REGISTRATION</u></b>
+        </h1><br>
+        <form action="" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{message}}
+            <div>
+                <label for="input_name" style="color: white;">Your Name</label>
+                <input type="text" class="form-control" id="input_name" placeholder="Enter Your Name"
+                    style="width: 400px;" name="seller_name">
+            </div>
+            <div>
+                <label for="input_mobile" class="form-label" style="color: white;">Your Mobile Number</label>
+                <input type="number" class="form-control" id="input_mobile" placeholder="Enter Your Mobile Number"
+                    style="width: 400px" name="seller_mobile" ;>
+            </div>
+            <div>
+                <label for="inputEmail4" class="form-label" style="color: white;">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Enter your E-mail Address"
+                    style="width: 400px;" name="seller_email">
+            </div>
+            <div>
+                <label for="inputEmail4" class="form-label" style="color: white;">address</label>
+                <input type="text" class="form-control" id="inputEmail" placeholder="Enter your Address"
+                    style="width: 400px;" name="seller_address">
+            </div>
+            <div>
+                <label for="input_bank_name" style="color: white;">Bank Name</label>
+                <input type="text" class="form-control" id="input_bank_name" placeholder="Enter Your Bank Name"
+                    style="width: 400px;" name="seller_bank_name">
+            </div>
+            <div>
+                <label for="acc_name" style="color: white;">Account Number</label>
+                <input type="number" class="form-control" id="account_number" placeholder="Enter Your Account Number"
+                    style="width: 400px;" name="seller_account_number">
+            </div>
+            <div>
+                <label for="input_branch" class="form-label" style="color: white;">Bank Branch</label>
+                <input type="text" class="form-control" id="input_branch" placeholder="Enter Your bank branch"
+                    style="width: 400px" name="seller_bank_branch" ;>
+            </div>
+            <div>
+                <label for="input_ifsc" class="form-label" style="color: white;">ifsc code</label>
+                <input type="text" class="form-control" id="input_ifsc" placeholder="Enter Your ifsc code"
+                    style="width: 400px" name="seller_ifsc">
+            </div><br>
+            <div class="input-group mb-3">
+                <input type="file" class="form-control" id="inputGroupFile02" name="seller_pic">
+                <label class="input-group-text" for="inputGroupFile02">Upload</label>
+            </div>
+            <br>
+            <div>
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+            </div><br>
+        </form>
+    </div>
+</div>
+{% endblock %}

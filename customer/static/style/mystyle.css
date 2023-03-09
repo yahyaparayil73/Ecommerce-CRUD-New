@@ -1,0 +1,24 @@
+
+
+.yahyasample{ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    color: rgb(255,193,7)
+}
+
+.sale_main_heading{
+    /* margin-left: 250px; */
+    margin-top: 150px;
+
+}
+
+.maindiv{
+    display: flex;
+   
+   
+}
+
+/* .imagediv2{
+    padding-left: 30px;
+
+} */
+

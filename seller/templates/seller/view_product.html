@@ -1,0 +1,37 @@
+{% extends 'seller/master_seller.html' %}
+{% load static %}
+
+{% block title %}
+<title>View Product</title>
+{% endblock %}
+
+{% block content %}
+<br><br>
+
+<div class="card mb-3" style="max-width: 450px;">
+    <div class="row g-0">
+        {% for product in products %}
+        <div class="col-md-4">
+            <img src="{{ product.product_image.url }}" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+            
+            <div class="card-body">
+                <h5 class="card-title">Jack & Jones</h5>
+                <p class="card-text">Men Blue Long Sleeves Casual Shirt</p>
+                <label for="">Quantity</label>
+                <input type="text" style="width: 30px; height: 20px;"><br>
+                <label for="">Total Price</label>
+                <input type="text" style="width: 30px; height: 20px;"><br>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-success">Save for later</button>
+                    <button type="button" class="btn btn-danger">Remove</button>
+                </div>
+            </div>
+            
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}

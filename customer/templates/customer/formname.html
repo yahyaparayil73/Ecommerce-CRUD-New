@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- <form> -->
+    <div class="container" style="background-color: rgb(122, 122, 185);">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Name</label>
+            <input type="text" class="form-control" id="Name" aria-describedby="emailHelp">
+            <span id="name_error"></span>
+        </div>
+
+        <p>Gender</p>
+
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="Male">
+            <label class="form-check-label" for="flexRadioDefault1">
+                Male
+            </label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="Female">
+            <label class="form-check-label" for="flexRadioDefault2">
+                Female
+
+            </label>
+            <span id="gender_error"></span>
+
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Address</label>
+            <input type="text" class="form-control" id="Address" aria-describedby="emailHelp">
+            <span id="address_error"></span>
+
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+            <span id="email_error"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Phone</label>
+            <input type="email" class="form-control" id="Phone" aria-describedby="emailHelp">
+            <span id="phone_error"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">User Name</label>
+            <input type="email" class="form-control" id="UserName" aria-describedby="emailHelp">
+            <span id="username_error"></span>
+
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="Password">
+            <span id="password_error"></span>
+
+        </div>
+        <button type="submit" onclick="update()" class="btn btn-primary">Submit</button>
+    </div>
+    <!-- </form> -->
+    <script>
+        function update() {
+
+            //declaring variables for every fields
+
+            var fname = document.getElementById('Name')
+            var Male = document.getElementById('Male')
+            var Female = document.getElementById('Female')
+            var Address = document.getElementById('Address')
+            var Email = document.getElementById('Email')
+            var Phone = document.getElementById('Phone')
+            var Username = document.getElementById('UserName')
+            var Password = document.getElementById('Password')
+            var fname_error = document.getElementById('name_error')
+            var gender_error = document.getElementById('gender_error')
+            var address_error = document.getElementById('address_error')
+            var email_error = document.getElementById('email_error')
+            var phone_error = document.getElementById('phone_error')
+            var username_error = document.getElementById('username_error')
+            var password_error = document.getElementById('password_error')
+
+
+
+
+            if (fname.value == "") {
+                fname.style.border = '1px solid red'
+                fname_error.innerHTML = 'Please enter the name'
+                fname_error.style.color = 'red'
+                return false
+
+            } else {
+                fname.style.border = ""
+                fname_error.innerHTML = ""
+            }
+
+            if (Male.checked == false && Female.checked == false) {
+                gender_error.innerHTML = 'please choose your gender'
+                gender_error.style.color = 'red'
+                return false
+            } else {
+                gender_error.style.border = ""
+                gender_error.innerHTML = ""
+            }
+
+            if (Address.value == "") {
+                Address.style.border = '1px solid red'
+                address_error.innerHTML = 'Please enter the address'
+                address_error.style.color = 'red'
+                return false
+
+            } else {
+                Address.style.border = ""
+                address_error.innerHTML = ""
+
+            }
+
+            if (Email.value == "") {
+                Email.style.border = '1px solid red'
+                email_error.innerHTML = 'Please enter the E-mail address'
+                email_error.style.color = 'red'
+                return false
+
+            } else {
+                Email.style.border = ""
+                email_error.innerHTML = ""
+            }
+
+            if (Phone.value == "") {
+                Phone.style.border = '1px solid red'
+                phone_error.innerHTML = 'Please enter the Phone Number'
+                phone_error.style.color = 'red'
+                return false
+
+            } else {
+                Phone.style.border = ""
+                phone_error.innerHTML = ""
+            }
+
+            if (Username.value == "") {
+                Username.style.border = '1px solid red'
+                username_error.innerHTML = 'Please enter the User Name'
+                username_error.style.color = 'red'
+                return false
+
+            } else {
+                Username.style.border = ""
+                username_error.innerHTML = ""
+            }
+
+            if (Password.value == "") {
+                Password.style.border = '1px solid red'
+                password_error.innerHTML = 'Please enter the Password'
+                password_error.style.color = 'red'
+                return false
+
+            } else {
+                Password.style.border = ""
+                password_error.innerHTML = ""
+            }
+        }
+
+    </script>
+</body>
+
+</html>

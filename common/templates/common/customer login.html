@@ -1,0 +1,39 @@
+{% extends 'common/master_common.html' %}
+{% load static %}
+{% block title %}
+<title>Customer Login</title>
+{% endblock %}
+{% block content %}
+<div style="background-color: rgb(103, 103, 190)" ;>
+    <div class="container" style="display: grid;  justify-content: center;">
+        <h1 style="color: rgb(48, 48, 91);">
+            <b><u>CUSTOMER LOGIN</u></b>
+        </h1><br>
+        <form method="POST">
+            {% csrf_token %}
+            {{message}}
+            <div>
+                <label for="inputEmail4" class="form-label" style="color: white;">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Enter your E-mail Address"
+                    style="width: 400px;" name="email">
+            </div>
+            <div>
+                <label for="inputPassword4" class="form-label" style="color: white;">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Enter your Password"
+                    style="width: 400px;" name="password">
+            </div>
+            <a href="{% url 'common:customer_signup' %}" style="color: white;">New to ShopEhuB?</a>
+            <a href="#forgot_password" style="color: white;">Forgot Password?</a>
+            <br>
+            <div>
+                <button type="submit" class="btn btn-success" a>Login</button>
+            </div><br>
+            <h6 style="color: white;">
+                By continuing, you agree to Shop-E-huB's <br> <a href="#conditions_of_use"
+                    style="color:rgb(227, 227, 27);">Conditions of Use</a> and <a href="#privacy_notice"
+                    style="color:rgb(227, 227, 27);">Privacy Notice</a>
+            </h6>
+        </form>
+    </div>
+</div>
+{% endblock %}

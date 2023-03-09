@@ -1,0 +1,75 @@
+body{
+    background-image: url('https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074076.jpg?w=1060&t=st=1678113554~exp=1678114154~hmac=547bd7eb791dc7be8b98fa306173e339cab446e09a9a7a03184ccb8104fccbc2');
+}
+
+.grid-container {
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    gap: 100px 0;
+    padding: 50px;
+    /* grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;  */
+    /* background-color: brown; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* gap: 50px 100px;
+    padding: 10px;  */
+
+}
+.item1{
+       height: 100px;
+       width: 100px;
+
+       text-align: center;
+       padding: 20px 20px;
+}
+.item2{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding: 20px 20px;
+}
+.item3{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding: 20px 20px;
+}
+.item4{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding: 20px 20px;
+}
+.item5{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding: 20px 20px;
+}
+.item6{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding: 20px 20px;
+}
+.item7{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding: 20px 20px;
+}
+.item8{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding: 20px 20px;
+}
+.item9{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding: 20px 20px;
+}
+
