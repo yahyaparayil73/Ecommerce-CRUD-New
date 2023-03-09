@@ -1,8 +1,10 @@
-from django.shortcuts import render
+from django.shortcuts import redirect, render
+from common.models import Customer
 
 
 def customer_home(request):
-    return render(request,'customer/customer_home.html')
+    customer = Customer.objects.get(id = request.session['customer'])
+    return render(request,'customer/customer_home.html',{'customer_data':customer})
 
 def customer_checkout(request):
     return render(request,'customer/checkout.html')
@@ -78,3 +80,8 @@ def customer_cssgrid(request):
 
 def css_broto_sample(request):
     return render(request,'customer/css_broto_sample.html') 
+
+def customer_logout(request):
+    del request.session['customer']
+    request.session.flush()
+    return redirect( 'common:project_home')

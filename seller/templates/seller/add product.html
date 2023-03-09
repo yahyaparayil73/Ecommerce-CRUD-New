@@ -14,6 +14,7 @@
     style="background-color: rgb(147, 228, 147); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;height: 650px; width: 400px;border-radius: 10px;">
     <form method="POST" enctype="multipart/form-data">
         {% csrf_token %}
+        {{message}}        
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Product Name</label>
             <input type="text" class="form-control" id="nameField" name="p_name">
@@ -28,11 +29,11 @@
         </div>
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Product Number</label>
-            <input type="text" class="form-control" id="numberField" name="p_no">
+            <input type="text" class="form-control" id="numberField" name="p_number">
         </div>
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Current Stock</label>
-            <input type="text" class="form-control" id="stockField" name="p_stock">
+            <input type="text" class="form-control" id="stockField" name="p_current_stock">
         </div>
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Price</label>

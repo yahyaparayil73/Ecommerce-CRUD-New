@@ -29,6 +29,8 @@ urlpatterns=[
     path('ccustomerregistration',views.customer_customerregistration,name='customerregistration'),
     path('ccssgrid',views.customer_cssgrid,name='cssgrid'),
     path('css_broto_sample',views.css_broto_sample,name='css_broto_sample'),
+    path('c_logout',views.customer_logout,name='customer_logout'),
+
 
 
 ]

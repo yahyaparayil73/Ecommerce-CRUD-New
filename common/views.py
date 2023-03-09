@@ -68,6 +68,7 @@ def seller_login(request):
         spassword = request.POST['password']
         try:
             seller = Seller.objects.get(s_username=susername, s_password = spassword)
+            request.session['seller'] = seller.id
             return redirect('seller:seller_home')
         except:
             msg = 'Invalid Credentials'
@@ -123,7 +124,5 @@ def master_common(request):
 
 def test(request):
     return render(request, 'common/test.html')
-
-    
 
      
