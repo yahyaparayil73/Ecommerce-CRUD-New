@@ -14,20 +14,11 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='Product',
+            name='Cart',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('p_name', models.CharField(max_length=50)),
-                ('p_description', models.CharField(max_length=50)),
-                ('p_number', models.BigIntegerField()),
-                ('p_stock', models.BigIntegerField()),
-                ('p_price', models.BigIntegerField()),
-                ('p_category', models.CharField(max_length=50)),
-                ('p_image', models.ImageField(upload_to='product/')),
+                ('customer', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='common.customer')),
                 ('seller', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='common.seller')),
             ],
-            options={
-                'db_table': 'product',
-            },
         ),
     ]

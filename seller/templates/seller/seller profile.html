@@ -14,17 +14,17 @@
     <div style="display: flex;">
         <label for="inputEmail4" class="form-label">Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your Name" style="width: 400px;"
-            value="{{ seller_profile.name }}">
+            value="{{seller_profile_data.s_name}}" disabled>
     </div><br>
     <div style="display: flex;">
         <label for="inputPassword4" class="form-label">Email Address</label>&nbsp;&nbsp;&nbsp;&nbsp;
         <input type="email" class="form-control" id="inputPassword4" placeholder="Enter your Email"
-            style="width: 400px;" value="{{ seller_profile.email }}">
+            style="width: 400px;" value="{{seller_profile_data.s_email}}" disabled>
     </div><br>
     <div style="display: flex;">
         <label for="inputEmail4" class="form-label">Phone Number</label>&nbsp;&nbsp;&nbsp;
         <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your Phone Number"
-            style="width: 400px;" value="{{ seller_profile.mobile_number }}">
+            style="width: 400px;" value="{{seller_profile_data.s_mobile}}" disabled>
     </div>
 </div>
 {% endblock %}

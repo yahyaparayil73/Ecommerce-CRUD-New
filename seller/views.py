@@ -1,26 +1,65 @@
 from django.shortcuts import redirect, render
-
+from common.models import Seller
+from seller.models import Product
 
 def add_product(request):
-    return render(request, 'seller/add product.html')
+    msg = ''
+    if request.method == 'POST' :
+        pname = request.POST['p_name']
+        pdescription = request.POST['p_description']
+        pcategory = request.POST['p_category']
+        pnumber = request.POST['p_number']
+        pstock = request.POST['p_current_stock']
+        pprice = request.POST['p_price']
+        pimage = request.FILES['p_image']
+        new_product = Product(
+            p_name = pname,
+            p_description = pdescription,
+            p_category = pcategory,
+            p_number = pnumber,
+            p_stock = pstock,
+            p_price = pprice,
+            p_image = pimage,
+            seller_id = request.session['seller']
+            )
+        
+        new_product.save()
+        msg = 'Product added successfully'
+
+    return render(request, 'seller/add product.html',{'success_message':msg})
 
 def change_password(request):
-    return render(request, 'seller/change password.html')
+    msg = ''
+    if request.method == 'POST' :
+        oldpassword = request.POST['old_password']
+        newpassword = request.POST['new_password']
+        seller = Seller.objects.get(id = request.session['seller'])                            
+        if seller.s_password ==  oldpassword :
+            seller.s_password =  newpassword
+            seller.save()       
+            msg = 'password updated'
+        else :
+            msg = 'password does not match'
+    return render(request, 'seller/change password.html',{'password_message':msg})
 
 def seller_home(request):
-    return render(request, 'seller/seller home.html')
+    seller = Seller.objects.get(id = request.session['seller'])
+    return render(request, 'seller/seller home.html',{'seller_data':seller})
 
 def product_catalogue(request):
     return render(request, 'seller/product catalogue.html')
 
 def seller_profile(request):
-    return render(request, 'seller/seller profile.html')
+    seller = Seller.objects.get(id = request.session['seller'])
+    return render(request, 'seller/seller profile.html',{'seller_profile_data':seller})
 
 def update_stock(request):
     return render(request, 'seller/update stock.html')
 
 def view_product(request):
-    return render(request, 'seller/view_product.html')
+    sellerid = request.session['seller']
+    product = Product.objects.filter(seller_id = sellerid)
+    return render(request, 'seller/view_product.html',{'product_message':product})
 
 def view_orders(request):
     return render(request, 'seller/view orders.html')

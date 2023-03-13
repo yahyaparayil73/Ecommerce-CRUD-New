@@ -6,7 +6,7 @@ urlpatterns=[
     path('ccheckout',views.customer_checkout,name='checkout'),
     path('cmycart',views.customer_mycart,name='mycart'),
     path('cchangepassword',views.customer_changepassword,name='changepassword'),
-    path('cproductdetails',views.customer_productdetails,name='productdetails'),
+    path('cproductdetails/<int:p_id>',views.customer_productdetails,name='productdetails'),
     path('cprofile',views.customer_profile,name='customer_profile'),
     path('cmyorders',views.customer_myorders,name='myorders'),
     path('cbaabtrawebsite',views.customer_Baabtrawebsite,name='Baabtra website'),
@@ -30,6 +30,8 @@ urlpatterns=[
     path('ccssgrid',views.customer_cssgrid,name='cssgrid'),
     path('css_broto_sample',views.css_broto_sample,name='css_broto_sample'),
     path('c_logout',views.customer_logout,name='customer_logout'),
+    path('master_customer',views.master_customer,name='master_customer'),
+
 
 
 

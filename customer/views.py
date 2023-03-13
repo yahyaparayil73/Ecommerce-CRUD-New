@@ -1,28 +1,48 @@
 from django.shortcuts import redirect, render
 from common.models import Customer
+from .models import Cart
+from seller.models import Product
 
 
 def customer_home(request):
     customer = Customer.objects.get(id = request.session['customer'])
-    return render(request,'customer/customer_home.html',{'customer_data':customer})
+    products = Product.objects.all()
+    return render(request,'customer/customer_home.html',{'customer_data':customer,'product_data':products})
 
 def customer_checkout(request):
     return render(request,'customer/checkout.html')
 
 def customer_mycart(request):
-    return render(request,'customer/my cart.html')
+     
+    cart_items = Cart.objects.filter(customer = request.session['customer'])  
+    print(cart_items) 
+    return render(request,'customer/my cart.html',{'cart_items': cart_items})
 
 def customer_myorders(request):
     return render(request,'customer/my orders.html')
 
-def customer_productdetails(request):
-    return render(request,'customer/product details.html')
+def customer_productdetails(request,p_id):
+    product = Product.objects.get(id = p_id)
+    msg = ''
+    if request.method == 'POST':
+        cart_exist = Cart.objects.filter(product = p_id, customer = request.session['customer']).exists()
+
+        if not cart_exist:
+            cart = Cart(customer_id = request.session['customer'], product_id = p_id)
+            cart.save()
+            return redirect('customer:mycart')
+        else:
+            msg = 'Item already in cart'
+    return render(request,'customer/product details.html',{'product':product,'msg':msg})
 
 def customer_changepassword(request):
+    # if request.method == "POST" :
+
     return render(request,'customer/change password.html')
 
 def customer_profile(request):
-    return render(request, 'customer/customer_profile.html',{'customer_profile':customer_profile}) 
+    customer = Customer.objects.get(id = request.session['customer'])
+    return render(request, 'customer/customer_profile.html',{'customer_profile':customer}) 
 
 def customer_Baabtrawebsite(request):
     return render(request,'customer/Baabtra website.html') 
@@ -35,6 +55,9 @@ def customer_Bootstrapgrid(request):
 
 def customer_Javascripttest(request):
     return render(request,'customer/javascripttest.html') 
+
+def master_customer(request):
+    return render(request, 'customer/master_customer.html')  
 
 def customer_variable(request):
     return render(request,'customer/variable.html') 

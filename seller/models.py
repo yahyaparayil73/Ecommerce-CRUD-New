@@ -14,6 +14,6 @@ class Product(models.Model) :
     p_image = models.ImageField(upload_to = 'product/')
 
     class Meta :
-        db_table = 'Product'
+        db_table = 'product'
 
 
