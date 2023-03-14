@@ -25,7 +25,9 @@ def customer_productdetails(request,p_id):
     product = Product.objects.get(id = p_id)
     msg = ''
     if request.method == 'POST':
-        cart_exist = Cart.objects.filter(product = p_id, customer = request.session['customer']).exists()
+        cart_exist = Cart.objects.filter(
+            product = p_id, 
+            customer = request.session['customer']).exists()
 
         if not cart_exist:
             cart = Cart(customer_id = request.session['customer'], product_id = p_id)
@@ -36,9 +38,19 @@ def customer_productdetails(request,p_id):
     return render(request,'customer/product details.html',{'product':product,'msg':msg})
 
 def customer_changepassword(request):
-    # if request.method == "POST" :
+    msg = ''
+    if request.method == "POST" :
+        oldpassword = request.POST['old_password']
+        newpassword = request.POST['new_password']
+        customer = Customer.objects.get(id = request.session['customer'])
+        if customer.c_password == oldpassword :
+            customer.c_password = newpassword
+            customer.save()
+            msg = 'Password Updated'
+        else:
+            msg = 'Passwords does not match'
 
-    return render(request,'customer/change password.html')
+    return render(request,'customer/change password.html',{'message':msg})
 
 def customer_profile(request):
     customer = Customer.objects.get(id = request.session['customer'])

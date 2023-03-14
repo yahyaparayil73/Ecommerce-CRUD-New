@@ -1,4 +1,5 @@
 from django.conf import settings
+from django.http import JsonResponse
 from django.shortcuts import render,redirect
 from random import randint
 from .models import Customer, Seller
@@ -124,5 +125,10 @@ def master_common(request):
 
 def test(request):
     return render(request, 'common/test.html')
+
+def email_exist(request):
+    email = request.POST['email_data']
+    email_exists = Customer.objects.filter(c_email = email).exists()
+    return JsonResponse({'email_exists':email_exists})
 
      

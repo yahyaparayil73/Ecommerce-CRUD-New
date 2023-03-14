@@ -2,6 +2,9 @@
 {% load static %}
 {% block title %}
 <title>Customer Registration</title>
+<script src=" https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+    crossorigin="anonymous">
+    </script>
 {% endblock %}
 
 
@@ -26,12 +29,14 @@
             </div>
             <div>
                 <label for="input_mobile" class="form-label" style="color: white;">Address</label>
-                <textarea name="address" class = "form-control" id="cust_address" cols="30" rows="3" style="width: 400px"></textarea>
+                <textarea name="address" class="form-control" id="cust_address" cols="30" rows="3"
+                    style="width: 400px"></textarea>
             </div>
             <div>
                 <label for="inputEmail4" class="form-label" style="color: white;">Email</label>
                 <input type="email" class="form-control" id="cust_email" placeholder="Enter your E-mail Address"
                     style="width: 400px;" name="email">
+                <span id="email_err"></span>
             </div>
             <div>
                 <label for="inputPassword4" class="form-label" style="color: white;">Password</label>
@@ -47,7 +52,7 @@
             </div>
             <br>
             <div>
-                <button type="submit" class="btn btn-primary">Sign Up</button>
+                <button id="btn_submit" type="submit" class="btn btn-primary">Sign Up</button>
             </div><br>
             <h6 style="color: white;">
                 By enrolling your mobile phone number,you consent to <br> recieve automated security notifications
@@ -98,4 +103,40 @@
     }
 
 </script> -->
+<script>
+    $(document).ready(function () {
+        $.ajaxSetup({
+            headers: {
+                "X-CSRFToken": $('[name=csrfmiddlewaretoken]').val()
+            }
+        })
+        $('#cust_email').change(function () {
+            var email = $('#cust_email').val()
+            $.ajax({
+                type: 'POST',
+                url: '{% url "common:email_exist" %}',
+                data: {
+                    'email_data': email
+                },
+                success: function (response) {
+
+                    let res = response.email_exists
+                    if (res == true) {
+                        $('#email_err').html('Email exists')
+                        $('#email_err').css('color', 'red')
+                        $('#btn_submit').attr('disabled', true)
+
+                    }
+                    else {
+                        $('#email_err').html('')
+                        $('#btn_submit').attr('disabled', false)
+                    }
+
+
+                }
+            })
+
+        })
+    })
+</script>
 {% endblock %}

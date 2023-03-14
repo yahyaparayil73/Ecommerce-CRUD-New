@@ -1,6 +1,7 @@
 from django.shortcuts import redirect, render
 from common.models import Seller
 from seller.models import Product
+from django.http import JsonResponse
 
 def add_product(request):
     msg = ''
@@ -8,7 +9,7 @@ def add_product(request):
         pname = request.POST['p_name']
         pdescription = request.POST['p_description']
         pcategory = request.POST['p_category']
-        pnumber = request.POST['p_number']
+        pnumber = request.POST['p_number']          
         pstock = request.POST['p_current_stock']
         pprice = request.POST['p_price']
         pimage = request.FILES['p_image']
@@ -54,7 +55,8 @@ def seller_profile(request):
     return render(request, 'seller/seller profile.html',{'seller_profile_data':seller})
 
 def update_stock(request):
-    return render(request, 'seller/update stock.html')
+    products = Product.objects.filter(seller = request.session['seller']).values('id','p_name')
+    return render(request, 'seller/update stock.html',{'products':products})
 
 def view_product(request):
     sellerid = request.session['seller']
@@ -74,3 +76,10 @@ def seller_logout(request):
     del request.session['seller']
     request.session.flush()
     return redirect( 'common:project_home')
+
+def stock_update(request):
+    product_id = request.POST['product_id']
+    product = Product.objects.filter(id = product_id).values('p_stock')
+    print(product,'*********')
+    current_stock = product[0]['p_stock']
+    return JsonResponse({'stock': current_stock})

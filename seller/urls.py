@@ -15,6 +15,7 @@ urlpatterns=[
     path('master_seller',views.master_seller,name='master_seller'),
     path('view_product',views.view_product,name='view_product'),
     path('s_logout',views.seller_logout,name='seller_logout'),
+    path('stock_update',views.stock_update,name='stock_update'),
 
 
 
