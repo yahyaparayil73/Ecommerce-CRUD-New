@@ -11,18 +11,25 @@
 </head>
 
 <body>
-    <div class="card" style="width: 18rem;">
+    
+    <div class="card" style="width: 700px;margin-top: 120px;margin-left: 250px;">
         <form method="POST">
             {% csrf_token %}
-        <img src="{{product.p_image.url}}" class="card-img-top" alt="..." style="height: 280px;">
-        <div class="card-body">
-            <h5 class="card-title">{{product.p_name}}</h5>
-            <p class="card-text">{{product.p_description}}</p>
-            <h5 class="card-title">{{product.p_stock}}</h5>
-            <button type="submit" class="btn btn-primary">Add To Cart</button>
-        </div>
-        {{ msg }}
-    </form>
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="{{ product.p_image.url }}" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ product.p_name }}</h5>
+                        <p class="card-text">{{ product.p_description }}</p>
+                        <p class="card-text">{{ product.p_stock }} Pieces Left !!</p>
+                        <button type="submit" class="btn btn-primary">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+            <span style="color: red;"><i>{{ msg }}</i></span>
+        </form>
     </div>
 </body>
 

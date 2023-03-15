@@ -3,6 +3,12 @@
 
 {% block title %}
 <title>Home</title>
+<style>
+    .card:hover {
+        transform: scale(1.0);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+    }
+</style>
 {% endblock %}
 
 {% block content %}
@@ -22,18 +28,22 @@
         <button class="btn btn-warning" type="submit"> <b>Shop Now !!</b></button>
     </div>
 </div>
-<div>
-    {% for prdct in product_data %}
-    <div class="card" style="width: 18rem;">
-        <img src="{{prdct.p_image.url}}" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title"> {{prdct.p_name}} </h5>
-            <p class="card-text">{{prdct.p_description}}</p>
-            <h6 class="card-title">{{prdct.p_price}}</h6>
-            <h6 class="card-title">{{prdct.seller.s_name}}</h6>
-            <a href="{% url 'customer:productdetails' prdct.id %}" class="btn btn-success">View</a>
+<div class="container">
+    <div class="row">
+        {% for prdct in product_data %}
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;margin: 1%;">
+                <img src="{{prdct.p_image.url}}" class="card-img-top" alt="..." height="250px">
+                <div class="card-body">
+                    <h5 class="card-title"> {{ prdct.p_name | title}} </h5>
+                    <p class="card-text">{{ prdct.p_description | title}}</p>
+                    <h6 class="card-title">₹{{ prdct.p_price }}</h6>
+                    <h6 class="card-title">{{ prdct.seller.s_name | title}}</h6>
+                    <a href="{% url 'customer:productdetails' prdct.id %}" class="btn btn-success">View</a>
+                </div>
+            </div>
         </div>
+        {% endfor %}
     </div>
-    {% endfor %}
 </div>
 {% endblock %}

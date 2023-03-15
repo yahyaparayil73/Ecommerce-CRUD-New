@@ -3,12 +3,19 @@
 
 {% block title %}
 <title>View Product</title>
+<style>
+    .card:hover {
+        transform: scale(1.0);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+    }
+</style>
+
 {% endblock %}
 
 {% block content %}
 <br><br>
 <div class="container">
-   
+
     <div class="row">
         {% for prdct in product_message %}
         <div class="col-md-4">
@@ -17,12 +24,12 @@
                 <div class="card-body">
                     <h5 class="card-title"> {{prdct.p_name}} </h5>
                     <p class="card-text"> {{prdct.p_description}} </p>
-                    <h6 class="card-title">{{prdct.p_price}}</h6>
+                    <h6 class="card-title">₹{{prdct.p_price}}</h6>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
 
             </div>
-           
+
         </div>
         {% endfor %}
 

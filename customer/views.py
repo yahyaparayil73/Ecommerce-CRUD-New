@@ -15,7 +15,7 @@ def customer_checkout(request):
 def customer_mycart(request):
      
     cart_items = Cart.objects.filter(customer = request.session['customer'])  
-    print(cart_items) 
+    # print(cart_items) 
     return render(request,'customer/my cart.html',{'cart_items': cart_items})
 
 def customer_myorders(request):

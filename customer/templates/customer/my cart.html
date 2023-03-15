@@ -2,13 +2,13 @@
 {% load static %}
 
 {% block title %}
-<title>My Cart</title>
+<title>Your Cart</title>
 {% endblock %}
 
 {% block content %}
 
 <div class="container" style="margin-bottom: 50px;">
-    <h1>MY CART</h1><br>
+    <h1>YOUR CART</h1><br>
     <div>
         <table class="table" style="border: 1px;">
             <thead>
@@ -44,14 +44,14 @@
                     {{item.product.p_category}}
                 </td>
                 <td>
-                    {{item.product.p_price}}
+                   ₹ {{item.product.p_price}}
                 </td>
                 <td>
                     <input type="number" id="qty" onchange="getTotal('{{item.product.p_price}}')"
                         max="{{item.product.p_stock}}" min="1">
                 </td>
                 <td>
-                    {{item.product.p_price}}
+                   ₹ {{item.product.p_price}}
                 </td>
             </tr>
             {% endfor %}

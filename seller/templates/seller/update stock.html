@@ -16,8 +16,7 @@
         {% csrf_token %}
         <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Product No</label>
-            <!-- <input type="text" class=" form-control dropdown-toggle"selectBoxOptions="Canada;Denmark;Finland;Germany;Mexico" id="product_number" name="p_number"></input> -->
-            <select   name="p_number" id="product" class="form-control">
+            <select   name="p_number" id="product" class="form-control" data-bs-toggle="dropdown" aria-expanded="false">
                 {% for product in products %}
                 <option value="{{product.id}}">{{ product.p_name | title }}</option>
                 {% endfor %}
@@ -25,11 +24,11 @@
         </div>
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Current Stock</label>
-            <input type="text" class="form-control" id="categoryField" name="p_category" >
+            <input type="text" class="form-control" id="stock_field" name="p_category" >
         </div>
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">New Stock</label>
-            <input type="text" class="form-control" id="categoryField" name="p_no">
+            <input type="number" class="form-control" id="categoryField" name="new_stock" min="1">
         </div>
         <button type="submit" class="btn btn-danger">Update</button>
     </form>
@@ -56,7 +55,8 @@
 
                 success: function(response){
 
-                    console.log(response.stock)
+                    let res = response.stock
+                    $('#stock_field').val(res)
                 }
             })
         })
