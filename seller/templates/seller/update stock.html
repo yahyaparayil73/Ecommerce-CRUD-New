@@ -12,11 +12,11 @@
 </h1><br>
 <div class="container"
     style="background-color: rgb(147, 186, 228); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;height: 350px; width: 400px;border-radius: 10px;">
-    <form method="POST" enctype="multipart/form-data">
+    <form method="POST">
         {% csrf_token %}
         <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Product No</label>
-            <select   name="p_number" id="product" class="form-control" data-bs-toggle="dropdown" aria-expanded="false">
+            <select name="p_number" id="product" class="form-control" data-bs-toggle="dropdown" aria-expanded="false">
                 {% for product in products %}
                 <option value="{{product.id}}">{{ product.p_name | title }}</option>
                 {% endfor %}
@@ -24,7 +24,7 @@
         </div>
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Current Stock</label>
-            <input type="text" class="form-control" id="stock_field" name="p_category" >
+            <input type="text" class="form-control" id="stock_field" name="p_category">
         </div>
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">New Stock</label>
@@ -34,7 +34,6 @@
     </form>
 </div>
 <script>
-
     $(document).ready(function () {
         $.ajaxSetup({
             headers: {
@@ -42,7 +41,7 @@
             }
         })
 
-        $('#product').change(function(){
+        $('#product').change(function () {
 
             $.ajax({
 
@@ -53,7 +52,7 @@
                 },
 
 
-                success: function(response){
+                success: function (response) {
 
                     let res = response.stock
                     $('#stock_field').val(res)

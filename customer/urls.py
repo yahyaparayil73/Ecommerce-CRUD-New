@@ -31,8 +31,6 @@ urlpatterns=[
     path('css_broto_sample',views.css_broto_sample,name='css_broto_sample'),
     path('c_logout',views.customer_logout,name='customer_logout'),
     path('master_customer',views.master_customer,name='master_customer'),
-
-
-
+    path('change_quantity',views.change_quantity,name ='change_quantity')
 
 ]

@@ -1,3 +1,4 @@
+from django.http import JsonResponse
 from django.shortcuts import redirect, render
 from common.models import Customer
 from .models import Cart
@@ -120,3 +121,15 @@ def customer_logout(request):
     del request.session['customer']
     request.session.flush()
     return redirect( 'common:project_home')
+
+def change_quantity(request):
+    error_msg = ''
+    # success_msg = ''
+    quantity = int(request.POST['quantity'])
+    product_id = int(request.POST['product_id'])
+    current_stock = Product.objects.get(id = product_id).p_stock
+    if quantity > current_stock :
+        error_msg = 'Out of stock'
+    else:
+        error_msg = 'In stock'
+    return JsonResponse({'error_msg': error_msg})

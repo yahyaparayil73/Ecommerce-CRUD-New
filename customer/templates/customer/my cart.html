@@ -3,6 +3,7 @@
 
 {% block title %}
 <title>Your Cart</title>
+
 {% endblock %}
 
 {% block content %}
@@ -38,20 +39,22 @@
                     <img src="{{item.product.p_image.url}}" width="75px">
                 </td>
                 <td>
-                    {{item.product.p_name}}
+                    {{ item.product.p_name |title}}
                 </td>
                 <td>
-                    {{item.product.p_category}}
+                    {{ item.product.p_category }}
                 </td>
                 <td>
-                   ₹ {{item.product.p_price}}
+                    ₹ {{ item.product.p_price }}
                 </td>
                 <td>
-                    <input type="number" id="qty" onchange="getTotal('{{item.product.p_price}}')"
-                        max="{{item.product.p_stock}}" min="1">
+                    {% csrf_token %}
+                    <input type="number" id="qty" min="1" data-item="{{ item.product.id }}"><br>
+                    <span id="stock_error"></span>
+                    <span id="stock_success"></span>
                 </td>
                 <td>
-                   ₹ {{item.product.p_price}}
+                    ₹ {{item.product.p_price}}
                 </td>
             </tr>
             {% endfor %}
@@ -64,11 +67,55 @@
 
 <script>
 
-    function getTotal(price) {
-        let qty = document.getElementById('qty').value
-        let total = parseFloat(price) * parseFloat(qty)
-        console.log(total)
-    }
+    // function getTotal(price) {
+    //     let qty = document.getElementById('qty').value
+    //     let total = parseFloat(price) * parseFloat(qty)
+    //     console.log(total)
+    // }
+
+    $(document).ready(function () {
+        $.ajaxSetup({
+            headers: {
+                "X-CSRFToken": $('[name=csrfmiddlewaretoken]').val()
+            }
+        })
+
+        $('#qty').change(function () {
+
+            $.ajax({
+
+                type: 'POST',
+                url: "{% url 'customer:change_quantity' %}",
+                data: {
+                    'product_id': $(this).attr('data-item'),
+                    'quantity': $(this).val()
+                },
+
+
+                success: function (response) {
+                    let error = response.error_msg
+                    // let success = response.success_msg
+                    if (error == "In stock") {
+                        $('#stock_error').html(error)
+                        $('#stock_error').css('color', 'green')
+
+                    } else {
+                        $('#stock_error').html(error)
+                        $('#stock_error').css('color', 'red')
+                    }
+                    $('#stock_error').html(error)
+                    // $('#stock_success').html(success)
+
+
+                }
+            })
+        })
+    })
 
 </script>
 {% endblock %}
+
+
+
+<!-- onchange="getTotal('{{item.product.p_price}}')"
+                        max="{{item.product.p_stock}}" -->

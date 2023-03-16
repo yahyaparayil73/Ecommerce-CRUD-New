@@ -8,6 +8,7 @@ from seller.models import Product
 class Cart(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     customer = models.ForeignKey(Customer, on_delete=models.CASCADE)
+    
   
     class Meta:
         db_table = 'cart'

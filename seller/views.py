@@ -40,7 +40,7 @@ def change_password(request):
             seller.save()       
             msg = 'password updated'
         else :
-            msg = 'password does not match'
+            msg = 'password does not match' 
     return render(request, 'seller/change password.html',{'password_message':msg})
 
 def seller_home(request):
@@ -57,14 +57,10 @@ def seller_profile(request):
 def update_stock(request):
     products = Product.objects.filter(seller = request.session['seller']).values('id','p_name')
     if request.method == 'POST':
-        # newstock = request.POST['new_stock']
-        # currentstock = Product.p_stock
-        # currentstock = int("currentstock.val()") + int("newstock.val()") 
-        # currentstock.save()
         prodnum =request.POST['p_number']
         new_stock =request.POST['new_stock']
         product1 =Product.objects.get(id=prodnum)
-        product1.p_stock = product1.p_stock + int(new_stock)
+        product1.p_stock += int(new_stock)
         product1.save()
 
 
@@ -92,6 +88,5 @@ def seller_logout(request):
 def stock_update(request):
     product_id = request.POST['product_id']
     product = Product.objects.filter(id = product_id).values('p_stock')
-    # print(product,'*********')
     current_stock = product[0]['p_stock']
     return JsonResponse({'stock': current_stock})

@@ -48,7 +48,7 @@ def customer_signup(request):
                 c_password = cpassword
                 )
             new_customer.save()
-            msg = 'Successfully Registered'
+            msg = 'Successfully Registered Customer'
         except:
             msg = 'Invalid Credentials'
 
