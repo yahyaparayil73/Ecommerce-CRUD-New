@@ -17,8 +17,8 @@ def customer_login(request):
         cemail = request.POST['email']
         cpassword = request.POST['password']
         try :
-            customer = Customer.objects.get(c_email = cemail,c_password = cpassword)
-            request.session['customer'] = customer.id
+            new_customer = Customer.objects.get(c_email = cemail,c_password = cpassword)
+            request.session['customer'] = new_customer.id
             return redirect('customer:home')
 
         except:
