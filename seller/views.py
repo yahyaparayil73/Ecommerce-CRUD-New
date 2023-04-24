@@ -16,7 +16,7 @@ def add_product(request):
         pstock = request.POST['p_current_stock']
         pprice = request.POST['p_price']
         pimage = request.FILES['p_image']
-        new_product = Product(
+        new_product = d(
             p_name=pname,
             p_description=pdescription,
             p_category=pcategory,
@@ -73,7 +73,7 @@ def update_stock(request):
         new_stock = request.POST['new_stock']
         product1 = Product.objects.get(id=prodnum)
         product1.p_stock += int(new_stock)
-        product1.save()
+        product1.save() 
 
     return render(request, 'seller/update stock.html', {'products': products})
 

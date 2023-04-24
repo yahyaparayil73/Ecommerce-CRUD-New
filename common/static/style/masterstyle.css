@@ -1,0 +1,50 @@
+.main_heading_div {
+
+    text-align: center;
+    background-color: black;
+    height: 40px;
+    color: white;
+    padding-top: 10px;
+
+}
+
+.heading_ul {
+    margin-top: 5px;
+    height: 15px;
+}
+
+.heading_ul li {
+    color: black;
+    display: inline;
+}
+
+.heading_ul li a {
+    text-decoration: none;
+    color: black;
+    padding-left: 40px;
+}
+
+.heading_ul i {
+    color: black;
+    display: inline;
+    padding-left: 20px;
+}
+
+.ul_inside_div {
+
+    display: inline;
+    padding-left: 250px;
+
+}
+
+.ul_inside_div a{
+
+    text-decoration: none;
+
+}
+
+.navbar_div_ul li{
+
+padding-left: 50px;
+
+}

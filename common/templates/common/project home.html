@@ -1,26 +1,34 @@
 {% extends 'common/master_common.html' %}
 {% load static %}
 {% block title %}
-        <title>Home</title>
+<title>Home</title>
 {% endblock %}
 
 {% block content %}
 
-    <div class="maindiv" style="display: inline-flex;">
-        <div class="image_div" style="margin-left: 200px;">
-            <img src="{% static 'images/standing_man.png' %}" height="500px" width="400px" alt="" class="imagediv2">
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{% static 'images/carousel_image_1.jpg' %}" class="d-block w-100 h-100" alt="...">
         </div>
-        <div class="sale_main_heading" style="margin-top: 140px;">
-            <div class="sale_heading">
-                <h6><i>New Year's Sale</i></h6>
-            </div>
-            <div class="yahyasample">
-                <h1>Men's Clothing</h1>
-            </div>
-            <h4>UP TO 50% OFF</h4>
-            <button class="btn btn-warning" type="submit"> <b>Shop Now !!</b></button>
+        <div class="carousel-item">
+            <img src="{% static 'images/carousel_image_2.jpg' %}" class="d-block w-100 h-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="{% static 'images/carousel_image_3.jpg' %}" class="d-block w-100 h-100" alt="...">
         </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
 
-    
-{% endblock %}    
+
+{% endblock %}

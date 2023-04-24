@@ -155,4 +155,45 @@ EMAIL_HOST_PASSWORD = 'zzbzccpjbsrqmhmi'
 EMAIL_HOST= 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+LOGGING = {
+
+    'version':1,
+    'disable_existing_loggers':False,
+    'handlers':{
+        'file':{
+            'level':'DEBUG',
+            'class':'logging.FileHandler',
+            'filename':BASE_DIR /'logs/debug.log',
+            # 'formatter':'simpleRe'
+
+    },
+    # 'console':{
+    #     'class':'logging.StreamHandler',
+
+    # },
+    'infofile':{
+        'level':'INFO',
+        'class':'logging.FileHandler',
+            'filename':BASE_DIR /'logs/info.log',
+            'formatter':'simpleRe',
+
+    },
+    },
+    'loggers':{
+        'django':{
+            'handlers':['file','infofile'],
+            'level':'DEBUG',
+            # 'propagate':True,
+            # 'level':os.getenv('DJANGO_LOG_LEVEL','DEBUG')
+        },
+    },
+    'formatters':{
+        'simpleRe':{
+            'format':'{levelname}{asctime}{module}{message}',
+            'style': '{',
+        }
+    }
+
+}
  

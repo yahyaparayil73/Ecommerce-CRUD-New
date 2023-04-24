@@ -1,9 +1,12 @@
-from django.http import JsonResponse
+from django.http import HttpResponse, JsonResponse
 from django.shortcuts import redirect, render
 from common.models import Customer
 from .models import Cart
 from seller.models import Product
 from .decorators import auth_customer
+import logging
+
+logger = logging.getLogger('django')
 
 @auth_customer
 def customer_home(request):
@@ -34,7 +37,7 @@ def customer_productdetails(request,p_id):
 
         if not cart_exist:
             cart = Cart(customer_id = request.session['customer'], product_id = p_id)
-            cart.save()
+            cart.save() 
             return redirect('customer:mycart')
         else:
             msg = 'Item already in cart'
@@ -80,3 +83,13 @@ def change_quantity(request):
     else:
         error_msg = 'In stock'
     return JsonResponse({'error_msg': error_msg})
+
+def info(request):
+    logger.warning('this is  a warning message')
+    a = 10
+    b = 0
+    try:
+        c = a/b
+    except Exception as e:
+        logger.error('Exception has occured',exc_info = True)
+    return HttpResponse('Exception message')
