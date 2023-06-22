@@ -2,36 +2,37 @@
 {% load static %}
 {% block title %}
 <title>Seller Login</title>
+<link rel="stylesheet" href="{% static 'style/seller_login_style.css' %}">
 {% endblock %}
 {% block content %}
 
 
 
-<div style="background-color: rgb(190, 103, 149);height: 550px;">
+<div>
 
 
-    <div class="container" style="display: grid;  justify-content: center;">
-        <h1 style="color: rgb(91, 48, 84);">
-            <b><u>SELLER LOGIN</u></b>
-        </h1><br>
+    <div class="container">
+        <h1>
+            SELLER LOGIN
+        </h1>
+        <p>Enter your login details to continue</p>
         <form action="" method="POST">
             {% csrf_token %}
             {{message}}
             <div>
-                <label for="inputEmail4" class="form-label" style="color: white;">User Name</label>
+                <label for="inputEmail4" class="form-label">User Name</label>
                 <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your User Name"
-                    style="width: 400px;" name="username">
+                    name="username">
             </div>
             <div>
-                <label for="inputPassword4" class="form-label" style="color: white;">Password</label>
+                <label for="inputPassword4" class="form-label">Password</label>
                 <input type="password" class="form-control" id="inputPassword4" placeholder="Enter your Password"
-                    style="width: 400px;" name="password">
+                    name="password">
             </div>
-            <a href="{% url 'common:seller_signup' %}" style="color: white;">New to ShopEhuB?</a>
-            <!-- <a href="#forgot_password" style="color: white;">Forgot Password?</a> -->
+            <a href="{% url 'common:seller_signup' %}">New to ShopEhuB?</a>
             <br>
             <div>
-                <button type="submit" class="btn btn-warning text-light">Login</button>
+                <button type="submit" class="btn btn-success text-light">Login</button>
             </div><br>
         </form>
     </div>

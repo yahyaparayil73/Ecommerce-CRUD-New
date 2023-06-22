@@ -1,0 +1,64 @@
+div {
+
+    font-family: 'Jost', sans-serif;
+
+}
+
+div p {
+
+    text-align: center;
+    margin-top: -30px;
+
+
+}
+
+div div {
+
+    display: grid;
+    justify-content: center;
+
+}
+
+div div h1 {
+
+    text-align: center;
+
+}
+
+form div input {
+
+    width: 400px !important;
+    border-radius: 0% !important;
+
+
+}
+
+#forgot_pwd_id {
+
+    margin-left: 140px;
+
+}
+
+
+form div button {
+
+    padding: 10px 30px !important;
+    border-radius: 0% !important;
+    margin-left: 280px;
+    margin-top: 20px;
+}
+
+form a {
+
+    color: green;
+    text-decoration: none;
+
+}
+
+form {
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+
+}

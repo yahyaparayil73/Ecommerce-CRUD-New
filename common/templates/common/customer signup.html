@@ -5,59 +5,59 @@
 <script src=" https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
     crossorigin="anonymous">
     </script>
+<link rel="stylesheet" href="{% static 'style/cust_signup_style.css' %}">
 {% endblock %}
 
 
 {% block content %}
-<div style="background-color: rgb(103, 178, 190);">
-    <div class="container" style="display: grid;  justify-content: center;">
-        <h1 style="color: rgb(48, 91, 91);">
-            <b><u>CUSTOMER REGISTRATION</u></b>
+<div>
+    <div class="container">
+        <h1>
+            Customer Sign Up
         </h1>
-        <form method="POST" style="display: grid;  justify-content: center;">
+        <p>Enter your details to Sign Up</p>
+
+        <form method="POST">
             {% csrf_token %}
             {{message}}
             <div>
-                <label for="input_name" style="color: white;">Your Name</label>
+                <label for="input_name">Your Name</label>
                 <input type="text" class="form-control" id="cust_name" placeholder="Enter Your Name"
-                    style="width: 400px;" name="customer_name">
+                    name="customer_name">
             </div>
             <div>
-                <label for="input_mobile" class="form-label" style="color: white;">Your Mobile Number</label>
+                <label for="input_mobile" class="form-label">Your Mobile Number</label>
                 <input type="text" class="form-control" id="cust_mobile" placeholder="Enter Your Mobile Number"
-                    style="width: 400px" name="mobile_number">
+                    name="mobile_number">
             </div>
             <div>
-                <label for="input_mobile" class="form-label" style="color: white;">Address</label>
-                <textarea name="address" class="form-control" id="cust_address" cols="30" rows="3"
-                    style="width: 400px"></textarea>
+                <label for="input_mobile" class="form-label">Address</label>
+                <textarea name="address" class="form-control" id="cust_address" cols="30" rows="3"></textarea>
             </div>
             <div>
-                <label for="inputEmail4" class="form-label" style="color: white;">Email</label>
+                <label for="inputEmail4" class="form-label">Email</label>
                 <input type="email" class="form-control" id="cust_email" placeholder="Enter your E-mail Address"
-                    style="width: 400px;" name="email">
+                    name="email">
                 <span id="email_err"></span>
             </div>
             <div>
-                <label for="inputPassword4" class="form-label" style="color: white;">Password</label>
+                <label for="inputPassword4" class="form-label">Password</label>
                 <input type="password" class="form-control" id="cust_password" placeholder="Atleast 6 characters"
-                    style="width: 400px;" name="password">
+                    name="password">
             </div>
-            <div>
-                <label for="inputPassword4" class="form-label" style="color: white;">Gender</label><br>
-                <label for="male" style="color: rgb(203, 198, 198);">male</label>
+            <div id="radio_div_id">
+                <label for="inputPassword4" class="form-label">Gender</label><br>
+                <label for="male">male</label>
                 <input type="radio" id="male" name="gender" value="male">
-                <label for="female" style="color: rgb(203, 198, 198);">female</label>
+                <label for="female">female</label>
                 <input type="radio" id="female" name="gender" value="female">
             </div>
             <br>
             <div>
-                <button id="btn_submit" type="submit" class="btn btn-primary">Sign Up</button>
+                <button id="btn_submit" type="submit" class="btn btn-success">Sign Up</button>
             </div><br>
-            <h6 style="color: white;">
-                By enrolling your mobile phone number,you consent to <br> recieve automated security notifications
-                via
-                text <br> message from amazon.message and data <br> rates may apply.
+            <h6>
+                Already a member? <a href="{% url 'common:customer_login' %}">Login</a>  here
             </h6>
         </form>
     </div>

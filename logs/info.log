@@ -781,3 +781,1802 @@ INFO2023-04-27 12:10:24,895basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200
 INFO2023-04-27 12:10:24,939basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13758760
 INFO2023-04-27 12:10:43,285basehttp"GET / HTTP/1.1" 200 6318
 INFO2023-04-27 12:10:43,304basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 679
+INFO2023-06-17 19:37:09,008autoreloadWatching for file changes with StatReloader
+INFO2023-06-17 19:37:13,470basehttp"GET / HTTP/1.1" 200 6318
+INFO2023-06-17 19:37:13,549basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 692
+WARNING2023-06-17 19:37:13,688basehttp"GET /static/style/home_style.css HTTP/1.1" 404 1819
+WARNING2023-06-17 19:37:13,688basehttp"GET /static/images/ecommerce_img.avif HTTP/1.1" 404 1834
+WARNING2023-06-17 19:37:13,697basehttp"GET /static/images/Social_media_img.avif HTTP/1.1" 404 1843
+WARNING2023-06-17 19:37:13,974logNot Found: /favicon.ico
+WARNING2023-06-17 19:37:13,974basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-17 19:37:14,081basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-17 19:37:14,447basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-17 19:37:14,521basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+INFO2023-06-17 19:37:49,098basehttp"GET / HTTP/1.1" 200 6318
+INFO2023-06-17 19:41:46,612basehttp"GET / HTTP/1.1" 200 6318
+INFO2023-06-17 19:41:49,135basehttp"GET / HTTP/1.1" 200 6318
+INFO2023-06-17 19:41:52,839basehttp"GET / HTTP/1.1" 200 6318
+INFO2023-06-17 19:41:55,430basehttp"GET / HTTP/1.1" 200 6318
+INFO2023-06-17 19:43:18,790basehttp"GET / HTTP/1.1" 200 6318
+INFO2023-06-17 19:43:21,018basehttp"GET / HTTP/1.1" 200 6318
+INFO2023-06-17 19:43:23,326basehttp"GET / HTTP/1.1" 200 6318
+INFO2023-06-17 19:43:25,455basehttp"GET / HTTP/1.1" 200 6318
+INFO2023-06-17 19:43:27,784basehttp"GET / HTTP/1.1" 200 6318
+INFO2023-06-17 19:43:33,508basehttp"GET / HTTP/1.1" 200 6318
+INFO2023-06-17 19:48:22,871basehttp"GET / HTTP/1.1" 200 6573
+INFO2023-06-17 19:48:24,213basehttp"GET / HTTP/1.1" 200 6573
+INFO2023-06-17 19:48:24,237basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 692
+INFO2023-06-17 19:48:24,700basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-17 19:48:24,772basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-17 19:48:24,857basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-17 19:48:25,530logNot Found: /favicon.ico
+WARNING2023-06-17 19:48:25,530basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-17 19:50:07,185basehttp"GET / HTTP/1.1" 200 6917
+INFO2023-06-17 19:50:39,354basehttp"GET / HTTP/1.1" 200 6940
+INFO2023-06-17 19:50:39,386basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 692
+INFO2023-06-17 19:50:39,989basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-17 19:50:40,008basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-17 19:50:40,255basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-17 19:50:41,239logNot Found: /favicon.ico
+WARNING2023-06-17 19:50:41,239basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-17 19:52:40,491basehttp"GET / HTTP/1.1" 200 7197
+INFO2023-06-17 19:52:41,995basehttp"GET / HTTP/1.1" 200 7197
+INFO2023-06-17 19:52:42,019basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 692
+INFO2023-06-17 19:52:42,561basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-17 19:52:42,602basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-17 19:52:42,892basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-17 19:52:43,854logNot Found: /favicon.ico
+WARNING2023-06-17 19:52:43,854basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-17 19:53:20,065basehttp"GET / HTTP/1.1" 200 7170
+INFO2023-06-17 19:53:40,430basehttp"GET / HTTP/1.1" 200 7175
+INFO2023-06-17 19:53:41,539basehttp"GET / HTTP/1.1" 200 7175
+INFO2023-06-17 19:53:41,556basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 692
+INFO2023-06-17 19:53:42,262basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-17 19:53:42,383basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-17 19:53:42,558basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-17 19:53:43,466logNot Found: /favicon.ico
+WARNING2023-06-17 19:53:43,466basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-17 19:54:07,015basehttp"GET / HTTP/1.1" 200 7190
+INFO2023-06-17 19:54:07,648basehttp"GET / HTTP/1.1" 200 7190
+WARNING2023-06-17 19:54:07,666logNot Found: /favicon.ico
+WARNING2023-06-17 19:54:07,666basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-17 19:54:09,007basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 692
+INFO2023-06-17 19:54:23,436basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-17 19:54:23,501basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-17 19:54:23,590basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-17 19:54:24,311logNot Found: /favicon.ico
+WARNING2023-06-17 19:54:24,311basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-17 19:54:45,762basehttp"GET / HTTP/1.1" 200 6936
+INFO2023-06-17 19:54:46,770basehttp"GET / HTTP/1.1" 200 6936
+INFO2023-06-17 19:55:24,882basehttp"GET / HTTP/1.1" 200 8144
+INFO2023-06-17 19:55:26,378basehttp"GET / HTTP/1.1" 200 8144
+INFO2023-06-17 19:55:27,839basehttp"GET / HTTP/1.1" 200 8144
+INFO2023-06-17 19:55:27,862basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 692
+INFO2023-06-17 19:55:28,321basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-17 19:55:28,471basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-17 19:55:28,561basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-17 19:55:29,272logNot Found: /favicon.ico
+WARNING2023-06-17 19:55:29,280basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-17 19:56:20,301basehttp"GET / HTTP/1.1" 200 7874
+INFO2023-06-17 19:57:03,228basehttp"GET / HTTP/1.1" 200 7878
+INFO2023-06-20 11:40:58,536autoreloadWatching for file changes with StatReloader
+INFO2023-06-20 11:41:02,084basehttp"GET / HTTP/1.1" 200 7878
+INFO2023-06-20 11:41:02,166basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+WARNING2023-06-20 11:41:03,590logNot Found: /favicon.ico
+WARNING2023-06-20 11:41:03,590basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 11:46:23,781basehttp"GET / HTTP/1.1" 200 7878
+INFO2023-06-20 11:49:14,421basehttp"GET / HTTP/1.1" 200 7266
+INFO2023-06-20 11:49:17,334basehttp"GET / HTTP/1.1" 200 7266
+INFO2023-06-20 11:49:17,455basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 738
+INFO2023-06-20 11:49:17,668basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 11:49:17,879basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 11:49:17,921basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 11:49:18,314logNot Found: /favicon.ico
+WARNING2023-06-20 11:49:18,314basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 11:49:23,738basehttp"GET / HTTP/1.1" 200 7266
+INFO2023-06-20 11:49:23,756basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 738
+INFO2023-06-20 11:49:23,958basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 11:49:23,960basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 11:49:23,998basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 11:49:24,046logNot Found: /favicon.ico
+WARNING2023-06-20 11:49:24,046basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 11:51:15,347basehttp"GET / HTTP/1.1" 200 7266
+INFO2023-06-20 11:51:15,373basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 741
+INFO2023-06-20 11:51:16,756basehttp"GET / HTTP/1.1" 200 7266
+INFO2023-06-20 11:51:16,788basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 741
+INFO2023-06-20 11:51:17,205basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 11:51:17,210basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 11:51:17,461basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 11:51:18,563logNot Found: /favicon.ico
+WARNING2023-06-20 11:51:18,564basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 11:51:20,470basehttp"GET / HTTP/1.1" 200 7266
+INFO2023-06-20 11:51:20,486basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 741
+INFO2023-06-20 11:51:20,663basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 11:51:20,674basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 11:51:21,206basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 11:51:21,367logNot Found: /favicon.ico
+WARNING2023-06-20 11:51:21,375basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 11:51:37,255basehttp"GET / HTTP/1.1" 200 7266
+INFO2023-06-20 11:51:37,288basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 740
+INFO2023-06-20 11:51:38,690basehttp"GET / HTTP/1.1" 200 7266
+INFO2023-06-20 11:51:38,730basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 740
+INFO2023-06-20 11:51:38,980basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 11:51:39,004basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 11:51:39,260basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 11:51:40,327logNot Found: /favicon.ico
+WARNING2023-06-20 11:51:40,327basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 12:20:12,009basehttp"GET / HTTP/1.1" 200 7509
+INFO2023-06-20 12:20:12,049basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 744
+INFO2023-06-20 12:20:38,716basehttp"GET / HTTP/1.1" 200 7509
+INFO2023-06-20 12:20:38,747basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 782
+INFO2023-06-20 15:02:28,908autoreloadWatching for file changes with StatReloader
+INFO2023-06-20 15:02:32,492basehttp"GET / HTTP/1.1" 200 7509
+INFO2023-06-20 15:02:32,595basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+WARNING2023-06-20 15:02:33,161logNot Found: /favicon.ico
+WARNING2023-06-20 15:02:33,162basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:03:02,507basehttp"GET / HTTP/1.1" 200 7509
+INFO2023-06-20 15:08:45,322basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:09:50,084basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:09:51,263basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:09:51,371basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 802
+INFO2023-06-20 15:09:51,600basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:09:52,339basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:09:52,386basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:09:52,654logNot Found: /favicon.ico
+WARNING2023-06-20 15:09:52,654basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:10:01,660basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:10:01,682basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 802
+INFO2023-06-20 15:10:01,956basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:10:01,987basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:10:02,012basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:10:02,400logNot Found: /favicon.ico
+WARNING2023-06-20 15:10:02,400basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:10:19,867basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:11:30,018basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:11:30,035basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 893
+INFO2023-06-20 15:11:32,268basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:11:32,285basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 893
+INFO2023-06-20 15:11:32,682basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:11:32,691basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:11:32,904basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:11:34,261logNot Found: /favicon.ico
+WARNING2023-06-20 15:11:34,261basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:11:50,380basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:11:50,396basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 893
+INFO2023-06-20 15:11:50,690basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:11:50,696basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:11:50,833basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:11:51,381logNot Found: /favicon.ico
+WARNING2023-06-20 15:11:51,381basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:11:51,961basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:11:51,988basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 893
+INFO2023-06-20 15:11:52,155basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:11:52,241basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:11:52,273basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:11:52,281basehttp- Broken pipe from ('127.0.0.1', 52198)
+INFO2023-06-20 15:11:52,295basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 893
+INFO2023-06-20 15:11:52,661basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:11:52,678basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:11:52,824basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:11:52,835basehttp- Broken pipe from ('127.0.0.1', 52202)
+INFO2023-06-20 15:11:52,850basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 893
+INFO2023-06-20 15:11:53,055basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:11:53,060basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:11:53,235basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:11:53,843logNot Found: /favicon.ico
+WARNING2023-06-20 15:11:53,844basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:12:12,428basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:12:12,449basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 890
+INFO2023-06-20 15:12:19,189basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:12:19,226basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:12:19,293basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:12:19,748logNot Found: /favicon.ico
+WARNING2023-06-20 15:12:19,749basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:12:37,463basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:12:37,486basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 867
+INFO2023-06-20 15:12:56,388basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:14:19,651basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:14:19,667basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 867
+INFO2023-06-20 15:14:20,316basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:14:20,648basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:15:01,099basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:16:13,169basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:16:13,183basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 924
+INFO2023-06-20 15:16:14,222basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:16:14,242basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 924
+INFO2023-06-20 15:16:14,799basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:16:14,816basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:16:14,937basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:16:15,352logNot Found: /favicon.ico
+WARNING2023-06-20 15:16:15,352basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:16:24,935basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:16:24,960basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 923
+INFO2023-06-20 15:16:26,041basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:16:26,055basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:16:26,906basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:16:26,923basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 923
+INFO2023-06-20 15:16:27,229basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:16:27,243basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:16:27,290basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:16:27,634logNot Found: /favicon.ico
+WARNING2023-06-20 15:16:27,634basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:16:32,627basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:16:32,650basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 923
+INFO2023-06-20 15:16:33,157basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:16:33,171basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 923
+INFO2023-06-20 15:16:33,485basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:16:33,502basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:16:33,544basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+INFO2023-06-20 15:16:33,672basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:16:33,906basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 923
+WARNING2023-06-20 15:16:33,919logNot Found: /favicon.ico
+WARNING2023-06-20 15:16:33,919basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:16:33,984basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:16:33,997basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 923
+INFO2023-06-20 15:16:34,303basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:16:34,305basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:16:34,366basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:16:34,720logNot Found: /favicon.ico
+WARNING2023-06-20 15:16:34,720basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:16:42,805basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:17:07,500basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:18:06,704basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:18:06,740basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 922
+INFO2023-06-20 15:18:12,564basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:18:12,587basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 922
+INFO2023-06-20 15:18:26,595basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:18:26,621basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 922
+INFO2023-06-20 15:18:32,424basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:18:32,442basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 922
+INFO2023-06-20 15:18:33,541basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:18:33,562basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 922
+INFO2023-06-20 15:18:34,083basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:18:34,110basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:18:34,702basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:18:34,981logNot Found: /favicon.ico
+WARNING2023-06-20 15:18:34,981basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:18:39,516basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:18:39,537basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 922
+INFO2023-06-20 15:18:40,163basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:18:40,174basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:18:52,530basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:19:20,986basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:19:21,008basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 922
+INFO2023-06-20 15:21:09,723basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:21:09,739basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:21:23,053basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:21:23,071basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 922
+INFO2023-06-20 15:21:28,410basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:21:28,428basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 922
+INFO2023-06-20 15:21:28,954basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:21:28,977basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:21:34,058basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:21:34,086basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 922
+INFO2023-06-20 15:21:34,588basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:21:34,609basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:21:36,673basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:21:36,686basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:21:39,681basehttp"GET / HTTP/1.1" 200 7541
+INFO2023-06-20 15:21:39,693basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 922
+INFO2023-06-20 15:21:39,921basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:21:39,997basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:21:40,093basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:21:40,484logNot Found: /favicon.ico
+WARNING2023-06-20 15:21:40,484basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:24:14,017basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:24:14,041basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 974
+INFO2023-06-20 15:24:56,224basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:24:56,252basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 993
+INFO2023-06-20 15:24:57,512basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:24:57,529basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:24:58,222basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:24:58,249basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 993
+INFO2023-06-20 15:24:58,525basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:24:58,585basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:24:59,231basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:24:59,567logNot Found: /favicon.ico
+WARNING2023-06-20 15:24:59,567basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:25:26,964basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:25:26,986basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1012
+INFO2023-06-20 15:25:27,936basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:25:27,965basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1012
+INFO2023-06-20 15:25:28,255basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:25:28,260basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:25:28,412basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:25:28,950logNot Found: /favicon.ico
+WARNING2023-06-20 15:25:28,950basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:26:11,905basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:26:11,928basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1018
+INFO2023-06-20 15:26:27,000basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:26:27,022basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1014
+INFO2023-06-20 15:26:34,067basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:26:34,086basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1013
+INFO2023-06-20 15:26:34,600basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:26:34,611basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:26:35,474basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:26:35,496basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1013
+INFO2023-06-20 15:26:55,834basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:26:55,838basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:26:55,893basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:26:56,280logNot Found: /favicon.ico
+WARNING2023-06-20 15:26:56,281basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:27:42,960basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:27:42,983basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1063
+INFO2023-06-20 15:27:56,418basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:27:56,441basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1064
+INFO2023-06-20 15:27:57,007basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:27:57,023basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:28:16,543basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:28:16,563basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1065
+INFO2023-06-20 15:28:17,170basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:28:17,170basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:28:36,252basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:28:36,272basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1066
+INFO2023-06-20 15:28:37,402basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:28:37,413basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:28:38,028basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:28:38,041basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1066
+INFO2023-06-20 15:28:38,259basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:28:38,309basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:28:38,398basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:28:38,921logNot Found: /favicon.ico
+WARNING2023-06-20 15:28:38,921basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:28:45,622basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:28:45,644basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1065
+INFO2023-06-20 15:28:45,815basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:28:45,895basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:28:46,389basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:28:46,526logNot Found: /favicon.ico
+WARNING2023-06-20 15:28:46,528basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:28:48,394basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:28:48,414basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1065
+INFO2023-06-20 15:28:48,687basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:28:48,697basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:28:48,735basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:28:49,108logNot Found: /favicon.ico
+WARNING2023-06-20 15:28:49,108basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:29:21,225basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:29:21,256basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1084
+INFO2023-06-20 15:29:21,788basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:29:21,805basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1084
+INFO2023-06-20 15:29:22,128basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:29:22,143basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:29:22,651basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:29:22,681logNot Found: /favicon.ico
+WARNING2023-06-20 15:29:22,681basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:29:36,912basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:29:36,938basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1091
+INFO2023-06-20 15:29:37,557basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:29:37,573basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1091
+INFO2023-06-20 15:29:37,826basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:29:37,987basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:29:38,042basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:29:38,617logNot Found: /favicon.ico
+WARNING2023-06-20 15:29:38,617basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:29:59,242basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:29:59,264basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1066
+INFO2023-06-20 15:30:00,101basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:30:00,117basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1066
+INFO2023-06-20 15:30:00,724basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:30:00,745basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1066
+INFO2023-06-20 15:30:07,136basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:30:07,150basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:30:07,175basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:30:07,328logNot Found: /favicon.ico
+WARNING2023-06-20 15:30:07,328basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:30:24,902basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:30:24,920basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:30:26,984basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:30:26,995basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1066
+INFO2023-06-20 15:30:27,125basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:30:27,167basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:30:27,234basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:30:27,767logNot Found: /favicon.ico
+WARNING2023-06-20 15:30:27,767basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:30:31,491basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:30:31,507basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1065
+INFO2023-06-20 15:30:31,822basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:30:31,825basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:30:31,900basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:30:32,257logNot Found: /favicon.ico
+WARNING2023-06-20 15:30:32,258basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:30:52,849basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:30:52,864basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1113
+INFO2023-06-20 15:30:53,095basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:30:53,154basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:30:53,223basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+INFO2023-06-20 15:30:53,655basehttp"GET / HTTP/1.1" 200 7217
+WARNING2023-06-20 15:30:53,667logNot Found: /favicon.ico
+INFO2023-06-20 15:30:53,667basehttp- Broken pipe from ('127.0.0.1', 52430)
+INFO2023-06-20 15:30:53,681basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1113
+INFO2023-06-20 15:30:54,081basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:30:54,118basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:30:54,206basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:30:57,712logNot Found: /favicon.ico
+WARNING2023-06-20 15:30:57,713basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:31:03,513basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:31:03,540basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1113
+INFO2023-06-20 15:31:09,159basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:31:09,182basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1113
+INFO2023-06-20 15:31:15,254basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:31:15,283basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1113
+INFO2023-06-20 15:31:20,161basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:31:20,182basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1113
+INFO2023-06-20 15:31:33,378basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:31:33,398basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1113
+INFO2023-06-20 15:31:40,942basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:31:40,967basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1113
+INFO2023-06-20 15:32:47,915basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:32:47,942basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 15:32:48,826basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:32:48,837basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:33:12,992basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:33:13,008basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 15:33:13,763basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:33:13,790basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 15:33:14,184basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:33:14,191basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:33:14,865basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:33:15,790logNot Found: /favicon.ico
+WARNING2023-06-20 15:33:15,790basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:33:21,329basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:33:21,346basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 15:33:21,788basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-20 15:33:21,791basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-20 15:33:21,831basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-20 15:33:22,231logNot Found: /favicon.ico
+WARNING2023-06-20 15:33:22,231basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:33:28,467basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:33:28,489basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 15:33:35,372basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:33:35,388basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 15:33:42,256basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:33:42,275basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 15:33:51,700basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:33:51,728basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 15:34:15,764basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:34:15,798basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 15:34:27,210basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:34:27,229basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 15:34:31,322basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:34:31,340basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 15:34:37,822basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:34:37,849basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 15:34:42,609basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 15:34:42,624basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 15:36:17,052logNot Found: /login
+WARNING2023-06-20 15:36:17,052basehttp"GET /login HTTP/1.1" 404 4147
+WARNING2023-06-20 15:36:46,487logNot Found: /customer_login
+WARNING2023-06-20 15:36:46,487basehttp"GET /customer_login HTTP/1.1" 404 4174
+INFO2023-06-20 15:36:54,446basehttp"GET /customerlogin HTTP/1.1" 200 7640
+INFO2023-06-20 15:36:54,460basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:38:22,424basehttp"GET /customerlogin HTTP/1.1" 200 7640
+INFO2023-06-20 15:38:22,438basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:38:35,435basehttp"GET /customerlogin HTTP/1.1" 200 7633
+INFO2023-06-20 15:39:10,217basehttp"GET /customerlogin HTTP/1.1" 200 7586
+INFO2023-06-20 15:39:10,229basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:40:08,342basehttp"GET /customerlogin HTTP/1.1" 200 7476
+INFO2023-06-20 15:40:08,358basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:40:25,785basehttp"GET /customerlogin HTTP/1.1" 200 7476
+INFO2023-06-20 15:40:26,707basehttp"GET /customerlogin HTTP/1.1" 200 7444
+INFO2023-06-20 15:40:26,722basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 15:40:27,217logNot Found: /favicon.ico
+WARNING2023-06-20 15:40:27,217basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:41:21,595basehttp"GET /customerlogin HTTP/1.1" 200 7344
+INFO2023-06-20 15:41:21,622basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:41:23,217basehttp"GET /customerlogin HTTP/1.1" 200 7344
+INFO2023-06-20 15:41:23,238basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 15:41:23,594logNot Found: /favicon.ico
+WARNING2023-06-20 15:41:23,594basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:45:49,469basehttp"GET /customerlogin HTTP/1.1" 200 7361
+INFO2023-06-20 15:45:49,488basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:45:49,516basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 0
+INFO2023-06-20 15:46:16,543basehttp"GET /customerlogin HTTP/1.1" 200 7361
+INFO2023-06-20 15:46:16,559basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 57
+INFO2023-06-20 15:46:44,295basehttp"GET /customerlogin HTTP/1.1" 200 7361
+INFO2023-06-20 15:46:44,310basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 130
+INFO2023-06-20 15:46:48,152basehttp"GET /customerlogin HTTP/1.1" 200 7361
+INFO2023-06-20 15:46:48,166basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 15:47:06,249basehttp"GET /customerlogin HTTP/1.1" 200 7354
+INFO2023-06-20 15:47:06,270basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:47:06,270basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 15:47:24,122basehttp"GET /customerlogin HTTP/1.1" 200 7332
+INFO2023-06-20 15:47:24,136basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 15:47:24,688basehttp"GET /customerlogin HTTP/1.1" 200 7332
+INFO2023-06-20 15:47:24,711basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 130
+INFO2023-06-20 15:47:24,715basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 15:47:25,240logNot Found: /favicon.ico
+WARNING2023-06-20 15:47:25,240basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:47:53,191basehttp"GET /customerlogin HTTP/1.1" 200 7332
+INFO2023-06-20 15:47:53,212basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 127
+INFO2023-06-20 15:48:05,281basehttp"GET /customerlogin HTTP/1.1" 200 7332
+INFO2023-06-20 15:48:05,301basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 150
+INFO2023-06-20 15:49:21,456basehttp"GET /customerlogin HTTP/1.1" 200 7332
+INFO2023-06-20 15:49:21,470basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:49:21,477basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 170
+INFO2023-06-20 15:52:31,390basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 15:52:31,410basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 15:52:31,454basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 168
+INFO2023-06-20 15:54:07,669basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 15:54:07,685basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 210
+INFO2023-06-20 15:54:08,735basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 15:54:08,748basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 15:54:08,748basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 210
+WARNING2023-06-20 15:54:09,222logNot Found: /favicon.ico
+WARNING2023-06-20 15:54:09,222basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:54:10,768basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 15:54:10,783basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 210
+INFO2023-06-20 15:54:10,783basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 15:54:11,003logNot Found: /favicon.ico
+WARNING2023-06-20 15:54:11,003basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:54:11,367basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 15:54:11,384basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 15:54:11,384basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 210
+WARNING2023-06-20 15:54:11,567logNot Found: /favicon.ico
+WARNING2023-06-20 15:54:11,568basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:54:12,171basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 15:54:12,189basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 15:54:12,190basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 210
+WARNING2023-06-20 15:54:12,351logNot Found: /favicon.ico
+WARNING2023-06-20 15:54:12,351basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:54:12,368basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 15:54:12,388basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 15:54:12,388basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 210
+WARNING2023-06-20 15:54:12,536logNot Found: /favicon.ico
+WARNING2023-06-20 15:54:12,536basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:54:12,559basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 15:54:12,573basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 15:54:12,574basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 210
+WARNING2023-06-20 15:54:12,731logNot Found: /favicon.ico
+WARNING2023-06-20 15:54:12,732basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:54:12,761basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 15:54:12,780basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 15:54:12,781basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 210
+INFO2023-06-20 15:54:12,941basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 15:54:12,956basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 15:54:12,958basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 210
+WARNING2023-06-20 15:54:13,106logNot Found: /favicon.ico
+WARNING2023-06-20 15:54:13,107basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:54:34,868basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 15:54:34,887basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 214
+INFO2023-06-20 15:54:35,628basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 15:54:35,649basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 15:54:35,649basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 214
+WARNING2023-06-20 15:54:42,548logNot Found: /favicon.ico
+WARNING2023-06-20 15:54:42,549basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:54:47,832basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 15:54:47,847basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 214
+INFO2023-06-20 15:54:48,625basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 15:54:48,641basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 214
+INFO2023-06-20 15:54:48,641basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 15:54:48,870logNot Found: /favicon.ico
+WARNING2023-06-20 15:54:48,870basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:54:49,319basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 15:54:49,335basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 15:54:49,336basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 214
+WARNING2023-06-20 15:54:49,559logNot Found: /favicon.ico
+WARNING2023-06-20 15:54:49,560basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:54:49,711basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 15:54:49,728basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 214
+INFO2023-06-20 15:54:49,728basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 15:54:49,939logNot Found: /favicon.ico
+WARNING2023-06-20 15:54:49,939basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 15:55:11,334basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:05:38,755basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:38,787basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-20 21:05:38,833basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:39,517basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:39,553basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:39,555basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 21:05:40,213logNot Found: /favicon.ico
+WARNING2023-06-20 21:05:40,213basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:05:40,309basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:40,341basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:40,344basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+WARNING2023-06-20 21:05:40,577logNot Found: /favicon.ico
+WARNING2023-06-20 21:05:40,577basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:05:40,937basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:40,960basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:40,966basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+WARNING2023-06-20 21:05:41,276logNot Found: /favicon.ico
+WARNING2023-06-20 21:05:41,276basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:05:41,644basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:41,712basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:41,712basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 21:05:42,070logNot Found: /favicon.ico
+WARNING2023-06-20 21:05:42,071basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:05:42,157basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,176basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,242basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,242basehttp- Broken pipe from ('127.0.0.1', 53035)
+INFO2023-06-20 21:05:42,247basehttp- Broken pipe from ('127.0.0.1', 53032)
+INFO2023-06-20 21:05:42,272basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,277basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,279basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,303basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,303basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,312basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,340basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,382basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,384basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,387basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,403basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,422basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,422basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,453basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,453basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,453basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,477basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,486basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,494basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,508basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,522basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,523basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,534basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,535basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,543basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,565basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,565basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,579basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,596basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,596basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,607basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,627basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,627basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,638basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,661basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,661basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,672basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,697basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,697basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,702basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,725basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,725basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,736basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,758basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,759basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,769basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,789basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,789basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,806basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,824basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,824basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,839basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,855basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,855basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,863basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,883basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,883basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,896basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,913basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,913basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,929basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,945basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,945basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,970basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:42,987basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:42,987basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:42,994basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:43,011basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:43,016basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:43,028basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:43,048basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:43,048basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:43,061basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:43,078basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:43,078basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:43,094basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:43,112basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:43,112basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:43,127basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:43,144basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:43,144basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:43,168basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:43,176basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:43,176basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:43,185basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:43,207basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:43,207basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:43,216basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:43,241basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:43,241basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:43,250basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:43,273basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:43,273basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:43,290basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:43,309basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:43,309basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:43,331basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:43,347basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:43,347basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:43,355basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:43,374basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:43,378basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:43,397basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:43,405basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:43,405basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:43,429basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:43,445basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:43,445basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:43,462basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:43,475basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:43,478basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:43,495basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:43,511basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:43,511basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:43,527basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:43,551basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:43,555basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:43,560basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:43,580basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 205
+INFO2023-06-20 21:05:43,580basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 21:05:46,060logNot Found: /favicon.ico
+WARNING2023-06-20 21:05:46,060basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:05:55,018basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:55,044basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 209
+INFO2023-06-20 21:05:56,981basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:56,999basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:57,003basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 209
+WARNING2023-06-20 21:05:57,721logNot Found: /favicon.ico
+WARNING2023-06-20 21:05:57,722basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:05:58,249basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:05:58,319basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:05:58,326basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 209
+WARNING2023-06-20 21:05:58,619logNot Found: /favicon.ico
+WARNING2023-06-20 21:05:58,619basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:06:02,580basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:06:02,602basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 214
+INFO2023-06-20 21:06:03,501basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:06:03,635basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:06:03,638basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 214
+WARNING2023-06-20 21:06:04,103logNot Found: /favicon.ico
+WARNING2023-06-20 21:06:04,103basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:06:24,797basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:06:24,824basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 224
+INFO2023-06-20 21:06:25,480basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:06:25,496basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:06:25,496basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 224
+WARNING2023-06-20 21:06:32,278logNot Found: /favicon.ico
+WARNING2023-06-20 21:06:32,287basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:06:48,644basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:06:48,656basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:06:48,673basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 226
+WARNING2023-06-20 21:06:50,268logNot Found: /favicon.ico
+WARNING2023-06-20 21:06:50,268basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:06:57,731basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:06:57,752basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 226
+INFO2023-06-20 21:08:28,212basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:08:28,233basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 297
+INFO2023-06-20 21:08:29,019basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:08:29,035basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:08:29,035basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 297
+WARNING2023-06-20 21:08:29,758logNot Found: /favicon.ico
+WARNING2023-06-20 21:08:29,758basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:08:30,786basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:08:30,806basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:08:30,806basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 297
+WARNING2023-06-20 21:08:31,002logNot Found: /favicon.ico
+WARNING2023-06-20 21:08:31,002basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:08:31,567basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:08:31,583basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:08:31,583basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 297
+WARNING2023-06-20 21:08:31,777logNot Found: /favicon.ico
+WARNING2023-06-20 21:08:31,777basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:08:31,876basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:08:31,895basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:08:31,895basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 297
+INFO2023-06-20 21:08:32,116basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:08:32,134basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:08:32,134basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 297
+WARNING2023-06-20 21:08:32,385logNot Found: /favicon.ico
+WARNING2023-06-20 21:08:32,385basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:08:32,401basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:08:32,422basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 297
+INFO2023-06-20 21:08:32,422basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 21:08:32,653logNot Found: /favicon.ico
+WARNING2023-06-20 21:08:32,653basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:08:52,638basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:12:18,154basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:12:18,210basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 338
+INFO2023-06-20 21:12:37,525basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:12:37,542basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 325
+INFO2023-06-20 21:12:51,712basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:12:51,742basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 344
+INFO2023-06-20 21:12:52,771basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:12:52,940basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:12:52,940basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 344
+WARNING2023-06-20 21:12:54,152logNot Found: /favicon.ico
+WARNING2023-06-20 21:12:54,152basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:13:12,777basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:13:12,799basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 346
+INFO2023-06-20 21:13:18,055basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:13:18,075basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 347
+INFO2023-06-20 21:13:22,575basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:13:22,596basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 347
+INFO2023-06-20 21:13:23,129basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:13:23,146basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:13:28,206basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:13:28,230basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 347
+INFO2023-06-20 21:13:32,169basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:13:32,188basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 347
+INFO2023-06-20 21:13:41,263basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:13:41,288basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 370
+INFO2023-06-20 21:13:45,660basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:13:45,687basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 370
+INFO2023-06-20 21:13:50,142basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:13:50,158basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 370
+INFO2023-06-20 21:15:00,879basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:15:00,903basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 412
+INFO2023-06-20 21:15:02,063basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:15:02,083basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 412
+INFO2023-06-20 21:15:02,083basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 21:15:02,702logNot Found: /favicon.ico
+WARNING2023-06-20 21:15:02,702basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:15:03,176basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:15:03,192basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:15:03,192basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 412
+WARNING2023-06-20 21:15:03,684logNot Found: /favicon.ico
+WARNING2023-06-20 21:15:03,693basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:15:07,727basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:15:36,619basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:15:36,644basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 440
+INFO2023-06-20 21:15:37,277basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:15:37,302basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:15:37,305basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 440
+INFO2023-06-20 21:15:37,671basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:15:37,706basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 440
+INFO2023-06-20 21:15:37,706basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:15:37,925basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:15:37,988basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:15:37,992basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 440
+INFO2023-06-20 21:15:38,242basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:15:38,272basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:15:38,273basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 440
+WARNING2023-06-20 21:15:38,845logNot Found: /favicon.ico
+WARNING2023-06-20 21:15:38,845basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:15:59,474basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:15:59,502basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 462
+INFO2023-06-20 21:16:00,441basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:16:00,470basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:16:00,470basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 462
+WARNING2023-06-20 21:16:26,751logNot Found: /favicon.ico
+WARNING2023-06-20 21:16:26,751basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:20:16,254basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:20:16,311basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 436
+INFO2023-06-20 21:20:17,071basehttp"GET /customerlogin HTTP/1.1" 200 7288
+INFO2023-06-20 21:20:17,087basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:20:17,089basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 436
+WARNING2023-06-20 21:20:18,009logNot Found: /favicon.ico
+WARNING2023-06-20 21:20:18,009basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:20:30,991basehttp"GET /customersignup HTTP/1.1" 200 12001
+INFO2023-06-20 21:20:34,808basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:21:25,479basehttp"GET /customerlogin HTTP/1.1" 200 7340
+INFO2023-06-20 21:21:25,499basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:21:53,727basehttp"GET /customerlogin HTTP/1.1" 200 7340
+INFO2023-06-20 21:21:53,748basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 474
+INFO2023-06-20 21:22:01,752basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 481
+INFO2023-06-20 21:22:22,635basehttp"GET /customerlogin HTTP/1.1" 200 7340
+INFO2023-06-20 21:22:22,654basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 506
+INFO2023-06-20 21:22:31,472basehttp"GET /customerlogin HTTP/1.1" 200 7340
+INFO2023-06-20 21:22:31,498basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 508
+INFO2023-06-20 21:22:39,247basehttp"GET /customerlogin HTTP/1.1" 200 7340
+INFO2023-06-20 21:22:39,271basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 505
+INFO2023-06-20 21:22:46,239basehttp"GET /customerlogin HTTP/1.1" 200 7340
+INFO2023-06-20 21:22:46,269basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 505
+INFO2023-06-20 21:22:52,872basehttp"GET /customerlogin HTTP/1.1" 200 7340
+INFO2023-06-20 21:22:52,896basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 505
+INFO2023-06-20 21:23:05,469basehttp"GET /customerlogin HTTP/1.1" 200 7340
+INFO2023-06-20 21:23:05,489basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:23:05,948basehttp"GET /customerlogin HTTP/1.1" 200 7340
+INFO2023-06-20 21:23:06,901basehttp"GET /customerlogin HTTP/1.1" 200 7340
+INFO2023-06-20 21:23:06,924basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:23:06,924basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 505
+WARNING2023-06-20 21:23:07,386logNot Found: /favicon.ico
+WARNING2023-06-20 21:23:07,386basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:23:10,438basehttp"GET /customerlogin HTTP/1.1" 200 7340
+INFO2023-06-20 21:23:10,455basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:23:10,455basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 505
+WARNING2023-06-20 21:23:11,203logNot Found: /favicon.ico
+WARNING2023-06-20 21:23:11,203basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:24:01,527basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:25:09,339basehttp"GET /customerlogin HTTP/1.1" 200 7340
+INFO2023-06-20 21:25:09,363basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 542
+INFO2023-06-20 21:26:50,905basehttp"GET /customerlogin HTTP/1.1" 200 7359
+INFO2023-06-20 21:26:50,940basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 590
+INFO2023-06-20 21:26:51,508basehttp"GET /customerlogin HTTP/1.1" 200 7359
+INFO2023-06-20 21:26:51,524basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:26:57,911basehttp"GET /customerlogin HTTP/1.1" 200 7359
+INFO2023-06-20 21:26:57,936basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 591
+INFO2023-06-20 21:27:01,701basehttp"GET /customerlogin HTTP/1.1" 200 7359
+INFO2023-06-20 21:27:01,725basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 591
+INFO2023-06-20 21:27:07,830basehttp"GET /customerlogin HTTP/1.1" 200 7359
+INFO2023-06-20 21:27:07,856basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 591
+INFO2023-06-20 21:27:45,358basehttp"GET /customerlogin HTTP/1.1" 200 7344
+INFO2023-06-20 21:27:45,377basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:27:54,695basehttp"GET /customersignup HTTP/1.1" 200 12001
+INFO2023-06-20 21:30:33,921basehttp"GET /customersignup HTTP/1.1" 200 11592
+INFO2023-06-20 21:31:02,591basehttp"GET /customersignup HTTP/1.1" 200 11592
+INFO2023-06-20 21:31:59,786basehttp"GET /customersignup HTTP/1.1" 200 11502
+INFO2023-06-20 21:33:04,752basehttp"GET /customersignup HTTP/1.1" 200 11448
+INFO2023-06-20 21:33:05,604basehttp"GET /customersignup HTTP/1.1" 200 11448
+INFO2023-06-20 21:33:05,625basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 21:33:07,625logNot Found: /favicon.ico
+WARNING2023-06-20 21:33:07,633basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:37:08,081basehttp"GET /customersignup HTTP/1.1" 200 11448
+INFO2023-06-20 21:38:14,170basehttp"GET /customersignup HTTP/1.1" 200 11448
+INFO2023-06-20 21:38:15,466basehttp"GET /customersignup HTTP/1.1" 200 11448
+INFO2023-06-20 21:38:15,482basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 21:38:18,156logNot Found: /favicon.ico
+WARNING2023-06-20 21:38:18,157basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:38:57,528basehttp"GET /customersignup HTTP/1.1" 200 11519
+INFO2023-06-20 21:38:57,550basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 189
+INFO2023-06-20 21:40:24,399basehttp"GET /customersignup HTTP/1.1" 200 11497
+INFO2023-06-20 21:40:24,417basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:41:09,273basehttp"GET /customersignup HTTP/1.1" 200 11497
+INFO2023-06-20 21:41:09,296basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 283
+INFO2023-06-20 21:43:02,083basehttp"GET /customersignup HTTP/1.1" 200 11567
+INFO2023-06-20 21:43:02,099basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:43:06,512basehttp"GET /customersignup HTTP/1.1" 200 11567
+INFO2023-06-20 21:43:07,073basehttp"GET /customersignup HTTP/1.1" 200 11567
+INFO2023-06-20 21:43:07,091basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:43:07,091basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 283
+WARNING2023-06-20 21:43:09,035logNot Found: /favicon.ico
+WARNING2023-06-20 21:43:09,035basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:44:00,772basehttp"GET /customersignup HTTP/1.1" 200 11567
+INFO2023-06-20 21:44:00,796basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 331
+INFO2023-06-20 21:44:10,001basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:44:40,467basehttp"GET /customersignup HTTP/1.1" 200 11567
+INFO2023-06-20 21:44:40,484basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:44:59,025basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:45:00,508basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:45:55,988basehttp"GET /customersignup HTTP/1.1" 200 11567
+INFO2023-06-20 21:45:56,008basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:46:29,402basehttp"GET /customersignup HTTP/1.1" 200 11567
+INFO2023-06-20 21:46:29,432basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 329
+INFO2023-06-20 21:46:36,100basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:46:45,175basehttp"GET /customersignup HTTP/1.1" 200 11567
+INFO2023-06-20 21:46:45,202basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 330
+INFO2023-06-20 21:47:21,869basehttp"GET /customersignup HTTP/1.1" 200 11567
+INFO2023-06-20 21:47:21,893basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 427
+INFO2023-06-20 21:47:42,719basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:48:46,545basehttp"GET /customersignup HTTP/1.1" 200 11567
+INFO2023-06-20 21:48:46,571basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 480
+INFO2023-06-20 21:48:55,839basehttp"GET /customersignup HTTP/1.1" 200 11567
+INFO2023-06-20 21:48:55,859basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 480
+INFO2023-06-20 21:48:56,308basehttp"GET /customersignup HTTP/1.1" 200 11567
+INFO2023-06-20 21:48:56,328basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:48:56,330basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 480
+WARNING2023-06-20 21:48:58,275logNot Found: /favicon.ico
+WARNING2023-06-20 21:48:58,275basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:49:19,251basehttp"GET /customersignup HTTP/1.1" 200 11567
+INFO2023-06-20 21:49:19,274basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:49:22,210basehttp"GET /customersignup HTTP/1.1" 200 11567
+INFO2023-06-20 21:49:22,227basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:49:23,260basehttp"GET /customersignup HTTP/1.1" 200 11567
+INFO2023-06-20 21:49:23,274basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 21:49:23,274basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 480
+WARNING2023-06-20 21:49:30,976logNot Found: /favicon.ico
+WARNING2023-06-20 21:49:30,976basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 21:49:56,355basehttp"GET /customersignup HTTP/1.1" 200 11567
+INFO2023-06-20 21:49:56,376basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 632
+INFO2023-06-20 21:50:07,294basehttp"GET /customersignup HTTP/1.1" 200 11567
+INFO2023-06-20 21:50:07,314basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 628
+INFO2023-06-20 21:50:13,325basehttp"GET /customersignup HTTP/1.1" 200 11567
+INFO2023-06-20 21:50:13,356basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 627
+INFO2023-06-20 21:51:47,591basehttp"GET /customersignup HTTP/1.1" 200 11408
+INFO2023-06-20 21:51:47,608basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:52:05,423basehttp"GET /customersignup HTTP/1.1" 200 11408
+INFO2023-06-20 21:52:05,443basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 693
+INFO2023-06-20 21:52:10,639basehttp"GET /customersignup HTTP/1.1" 200 11408
+INFO2023-06-20 21:52:10,653basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:53:53,268basehttp"GET /customersignup HTTP/1.1" 200 11422
+INFO2023-06-20 21:53:53,284basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:53:58,211basehttp"GET /customerlogin HTTP/1.1" 200 7344
+INFO2023-06-20 21:53:58,235basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 596
+INFO2023-06-20 21:54:03,283basehttp"GET /customersignup HTTP/1.1" 200 11422
+INFO2023-06-20 21:54:28,571basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-20 21:56:08,207basehttp"GET /customerlogin HTTP/1.1" 200 7344
+INFO2023-06-20 21:56:08,226basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:56:10,719basehttp"POST /customerlogin HTTP/1.1" 200 7363
+INFO2023-06-20 21:56:28,841basehttp"POST /customerlogin HTTP/1.1" 200 7363
+INFO2023-06-20 21:56:32,454basehttp"POST /customerlogin HTTP/1.1" 200 7363
+INFO2023-06-20 21:57:49,458basehttp"POST /customerlogin HTTP/1.1" 200 7363
+INFO2023-06-20 21:57:49,477basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 21:58:10,316basehttp"POST /customerlogin HTTP/1.1" 302 0
+INFO2023-06-20 21:58:10,496basehttp"GET /customer/customer_home HTTP/1.1" 200 11505
+INFO2023-06-20 21:58:10,516basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 304 0
+INFO2023-06-20 21:58:10,516basehttp"GET /static/images/standing_man.png HTTP/1.1" 304 0
+INFO2023-06-20 21:58:10,547basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 304 0
+INFO2023-06-20 21:58:10,547basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 304 0
+INFO2023-06-20 21:58:10,547basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 304 0
+INFO2023-06-20 21:58:10,556basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 304 0
+INFO2023-06-20 21:58:10,564basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 304 0
+INFO2023-06-20 21:58:10,564basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 304 0
+INFO2023-06-20 21:58:10,564basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 304 0
+INFO2023-06-20 21:58:10,564basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 304 0
+INFO2023-06-20 21:58:10,564basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 304 0
+INFO2023-06-20 21:58:42,907basehttp"GET /customer/cprofile HTTP/1.1" 200 4806
+INFO2023-06-20 21:59:30,680basehttp"POST /customerlogin HTTP/1.1" 200 7363
+INFO2023-06-20 21:59:30,705basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:00:08,042basehttp"POST /customerlogin HTTP/1.1" 200 7363
+INFO2023-06-20 22:00:13,079basehttp"POST /customerlogin HTTP/1.1" 200 7363
+INFO2023-06-20 22:00:13,095basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:00:13,095basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 638
+WARNING2023-06-20 22:00:14,634logNot Found: /favicon.ico
+WARNING2023-06-20 22:00:14,634basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:00:15,324basehttp"POST /customerlogin HTTP/1.1" 200 7363
+INFO2023-06-20 22:00:15,341basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 638
+INFO2023-06-20 22:00:15,341basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 22:00:16,555logNot Found: /favicon.ico
+WARNING2023-06-20 22:00:16,555basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:00:35,652basehttp"POST /customerlogin HTTP/1.1" 200 7363
+INFO2023-06-20 22:00:35,668basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 654
+INFO2023-06-20 22:00:41,374basehttp"POST /customerlogin HTTP/1.1" 200 7363
+INFO2023-06-20 22:00:41,382basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:00:43,700basehttp"GET /customerlogin HTTP/1.1" 200 7344
+INFO2023-06-20 22:00:43,713basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:00:46,766basehttp"GET /customerlogin HTTP/1.1" 200 7344
+INFO2023-06-20 22:00:46,774basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:02:46,988basehttp"GET /customerlogin HTTP/1.1" 200 7344
+INFO2023-06-20 22:02:47,004basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 666
+INFO2023-06-20 22:02:48,192basehttp"GET /customerlogin HTTP/1.1" 200 7367
+INFO2023-06-20 22:02:48,211basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:02:48,211basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 666
+WARNING2023-06-20 22:02:49,510logNot Found: /favicon.ico
+WARNING2023-06-20 22:02:49,510basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:03:11,192basehttp"GET /customerlogin HTTP/1.1" 200 7289
+INFO2023-06-20 22:03:11,224basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:05:23,400basehttp"GET /customerlogin HTTP/1.1" 200 7289
+INFO2023-06-20 22:05:23,416basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 725
+INFO2023-06-20 22:05:58,008basehttp"GET /customersignup HTTP/1.1" 200 11422
+INFO2023-06-20 22:05:58,038basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 822
+INFO2023-06-20 22:06:01,782basehttp"GET /customersignup HTTP/1.1" 200 11422
+INFO2023-06-20 22:06:01,794basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:06:02,397basehttp"GET /customersignup HTTP/1.1" 200 11422
+INFO2023-06-20 22:06:02,417basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:06:02,417basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 822
+WARNING2023-06-20 22:06:04,586logNot Found: /favicon.ico
+WARNING2023-06-20 22:06:04,586basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:06:11,535basehttp"GET /customerlogin HTTP/1.1" 200 7289
+INFO2023-06-20 22:06:11,549basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:06:38,141basehttp"GET /customersignup HTTP/1.1" 200 11422
+INFO2023-06-20 22:06:38,153basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:06:47,192basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:08:31,121basehttp"GET /customersignup HTTP/1.1" 200 11422
+INFO2023-06-20 22:08:31,137basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:12:02,029basehttp"GET /customersignup HTTP/1.1" 200 11440
+INFO2023-06-20 22:12:02,097basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 865
+INFO2023-06-20 22:12:38,381basehttp"GET /customersignup HTTP/1.1" 200 11440
+INFO2023-06-20 22:12:38,408basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 889
+INFO2023-06-20 22:12:39,141basehttp"GET /customersignup HTTP/1.1" 200 11440
+INFO2023-06-20 22:12:39,161basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:12:39,167basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 889
+WARNING2023-06-20 22:12:41,249logNot Found: /favicon.ico
+WARNING2023-06-20 22:12:41,249basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:12:44,884basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:13:48,975basehttp"GET /customersignup HTTP/1.1" 200 11453
+INFO2023-06-20 22:13:48,991basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:13:49,838basehttp"GET /customersignup HTTP/1.1" 200 11453
+INFO2023-06-20 22:13:49,860basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:13:49,860basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 889
+WARNING2023-06-20 22:13:51,839logNot Found: /favicon.ico
+WARNING2023-06-20 22:13:51,839basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:15:07,862basehttp"GET /customersignup HTTP/1.1" 200 11453
+INFO2023-06-20 22:15:07,888basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 901
+INFO2023-06-20 22:15:09,251basehttp"GET /customersignup HTTP/1.1" 200 11453
+INFO2023-06-20 22:15:09,277basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:15:09,278basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 901
+WARNING2023-06-20 22:15:12,462logNot Found: /favicon.ico
+WARNING2023-06-20 22:15:12,467basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:15:36,213basehttp"GET /customersignup HTTP/1.1" 200 11453
+INFO2023-06-20 22:15:36,231basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:15:37,159basehttp"GET /customersignup HTTP/1.1" 200 11457
+INFO2023-06-20 22:15:37,181basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:15:37,182basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 901
+INFO2023-06-20 22:15:39,219basehttp"GET /customersignup HTTP/1.1" 200 11457
+INFO2023-06-20 22:15:39,237basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:15:39,242basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 901
+INFO2023-06-20 22:15:40,139basehttp"GET /customersignup HTTP/1.1" 200 11457
+INFO2023-06-20 22:15:40,159basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 901
+INFO2023-06-20 22:15:40,159basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 22:15:45,554logNot Found: /favicon.ico
+WARNING2023-06-20 22:15:45,555basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:16:06,526basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:16:06,550basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:16:07,153basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:16:07,178basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:16:07,178basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 901
+WARNING2023-06-20 22:16:08,625logNot Found: /favicon.ico
+WARNING2023-06-20 22:16:08,625basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:19:06,042basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:19:06,073basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 929
+INFO2023-06-20 22:19:06,740basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:19:06,787basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:19:10,562basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:19:10,586basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:19:10,586basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 929
+WARNING2023-06-20 22:19:12,035logNot Found: /favicon.ico
+WARNING2023-06-20 22:19:12,036basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:19:46,829basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:19:46,856basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 929
+INFO2023-06-20 22:19:53,690basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:19:53,721basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 929
+INFO2023-06-20 22:20:00,828basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:20:00,853basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 929
+INFO2023-06-20 22:20:37,309basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:20:37,336basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 934
+INFO2023-06-20 22:20:49,742basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:20:49,762basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 934
+INFO2023-06-20 22:20:50,742basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:20:50,764basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:20:50,771basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 934
+WARNING2023-06-20 22:20:53,202logNot Found: /favicon.ico
+WARNING2023-06-20 22:20:53,202basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:21:10,979basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:21:10,998basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 929
+INFO2023-06-20 22:22:58,307basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:22:58,325basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 968
+INFO2023-06-20 22:22:58,915basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:22:58,940basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:23:00,085basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:23:00,105basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:23:00,112basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 968
+WARNING2023-06-20 22:23:02,207logNot Found: /favicon.ico
+WARNING2023-06-20 22:23:02,207basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:23:08,772basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:23:08,790basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 968
+INFO2023-06-20 22:23:09,337basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:23:09,356basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:23:09,648basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:23:09,662basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:23:09,859basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:23:09,877basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:23:10,166basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:23:10,180basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:23:10,453basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:23:10,478basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:23:11,580basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:23:11,601basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:23:11,602basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 968
+WARNING2023-06-20 22:23:12,339logNot Found: /favicon.ico
+WARNING2023-06-20 22:23:12,339basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:23:30,644basehttp"GET /customerlogin HTTP/1.1" 200 7289
+INFO2023-06-20 22:23:30,669basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:23:35,791basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:23:35,810basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:24:23,502basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:24:23,530basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 984
+INFO2023-06-20 22:24:45,025basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:24:45,050basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 985
+INFO2023-06-20 22:24:46,940basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:24:46,956basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:24:47,467basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:24:47,486basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:24:47,490basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 985
+INFO2023-06-20 22:24:47,874basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:24:47,900basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:24:47,900basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 985
+INFO2023-06-20 22:24:48,112basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:24:48,127basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 985
+INFO2023-06-20 22:24:48,127basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:24:48,286basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:24:48,310basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:24:48,313basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 985
+INFO2023-06-20 22:24:48,486basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:24:48,502basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:24:48,502basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 985
+WARNING2023-06-20 22:25:00,144logNot Found: /favicon.ico
+WARNING2023-06-20 22:25:00,144basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:26:39,085basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:26:39,111basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 985
+INFO2023-06-20 22:26:41,109basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:26:41,130basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:26:41,130basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 985
+WARNING2023-06-20 22:26:43,220logNot Found: /favicon.ico
+WARNING2023-06-20 22:26:43,220basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:26:44,583basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:26:44,592basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:28:34,364basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:28:34,395basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 1013
+INFO2023-06-20 22:28:36,004basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:28:36,015basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:28:36,024basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 1013
+WARNING2023-06-20 22:28:48,867logNot Found: /favicon.ico
+WARNING2023-06-20 22:28:48,867basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:31:20,820basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:31:20,844basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 991
+INFO2023-06-20 22:31:41,954basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:31:41,970basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 1000
+INFO2023-06-20 22:37:01,032basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:37:01,086basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 1050
+INFO2023-06-20 22:37:05,543basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:37:05,565basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:37:05,565basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 1050
+WARNING2023-06-20 22:37:07,262logNot Found: /favicon.ico
+WARNING2023-06-20 22:37:07,262basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:37:15,573basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:37:15,597basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 872
+INFO2023-06-20 22:37:48,974basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:37:48,994basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 826
+INFO2023-06-20 22:37:52,148basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:37:52,167basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:37:52,173basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 826
+WARNING2023-06-20 22:39:18,532logNot Found: /favicon.ico
+WARNING2023-06-20 22:39:18,532basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:39:36,712basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:39:36,737basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 874
+INFO2023-06-20 22:40:33,618basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:40:33,646basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 877
+INFO2023-06-20 22:40:34,428basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:40:34,452basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:40:34,453basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 877
+INFO2023-06-20 22:40:35,565basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:40:35,581basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 877
+INFO2023-06-20 22:40:35,581basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 22:40:37,814logNot Found: /favicon.ico
+WARNING2023-06-20 22:40:37,814basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:40:45,918basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:40:45,937basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 882
+INFO2023-06-20 22:40:46,636basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:40:46,658basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 882
+INFO2023-06-20 22:40:46,658basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 22:40:47,517logNot Found: /favicon.ico
+WARNING2023-06-20 22:40:47,517basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:40:54,597basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:40:54,621basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 883
+INFO2023-06-20 22:40:55,166basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:40:55,182basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 883
+INFO2023-06-20 22:40:55,182basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 22:40:56,007logNot Found: /favicon.ico
+WARNING2023-06-20 22:40:56,007basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:41:07,469basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:41:07,489basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 875
+INFO2023-06-20 22:41:08,277basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:41:08,296basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:41:08,297basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 875
+WARNING2023-06-20 22:41:08,851logNot Found: /favicon.ico
+WARNING2023-06-20 22:41:08,851basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:41:09,478basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:41:09,491basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 875
+INFO2023-06-20 22:41:09,491basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 22:41:09,967logNot Found: /favicon.ico
+WARNING2023-06-20 22:41:09,967basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:41:14,968basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:43:17,323basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:43:17,341basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 822
+INFO2023-06-20 22:43:18,378basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:43:18,403basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 822
+INFO2023-06-20 22:43:18,403basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 22:43:22,661logNot Found: /favicon.ico
+WARNING2023-06-20 22:43:22,661basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:45:10,316basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:45:10,349basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 822
+INFO2023-06-20 22:45:17,569basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:45:17,592basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 822
+INFO2023-06-20 22:45:45,355basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:45:45,379basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 822
+INFO2023-06-20 22:45:47,156basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:45:47,173basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:45:48,014basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:45:48,036basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:45:48,045basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 822
+WARNING2023-06-20 22:45:49,925logNot Found: /favicon.ico
+WARNING2023-06-20 22:45:49,932basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:46:02,067basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:46:02,088basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:46:02,786basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:46:02,809basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:46:02,812basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 822
+WARNING2023-06-20 22:46:03,788logNot Found: /favicon.ico
+WARNING2023-06-20 22:46:03,804basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:46:11,726basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:46:11,753basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 814
+INFO2023-06-20 22:46:17,361basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:46:17,377basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 814
+INFO2023-06-20 22:46:17,377basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 22:46:17,923logNot Found: /favicon.ico
+WARNING2023-06-20 22:46:17,923basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:46:32,876basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:46:32,899basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 814
+INFO2023-06-20 22:46:34,435basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:46:34,451basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:46:34,451basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 814
+WARNING2023-06-20 22:46:46,610logNot Found: /favicon.ico
+WARNING2023-06-20 22:46:46,610basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:47:02,695basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:47:02,716basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 826
+INFO2023-06-20 22:47:03,390basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:47:03,407basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:47:03,407basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 826
+WARNING2023-06-20 22:47:04,943logNot Found: /favicon.ico
+WARNING2023-06-20 22:47:04,943basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:47:07,071basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:47:07,096basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:47:34,911basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:47:34,935basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 826
+INFO2023-06-20 22:47:35,384basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:47:35,400basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:47:36,059basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:47:36,081basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:47:36,081basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 826
+WARNING2023-06-20 22:47:36,861logNot Found: /favicon.ico
+WARNING2023-06-20 22:47:36,861basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:47:43,134basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:47:43,153basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:47:57,436basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:47:57,452basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 826
+INFO2023-06-20 22:47:59,834basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:47:59,860basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:47:59,860basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 826
+WARNING2023-06-20 22:48:00,792logNot Found: /favicon.ico
+WARNING2023-06-20 22:48:00,792basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:48:11,256basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:48:11,272basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 826
+INFO2023-06-20 22:48:13,330basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:48:13,350basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:48:13,352basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 826
+WARNING2023-06-20 22:48:15,915logNot Found: /favicon.ico
+WARNING2023-06-20 22:48:15,915basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:48:23,872basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:48:23,896basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 826
+INFO2023-06-20 22:48:25,410basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:48:25,426basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:48:25,426basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 826
+WARNING2023-06-20 22:48:25,930logNot Found: /favicon.ico
+WARNING2023-06-20 22:48:25,930basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:48:36,827basehttp"GET /customerlogin HTTP/1.1" 200 7289
+INFO2023-06-20 22:48:36,846basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:48:51,499basehttp"GET /customerlogin HTTP/1.1" 200 7289
+INFO2023-06-20 22:49:07,418basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:49:07,438basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:50:04,025basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:50:04,048basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 879
+INFO2023-06-20 22:50:04,633basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:50:04,649basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:50:04,653basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 879
+INFO2023-06-20 22:50:05,129basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:50:05,146basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:50:05,148basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 879
+INFO2023-06-20 22:50:05,358basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:50:05,374basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 879
+INFO2023-06-20 22:50:05,374basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 22:50:06,640logNot Found: /favicon.ico
+WARNING2023-06-20 22:50:06,640basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:50:11,905basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:50:11,930basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 879
+INFO2023-06-20 22:50:12,649basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:50:12,668basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:50:12,670basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 879
+WARNING2023-06-20 22:50:13,940logNot Found: /favicon.ico
+WARNING2023-06-20 22:50:13,940basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:50:18,165basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:50:18,182basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 879
+INFO2023-06-20 22:50:24,808basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:50:24,821basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 876
+INFO2023-06-20 22:50:32,322basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:50:32,346basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 877
+INFO2023-06-20 22:50:36,903basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:50:36,926basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 877
+INFO2023-06-20 22:50:39,592basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:50:39,608basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:50:39,984basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:50:39,998basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:50:40,194basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:50:40,210basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:50:40,354basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:50:44,790basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:50:44,806basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 877
+INFO2023-06-20 22:50:45,325basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:50:45,341basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 877
+INFO2023-06-20 22:50:45,344basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 22:50:45,906logNot Found: /favicon.ico
+WARNING2023-06-20 22:50:45,906basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:51:00,184basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:51:00,202basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 873
+INFO2023-06-20 22:51:02,682basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:52:16,918basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:52:16,939basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 891
+INFO2023-06-20 22:52:17,494basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:52:17,533basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 891
+INFO2023-06-20 22:52:17,533basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:52:18,017basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:52:18,036basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:52:18,036basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 891
+INFO2023-06-20 22:52:18,298basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:52:18,321basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 891
+INFO2023-06-20 22:52:18,321basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:52:18,509basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:52:18,541basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 891
+INFO2023-06-20 22:52:18,541basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:52:18,715basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:52:18,750basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 891
+INFO2023-06-20 22:52:18,751basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 22:52:19,997logNot Found: /favicon.ico
+WARNING2023-06-20 22:52:19,997basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:52:27,442basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:52:27,469basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 884
+INFO2023-06-20 22:52:28,055basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:52:28,074basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:52:28,074basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 884
+INFO2023-06-20 22:52:28,466basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:52:28,498basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:52:28,499basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 884
+INFO2023-06-20 22:52:28,745basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:52:28,759basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 884
+INFO2023-06-20 22:52:28,759basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 22:52:32,039logNot Found: /favicon.ico
+WARNING2023-06-20 22:52:32,039basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:52:41,477basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:52:41,504basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 887
+INFO2023-06-20 22:52:42,026basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:52:42,058basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 887
+INFO2023-06-20 22:52:42,058basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 22:52:46,072logNot Found: /favicon.ico
+WARNING2023-06-20 22:52:46,072basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:53:38,975basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:53:39,004basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 884
+INFO2023-06-20 22:53:39,503basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:53:39,529basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 884
+INFO2023-06-20 22:53:39,529basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 22:53:40,499logNot Found: /favicon.ico
+WARNING2023-06-20 22:53:40,499basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:53:53,414basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:53:53,433basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 891
+INFO2023-06-20 22:53:53,969basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:53:53,995basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:53:53,995basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 891
+WARNING2023-06-20 22:53:54,508logNot Found: /favicon.ico
+WARNING2023-06-20 22:53:54,508basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:54:02,121basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:54:02,152basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 894
+INFO2023-06-20 22:54:02,641basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:54:02,662basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 894
+INFO2023-06-20 22:54:02,662basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 22:54:03,205logNot Found: /favicon.ico
+WARNING2023-06-20 22:54:03,205basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:55:17,932basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:55:17,957basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 892
+INFO2023-06-20 22:55:18,617basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:55:18,651basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:55:18,652basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 892
+WARNING2023-06-20 22:55:20,582logNot Found: /favicon.ico
+WARNING2023-06-20 22:55:20,582basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:55:31,703basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:55:31,728basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 830
+INFO2023-06-20 22:55:32,291basehttp"GET /customersignup HTTP/1.1" 200 11444
+INFO2023-06-20 22:55:32,310basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-20 22:55:32,313basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 830
+WARNING2023-06-20 22:55:33,076logNot Found: /favicon.ico
+WARNING2023-06-20 22:55:33,076basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:56:13,315basehttp"GET /customersignup HTTP/1.1" 200 11440
+INFO2023-06-20 22:56:13,333basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:56:14,311basehttp"GET /customersignup HTTP/1.1" 200 11440
+INFO2023-06-20 22:56:14,336basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 830
+INFO2023-06-20 22:56:14,336basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 22:56:15,177logNot Found: /favicon.ico
+WARNING2023-06-20 22:56:15,177basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:56:30,183basehttp"GET /customersignup HTTP/1.1" 200 11440
+INFO2023-06-20 22:56:30,203basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-20 22:56:30,687basehttp"GET /customersignup HTTP/1.1" 200 11440
+INFO2023-06-20 22:56:30,741basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 830
+INFO2023-06-20 22:56:30,741basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 22:56:31,599logNot Found: /favicon.ico
+WARNING2023-06-20 22:56:31,599basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:56:55,659basehttp"GET /customersignup HTTP/1.1" 200 11440
+INFO2023-06-20 22:56:55,687basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 870
+INFO2023-06-20 22:56:56,251basehttp"GET /customersignup HTTP/1.1" 200 11440
+INFO2023-06-20 22:56:56,286basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 870
+INFO2023-06-20 22:56:56,287basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 22:57:04,909logNot Found: /favicon.ico
+WARNING2023-06-20 22:57:04,909basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-20 22:57:10,312basehttp"GET /customersignup HTTP/1.1" 200 11440
+INFO2023-06-20 22:57:10,339basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 881
+INFO2023-06-20 22:57:10,900basehttp"GET /customersignup HTTP/1.1" 200 11440
+INFO2023-06-20 22:57:10,920basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 881
+INFO2023-06-20 22:57:10,921basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+WARNING2023-06-20 22:57:11,506logNot Found: /favicon.ico
+WARNING2023-06-20 22:57:11,506basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-21 11:11:17,693autoreloadWatching for file changes with StatReloader
+INFO2023-06-21 11:11:24,470basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-21 11:11:24,513basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-21 11:11:24,642basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 886
+WARNING2023-06-21 11:11:25,474logNot Found: /favicon.ico
+WARNING2023-06-21 11:11:25,474basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+WARNING2023-06-21 11:11:25,481logNot Found: /favicon.ico
+WARNING2023-06-21 11:11:25,481basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-21 11:15:53,734basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-21 11:15:56,350basehttp"GET / HTTP/1.1" 200 7217
+INFO2023-06-21 11:15:57,270basehttp"GET / HTTP/1.1" 200 7217
+ERROR2023-06-21 11:19:05,058logInternal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\views.py", line 60, in project_home
+    return render(request, 'common/project home.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'mycart' not found. 'mycart' is not a valid view function or pattern name.
+ERROR2023-06-21 11:19:05,058basehttp"GET / HTTP/1.1" 500 143131
+ERROR2023-06-21 11:19:05,344logInternal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\views.py", line 60, in project_home
+    return render(request, 'common/project home.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'mycart' not found. 'mycart' is not a valid view function or pattern name.
+ERROR2023-06-21 11:19:05,344basehttp"GET / HTTP/1.1" 500 143259
+WARNING2023-06-21 11:19:05,412logNot Found: /favicon.ico
+INFO2023-06-21 11:19:05,412basehttp- Broken pipe from ('127.0.0.1', 65349)
+WARNING2023-06-21 11:19:05,550logNot Found: /favicon.ico
+WARNING2023-06-21 11:19:05,550basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-21 11:19:25,300basehttp"GET / HTTP/1.1" 200 7233
+INFO2023-06-21 11:19:25,331basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-21 11:19:25,905basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-21 11:19:26,104basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-21 11:19:26,615basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-21 11:19:27,502logNot Found: /favicon.ico
+WARNING2023-06-21 11:19:27,502basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-21 11:19:32,801basehttp"GET /customer/cmycart HTTP/1.1" 200 10528
+INFO2023-06-21 11:19:59,368basehttp"GET / HTTP/1.1" 200 7233
+INFO2023-06-21 11:22:59,822basehttp"GET / HTTP/1.1" 200 7130
+INFO2023-06-21 11:23:00,586basehttp"GET / HTTP/1.1" 200 7130
+INFO2023-06-21 11:23:00,602basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-21 11:23:00,999basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-21 11:23:01,017basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-21 11:23:01,143basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-21 11:23:01,460logNot Found: /favicon.ico
+WARNING2023-06-21 11:23:01,460basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-21 11:23:47,975basehttp"GET / HTTP/1.1" 200 7155
+INFO2023-06-21 11:23:48,621basehttp"GET / HTTP/1.1" 200 7155
+INFO2023-06-21 11:23:48,637basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-21 11:23:48,942basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-21 11:23:48,946basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-21 11:23:49,042basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-21 11:23:49,633logNot Found: /favicon.ico
+WARNING2023-06-21 11:23:49,633basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-21 11:24:18,908basehttp"GET / HTTP/1.1" 200 7140
+INFO2023-06-21 11:24:41,049basehttp"GET / HTTP/1.1" 200 7233
+INFO2023-06-21 11:24:41,696basehttp"GET / HTTP/1.1" 200 7233
+INFO2023-06-21 11:24:41,727basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-21 11:24:42,045basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-21 11:24:42,050basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-21 11:24:42,201basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-21 11:24:42,974logNot Found: /favicon.ico
+WARNING2023-06-21 11:24:42,974basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-21 11:25:05,477basehttp"GET / HTTP/1.1" 200 7259
+INFO2023-06-21 11:25:05,907basehttp"GET / HTTP/1.1" 200 7259
+INFO2023-06-21 11:25:05,924basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-21 11:25:12,860basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-21 11:25:12,870basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-21 11:25:12,988basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-21 11:25:13,324logNot Found: /favicon.ico
+WARNING2023-06-21 11:25:13,325basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-21 11:30:49,556basehttp"GET / HTTP/1.1" 200 7623
+INFO2023-06-21 11:30:50,549basehttp"GET / HTTP/1.1" 200 7623
+INFO2023-06-21 11:30:50,570basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-21 11:30:50,948basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-21 11:30:50,956basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-21 11:30:51,080basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-21 11:30:51,582logNot Found: /favicon.ico
+WARNING2023-06-21 11:30:51,582basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-21 11:31:41,583basehttp"GET / HTTP/1.1" 200 7604
+INFO2023-06-21 11:31:42,749basehttp"GET / HTTP/1.1" 200 7604
+INFO2023-06-21 11:31:42,769basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-21 11:31:43,069basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-21 11:31:43,081basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-21 11:31:43,206basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-21 11:31:43,682logNot Found: /favicon.ico
+WARNING2023-06-21 11:31:43,682basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-21 11:31:54,264basehttp"GET / HTTP/1.1" 200 7604
+INFO2023-06-21 11:31:54,840basehttp"GET / HTTP/1.1" 200 7623
+INFO2023-06-21 11:31:54,868basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1114
+INFO2023-06-21 11:31:55,075basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-21 11:31:55,077basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-21 11:31:55,199basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-21 11:31:55,526logNot Found: /favicon.ico
+WARNING2023-06-21 11:31:55,526basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-21 11:41:59,108basehttp"GET / HTTP/1.1" 200 7743
+INFO2023-06-21 11:42:06,526basehttp"GET / HTTP/1.1" 200 7735
+INFO2023-06-21 20:02:36,563autoreloadWatching for file changes with StatReloader
+INFO2023-06-21 20:02:38,456basehttp"GET / HTTP/1.1" 200 8036
+INFO2023-06-21 20:02:38,505basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-21 20:04:18,816basehttp"GET / HTTP/1.1" 200 8036
+INFO2023-06-21 20:04:21,382basehttp"GET / HTTP/1.1" 200 8036
+INFO2023-06-21 20:04:21,555basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1163
+INFO2023-06-21 20:04:21,994basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-21 20:04:22,024basehttp"GET /static/images/image_2.jpg HTTP/1.1" 200 7747130
+INFO2023-06-21 20:04:22,969basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-21 20:04:23,742logNot Found: /favicon.ico
+WARNING2023-06-21 20:04:23,742basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-21 20:04:32,873basehttp"GET / HTTP/1.1" 200 8036
+INFO2023-06-21 20:04:32,895basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1163
+INFO2023-06-21 20:04:42,252basehttp"GET /customerlogin HTTP/1.1" 200 8108
+INFO2023-06-21 20:04:42,279basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-21 20:04:42,279basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-21 20:04:46,011basehttp"GET /customersignup HTTP/1.1" 200 12259
+INFO2023-06-21 20:04:46,027basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-21 20:04:46,035basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-21 20:04:49,661basehttp"GET /sellerlogin HTTP/1.1" 200 8175
+INFO2023-06-21 20:04:49,677basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-21 20:04:53,938basehttp"GET /sellersignup HTTP/1.1" 200 10113
+INFO2023-06-21 20:04:53,954basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-21 20:05:00,046basehttp"GET /sellerlogin HTTP/1.1" 200 8175
+INFO2023-06-21 20:05:00,062basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-21 20:07:33,705basehttp"GET /sellerlogin HTTP/1.1" 200 7847
+INFO2023-06-21 20:07:33,726basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-21 20:07:33,726basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 200 0
+INFO2023-06-21 20:08:15,600basehttp"GET /sellerlogin HTTP/1.1" 200 7847
+INFO2023-06-21 20:08:15,620basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-21 20:08:15,627basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 200 49
+INFO2023-06-21 20:08:18,927basehttp"GET /sellerlogin HTTP/1.1" 200 7847
+INFO2023-06-21 20:08:18,950basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1163
+INFO2023-06-21 20:08:18,950basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 200 49
+WARNING2023-06-21 20:08:20,057logNot Found: /favicon.ico
+WARNING2023-06-21 20:08:20,065basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-21 20:08:49,135basehttp"GET /sellerlogin HTTP/1.1" 200 7847
+INFO2023-06-21 20:08:49,154basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-21 20:08:49,161basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 200 197
+INFO2023-06-21 20:08:51,597basehttp"GET /sellerlogin HTTP/1.1" 200 7847
+INFO2023-06-21 20:08:51,614basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1163
+INFO2023-06-21 20:08:51,629basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 200 197
+WARNING2023-06-21 20:08:52,400logNot Found: /favicon.ico
+WARNING2023-06-21 20:08:52,400basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-21 20:09:15,110basehttp"GET /sellerlogin HTTP/1.1" 200 7847
+INFO2023-06-21 20:09:15,132basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 304 0
+INFO2023-06-21 20:10:31,744basehttp"GET /sellerlogin HTTP/1.1" 200 7935
+INFO2023-06-21 20:10:31,770basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-21 20:10:31,776basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 200 266
+INFO2023-06-21 20:10:52,969basehttp"GET /sellerlogin HTTP/1.1" 200 7935
+INFO2023-06-21 20:10:52,998basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 200 336
+INFO2023-06-21 20:11:20,415basehttp"GET /sellerlogin HTTP/1.1" 200 7935
+INFO2023-06-21 20:11:20,431basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-21 20:11:20,439basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 200 478
+INFO2023-06-21 20:12:02,162basehttp"GET /sellerlogin HTTP/1.1" 200 7935
+INFO2023-06-21 20:12:02,178basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-21 20:12:02,183basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 200 673
+INFO2023-06-21 20:12:13,235basehttp"GET /sellerlogin HTTP/1.1" 200 7935
+INFO2023-06-21 20:12:13,260basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 200 672
+INFO2023-06-21 20:12:19,640basehttp"GET /sellerlogin HTTP/1.1" 200 7935
+INFO2023-06-21 20:12:19,668basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 200 673
+INFO2023-06-21 20:12:25,553basehttp"GET /sellerlogin HTTP/1.1" 200 7935
+INFO2023-06-21 20:12:25,569basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 200 673
+INFO2023-06-21 20:12:26,247basehttp"GET /sellerlogin HTTP/1.1" 200 7935
+INFO2023-06-21 20:12:26,264basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 304 0
+INFO2023-06-21 20:12:31,273basehttp"GET /sellerlogin HTTP/1.1" 200 7935
+INFO2023-06-21 20:12:31,297basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 200 673
+INFO2023-06-21 20:12:35,684basehttp"GET /customerlogin HTTP/1.1" 200 8108
+INFO2023-06-21 20:12:39,215basehttp"GET /sellerlogin HTTP/1.1" 200 7935
+INFO2023-06-21 20:12:39,237basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 304 0
+INFO2023-06-21 20:12:43,867basehttp"GET /sellerlogin HTTP/1.1" 200 7935
+INFO2023-06-21 20:12:43,900basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 200 673
+INFO2023-06-21 20:12:47,558basehttp"GET /sellerlogin HTTP/1.1" 200 7935
+INFO2023-06-21 20:12:47,573basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-21 20:12:47,582basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 200 673
+INFO2023-06-21 20:12:51,300basehttp"GET /customerlogin HTTP/1.1" 200 8108
+INFO2023-06-21 20:12:53,718basehttp"GET /sellerlogin HTTP/1.1" 200 7935
+INFO2023-06-21 20:12:53,732basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 304 0
+INFO2023-06-21 20:12:57,208basehttp"GET /sellerlogin HTTP/1.1" 200 7935
+INFO2023-06-21 20:12:57,238basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 200 673
+INFO2023-06-21 20:13:08,833basehttp"GET /sellersignup HTTP/1.1" 200 10113
+INFO2023-06-21 20:16:42,417basehttp"GET /sellerlogin HTTP/1.1" 200 7935
+INFO2023-06-21 20:16:42,435basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-21 20:16:42,464basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 304 0
+INFO2023-06-21 20:16:48,294basehttp"GET /sellersignup HTTP/1.1" 200 9523
+INFO2023-06-21 20:16:48,316basehttp"GET /static/style/seller_signup_style.css HTTP/1.1" 200 0
+INFO2023-06-21 20:16:49,489basehttp"GET /sellersignup HTTP/1.1" 200 9523
+INFO2023-06-21 20:17:25,584basehttp"GET /sellersignup HTTP/1.1" 200 9523
+INFO2023-06-21 20:17:25,602basehttp"GET /static/style/seller_signup_style.css HTTP/1.1" 200 673
+INFO2023-06-21 20:17:49,249basehttp"GET /sellersignup HTTP/1.1" 200 9523
+INFO2023-06-21 20:17:49,269basehttp"GET /static/style/seller_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-22 06:24:08,469basehttp"GET /sellersignup HTTP/1.1" 200 9523
+INFO2023-06-22 06:24:08,509basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-22 06:24:08,549basehttp"GET /static/style/seller_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-22 06:24:11,419basehttp"GET /sellerlogin HTTP/1.1" 200 7935
+INFO2023-06-22 06:24:11,439basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 304 0
+INFO2023-06-22 06:24:14,002basehttp"GET /customersignup HTTP/1.1" 200 12259
+INFO2023-06-22 06:24:14,029basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-06-22 06:24:15,985basehttp"GET /customerlogin HTTP/1.1" 200 8108
+INFO2023-06-22 06:24:16,001basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-06-22 06:25:15,683basehttp"GET / HTTP/1.1" 200 8036
