@@ -2580,3 +2580,1672 @@ INFO2023-06-22 06:24:14,029basehttp"GET /static/style/cust_signup_style.css HTTP
 INFO2023-06-22 06:24:15,985basehttp"GET /customerlogin HTTP/1.1" 200 8108
 INFO2023-06-22 06:24:16,001basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
 INFO2023-06-22 06:25:15,683basehttp"GET / HTTP/1.1" 200 8036
+INFO2023-06-23 09:38:44,617autoreloadWatching for file changes with StatReloader
+INFO2023-06-23 09:38:49,146basehttp"GET / HTTP/1.1" 200 8036
+INFO2023-06-23 09:38:49,190basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+WARNING2023-06-23 09:38:50,912logNot Found: /favicon.ico
+WARNING2023-06-23 09:38:50,915basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 09:39:42,630basehttp"GET / HTTP/1.1" 200 8036
+INFO2023-06-23 09:39:42,639basehttp"GET / HTTP/1.1" 200 8036
+INFO2023-06-23 09:48:13,935basehttp"GET / HTTP/1.1" 200 8062
+INFO2023-06-23 09:48:14,031basehttp"GET / HTTP/1.1" 200 8062
+INFO2023-06-23 09:48:14,205basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1163
+INFO2023-06-23 09:48:14,664basehttp"GET /static/images/1603955840-shutterstock1038849250.jpg HTTP/1.1" 200 51864
+INFO2023-06-23 09:48:14,753basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+INFO2023-06-23 09:48:16,001basehttp"GET /static/images/image_3.jpg HTTP/1.1" 200 13761952
+WARNING2023-06-23 09:48:16,354logNot Found: /favicon.ico
+WARNING2023-06-23 09:48:16,354basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 09:52:37,341basehttp"GET / HTTP/1.1" 200 8138
+INFO2023-06-23 09:52:37,464basehttp"GET /static/images/1603955840-shutterstock1038849250.jpg HTTP/1.1" 304 0
+INFO2023-06-23 09:52:37,481basehttp"GET /static/images/young-fashion-woman-with-shopping-bags-through-torn-paper-hole-wall.jpg HTTP/1.1" 200 226316
+INFO2023-06-23 09:52:39,031basehttp"GET / HTTP/1.1" 200 8138
+INFO2023-06-23 09:52:39,056basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1163
+INFO2023-06-23 09:52:39,481basehttp"GET /static/images/1603955840-shutterstock1038849250.jpg HTTP/1.1" 200 51864
+INFO2023-06-23 09:52:39,491basehttp"GET /static/images/young-fashion-woman-with-shopping-bags-through-torn-paper-hole-wall.jpg HTTP/1.1" 200 226316
+INFO2023-06-23 09:52:39,557basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+WARNING2023-06-23 09:52:40,110logNot Found: /favicon.ico
+WARNING2023-06-23 09:52:40,110basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 09:55:31,460basehttp"GET / HTTP/1.1" 200 8100
+INFO2023-06-23 09:55:31,476basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1163
+INFO2023-06-23 09:55:32,094basehttp"GET /static/images/1603955840-shutterstock1038849250.jpg HTTP/1.1" 200 51864
+INFO2023-06-23 09:55:32,111basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+INFO2023-06-23 09:55:32,167basehttp"GET /static/images/image_1.jpg HTTP/1.1" 200 7722732
+WARNING2023-06-23 09:55:33,947logNot Found: /favicon.ico
+WARNING2023-06-23 09:55:33,947basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 09:58:32,866basehttp"GET / HTTP/1.1" 200 8122
+INFO2023-06-23 09:58:32,895basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1163
+INFO2023-06-23 09:58:33,303basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 09:58:33,323basehttp"GET /static/images/1603955840-shutterstock1038849250.jpg HTTP/1.1" 200 51864
+INFO2023-06-23 09:58:33,339basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 09:58:33,717logNot Found: /favicon.ico
+WARNING2023-06-23 09:58:33,717basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:01:00,911basehttp"GET / HTTP/1.1" 200 8120
+INFO2023-06-23 10:01:00,932basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1163
+INFO2023-06-23 10:01:01,657basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:01:01,670basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:01:01,671basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:01:03,279logNot Found: /favicon.ico
+WARNING2023-06-23 10:01:03,279basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:07:23,167basehttp"GET / HTTP/1.1" 200 8201
+INFO2023-06-23 10:07:23,384basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 102
+INFO2023-06-23 10:07:23,776basehttp"GET / HTTP/1.1" 200 8201
+INFO2023-06-23 10:07:23,800basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1163
+INFO2023-06-23 10:07:23,800basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 102
+INFO2023-06-23 10:07:24,391basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:07:24,405basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:07:24,405basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:07:25,936logNot Found: /favicon.ico
+WARNING2023-06-23 10:07:25,936basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:08:17,659basehttp"GET / HTTP/1.1" 200 8201
+INFO2023-06-23 10:08:17,682basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 304 0
+INFO2023-06-23 10:08:17,682basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 99
+INFO2023-06-23 10:08:18,346basehttp"GET / HTTP/1.1" 200 8201
+INFO2023-06-23 10:08:18,363basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 99
+INFO2023-06-23 10:08:18,363basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1163
+INFO2023-06-23 10:08:18,588basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:08:18,605basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:08:18,611basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:08:19,027logNot Found: /favicon.ico
+WARNING2023-06-23 10:08:19,027basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:08:19,640basehttp"GET / HTTP/1.1" 200 8201
+INFO2023-06-23 10:08:19,656basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1163
+INFO2023-06-23 10:08:19,656basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 99
+INFO2023-06-23 10:08:19,746basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:08:19,748basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+INFO2023-06-23 10:08:19,748basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+WARNING2023-06-23 10:08:19,873logNot Found: /favicon.ico
+WARNING2023-06-23 10:08:19,875basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:08:21,881basehttp"GET / HTTP/1.1" 200 8201
+INFO2023-06-23 10:08:21,905basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1163
+INFO2023-06-23 10:08:21,905basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 99
+INFO2023-06-23 10:08:22,151basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:08:22,155basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+INFO2023-06-23 10:08:22,155basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+WARNING2023-06-23 10:08:22,235logNot Found: /favicon.ico
+WARNING2023-06-23 10:08:22,235basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:08:43,540basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-06-23 10:09:37,956basehttp"GET / HTTP/1.1" 200 8201
+INFO2023-06-23 10:09:37,972basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-06-23 10:09:38,030basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 304 0
+INFO2023-06-23 10:09:38,030basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 304 0
+INFO2023-06-23 10:09:38,460basehttp"GET / HTTP/1.1" 200 8201
+INFO2023-06-23 10:09:38,483basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 99
+INFO2023-06-23 10:09:38,497basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:09:39,184basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:09:39,187basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:09:39,197basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:09:39,630logNot Found: /favicon.ico
+WARNING2023-06-23 10:09:39,631basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:16:08,779basehttp"GET / HTTP/1.1" 200 8231
+INFO2023-06-23 10:16:08,803basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:16:08,835basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 175
+INFO2023-06-23 10:16:09,289basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:16:09,300basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:16:09,308basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:16:10,212logNot Found: /favicon.ico
+WARNING2023-06-23 10:16:10,212basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:16:25,983basehttp"GET / HTTP/1.1" 200 8231
+INFO2023-06-23 10:16:26,014basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 198
+INFO2023-06-23 10:18:01,022basehttp"GET / HTTP/1.1" 200 8275
+INFO2023-06-23 10:18:01,038basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:18:01,038basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 198
+INFO2023-06-23 10:18:01,816basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:18:01,831basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:18:01,834basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:18:03,387logNot Found: /favicon.ico
+WARNING2023-06-23 10:18:03,387basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:18:29,903basehttp"GET / HTTP/1.1" 200 8275
+INFO2023-06-23 10:18:29,931basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:18:29,933basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 181
+INFO2023-06-23 10:18:38,432basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:18:38,449basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:18:38,457basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:18:38,862logNot Found: /favicon.ico
+WARNING2023-06-23 10:18:38,862basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:21:47,446basehttp"GET / HTTP/1.1" 200 8275
+INFO2023-06-23 10:21:47,470basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-23 10:21:47,526basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 266
+INFO2023-06-23 10:21:47,542basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 304 0
+INFO2023-06-23 10:21:47,542basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 304 0
+INFO2023-06-23 10:21:47,550basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 304 0
+INFO2023-06-23 10:22:18,385basehttp"GET / HTTP/1.1" 200 8275
+INFO2023-06-23 10:22:18,412basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 427
+INFO2023-06-23 10:22:30,551basehttp"GET / HTTP/1.1" 200 8275
+INFO2023-06-23 10:22:30,566basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 382
+INFO2023-06-23 10:22:37,478basehttp"GET / HTTP/1.1" 200 8275
+INFO2023-06-23 10:22:37,502basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 365
+INFO2023-06-23 10:22:55,167basehttp"GET / HTTP/1.1" 200 8452
+INFO2023-06-23 10:22:55,183basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-06-23 10:25:33,668basehttp"GET / HTTP/1.1" 200 8457
+INFO2023-06-23 10:25:33,693basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-23 10:25:33,696basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-06-23 10:25:33,701basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 304 0
+INFO2023-06-23 10:25:33,701basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 304 0
+INFO2023-06-23 10:25:33,709basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 304 0
+INFO2023-06-23 10:25:44,663basehttp"GET / HTTP/1.1" 200 8462
+INFO2023-06-23 10:25:56,143basehttp"GET / HTTP/1.1" 200 8467
+INFO2023-06-23 10:25:56,162basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-06-23 10:26:08,422basehttp"GET / HTTP/1.1" 200 8472
+INFO2023-06-23 10:26:32,293basehttp"GET / HTTP/1.1" 200 8496
+INFO2023-06-23 10:26:32,317basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 366
+INFO2023-06-23 10:26:42,436basehttp"GET / HTTP/1.1" 200 8496
+INFO2023-06-23 10:26:42,460basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 372
+INFO2023-06-23 10:27:22,839basehttp"GET / HTTP/1.1" 200 8496
+INFO2023-06-23 10:27:22,855basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-23 10:27:22,855basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 432
+INFO2023-06-23 10:27:32,224basehttp"GET / HTTP/1.1" 200 8496
+INFO2023-06-23 10:27:32,253basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 432
+INFO2023-06-23 10:27:36,029basehttp"GET / HTTP/1.1" 200 8496
+INFO2023-06-23 10:27:36,047basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-06-23 10:27:36,693basehttp"GET / HTTP/1.1" 200 8496
+INFO2023-06-23 10:27:36,717basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 432
+INFO2023-06-23 10:28:47,098basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:28:47,123basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-06-23 10:28:47,132basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 304 0
+INFO2023-06-23 10:28:47,140basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 304 0
+INFO2023-06-23 10:28:47,151basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 304 0
+INFO2023-06-23 10:29:01,195basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:29:01,219basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 432
+INFO2023-06-23 10:29:15,831basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:29:15,848basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-23 10:29:15,855basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 457
+INFO2023-06-23 10:29:16,401basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:29:16,417basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-06-23 10:29:17,074basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:29:17,090basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 457
+INFO2023-06-23 10:29:17,090basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:29:17,665basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:29:17,685basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+INFO2023-06-23 10:29:17,686basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+WARNING2023-06-23 10:29:18,190logNot Found: /favicon.ico
+WARNING2023-06-23 10:29:18,190basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:29:25,815basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:29:25,833basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 456
+INFO2023-06-23 10:29:26,495basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:29:26,512basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:29:26,512basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 456
+INFO2023-06-23 10:29:26,611basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:29:26,613basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+INFO2023-06-23 10:29:26,616basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+WARNING2023-06-23 10:29:26,694logNot Found: /favicon.ico
+WARNING2023-06-23 10:29:26,694basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:29:37,099basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:29:37,131basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 457
+INFO2023-06-23 10:29:37,779basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:29:37,801basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:29:37,801basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 457
+INFO2023-06-23 10:29:38,309basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:29:38,315basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:29:38,320basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:29:38,442logNot Found: /favicon.ico
+WARNING2023-06-23 10:29:38,442basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:29:41,999basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-06-23 10:31:53,130basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:31:53,146basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-23 10:31:53,162basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 483
+INFO2023-06-23 10:31:54,364basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:31:54,388basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:31:54,388basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 483
+INFO2023-06-23 10:31:55,052basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:31:55,052basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:31:55,054basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:31:55,576logNot Found: /favicon.ico
+WARNING2023-06-23 10:31:55,576basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:32:31,726basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:32:31,742basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:32:31,758basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 539
+INFO2023-06-23 10:32:32,106basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:32:32,123basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:32:32,139basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:32:32,572logNot Found: /favicon.ico
+WARNING2023-06-23 10:32:32,572basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:32:34,763basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:32:34,782basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:32:34,782basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 539
+INFO2023-06-23 10:32:34,903basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:32:34,905basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:32:34,907basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:32:36,900logNot Found: /favicon.ico
+WARNING2023-06-23 10:32:36,900basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:33:08,425basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:33:08,450basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 538
+INFO2023-06-23 10:33:15,913basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:33:15,924basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 538
+INFO2023-06-23 10:33:21,971basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:33:22,003basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 538
+INFO2023-06-23 10:33:26,431basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:33:26,455basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 538
+INFO2023-06-23 10:34:29,193basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:34:29,225basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 558
+INFO2023-06-23 10:34:49,282basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:34:49,307basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 562
+INFO2023-06-23 10:34:50,293basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:34:50,317basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:34:50,317basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 562
+INFO2023-06-23 10:34:50,875basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:34:50,883basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:34:50,891basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:34:51,902logNot Found: /favicon.ico
+WARNING2023-06-23 10:34:51,902basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:34:57,516basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:34:57,532basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:34:57,540basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 562
+INFO2023-06-23 10:34:57,745basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:34:57,748basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+INFO2023-06-23 10:34:57,750basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+WARNING2023-06-23 10:34:57,832logNot Found: /favicon.ico
+WARNING2023-06-23 10:34:57,832basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:36:34,917basehttp"GET / HTTP/1.1" 200 8400
+INFO2023-06-23 10:36:34,947basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 541
+INFO2023-06-23 10:39:48,413basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:39:48,444basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-23 10:39:48,476basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 823
+INFO2023-06-23 10:39:48,476basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 304 0
+INFO2023-06-23 10:39:48,492basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 304 0
+INFO2023-06-23 10:39:48,492basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 304 0
+INFO2023-06-23 10:40:06,535basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:40:06,550basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 853
+INFO2023-06-23 10:40:10,737basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:40:10,763basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:40:10,766basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 853
+INFO2023-06-23 10:40:11,169basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:40:11,171basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+INFO2023-06-23 10:40:11,173basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+WARNING2023-06-23 10:40:12,652logNot Found: /favicon.ico
+WARNING2023-06-23 10:40:12,652basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:40:17,782basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:40:17,806basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 851
+INFO2023-06-23 10:40:18,538basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:40:18,554basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:40:18,554basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 851
+INFO2023-06-23 10:40:18,755basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:40:18,771basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:40:18,781basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:40:18,994logNot Found: /favicon.ico
+WARNING2023-06-23 10:40:18,994basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:40:22,265basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:40:22,289basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:40:22,289basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 851
+INFO2023-06-23 10:40:22,510basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:40:22,515basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+INFO2023-06-23 10:40:22,515basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+WARNING2023-06-23 10:40:22,596logNot Found: /favicon.ico
+WARNING2023-06-23 10:40:22,596basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:40:37,125basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:40:37,148basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:40:37,157basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 819
+INFO2023-06-23 10:40:37,580basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:40:37,597basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:40:37,612basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:40:38,068logNot Found: /favicon.ico
+WARNING2023-06-23 10:40:38,068basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:41:12,938basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:41:12,953basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:41:12,953basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 819
+INFO2023-06-23 10:41:13,665basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:41:13,681basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:41:13,691basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:41:14,729logNot Found: /favicon.ico
+WARNING2023-06-23 10:41:14,729basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:41:27,432basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:41:27,448basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:41:27,456basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 787
+INFO2023-06-23 10:41:28,095basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:41:28,109basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:41:28,125basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:41:28,305logNot Found: /favicon.ico
+WARNING2023-06-23 10:41:28,305basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:41:44,021basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:41:44,043basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 819
+INFO2023-06-23 10:41:50,567basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-06-23 10:42:29,159basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:42:29,184basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:42:29,200basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 794
+INFO2023-06-23 10:42:29,778basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:42:29,792basehttp- Broken pipe from ('127.0.0.1', 61330)
+INFO2023-06-23 10:42:29,810basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:42:29,810basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 794
+INFO2023-06-23 10:42:29,926basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:42:29,930basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:42:29,942basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:42:30,146logNot Found: /favicon.ico
+WARNING2023-06-23 10:42:30,146basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:42:36,768basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:42:36,792basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 819
+INFO2023-06-23 10:42:46,511basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:42:46,529basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 780
+INFO2023-06-23 10:42:47,353basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:42:47,377basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-06-23 10:42:47,836basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:42:47,856basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:42:47,861basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 780
+INFO2023-06-23 10:42:48,086basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:42:48,096basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+INFO2023-06-23 10:42:48,096basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+WARNING2023-06-23 10:42:48,201logNot Found: /favicon.ico
+WARNING2023-06-23 10:42:48,201basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:43:05,417basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:43:05,448basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 779
+INFO2023-06-23 10:43:06,120basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:43:06,162basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:43:06,162basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 779
+INFO2023-06-23 10:43:06,341basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:43:06,341basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:43:06,351basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:43:06,562logNot Found: /favicon.ico
+WARNING2023-06-23 10:43:06,562basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:44:12,976basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:44:13,006basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:44:13,008basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 607
+INFO2023-06-23 10:44:13,445basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:44:13,451basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:44:13,461basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:44:13,718logNot Found: /favicon.ico
+WARNING2023-06-23 10:44:13,718basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:44:45,408basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:44:45,440basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:44:45,441basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 669
+INFO2023-06-23 10:44:46,248basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:44:46,264basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:44:46,270basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:44:46,480logNot Found: /favicon.ico
+WARNING2023-06-23 10:44:46,480basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:44:47,065basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:44:47,097basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:44:47,097basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 669
+INFO2023-06-23 10:44:47,733basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:44:47,741basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:44:47,741basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:44:47,937logNot Found: /favicon.ico
+WARNING2023-06-23 10:44:47,945basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:45:36,962basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:45:36,993basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:45:37,009basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 756
+INFO2023-06-23 10:45:37,419basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:45:37,436basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:45:37,451basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:45:39,033logNot Found: /favicon.ico
+WARNING2023-06-23 10:45:39,033basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:46:02,408basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:46:02,428basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 787
+INFO2023-06-23 10:46:42,507basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:46:42,532basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:46:42,539basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 808
+INFO2023-06-23 10:46:43,105basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:46:43,119basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:46:43,137basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:46:43,657logNot Found: /favicon.ico
+WARNING2023-06-23 10:46:43,657basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:46:49,371basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-06-23 10:47:37,123basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:47:37,154basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 810
+INFO2023-06-23 10:47:37,565basehttp"GET / HTTP/1.1" 200 8461
+INFO2023-06-23 10:47:37,661basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 810
+INFO2023-06-23 10:47:37,661basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:47:38,091basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:47:38,096basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:47:38,121basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:47:38,353logNot Found: /favicon.ico
+WARNING2023-06-23 10:47:38,356basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:47:55,463basehttp"GET / HTTP/1.1" 200 8473
+INFO2023-06-23 10:47:55,488basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-06-23 10:47:58,502basehttp"GET / HTTP/1.1" 200 8473
+INFO2023-06-23 10:47:58,526basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:47:58,526basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 810
+INFO2023-06-23 10:48:10,904basehttp"GET / HTTP/1.1" 200 8473
+INFO2023-06-23 10:48:10,920basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:48:10,935basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 834
+INFO2023-06-23 10:48:12,799basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:48:12,823basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:48:12,890basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:48:13,390logNot Found: /favicon.ico
+WARNING2023-06-23 10:48:13,390basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:48:26,165basehttp"GET / HTTP/1.1" 200 8473
+INFO2023-06-23 10:48:26,200basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 851
+INFO2023-06-23 10:48:26,771basehttp"GET / HTTP/1.1" 200 8473
+INFO2023-06-23 10:48:26,796basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:48:26,796basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 851
+INFO2023-06-23 10:48:27,403basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:48:27,408basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:48:27,414basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:48:27,636logNot Found: /favicon.ico
+WARNING2023-06-23 10:48:27,636basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:48:53,620basehttp"GET / HTTP/1.1" 200 8473
+INFO2023-06-23 10:48:53,652basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 850
+INFO2023-06-23 10:49:27,488basehttp"GET / HTTP/1.1" 200 8473
+INFO2023-06-23 10:49:27,510basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:49:27,519basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 851
+INFO2023-06-23 10:49:27,942basehttp"GET / HTTP/1.1" 200 8473
+INFO2023-06-23 10:49:27,959basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:49:27,959basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 851
+INFO2023-06-23 10:49:28,100basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:49:28,115basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:49:28,131basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:49:28,667logNot Found: /favicon.ico
+WARNING2023-06-23 10:49:28,667basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:49:28,765basehttp"GET / HTTP/1.1" 200 8473
+INFO2023-06-23 10:49:28,792basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 851
+INFO2023-06-23 10:49:28,792basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:49:28,903basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:49:28,909basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:49:28,918basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:49:29,046logNot Found: /favicon.ico
+WARNING2023-06-23 10:49:29,046basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:49:51,355basehttp"GET / HTTP/1.1" 200 8473
+INFO2023-06-23 10:49:51,379basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 849
+INFO2023-06-23 10:49:51,861basehttp"GET / HTTP/1.1" 200 8473
+INFO2023-06-23 10:49:51,876basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:49:51,876basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 849
+INFO2023-06-23 10:49:52,303basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:49:52,303basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:49:52,316basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:49:52,474logNot Found: /favicon.ico
+WARNING2023-06-23 10:49:52,474basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:49:58,543basehttp"GET / HTTP/1.1" 200 8473
+INFO2023-06-23 10:49:58,568basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 841
+INFO2023-06-23 10:50:09,457basehttp"GET / HTTP/1.1" 200 8473
+INFO2023-06-23 10:50:09,482basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 841
+INFO2023-06-23 10:50:20,697basehttp"GET / HTTP/1.1" 200 8473
+INFO2023-06-23 10:50:20,721basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 823
+INFO2023-06-23 10:50:43,009basehttp"GET / HTTP/1.1" 200 8473
+INFO2023-06-23 10:50:43,033basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 799
+INFO2023-06-23 10:50:50,803basehttp"GET / HTTP/1.1" 200 8473
+INFO2023-06-23 10:50:50,819basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 805
+INFO2023-06-23 10:51:00,192basehttp"GET / HTTP/1.1" 200 8473
+INFO2023-06-23 10:51:00,216basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 799
+INFO2023-06-23 10:51:22,184basehttp"GET / HTTP/1.1" 200 8473
+INFO2023-06-23 10:51:22,200basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 799
+INFO2023-06-23 10:51:28,448basehttp"GET / HTTP/1.1" 200 8473
+INFO2023-06-23 10:51:28,464basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 799
+INFO2023-06-23 10:51:43,293basehttp"GET / HTTP/1.1" 200 8469
+INFO2023-06-23 10:51:43,324basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 10:51:43,324basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 799
+INFO2023-06-23 10:51:43,962basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 10:51:43,962basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 10:51:43,968basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 10:51:45,115logNot Found: /favicon.ico
+WARNING2023-06-23 10:51:45,115basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 10:52:00,225basehttp"GET / HTTP/1.1" 200 8474
+INFO2023-06-23 10:52:00,241basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-06-23 10:52:13,911basehttp"GET / HTTP/1.1" 200 8474
+INFO2023-06-23 10:52:13,934basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 799
+INFO2023-06-23 19:37:26,608autoreloadWatching for file changes with StatReloader
+INFO2023-06-23 19:37:30,911basehttp"GET / HTTP/1.1" 200 8474
+INFO2023-06-23 19:37:30,959basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-06-23 19:37:30,995basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-06-23 19:37:31,010basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 304 0
+INFO2023-06-23 19:37:31,024basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 304 0
+INFO2023-06-23 19:37:31,039basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 304 0
+WARNING2023-06-23 19:37:32,257logNot Found: /favicon.ico
+WARNING2023-06-23 19:37:32,258basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+WARNING2023-06-23 19:37:32,266logNot Found: /favicon.ico
+WARNING2023-06-23 19:37:32,266basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 19:40:22,130basehttp"GET / HTTP/1.1" 200 8482
+INFO2023-06-23 19:40:27,760basehttp"GET / HTTP/1.1" 200 8482
+INFO2023-06-23 19:40:27,832basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 799
+INFO2023-06-23 19:40:27,838basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 19:40:28,553basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 19:40:28,555basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 19:40:28,560basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 19:40:28,845logNot Found: /favicon.ico
+WARNING2023-06-23 19:40:28,845basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 19:40:41,118basehttp"GET / HTTP/1.1" 200 8474
+INFO2023-06-23 19:40:41,132basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 19:40:41,134basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 799
+INFO2023-06-23 19:40:41,589basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 19:40:41,597basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 19:40:41,603basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 19:40:41,805logNot Found: /favicon.ico
+WARNING2023-06-23 19:40:41,805basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 19:42:31,065basehttp"GET / HTTP/1.1" 200 8486
+INFO2023-06-23 19:42:31,081basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 19:42:31,082basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 799
+INFO2023-06-23 19:42:31,513basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 19:42:31,516basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 19:42:31,517basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 19:42:31,612logNot Found: /favicon.ico
+WARNING2023-06-23 19:42:31,612basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 19:42:34,582basehttp"GET / HTTP/1.1" 200 8486
+INFO2023-06-23 19:42:34,597basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 19:42:34,598basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 799
+INFO2023-06-23 19:42:34,715basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 19:42:34,719basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 19:42:34,724basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 19:42:35,861logNot Found: /favicon.ico
+WARNING2023-06-23 19:42:35,862basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 19:42:52,749basehttp"GET / HTTP/1.1" 200 8486
+INFO2023-06-23 19:42:52,765basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 19:42:52,766basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 799
+INFO2023-06-23 19:42:53,362basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 19:42:53,371basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+INFO2023-06-23 19:42:53,374basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+WARNING2023-06-23 19:42:53,434logNot Found: /favicon.ico
+WARNING2023-06-23 19:42:53,434basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 19:42:55,009basehttp"GET / HTTP/1.1" 200 8486
+INFO2023-06-23 19:42:55,026basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 19:42:55,026basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 799
+INFO2023-06-23 19:42:55,146basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 19:42:55,149basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 19:42:55,151basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 19:42:55,205logNot Found: /favicon.ico
+WARNING2023-06-23 19:42:55,205basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 19:44:08,534basehttp"GET / HTTP/1.1" 200 8482
+INFO2023-06-23 19:44:08,553basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 19:44:08,554basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 857
+INFO2023-06-23 19:44:08,852basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 19:44:08,856basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+INFO2023-06-23 19:44:08,863basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+WARNING2023-06-23 19:44:09,100logNot Found: /favicon.ico
+WARNING2023-06-23 19:44:09,100basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 19:44:26,744basehttp"GET / HTTP/1.1" 200 8482
+INFO2023-06-23 19:44:26,760basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 19:44:26,760basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 883
+INFO2023-06-23 19:44:26,931basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 19:44:26,940basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 19:44:26,947basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 19:44:27,095logNot Found: /favicon.ico
+WARNING2023-06-23 19:44:27,095basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 19:45:24,882basehttp"GET / HTTP/1.1" 200 8482
+INFO2023-06-23 19:45:24,960basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-06-23 19:45:51,365basehttp"GET / HTTP/1.1" 200 8481
+INFO2023-06-23 19:45:51,381basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 19:45:51,381basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 883
+INFO2023-06-23 19:45:51,652basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 19:45:51,662basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 19:45:51,667basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 19:45:53,148logNot Found: /favicon.ico
+WARNING2023-06-23 19:45:53,148basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 19:46:27,781basehttp"GET / HTTP/1.1" 200 8481
+INFO2023-06-23 19:46:27,797basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 19:46:27,798basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 883
+INFO2023-06-23 19:46:28,109basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 19:46:28,113basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 19:46:28,114basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 19:46:28,250logNot Found: /favicon.ico
+WARNING2023-06-23 19:46:28,251basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 19:46:53,113basehttp"GET / HTTP/1.1" 200 8481
+INFO2023-06-23 19:46:53,138basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 19:46:53,138basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 883
+INFO2023-06-23 19:47:00,093basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 19:47:00,096basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 19:47:00,098basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 19:47:00,254logNot Found: /favicon.ico
+WARNING2023-06-23 19:47:00,254basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 19:47:13,197basehttp"GET / HTTP/1.1" 200 8481
+INFO2023-06-23 19:47:13,213basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 19:47:13,214basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 883
+INFO2023-06-23 19:47:13,359basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 19:47:13,364basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+INFO2023-06-23 19:47:13,365basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+WARNING2023-06-23 19:47:13,931logNot Found: /favicon.ico
+WARNING2023-06-23 19:47:13,931basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 19:47:18,255basehttp"GET / HTTP/1.1" 200 8481
+INFO2023-06-23 19:47:18,268basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 19:47:18,269basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 883
+INFO2023-06-23 19:47:18,375basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 19:47:18,378basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 19:47:18,384basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 19:47:18,451logNot Found: /favicon.ico
+WARNING2023-06-23 19:47:18,451basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 19:47:25,102basehttp"GET / HTTP/1.1" 200 8481
+INFO2023-06-23 19:47:25,116basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 19:47:25,118basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 883
+INFO2023-06-23 19:47:25,396basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 19:47:25,404basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 19:47:25,410basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 19:47:26,190logNot Found: /favicon.ico
+WARNING2023-06-23 19:47:26,190basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 19:47:36,527basehttp"GET / HTTP/1.1" 200 8481
+INFO2023-06-23 19:47:36,545basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 19:47:36,545basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 883
+INFO2023-06-23 19:47:36,869basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 19:47:36,873basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 19:47:36,888basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 19:47:37,674logNot Found: /favicon.ico
+WARNING2023-06-23 19:47:37,674basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 19:50:40,332basehttp"GET / HTTP/1.1" 200 8956
+INFO2023-06-23 19:50:40,357basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 19:50:40,364basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 891
+INFO2023-06-23 19:50:41,469basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 19:50:41,472basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 19:50:41,475basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 19:50:43,078logNot Found: /favicon.ico
+WARNING2023-06-23 19:50:43,078basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 19:51:14,996basehttp"GET / HTTP/1.1" 200 9400
+INFO2023-06-23 19:51:15,012basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 19:51:15,014basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 891
+INFO2023-06-23 19:51:15,277basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 19:51:15,285basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 19:51:15,293basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 19:51:15,504logNot Found: /favicon.ico
+WARNING2023-06-23 19:51:15,504basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 19:52:24,503basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-06-23 19:53:22,258basehttp"GET / HTTP/1.1" 200 9400
+INFO2023-06-23 19:53:22,273basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-06-23 20:02:33,472basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-06-23 20:02:33,489basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 20:02:33,535basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 1057
+INFO2023-06-23 20:02:33,987basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 20:02:34,000basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 20:02:34,779basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 20:02:34,817logNot Found: /favicon.ico
+WARNING2023-06-23 20:02:34,817basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 20:04:35,970basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-06-23 20:09:47,502basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-06-23 20:09:47,525basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 20:09:47,566basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 1063
+INFO2023-06-23 20:09:51,054basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 20:09:51,062basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 20:09:51,069basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 20:09:51,811logNot Found: /favicon.ico
+WARNING2023-06-23 20:09:51,812basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 20:10:17,102basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-06-23 20:10:17,118basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 20:10:17,118basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 1063
+INFO2023-06-23 20:10:28,792basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 20:10:28,792basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 20:10:28,800basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 20:10:28,904logNot Found: /favicon.ico
+WARNING2023-06-23 20:10:28,904basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 20:11:01,287basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-06-23 20:12:46,162basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-06-23 20:12:46,180basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 1057
+INFO2023-06-23 20:12:46,743basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-06-23 20:12:46,761basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 1057
+INFO2023-06-23 20:12:46,761basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 20:12:47,068basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 20:12:47,070basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+INFO2023-06-23 20:12:47,072basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+WARNING2023-06-23 20:12:47,253logNot Found: /favicon.ico
+WARNING2023-06-23 20:12:47,253basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 20:13:38,044basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-06-23 20:13:38,060basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 20:13:38,075basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 1226
+INFO2023-06-23 20:13:38,635basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 20:13:38,645basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 20:13:38,647basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 20:13:38,762logNot Found: /favicon.ico
+WARNING2023-06-23 20:13:38,762basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 20:14:15,606basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-06-23 20:14:15,623basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 20:14:15,628basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 1170
+INFO2023-06-23 20:14:16,323basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 20:14:16,325basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 20:14:16,326basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 20:14:16,552logNot Found: /favicon.ico
+WARNING2023-06-23 20:14:16,552basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-06-23 20:14:39,506basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-06-23 20:14:39,522basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-06-23 20:14:40,691basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-06-23 20:16:05,386basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-06-23 20:16:05,407basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-06-23 20:16:05,418basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 1176
+INFO2023-06-23 20:16:05,669basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-06-23 20:16:05,675basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-06-23 20:16:05,684basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-06-23 20:16:06,545logNot Found: /favicon.ico
+WARNING2023-06-23 20:16:06,545basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-01 13:03:27,813autoreloadWatching for file changes with StatReloader
+INFO2023-07-01 13:03:33,324basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-07-01 13:03:33,459basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-07-01 13:03:33,460basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-07-01 13:03:33,491basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 304 0
+INFO2023-07-01 13:03:33,509basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 304 0
+INFO2023-07-01 13:03:33,529basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 304 0
+WARNING2023-07-01 13:03:35,504logNot Found: /favicon.ico
+WARNING2023-07-01 13:03:35,505basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-01 13:04:17,501basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-01 13:04:17,532basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-07-01 13:04:23,433basehttp"GET /customersignup HTTP/1.1" 200 12289
+INFO2023-07-01 13:04:23,488basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-07-01 13:04:28,368basehttp"GET /sellerlogin HTTP/1.1" 200 7965
+INFO2023-07-01 13:04:28,393basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 304 0
+INFO2023-07-01 13:04:31,421basehttp"GET /sellersignup HTTP/1.1" 200 9553
+INFO2023-07-01 13:04:31,437basehttp"GET /static/style/seller_signup_style.css HTTP/1.1" 304 0
+INFO2023-07-01 13:04:33,141basehttp"GET /customer/cmycart HTTP/1.1" 200 10528
+INFO2023-07-01 13:04:33,158basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 304 0
+INFO2023-07-01 13:04:33,158basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 304 0
+INFO2023-07-01 13:04:33,174basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 304 0
+INFO2023-07-01 13:04:33,174basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 304 0
+INFO2023-07-01 13:04:33,174basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 304 0
+INFO2023-07-01 13:05:21,220basehttp"GET /customer/cmycart HTTP/1.1" 200 10528
+INFO2023-07-01 13:05:31,559basehttp"GET /customer/cchangepassword HTTP/1.1" 200 5397
+INFO2023-07-01 13:07:53,965basehttp"GET /customer/cmycart HTTP/1.1" 200 10528
+INFO2023-07-01 13:09:09,133basehttp"GET /customer/cmycart HTTP/1.1" 200 10528
+INFO2023-07-01 13:09:11,886basehttp"GET /customer/cmycart HTTP/1.1" 200 10528
+INFO2023-07-01 13:09:12,778basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-01 13:09:12,792basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-01 13:09:12,808basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-01 13:09:12,827basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-01 13:09:12,842basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+WARNING2023-07-01 13:09:15,580logNot Found: /favicon.ico
+WARNING2023-07-01 13:09:15,581basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-01 13:11:33,371basehttp"GET /customer/cmycart HTTP/1.1" 200 10528
+INFO2023-07-01 13:11:34,095basehttp"GET /customer/cmycart HTTP/1.1" 200 10528
+INFO2023-07-01 13:11:34,314basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-01 13:11:34,322basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-01 13:11:34,332basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-01 13:11:34,343basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-01 13:11:34,351basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+WARNING2023-07-01 13:11:35,362logNot Found: /favicon.ico
+WARNING2023-07-01 13:11:35,362basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-01 13:11:43,208basehttp"GET /customer/cmycart HTTP/1.1" 200 10528
+INFO2023-07-01 13:12:48,955basehttp"GET /sellerlogin HTTP/1.1" 200 7965
+INFO2023-07-01 13:13:15,003basehttp"POST /sellerlogin HTTP/1.1" 302 0
+ERROR2023-07-01 13:13:15,215logInternal Server Error: /seller/sellerhome
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+ERROR2023-07-01 13:13:15,223basehttp"GET /seller/sellerhome HTTP/1.1" 500 65060
+INFO2023-07-01 13:14:19,314basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-07-01 13:14:22,365basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-07-01 13:14:27,739basehttp"GET /sellerlogin HTTP/1.1" 200 7965
+INFO2023-07-01 13:14:34,983basehttp"POST /sellerlogin HTTP/1.1" 302 0
+ERROR2023-07-01 13:14:35,113logInternal Server Error: /seller/sellerhome
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+ERROR2023-07-01 13:14:35,113basehttp"GET /seller/sellerhome HTTP/1.1" 500 65060
+ERROR2023-07-01 13:16:23,198logInternal Server Error: /seller/sellerhome
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+ERROR2023-07-01 13:16:23,205basehttp"GET /seller/sellerhome HTTP/1.1" 500 65188
+WARNING2023-07-01 13:16:23,333logNot Found: /favicon.ico
+WARNING2023-07-01 13:16:23,333basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-01 13:16:29,641basehttp"GET /sellerlogin HTTP/1.1" 200 7965
+INFO2023-07-01 13:16:36,042basehttp"POST /sellerlogin HTTP/1.1" 302 0
+ERROR2023-07-01 13:16:36,149logInternal Server Error: /seller/sellerhome
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+ERROR2023-07-01 13:16:36,149basehttp"GET /seller/sellerhome HTTP/1.1" 500 65060
+INFO2023-07-01 13:16:49,663basehttp"GET /customersignup HTTP/1.1" 200 12289
+INFO2023-07-01 13:16:52,647basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-01 13:17:01,461basehttp"POST /customerlogin HTTP/1.1" 200 8157
+INFO2023-07-01 13:17:21,719basehttp"POST /customerlogin HTTP/1.1" 302 0
+INFO2023-07-01 13:17:21,856basehttp"GET /customer/customer_home HTTP/1.1" 200 11505
+INFO2023-07-01 13:17:21,872basehttp"GET /static/images/standing_man.png HTTP/1.1" 304 0
+INFO2023-07-01 13:17:21,872basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 304 0
+INFO2023-07-01 13:17:21,893basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 304 0
+INFO2023-07-01 13:17:21,894basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 304 0
+INFO2023-07-01 13:17:21,894basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 304 0
+INFO2023-07-01 13:17:21,894basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 304 0
+INFO2023-07-01 13:17:29,800basehttp"GET /customer/customer_home HTTP/1.1" 200 11505
+INFO2023-07-01 13:18:52,903basehttp"GET /customer/customer_home HTTP/1.1" 200 11367
+INFO2023-07-01 13:19:53,059basehttp"GET /customer/customer_home HTTP/1.1" 200 11213
+INFO2023-07-01 13:20:00,694basehttp"GET /customer/cproductdetails/5 HTTP/1.1" 200 1368
+INFO2023-07-01 13:20:08,558basehttp"GET /customer/cproductdetails/6 HTTP/1.1" 200 1397
+ERROR2023-07-01 13:21:10,885logInternal Server Error: /customer/customer_home
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\decorators.py", line 27, in wrapper
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py", line 15, in customer_home
+    return render(request,'customer/customer_home.html',{'customer_data':customer,'product_data':products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'static'. Did you forget to register or load this tag?
+ERROR2023-07-01 13:21:10,900basehttp"GET /customer/customer_home HTTP/1.1" 500 183572
+INFO2023-07-01 13:21:27,613basehttp"GET /customer/customer_home HTTP/1.1" 200 11229
+INFO2023-07-01 13:21:33,445basehttp"GET /customer/customer_home HTTP/1.1" 200 11229
+INFO2023-07-01 13:24:33,886basehttp"GET /customer/customer_home HTTP/1.1" 200 11540
+INFO2023-07-01 13:24:33,897basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 0
+INFO2023-07-01 13:25:38,949basehttp"GET /customer/customer_home HTTP/1.1" 200 11540
+INFO2023-07-01 13:25:38,978basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 131
+INFO2023-07-01 13:25:41,113basehttp"GET /customer/customer_home HTTP/1.1" 200 11540
+INFO2023-07-01 13:25:41,135basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 131
+INFO2023-07-01 13:25:41,381basehttp"GET /static/images/standing_man.png HTTP/1.1" 200 461367
+INFO2023-07-01 13:25:41,395basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-01 13:25:41,411basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-01 13:25:41,427basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-01 13:25:41,436basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-01 13:25:41,444basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-01 13:25:41,460basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-01 13:25:41,468basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-01 13:25:41,481basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-01 13:25:41,509basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-01 13:25:41,517basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+WARNING2023-07-01 13:25:42,406logNot Found: /favicon.ico
+WARNING2023-07-01 13:25:42,406basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-01 13:29:29,252basehttp"GET /customer/customer_home HTTP/1.1" 200 11540
+INFO2023-07-01 13:29:29,284basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 135
+INFO2023-07-01 13:29:29,494basehttp"GET /static/images/standing_man.png HTTP/1.1" 200 461367
+INFO2023-07-01 13:29:29,504basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-01 13:29:29,522basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-01 13:29:29,523basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-01 13:29:29,534basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-01 13:29:29,543basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-01 13:29:29,554basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-01 13:29:29,563basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-01 13:29:29,573basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-01 13:29:29,579basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-01 13:29:29,583basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+WARNING2023-07-01 13:29:30,997logNot Found: /favicon.ico
+WARNING2023-07-01 13:29:30,997basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-01 13:30:09,267basehttp"GET /customer/customer_home HTTP/1.1" 200 11540
+INFO2023-07-01 13:30:09,298basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 135
+INFO2023-07-01 13:30:59,158basehttp"GET /customer/customer_home HTTP/1.1" 200 11540
+INFO2023-07-01 13:30:59,194basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 193
+INFO2023-07-01 13:31:05,459basehttp"GET /customer/customer_home HTTP/1.1" 200 11540
+INFO2023-07-01 13:31:05,493basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 155
+INFO2023-07-01 13:31:06,073basehttp"GET /customer/customer_home HTTP/1.1" 200 11540
+INFO2023-07-01 13:31:06,088basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 155
+INFO2023-07-01 13:31:06,583basehttp"GET /static/images/standing_man.png HTTP/1.1" 200 461367
+INFO2023-07-01 13:31:06,589basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-01 13:31:06,599basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-01 13:31:06,603basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-01 13:31:06,614basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-01 13:31:06,623basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-01 13:31:06,633basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-01 13:31:06,634basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-01 13:31:06,649basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-01 13:31:06,653basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-01 13:31:06,666basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+WARNING2023-07-01 13:31:07,733logNot Found: /favicon.ico
+WARNING2023-07-01 13:31:07,733basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-01 13:33:41,863basehttp"GET /customer/customer_home HTTP/1.1" 200 11562
+INFO2023-07-01 13:33:41,889basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 159
+INFO2023-07-01 13:34:02,724basehttp"GET /customer/customer_home HTTP/1.1" 200 11562
+INFO2023-07-01 13:34:02,740basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 159
+INFO2023-07-01 13:34:02,906basehttp"GET /static/images/standing_man.png HTTP/1.1" 200 461367
+INFO2023-07-01 13:34:02,913basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-01 13:34:02,922basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-01 13:34:02,933basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-01 13:34:02,942basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-01 13:34:02,944basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-01 13:34:02,961basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-01 13:34:02,968basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-01 13:34:02,978basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-01 13:34:02,985basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-01 13:34:02,993basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+WARNING2023-07-01 13:34:03,996logNot Found: /favicon.ico
+WARNING2023-07-01 13:34:03,996basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-01 13:34:07,583basehttp"GET /customer/customer_home HTTP/1.1" 200 11551
+INFO2023-07-01 13:34:07,606basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 159
+INFO2023-07-01 13:34:07,679basehttp"GET /static/images/standing_man.png HTTP/1.1" 200 461367
+INFO2023-07-01 13:34:07,686basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-01 13:34:07,694basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-01 13:34:07,702basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-01 13:34:07,713basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-01 13:34:07,718basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-01 13:34:07,726basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-01 13:34:07,733basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-01 13:34:07,735basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-01 13:34:07,743basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-01 13:34:07,752basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+WARNING2023-07-01 13:34:08,713logNot Found: /favicon.ico
+WARNING2023-07-01 13:34:08,713basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-01 13:34:58,092basehttp"GET /customer/customer_home HTTP/1.1" 200 11562
+INFO2023-07-01 13:34:58,118basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 184
+INFO2023-07-01 13:35:29,791basehttp"GET /customer/customer_home HTTP/1.1" 200 11562
+INFO2023-07-01 13:35:29,808basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-01 13:43:56,005basehttp"GET /customer/customer_home HTTP/1.1" 200 11562
+INFO2023-07-01 13:43:56,030basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 161
+INFO2023-07-01 13:45:34,657basehttp"GET /customer/customer_home HTTP/1.1" 200 11562
+INFO2023-07-01 13:45:34,680basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 160
+INFO2023-07-01 13:46:00,036basehttp"GET /customer/customer_home HTTP/1.1" 200 11562
+INFO2023-07-01 13:46:00,057basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 214
+INFO2023-07-02 18:53:23,533autoreloadWatching for file changes with StatReloader
+INFO2023-07-02 18:53:32,155basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-02 18:53:32,185basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-07-02 18:53:32,213basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-07-02 18:53:32,261basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-07-02 18:53:32,306basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 304 0
+INFO2023-07-02 18:53:32,319basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 304 0
+INFO2023-07-02 18:53:32,329basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 304 0
+WARNING2023-07-02 18:53:33,012logNot Found: /favicon.ico
+WARNING2023-07-02 18:53:33,014basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-02 18:54:23,082basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-02 18:54:23,110basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-07-02 18:54:30,874basehttp"POST /customerlogin HTTP/1.1" 200 8157
+INFO2023-07-02 18:55:11,792basehttp"POST /customerlogin HTTP/1.1" 302 0
+INFO2023-07-02 18:55:11,961basehttp"GET /customer/customer_home HTTP/1.1" 200 11562
+INFO2023-07-02 18:55:41,555basehttp"GET /customer/c_logout HTTP/1.1" 302 0
+INFO2023-07-02 18:55:41,563basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-07-02 18:55:56,203basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-02 18:56:02,826basehttp"POST /customerlogin HTTP/1.1" 302 0
+INFO2023-07-02 18:56:02,956basehttp"GET /customer/customer_home HTTP/1.1" 200 11562
+INFO2023-07-02 18:58:46,324basehttp"GET /customer/customer_home HTTP/1.1" 200 12713
+INFO2023-07-02 18:58:48,405basehttp"GET /customer/customer_home HTTP/1.1" 200 12713
+INFO2023-07-02 18:58:48,565basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 214
+INFO2023-07-02 18:58:48,730basehttp"GET /static/images/standing_man.png HTTP/1.1" 200 461367
+INFO2023-07-02 18:58:48,739basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-02 18:58:48,772basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-02 18:58:48,787basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-02 18:58:48,802basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-02 18:58:48,818basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-02 18:58:48,834basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-02 18:58:48,850basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-02 18:58:48,866basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-02 18:58:48,920basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-02 18:58:48,932basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+WARNING2023-07-02 18:58:50,099logNot Found: /favicon.ico
+WARNING2023-07-02 18:58:50,099basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-02 18:58:56,022basehttp"GET /customer/customer_home HTTP/1.1" 200 12713
+INFO2023-07-02 18:58:56,038basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 214
+INFO2023-07-02 18:58:56,440basehttp"GET /static/images/standing_man.png HTTP/1.1" 200 461367
+INFO2023-07-02 18:58:56,446basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-02 18:58:56,454basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-02 18:58:56,463basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-02 18:58:56,471basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-02 18:58:56,472basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-02 18:58:56,479basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-02 18:58:56,487basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-02 18:58:56,487basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-02 18:58:56,497basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-02 18:58:56,503basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+WARNING2023-07-02 18:58:56,690logNot Found: /favicon.ico
+WARNING2023-07-02 18:58:56,690basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-02 19:10:23,239basehttp"GET /customer/customer_home HTTP/1.1" 200 12890
+INFO2023-07-02 19:10:23,257basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 214
+INFO2023-07-02 19:10:23,502basehttp"GET /static/images/standing_man.png HTTP/1.1" 200 461367
+INFO2023-07-02 19:10:23,509basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-02 19:10:23,509basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-02 19:10:23,525basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-02 19:10:23,541basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-02 19:10:23,541basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-02 19:10:23,557basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-02 19:10:23,562basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-02 19:10:23,574basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-02 19:10:23,574basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-02 19:10:23,589basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+WARNING2023-07-02 19:10:25,263logNot Found: /favicon.ico
+WARNING2023-07-02 19:10:25,263basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-02 19:11:38,482basehttp"GET /customer/customer_home HTTP/1.1" 200 12890
+INFO2023-07-02 19:11:38,501basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 520
+INFO2023-07-02 19:11:38,739basehttp"GET /static/images/standing_man.png HTTP/1.1" 200 461367
+INFO2023-07-02 19:11:38,754basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-02 19:11:38,767basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-02 19:11:38,770basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-02 19:11:38,786basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-02 19:11:38,786basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-02 19:11:38,802basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-02 19:11:38,802basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-02 19:11:38,818basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-02 19:11:38,818basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-02 19:11:38,834basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+WARNING2023-07-02 19:11:40,299logNot Found: /favicon.ico
+WARNING2023-07-02 19:11:40,299basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-02 19:11:50,496basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-02 19:11:56,696basehttp"GET /customer/c_logout HTTP/1.1" 302 0
+INFO2023-07-02 19:11:56,705basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-07-02 19:12:42,905basehttp"GET /customer/customer_home HTTP/1.1" 302 0
+INFO2023-07-02 19:12:42,905basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-02 19:13:03,598basehttp"POST /customerlogin HTTP/1.1" 302 0
+INFO2023-07-02 19:13:03,713basehttp"GET /customer/customer_home HTTP/1.1" 200 12890
+INFO2023-07-02 19:13:03,738basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 560
+INFO2023-07-02 19:13:59,400basehttp"GET /customer/customer_home HTTP/1.1" 200 12984
+INFO2023-07-02 19:13:59,416basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-02 19:14:01,915basehttp"GET /customer/customer_home HTTP/1.1" 200 12984
+INFO2023-07-02 19:14:01,931basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 560
+INFO2023-07-02 19:14:02,250basehttp"GET /static/images/standing_man.png HTTP/1.1" 200 461367
+INFO2023-07-02 19:14:02,260basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-02 19:14:02,270basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-02 19:14:02,279basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-02 19:14:02,286basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-02 19:14:02,294basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-02 19:14:02,301basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-02 19:14:02,308basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-02 19:14:02,314basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-02 19:14:02,324basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-02 19:14:02,335basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+WARNING2023-07-02 19:14:04,034logNot Found: /favicon.ico
+WARNING2023-07-02 19:14:04,035basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-02 19:15:39,615basehttp"GET /customer/customer_home HTTP/1.1" 200 12984
+INFO2023-07-02 19:15:39,638basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 748
+INFO2023-07-02 19:15:40,300basehttp"GET /static/images/standing_man.png HTTP/1.1" 200 461367
+INFO2023-07-02 19:15:40,301basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-02 19:15:40,312basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-02 19:15:40,328basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-02 19:15:40,328basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-02 19:15:40,328basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-02 19:15:40,344basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-02 19:15:40,344basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-02 19:15:40,360basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-02 19:15:40,360basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-02 19:15:40,376basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+WARNING2023-07-02 19:15:41,103logNot Found: /favicon.ico
+WARNING2023-07-02 19:15:41,103basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-02 19:20:09,745basehttp"GET /customer/customer_home HTTP/1.1" 200 13316
+INFO2023-07-02 19:20:09,771basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-02 19:20:10,539basehttp"GET /static/images/standing_man.png HTTP/1.1" 200 461367
+INFO2023-07-02 19:20:10,545basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-02 19:20:10,559basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-02 19:20:10,564basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-02 19:20:10,570basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-02 19:20:10,578basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-02 19:20:10,578basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-02 19:20:10,586basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-02 19:20:10,596basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-02 19:20:10,603basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-02 19:20:10,603basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+WARNING2023-07-02 19:20:11,735logNot Found: /favicon.ico
+WARNING2023-07-02 19:20:11,735basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-02 19:21:27,924basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7362
+INFO2023-07-02 19:21:27,948basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-02 19:29:56,034basehttp"GET /customer/customer_home HTTP/1.1" 200 13370
+INFO2023-07-02 19:29:56,068basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-02 19:30:31,533autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-02 19:30:32,711autoreloadWatching for file changes with StatReloader
+INFO2023-07-02 19:30:47,853autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-02 19:30:48,787autoreloadWatching for file changes with StatReloader
+INFO2023-07-02 19:31:10,431autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-02 19:31:11,329autoreloadWatching for file changes with StatReloader
+INFO2023-07-02 19:31:21,332autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-02 19:31:22,080autoreloadWatching for file changes with StatReloader
+INFO2023-07-02 19:31:23,426autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-02 19:31:24,032autoreloadWatching for file changes with StatReloader
+INFO2023-07-02 19:31:25,447autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-02 19:31:26,071autoreloadWatching for file changes with StatReloader
+INFO2023-07-02 19:31:28,529autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-02 19:31:29,116autoreloadWatching for file changes with StatReloader
+INFO2023-07-02 19:34:57,523autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-02 19:34:58,200autoreloadWatching for file changes with StatReloader
+INFO2023-07-02 19:37:41,184autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-02 19:37:41,969autoreloadWatching for file changes with StatReloader
+INFO2023-07-02 19:37:45,531autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-02 19:37:46,220autoreloadWatching for file changes with StatReloader
+INFO2023-07-02 19:42:41,418autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-02 19:42:42,115autoreloadWatching for file changes with StatReloader
+INFO2023-07-02 19:42:44,463autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-02 19:42:45,157autoreloadWatching for file changes with StatReloader
+INFO2023-07-02 19:42:46,734autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-02 19:42:47,360autoreloadWatching for file changes with StatReloader
+INFO2023-07-03 17:22:04,276autoreloadWatching for file changes with StatReloader
+INFO2023-07-03 17:22:15,752basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-07-03 17:22:15,889basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-07-03 17:22:15,919basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+WARNING2023-07-03 17:22:17,416logNot Found: /favicon.ico
+WARNING2023-07-03 17:22:17,416basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+WARNING2023-07-03 17:22:17,432logNot Found: /favicon.ico
+WARNING2023-07-03 17:22:17,433basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 17:22:22,606basehttp"GET /customer/cmycart HTTP/1.1" 200 12547
+INFO2023-07-03 17:22:22,628basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-03 17:22:46,024basehttp"GET /customer/c_logout HTTP/1.1" 302 0
+INFO2023-07-03 17:22:46,030basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-07-03 17:23:17,737basehttp"GET /customer/cmycart HTTP/1.1" 302 0
+INFO2023-07-03 17:23:18,371basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-03 17:23:22,431basehttp"GET /customer/cmycart HTTP/1.1" 302 0
+INFO2023-07-03 17:23:22,436basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-03 17:23:24,364basehttp"GET /customer/cmycart HTTP/1.1" 302 0
+INFO2023-07-03 17:23:24,369basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-03 17:23:25,698basehttp"GET /customer/cmycart HTTP/1.1" 302 0
+INFO2023-07-03 17:23:25,703basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-03 17:23:27,459basehttp"GET /customer/cmycart HTTP/1.1" 302 0
+INFO2023-07-03 17:23:27,466basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-03 17:23:35,902basehttp"GET /customer/cmycart HTTP/1.1" 302 0
+INFO2023-07-03 17:23:35,907basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-03 17:23:53,305basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-03 17:23:58,728basehttp"POST /customerlogin HTTP/1.1" 302 0
+INFO2023-07-03 17:23:58,814basehttp"GET /customer/customer_home HTTP/1.1" 200 13370
+INFO2023-07-03 17:24:40,339basehttp"GET /customer/customer_home HTTP/1.1" 200 13316
+INFO2023-07-03 17:24:41,531basehttp"GET /customer/customer_home HTTP/1.1" 200 13316
+INFO2023-07-03 17:24:41,627basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 17:24:42,609basehttp"GET /static/images/standing_man.png HTTP/1.1" 200 461367
+INFO2023-07-03 17:24:42,624basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-03 17:24:42,631basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-03 17:24:42,632basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-03 17:24:42,634basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-03 17:24:42,634basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-03 17:24:42,639basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-03 17:24:42,639basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-03 17:24:42,649basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-03 17:24:42,653basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-03 17:24:42,664basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+WARNING2023-07-03 17:24:43,106logNot Found: /favicon.ico
+WARNING2023-07-03 17:24:43,106basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 17:24:44,881basehttp"GET /customer/customer_home HTTP/1.1" 200 13316
+INFO2023-07-03 17:24:44,904basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 17:24:45,159basehttp"GET /static/images/standing_man.png HTTP/1.1" 200 461367
+INFO2023-07-03 17:24:45,163basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-03 17:24:45,168basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-03 17:24:45,172basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-03 17:24:45,177basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-03 17:24:45,181basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-03 17:24:45,186basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-03 17:24:45,193basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-03 17:24:45,198basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-03 17:24:45,203basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-03 17:24:45,210basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+WARNING2023-07-03 17:24:45,325logNot Found: /favicon.ico
+WARNING2023-07-03 17:24:45,325basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 17:24:48,470basehttp"GET /customer/customer_home HTTP/1.1" 200 13316
+INFO2023-07-03 17:24:50,873basehttp"GET /customer/customer_home HTTP/1.1" 200 13316
+INFO2023-07-03 17:26:30,036basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7362
+INFO2023-07-03 17:28:03,733basehttp"GET /customer/cchangepassword HTTP/1.1" 200 6974
+INFO2023-07-03 17:31:50,364basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7029
+INFO2023-07-03 17:33:24,885basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:33:24,907basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 236
+INFO2023-07-03 17:34:02,456basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:34:02,471basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 481
+INFO2023-07-03 17:34:27,936basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:34:27,954basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 477
+INFO2023-07-03 17:35:50,404basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:35:50,421basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 880
+INFO2023-07-03 17:36:00,339basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:36:00,353basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 876
+INFO2023-07-03 17:36:53,671basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:36:53,687basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 17:37:07,347basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:37:07,361basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 17:37:27,992basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:37:28,012basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 477
+INFO2023-07-03 17:37:51,082basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:37:51,097basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 17:38:22,680basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:38:22,706basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 619
+INFO2023-07-03 17:38:46,084basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:38:46,105basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 619
+INFO2023-07-03 17:38:55,883basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:38:55,899basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 619
+INFO2023-07-03 17:39:03,645basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:39:03,662basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 619
+INFO2023-07-03 17:39:08,528basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:39:08,548basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 619
+INFO2023-07-03 17:39:15,146basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:39:15,165basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 619
+INFO2023-07-03 17:39:23,150basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7118
+INFO2023-07-03 17:39:23,160basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 17:39:57,527basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 17:41:41,122basehttp"GET /customer/cchangepassword? HTTP/1.1" 200 7094
+INFO2023-07-03 17:41:41,134basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 17:41:47,212basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:42:02,025basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:42:02,049basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 625
+INFO2023-07-03 17:42:48,535basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:42:48,554basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 599
+INFO2023-07-03 17:43:26,161basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:43:26,183basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 603
+INFO2023-07-03 17:43:44,907basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:43:44,925basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 627
+INFO2023-07-03 17:43:45,585basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:43:45,603basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 17:43:46,285basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:43:46,301basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 17:43:46,302basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 627
+WARNING2023-07-03 17:43:47,957logNot Found: /favicon.ico
+WARNING2023-07-03 17:43:47,957basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 17:43:55,523basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:43:55,539basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 626
+INFO2023-07-03 17:43:56,259basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:43:56,275basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 17:43:56,276basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 626
+WARNING2023-07-03 17:43:57,575logNot Found: /favicon.ico
+WARNING2023-07-03 17:43:57,575basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 17:44:01,045basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:44:01,060basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 17:44:01,066basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 628
+WARNING2023-07-03 17:44:01,575logNot Found: /favicon.ico
+WARNING2023-07-03 17:44:01,577basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 17:44:17,702basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:44:17,725basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 625
+INFO2023-07-03 17:44:18,458basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:44:18,471basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 17:44:18,471basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 625
+WARNING2023-07-03 17:44:19,612logNot Found: /favicon.ico
+WARNING2023-07-03 17:44:19,613basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 17:44:27,242basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:44:27,258basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 17:44:27,274basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 626
+WARNING2023-07-03 17:44:28,385logNot Found: /favicon.ico
+WARNING2023-07-03 17:44:28,385basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 17:44:41,468basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:44:41,492basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 654
+INFO2023-07-03 17:45:12,026basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:45:12,046basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 658
+INFO2023-07-03 17:45:14,291basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:45:14,303basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 17:45:14,307basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 658
+WARNING2023-07-03 17:45:15,505logNot Found: /favicon.ico
+WARNING2023-07-03 17:45:15,505basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 17:45:30,371basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:45:30,389basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 17:45:30,391basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 658
+WARNING2023-07-03 17:45:31,474logNot Found: /favicon.ico
+WARNING2023-07-03 17:45:31,475basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 17:45:32,842basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:45:32,858basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 17:45:32,858basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 658
+WARNING2023-07-03 17:45:33,804logNot Found: /favicon.ico
+WARNING2023-07-03 17:45:33,804basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 17:45:36,037basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:45:36,050basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 17:47:31,559basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7118
+INFO2023-07-03 17:47:31,573basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 17:49:09,457basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7118
+INFO2023-07-03 17:49:09,477basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 658
+INFO2023-07-03 17:49:09,477basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+WARNING2023-07-03 17:49:11,328logNot Found: /favicon.ico
+WARNING2023-07-03 17:49:11,328basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 17:49:27,680basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7118
+INFO2023-07-03 17:49:27,696basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 17:49:27,698basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 669
+WARNING2023-07-03 17:49:29,338logNot Found: /favicon.ico
+WARNING2023-07-03 17:49:29,338basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 17:49:49,247basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7118
+INFO2023-07-03 17:49:49,258basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 17:49:49,266basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 680
+WARNING2023-07-03 17:49:56,403logNot Found: /favicon.ico
+WARNING2023-07-03 17:49:56,403basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 17:50:24,693basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7118
+INFO2023-07-03 17:50:24,709basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 17:50:24,719basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 693
+WARNING2023-07-03 17:50:26,344logNot Found: /favicon.ico
+WARNING2023-07-03 17:50:26,346basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 17:50:45,570basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7118
+INFO2023-07-03 17:50:45,584basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 17:50:45,590basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 693
+WARNING2023-07-03 17:50:47,286logNot Found: /favicon.ico
+WARNING2023-07-03 17:50:47,286basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 17:50:54,234basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7118
+INFO2023-07-03 17:50:54,249basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 17:50:54,258basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 693
+WARNING2023-07-03 17:50:55,857logNot Found: /favicon.ico
+WARNING2023-07-03 17:50:55,857basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 17:51:13,896basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7118
+INFO2023-07-03 17:51:13,911basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 17:51:13,916basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 699
+WARNING2023-07-03 17:51:16,119logNot Found: /favicon.ico
+WARNING2023-07-03 17:51:16,119basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 17:51:18,990basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7118
+INFO2023-07-03 17:51:19,000basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 17:51:23,000basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:51:23,013basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 17:51:35,702basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:51:35,721basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 700
+INFO2023-07-03 17:52:55,533basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:52:55,562basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 700
+INFO2023-07-03 17:56:09,173basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:56:09,235basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 829
+INFO2023-07-03 17:56:34,742basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:56:34,753basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 17:56:34,753basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 823
+WARNING2023-07-03 17:56:36,944logNot Found: /favicon.ico
+WARNING2023-07-03 17:56:36,944basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 17:57:32,406basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:57:32,420basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 829
+INFO2023-07-03 17:57:51,645basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:57:51,666basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 829
+INFO2023-07-03 17:58:02,122basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:58:02,139basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 829
+INFO2023-07-03 17:58:14,946basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:58:14,963basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 818
+INFO2023-07-03 17:58:15,932basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:58:15,947basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 17:58:15,948basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 818
+WARNING2023-07-03 17:58:17,550logNot Found: /favicon.ico
+WARNING2023-07-03 17:58:17,550basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 17:58:27,308basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:58:27,331basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 812
+INFO2023-07-03 17:58:29,910basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:58:29,926basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 17:58:29,927basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 812
+WARNING2023-07-03 17:58:31,271logNot Found: /favicon.ico
+WARNING2023-07-03 17:58:31,272basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 17:58:41,875basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:58:41,894basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 812
+INFO2023-07-03 17:59:16,879basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:59:16,897basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 812
+INFO2023-07-03 17:59:36,217basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:59:36,234basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 715
+INFO2023-07-03 17:59:38,995basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 17:59:39,011basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 17:59:39,012basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 715
+WARNING2023-07-03 17:59:40,147logNot Found: /favicon.ico
+WARNING2023-07-03 17:59:40,148basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:06:19,024basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 18:06:19,039basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:06:19,073basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 638
+WARNING2023-07-03 18:06:20,835logNot Found: /favicon.ico
+WARNING2023-07-03 18:06:20,835basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:06:33,515basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 18:06:33,532basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:06:33,533basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 713
+WARNING2023-07-03 18:06:34,803logNot Found: /favicon.ico
+WARNING2023-07-03 18:06:34,803basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:06:39,379basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 18:06:39,395basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:06:39,411basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 712
+WARNING2023-07-03 18:06:40,173logNot Found: /favicon.ico
+WARNING2023-07-03 18:06:40,173basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:06:45,291basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 18:06:45,308basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:06:45,314basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 718
+WARNING2023-07-03 18:06:46,654logNot Found: /favicon.ico
+WARNING2023-07-03 18:06:46,654basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:06:54,052basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 18:06:54,066basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:06:54,073basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 698
+WARNING2023-07-03 18:06:55,326logNot Found: /favicon.ico
+WARNING2023-07-03 18:06:55,326basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:07:07,855basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 18:07:07,869basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 718
+INFO2023-07-03 18:07:18,435basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 18:07:18,463basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 717
+INFO2023-07-03 18:07:25,734basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7094
+INFO2023-07-03 18:07:25,753basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 717
+INFO2023-07-03 18:07:51,892basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 18:08:56,420basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7107
+INFO2023-07-03 18:08:56,443basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 721
+INFO2023-07-03 18:09:31,636basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7107
+INFO2023-07-03 18:09:31,654basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 719
+INFO2023-07-03 18:09:39,440basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7107
+INFO2023-07-03 18:09:39,456basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 720
+INFO2023-07-03 18:09:45,208basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7107
+INFO2023-07-03 18:09:45,225basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 720
+INFO2023-07-03 18:10:03,196basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7107
+INFO2023-07-03 18:10:03,215basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 720
+INFO2023-07-03 18:10:07,644basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7107
+INFO2023-07-03 18:10:07,665basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 721
+INFO2023-07-03 18:10:15,477basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7107
+INFO2023-07-03 18:10:15,499basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 721
+INFO2023-07-03 18:10:20,813basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7107
+INFO2023-07-03 18:10:20,831basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 721
+INFO2023-07-03 18:10:56,988basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-03 18:11:03,587basehttp"GET /customer/cmycart HTTP/1.1" 200 12493
+INFO2023-07-03 18:11:06,039basehttp"GET /customer/c_logout HTTP/1.1" 302 0
+INFO2023-07-03 18:11:06,044basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-07-03 18:11:06,063basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 304 0
+INFO2023-07-03 18:11:06,075basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 304 0
+INFO2023-07-03 18:11:06,083basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 304 0
+INFO2023-07-03 18:11:10,447basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-03 18:12:22,580basehttp"POST /customerlogin HTTP/1.1" 302 0
+INFO2023-07-03 18:12:22,656basehttp"GET /customer/customer_home HTTP/1.1" 200 13316
+INFO2023-07-03 18:12:24,636basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-03 18:12:24,650basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 18:12:26,338basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-03 18:12:28,067basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-03 18:12:28,082basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:12:28,083basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 721
+WARNING2023-07-03 18:12:29,591logNot Found: /favicon.ico
+WARNING2023-07-03 18:12:29,591basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:12:31,125basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:13:08,618basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:13:08,636basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 773
+INFO2023-07-03 18:13:16,491basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:13:16,506basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 773
+INFO2023-07-03 18:13:21,485basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:13:21,501basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 773
+INFO2023-07-03 18:13:27,394basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:13:27,413basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 773
+INFO2023-07-03 18:13:30,466basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:13:30,476basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 18:13:36,263basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:13:36,283basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 773
+INFO2023-07-03 18:13:43,371basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:13:43,383basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 773
+INFO2023-07-03 18:13:51,242basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:13:51,256basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 773
+INFO2023-07-03 18:13:59,386basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:13:59,404basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 773
+INFO2023-07-03 18:14:04,366basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:14:04,382basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 773
+INFO2023-07-03 18:14:15,566basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:14:15,582basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 790
+INFO2023-07-03 18:14:28,682basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-03 18:14:28,697basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 18:14:33,623basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:14:33,638basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 18:14:35,353basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:14:35,364basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 18:14:38,613basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-03 18:14:38,627basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 18:14:52,836basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-03 18:14:52,854basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 790
+INFO2023-07-03 18:14:59,968basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-03 18:14:59,980basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 790
+INFO2023-07-03 18:15:02,154basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 18:16:37,565basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-03 18:16:37,591basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 809
+INFO2023-07-03 18:17:03,123basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-03 18:17:03,144basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 707
+INFO2023-07-03 18:18:01,226basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-03 18:18:01,246basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 763
+INFO2023-07-03 18:18:02,017basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-03 18:18:02,033basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:18:02,033basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 763
+WARNING2023-07-03 18:18:03,255logNot Found: /favicon.ico
+WARNING2023-07-03 18:18:03,255basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:19:02,145basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-03 18:19:02,161basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:19:02,166basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 785
+WARNING2023-07-03 18:19:03,168logNot Found: /favicon.ico
+WARNING2023-07-03 18:19:03,168basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:19:14,381basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-03 18:19:14,397basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:19:14,413basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 759
+WARNING2023-07-03 18:19:15,468logNot Found: /favicon.ico
+WARNING2023-07-03 18:19:15,468basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:19:21,519basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-03 18:19:21,531basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:19:21,539basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 764
+WARNING2023-07-03 18:19:21,960logNot Found: /favicon.ico
+WARNING2023-07-03 18:19:21,960basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:19:30,299basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-03 18:19:30,312basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:19:30,318basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 790
+WARNING2023-07-03 18:19:31,338logNot Found: /favicon.ico
+WARNING2023-07-03 18:19:31,339basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:19:58,491basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-03 18:19:58,507basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:19:58,507basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 754
+WARNING2023-07-03 18:20:05,472logNot Found: /favicon.ico
+WARNING2023-07-03 18:20:05,472basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:20:37,768basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-03 18:20:37,789basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:20:37,789basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 708
+WARNING2023-07-03 18:20:38,761logNot Found: /favicon.ico
+WARNING2023-07-03 18:20:38,761basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:20:46,693basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:20:46,707basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 18:21:05,115basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:21:05,144basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:21:05,149basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 682
+WARNING2023-07-03 18:21:06,789logNot Found: /favicon.ico
+WARNING2023-07-03 18:21:06,789basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:22:14,022basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:22:14,035basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:22:14,040basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 686
+WARNING2023-07-03 18:22:15,128logNot Found: /favicon.ico
+WARNING2023-07-03 18:22:15,128basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:22:40,303basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:22:40,328basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:22:40,333basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 661
+WARNING2023-07-03 18:22:41,330logNot Found: /favicon.ico
+WARNING2023-07-03 18:22:41,330basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:25:10,088basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:25:10,120basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:25:10,121basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 729
+WARNING2023-07-03 18:25:11,484logNot Found: /favicon.ico
+WARNING2023-07-03 18:25:11,484basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:25:32,694basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:25:32,710basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:25:32,715basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 734
+WARNING2023-07-03 18:25:33,802logNot Found: /favicon.ico
+WARNING2023-07-03 18:25:33,802basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:25:53,404basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:25:53,431basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:25:53,435basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 716
+WARNING2023-07-03 18:25:54,886logNot Found: /favicon.ico
+WARNING2023-07-03 18:25:54,886basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:26:05,645basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:26:05,660basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:26:05,666basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 698
+WARNING2023-07-03 18:26:07,050logNot Found: /favicon.ico
+WARNING2023-07-03 18:26:07,050basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:26:52,882basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:26:52,896basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:26:52,903basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 720
+WARNING2023-07-03 18:26:54,289logNot Found: /favicon.ico
+WARNING2023-07-03 18:26:54,289basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:27:34,590basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:27:34,606basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:27:34,606basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 751
+WARNING2023-07-03 18:27:36,421logNot Found: /favicon.ico
+WARNING2023-07-03 18:27:36,426basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:27:43,095basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:27:43,109basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:27:43,115basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 751
+WARNING2023-07-03 18:27:43,724logNot Found: /favicon.ico
+WARNING2023-07-03 18:27:43,724basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:27:58,409basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:27:58,424basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:27:58,430basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 751
+WARNING2023-07-03 18:27:59,325logNot Found: /favicon.ico
+WARNING2023-07-03 18:27:59,326basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:28:29,071basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:28:29,084basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:28:29,093basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 751
+WARNING2023-07-03 18:28:31,036logNot Found: /favicon.ico
+WARNING2023-07-03 18:28:31,036basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:28:41,278basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:28:41,293basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:28:41,298basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 751
+WARNING2023-07-03 18:28:42,953logNot Found: /favicon.ico
+WARNING2023-07-03 18:28:42,953basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:28:48,728basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:28:48,744basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:28:48,749basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 751
+WARNING2023-07-03 18:28:50,318logNot Found: /favicon.ico
+WARNING2023-07-03 18:28:50,319basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:28:54,124basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-03 18:28:54,134basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 18:29:04,703basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-03 18:29:04,715basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 18:29:07,920basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-03 18:29:07,930basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-03 18:31:49,056basehttp"GET /customer/cprofile HTTP/1.1" 200 6771
+INFO2023-07-03 18:34:39,432basehttp"GET /customer/cprofile HTTP/1.1" 200 6718
+INFO2023-07-03 18:34:39,436basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:34:39,452basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 60
+WARNING2023-07-03 18:34:40,982logNot Found: /favicon.ico
+WARNING2023-07-03 18:34:40,983basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:34:45,100basehttp"GET /customer/cprofile HTTP/1.1" 200 6718
+INFO2023-07-03 18:34:45,113basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 60
+INFO2023-07-03 18:34:45,113basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+WARNING2023-07-03 18:34:45,918logNot Found: /favicon.ico
+WARNING2023-07-03 18:34:45,918basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:35:11,424basehttp"GET /customer/cprofile HTTP/1.1" 200 6704
+INFO2023-07-03 18:35:11,441basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:35:11,447basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 66
+WARNING2023-07-03 18:35:13,008logNot Found: /favicon.ico
+WARNING2023-07-03 18:35:13,008basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:36:08,665basehttp"GET /customer/cprofile HTTP/1.1" 200 6704
+INFO2023-07-03 18:36:08,684basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 116
+INFO2023-07-03 18:36:34,627basehttp"GET /customer/cprofile HTTP/1.1" 200 6704
+INFO2023-07-03 18:36:34,647basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 160
+INFO2023-07-03 18:36:35,586basehttp"GET /customer/cprofile HTTP/1.1" 200 6704
+INFO2023-07-03 18:36:35,602basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:36:35,602basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 160
+WARNING2023-07-03 18:36:36,896logNot Found: /favicon.ico
+WARNING2023-07-03 18:36:36,896basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:37:44,144basehttp"GET /customer/cprofile HTTP/1.1" 200 6704
+INFO2023-07-03 18:37:44,162basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 201
+INFO2023-07-03 18:37:47,077basehttp"GET /customer/cprofile HTTP/1.1" 200 6704
+INFO2023-07-03 18:37:47,092basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:37:47,098basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 201
+WARNING2023-07-03 18:37:48,295logNot Found: /favicon.ico
+WARNING2023-07-03 18:37:48,295basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-03 18:37:56,495basehttp"GET /customer/cprofile HTTP/1.1" 200 6704
+INFO2023-07-03 18:37:56,509basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-03 18:37:56,513basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 212
+WARNING2023-07-03 18:37:59,020logNot Found: /favicon.ico
+WARNING2023-07-03 18:37:59,021basehttp"GET /favicon.ico HTTP/1.1" 404 4165

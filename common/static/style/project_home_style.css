@@ -1,0 +1,93 @@
+.carousel_div div {
+
+
+    text-align: left;
+
+}
+
+div {
+
+    font-family: 'Jost', sans-serif;
+
+}
+
+.carousel_div div h5 {
+
+    font-family: 'Clicker Script', cursive;
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: yellowgreen;
+}
+
+.carousel_div div h1 {
+
+    font-size: 45px;
+    line-height: 1.2;
+    font-weight: 400;
+
+}
+
+.carousel_div div {
+
+    margin-bottom: 450px;
+
+}
+
+.carousel_div div p {
+
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 50px;
+
+}
+
+.carousel_div div button {
+
+    padding: 15px 47px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 0%;
+    margin-top: 20px;
+
+
+}
+
+.carousel_div div button:hover {
+
+    color: white;
+    background-color: green;
+
+}
+
+/* #carousel_div_2_id{
+
+    margin-left: 530px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+
+} */
+
+#carousel_div_2_id div h5{
+
+    color: blue;
+
+} 
+
+#carousel_div_3_id{
+
+    margin-right: 100px;
+
+}
+
+#carousel_div_3_id div h5{
+
+    color: red;
+
+} 
+
+

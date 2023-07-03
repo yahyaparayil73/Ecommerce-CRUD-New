@@ -3,23 +3,24 @@
 
 {% block title %}
 <title>Customer Profile</title>
+<link rel="stylesheet" href="{% static 'style/cust_profile.css' %}">
 {% endblock %}
 
 {% block content %}
 
-<div class="container" style="display: grid;  justify-content: center;">
-    <h1><B><U>CUSTOMER PROFILE</U></B></h1>
+<div class="container">
+    <h1>CUSTOMER PROFILE</h1>
     <div>
         <label for="inputEmail4" class="form-label">Name</label>
-        <input type="text" class="form-control" id="inputEmail4" style="width: 400px;" name="customer_name" value="{{ customer_profile.c_name | title}}" readonly>
+        <input type="text" class="form-control" id="inputEmail4" name="customer_name" value="{{ customer_profile.c_name | title}}" readonly>
     </div>
     <div>
         <label for="inputPassword4" class="form-label">Mobile Number</label>
-        <input type="text" class="form-control" id="inputPassword4" style="width: 400px;" name="customer_mobile" value="{{ customer_profile.c_mobile }}" readonly>
+        <input type="text" class="form-control" id="inputPassword4" name="customer_mobile" value="{{ customer_profile.c_mobile }}" readonly>
     </div>
     <div>
         <label for="inputEmail4" class="form-label">Email</label>
-        <input type="text" class="form-control" id="inputEmail4" style="width: 400px;" name="customer_phone" value="{{ customer_profile.c_email }}" readonly>
+        <input type="text" class="form-control" id="inputEmail4" name="customer_phone" value="{{ customer_profile.c_email }}" readonly>
     </div><br>
 </div>
 {% endblock %}

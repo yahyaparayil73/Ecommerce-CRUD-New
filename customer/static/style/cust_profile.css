@@ -1,0 +1,25 @@
+.container{
+
+display: grid;
+justify-content: center;
+
+}
+
+
+div {
+
+    font-family: 'Jost', sans-serif;
+
+}
+
+div h1 {
+
+    text-align: center;
+
+}
+
+div input{
+
+border-radius: 0% !important;
+
+}

@@ -2,24 +2,42 @@
 {% load static %}
 {% block title %}
 <title>SHOPEHUB</title>
+<link rel="stylesheet" href="{% static 'style/project_home_style.css' %}">
 {% endblock %}
 
 {% block content %}
 
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="{% static 'images/image_1.jpg' %}" class="d-block w-100" alt="...">
+        <div class="carousel-item active carousel_div">
+            <img src="{% static 'images/man-sunglasses-with-sale-sign.jpg' %}" class="d-block w-100" alt="...">
             <div class="carousel-caption d-md-block">
                 <h5>Fashion Sale</h5>
-                <p>Get up to 50% off on all fashion items</p>
+                <h1>Minimal Menz Style</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Veritatis quod, soluta veniam
+                    blanditiis rem <br> quia sint in facere tenetur. Totam cum ducimus nam. <br>
+                    <a href=""><button class="btn outline">Shop Now</button></a>
             </div>
         </div>
-        <div class="carousel-item">
-            <img src="{% static 'images/image_2.jpg' %}" class="d-block w-100" alt="...">
+        <div class="carousel-item carousel_div" id="carousel_div_2_id">
+            <img src="{% static 'images/man-floating-with-shopping-bags.jpg' %}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+                <h5>Fashion Sale</h5>
+                <h1>Minimal Menz Style</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Veritatis quod, soluta veniam
+                    blanditiis rem <br> quia sint in facere tenetur. Totam cum ducimus nam. <br>
+                    <a href=""><button class="btn outline">Shop Now</button></a>
+            </div>
         </div>
-        <div class="carousel-item">
-            <img src="{% static 'images/image_3.jpg' %}" class="d-block w-100" alt="...">
+        <div class="carousel-item carousel_div" id="carousel_div_3_id">
+            <img src="{% static 'images/expressive-young-woman-posing.jpg' %}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+                <h5>Fashion Sale</h5>
+                <h1>Minimal Menz Style</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Veritatis quod, soluta veniam
+                    blanditiis rem <br> quia sint in facere tenetur. Totam cum ducimus nam. <br>
+                    <a href=""><button class="btn outline">Shop Now</button></a>
+            </div>
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
