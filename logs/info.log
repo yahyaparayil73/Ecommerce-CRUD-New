@@ -4249,3 +4249,1142 @@ INFO2023-07-03 18:37:56,509basehttp"GET /static/style/master_cust_style.css HTTP
 INFO2023-07-03 18:37:56,513basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 212
 WARNING2023-07-03 18:37:59,020logNot Found: /favicon.ico
 WARNING2023-07-03 18:37:59,021basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-04 17:56:25,432autoreloadWatching for file changes with StatReloader
+INFO2023-07-04 17:56:32,957basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-07-04 17:56:33,062basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+WARNING2023-07-04 17:56:34,144logNot Found: /favicon.ico
+WARNING2023-07-04 17:56:34,145basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-04 17:56:58,871basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-04 17:56:58,895basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-07-04 17:57:05,223basehttp"POST /customerlogin HTTP/1.1" 302 0
+INFO2023-07-04 17:57:05,381basehttp"GET /customer/customer_home HTTP/1.1" 200 13316
+INFO2023-07-04 17:57:05,401basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-04 17:57:54,922basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-04 17:57:55,115basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 639
+INFO2023-07-04 17:58:01,024basehttp"POST /customer/cchangepassword HTTP/1.1" 200 7144
+INFO2023-07-04 17:58:05,517basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-04 17:58:16,731basehttp"GET /customer/cmyorders HTTP/1.1" 200 5961
+INFO2023-07-04 17:58:18,655basehttp"GET /customer/cprofile HTTP/1.1" 200 6704
+INFO2023-07-04 17:58:18,671basehttp"GET /static/style/cust_profile.css HTTP/1.1" 304 0
+INFO2023-07-04 18:00:24,915basehttp"GET /customer/cprofile HTTP/1.1" 200 6825
+INFO2023-07-04 18:00:29,133basehttp"GET /customer/cprofile HTTP/1.1" 200 6825
+INFO2023-07-04 18:00:29,158basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 341
+INFO2023-07-04 18:00:29,158basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+WARNING2023-07-04 18:00:30,926logNot Found: /favicon.ico
+WARNING2023-07-04 18:00:30,926basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-04 18:01:47,759basehttp"GET /customer/cprofile HTTP/1.1" 200 6825
+INFO2023-07-04 18:01:47,777basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-04 18:01:47,784basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 405
+WARNING2023-07-04 18:01:49,221logNot Found: /favicon.ico
+WARNING2023-07-04 18:01:49,221basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-04 18:02:01,143basehttp"GET /customer/cprofile HTTP/1.1" 200 6825
+INFO2023-07-04 18:02:01,151basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-04 18:02:01,160basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 347
+WARNING2023-07-04 18:02:02,302logNot Found: /favicon.ico
+WARNING2023-07-04 18:02:02,306basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-04 18:02:56,246basehttp"GET /customer/cprofile HTTP/1.1" 200 6839
+INFO2023-07-04 18:02:56,262basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-04 18:02:56,263basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 349
+WARNING2023-07-04 18:02:56,962logNot Found: /favicon.ico
+WARNING2023-07-04 18:02:56,962basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-04 18:03:50,718basehttp"GET /customer/cprofile HTTP/1.1" 200 6835
+INFO2023-07-04 18:03:50,734basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-04 18:03:50,749basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 349
+WARNING2023-07-04 18:03:52,245logNot Found: /favicon.ico
+WARNING2023-07-04 18:03:52,245basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-04 18:04:07,921basehttp"GET /customer/cprofile HTTP/1.1" 200 6835
+INFO2023-07-04 18:04:07,937basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-04 18:04:07,955basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 407
+WARNING2023-07-04 18:04:09,048logNot Found: /favicon.ico
+WARNING2023-07-04 18:04:09,048basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-04 18:04:22,783basehttp"GET /customer/cprofile HTTP/1.1" 200 6835
+INFO2023-07-04 18:04:22,810basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 895
+INFO2023-07-04 18:04:22,817basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 382
+WARNING2023-07-04 18:04:23,970logNot Found: /favicon.ico
+WARNING2023-07-04 18:04:23,970basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-04 18:04:57,560basehttp"GET /customer/cprofile HTTP/1.1" 200 6875
+INFO2023-07-04 18:04:57,575basehttp"GET /static/style/cust_profile.css HTTP/1.1" 304 0
+INFO2023-07-04 18:05:19,439basehttp"GET /customer/cprofile HTTP/1.1" 200 6875
+INFO2023-07-04 18:05:19,469basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 422
+INFO2023-07-04 18:05:26,195basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-04 18:05:29,232basehttp"GET /customer/cprofile HTTP/1.1" 200 6875
+INFO2023-07-04 18:05:29,248basehttp"GET /static/style/cust_profile.css HTTP/1.1" 304 0
+WARNING2023-07-04 18:06:53,286logNot Found: /seller/seller_profile
+WARNING2023-07-04 18:06:53,286basehttp"GET /seller/seller_profile HTTP/1.1" 404 6104
+INFO2023-07-04 18:07:18,226basehttp"GET /seller/sellerprofile HTTP/1.1" 302 0
+INFO2023-07-04 18:07:18,258basehttp"GET /sellerlogin HTTP/1.1" 200 7965
+INFO2023-07-04 18:07:18,274basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-07-04 18:07:18,282basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 304 0
+INFO2023-07-04 18:08:52,028basehttp"GET /sellersignup HTTP/1.1" 200 9553
+INFO2023-07-04 18:08:52,052basehttp"GET /static/style/seller_signup_style.css HTTP/1.1" 304 0
+INFO2023-07-04 18:10:35,547basehttp"POST /sellersignup HTTP/1.1" 200 9583
+INFO2023-07-04 18:10:53,141basehttp"GET /sellersignup HTTP/1.1" 200 9553
+INFO2023-07-04 18:10:58,910basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-04 18:11:05,907basehttp"GET /sellerlogin HTTP/1.1" 200 7965
+INFO2023-07-04 18:11:36,586basehttp"POST /sellerlogin HTTP/1.1" 302 0
+ERROR2023-07-04 18:11:36,807logInternal Server Error: /seller/sellerhome
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+ERROR2023-07-04 18:11:36,815basehttp"GET /seller/sellerhome HTTP/1.1" 500 65060
+ERROR2023-07-04 18:13:14,273logInternal Server Error: /seller/sellerhome
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+ERROR2023-07-04 18:13:14,273basehttp"GET /seller/sellerhome HTTP/1.1" 500 64898
+INFO2023-07-04 18:13:24,943basehttp"GET /sellerlogin HTTP/1.1" 200 7965
+INFO2023-07-04 18:13:36,202basehttp"GET /sellerlogin HTTP/1.1" 200 7965
+INFO2023-07-04 18:41:42,694basehttp"POST /sellerlogin HTTP/1.1" 302 0
+ERROR2023-07-04 18:41:42,831logInternal Server Error: /seller/sellerhome
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+ERROR2023-07-04 18:41:42,834basehttp"GET /seller/sellerhome HTTP/1.1" 500 65060
+ERROR2023-07-04 18:44:29,128logInternal Server Error: /seller/sellerhome
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+ERROR2023-07-04 18:44:29,131basehttp"GET /seller/sellerhome HTTP/1.1" 500 64898
+INFO2023-07-04 18:44:33,827basehttp"GET /sellerlogin HTTP/1.1" 200 7965
+INFO2023-07-04 18:45:07,722basehttp"POST /sellerlogin HTTP/1.1" 200 7984
+INFO2023-07-04 18:45:19,822basehttp"POST /sellerlogin HTTP/1.1" 302 0
+ERROR2023-07-04 18:45:19,952logInternal Server Error: /seller/sellerhome
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+ERROR2023-07-04 18:45:19,956basehttp"GET /seller/sellerhome HTTP/1.1" 500 65060
+ERROR2023-07-04 18:45:40,456logInternal Server Error: /seller/sellerhome
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+ERROR2023-07-04 18:45:40,458basehttp"GET /seller/sellerhome HTTP/1.1" 500 65060
+ERROR2023-07-04 18:45:42,531logInternal Server Error: /seller/sellerhome
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+ERROR2023-07-04 18:45:42,533basehttp"GET /seller/sellerhome HTTP/1.1" 500 64898
+ERROR2023-07-04 18:50:25,839logInternal Server Error: /seller/sellerhome
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+ERROR2023-07-04 18:50:25,839basehttp"GET /seller/sellerhome HTTP/1.1" 500 64898
+ERROR2023-07-04 18:51:55,716logInternal Server Error: /seller/sellerhome
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+ERROR2023-07-04 18:51:55,716basehttp"GET /seller/sellerhome HTTP/1.1" 500 64898
+ERROR2023-07-04 18:51:58,664logInternal Server Error: /seller/sellerhome
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+ERROR2023-07-04 18:51:58,664basehttp"GET /seller/sellerhome HTTP/1.1" 500 65026
+WARNING2023-07-04 18:51:58,755logNot Found: /favicon.ico
+WARNING2023-07-04 18:51:58,764basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-04 18:52:15,163basehttp"POST /sellerlogin HTTP/1.1" 302 0
+ERROR2023-07-04 18:52:15,301logInternal Server Error: /seller/sellerhome
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+ERROR2023-07-04 18:52:15,309basehttp"GET /seller/sellerhome HTTP/1.1" 500 65060
+ERROR2023-07-04 18:53:34,338logInternal Server Error: /seller/sellerhome
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+ERROR2023-07-04 18:53:34,338basehttp"GET /seller/sellerhome HTTP/1.1" 500 64898
+INFO2023-07-04 18:53:40,024basehttp"POST /sellerlogin HTTP/1.1" 302 0
+ERROR2023-07-04 18:53:40,251logInternal Server Error: /seller/sellerhome
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+ERROR2023-07-04 18:53:40,251basehttp"GET /seller/sellerhome HTTP/1.1" 500 65060
+INFO2023-07-05 10:15:07,128autoreloadWatching for file changes with StatReloader
+INFO2023-07-05 10:15:09,975basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-07-05 10:15:10,122basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 304 0
+INFO2023-07-05 10:15:10,130basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 304 0
+INFO2023-07-05 10:15:10,155basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 304 0
+WARNING2023-07-05 10:15:10,383logNot Found: /favicon.ico
+WARNING2023-07-05 10:15:10,383basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 10:15:21,466basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-05 10:15:25,160basehttp"GET /sellerlogin HTTP/1.1" 200 7965
+INFO2023-07-05 10:15:29,957basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-05 10:15:31,871basehttp"GET /sellerlogin HTTP/1.1" 200 7965
+INFO2023-07-05 10:16:04,903basehttp"GET /sellersignup HTTP/1.1" 200 9553
+INFO2023-07-05 10:16:06,323basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-05 10:16:07,532basehttp"GET /customer/cmycart HTTP/1.1" 200 12493
+INFO2023-07-05 10:16:07,550basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-05 10:16:29,900basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-05 10:16:29,920basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-05 10:16:32,563basehttp"GET /customer/cprofile HTTP/1.1" 200 6875
+INFO2023-07-05 10:16:32,579basehttp"GET /static/style/cust_profile.css HTTP/1.1" 304 0
+INFO2023-07-05 10:16:36,007basehttp"GET /customer/cmycart HTTP/1.1" 200 12493
+INFO2023-07-05 10:18:36,021autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py changed, reloading.
+INFO2023-07-05 10:18:37,012autoreloadWatching for file changes with StatReloader
+INFO2023-07-05 10:18:40,914autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py changed, reloading.
+INFO2023-07-05 10:18:41,648autoreloadWatching for file changes with StatReloader
+INFO2023-07-05 10:20:27,020basehttp"GET /customer/c_logout HTTP/1.1" 302 0
+INFO2023-07-05 10:20:27,056basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-07-05 10:20:29,923basehttp"GET /sellerlogin HTTP/1.1" 200 7965
+INFO2023-07-05 10:21:17,926basehttp"POST /sellerlogin HTTP/1.1" 302 0
+ERROR2023-07-05 10:21:18,242logInternal Server Error: /seller/sellerhome
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+ERROR2023-07-05 10:21:18,242basehttp"GET /seller/sellerhome HTTP/1.1" 500 65061
+INFO2023-07-05 10:31:14,473autoreloadWatching for file changes with StatReloader
+ERROR2023-07-05 10:31:19,576logInternal Server Error: /seller/sellerhome
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py", line 55, in seller_home
+    return render(request, 'seller/seller home.html', {'seller_data': seller_data})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 9: 'static'. Did you forget to register or load this tag?
+ERROR2023-07-05 10:31:19,583basehttp"GET /seller/sellerhome HTTP/1.1" 500 174431
+INFO2023-07-05 10:32:00,050basehttp"GET /seller/sellerhome HTTP/1.1" 200 3669
+ERROR2023-07-05 10:32:11,686logInternal Server Error: /seller/view_product
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+ERROR2023-07-05 10:32:11,686basehttp"GET /seller/view_product HTTP/1.1" 500 64952
+ERROR2023-07-05 10:32:21,609logInternal Server Error: /seller/addproduct
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+ERROR2023-07-05 10:32:21,613basehttp"GET /seller/addproduct HTTP/1.1" 500 64930
+INFO2023-07-05 10:32:37,072autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py changed, reloading.
+INFO2023-07-05 10:32:37,853autoreloadWatching for file changes with StatReloader
+INFO2023-07-05 10:32:41,605autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py changed, reloading.
+INFO2023-07-05 10:32:42,259autoreloadWatching for file changes with StatReloader
+INFO2023-07-05 10:32:44,950autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py changed, reloading.
+INFO2023-07-05 10:32:45,710autoreloadWatching for file changes with StatReloader
+INFO2023-07-05 10:32:48,417autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py changed, reloading.
+INFO2023-07-05 10:32:49,061autoreloadWatching for file changes with StatReloader
+INFO2023-07-05 10:32:52,810autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py changed, reloading.
+INFO2023-07-05 10:32:53,470autoreloadWatching for file changes with StatReloader
+INFO2023-07-05 10:33:06,124autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py changed, reloading.
+INFO2023-07-05 10:33:06,878autoreloadWatching for file changes with StatReloader
+INFO2023-07-05 10:33:09,574autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py changed, reloading.
+INFO2023-07-05 10:33:10,216autoreloadWatching for file changes with StatReloader
+INFO2023-07-05 10:35:12,446basehttp"GET /seller/changepassword HTTP/1.1" 200 4406
+INFO2023-07-05 10:35:20,666basehttp"GET /seller/addproduct HTTP/1.1" 200 5449
+INFO2023-07-05 10:35:22,028basehttp"GET /seller/updatestock HTTP/1.1" 200 5818
+INFO2023-07-05 10:35:24,937basehttp"GET /seller/sellerprofile HTTP/1.1" 200 4358
+INFO2023-07-05 10:35:25,052basehttp"GET /media/seller/149071_RonKzhj.png HTTP/1.1" 200 19456
+INFO2023-07-05 10:35:34,868basehttp"GET /seller/view_product HTTP/1.1" 200 9298
+INFO2023-07-05 10:35:41,589basehttp"GET /seller/changepassword HTTP/1.1" 200 4406
+INFO2023-07-05 10:35:45,070basehttp"GET /seller/s_logout HTTP/1.1" 302 0
+INFO2023-07-05 10:35:45,086basehttp"GET / HTTP/1.1" 200 9446
+ERROR2023-07-05 10:35:54,897logInternal Server Error: /seller/sellerhome
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py", line 54, in seller_home
+    seller_data = Seller.objects.get(id=request.session['seller'])
+                                        ~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\contrib\sessions\backends\base.py", line 53, in __getitem__
+    return self._session[key]
+           ~~~~~~~~~~~~~^^^^^
+KeyError: 'seller'
+ERROR2023-07-05 10:35:54,897basehttp"GET /seller/sellerhome HTTP/1.1" 500 68520
+ERROR2023-07-05 10:36:02,381logInternal Server Error: /seller/sellerhome
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py", line 54, in seller_home
+    seller_data = Seller.objects.get(id=request.session['seller'])
+                                        ~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\contrib\sessions\backends\base.py", line 53, in __getitem__
+    return self._session[key]
+           ~~~~~~~~~~~~~^^^^^
+KeyError: 'seller'
+ERROR2023-07-05 10:36:02,381basehttp"GET /seller/sellerhome HTTP/1.1" 500 68657
+INFO2023-07-05 10:36:11,854basehttp"GET /sellerlogin HTTP/1.1" 200 7965
+INFO2023-07-05 10:36:17,150basehttp"POST /sellerlogin HTTP/1.1" 302 0
+INFO2023-07-05 10:36:17,271basehttp"GET /seller/sellerhome HTTP/1.1" 200 3669
+INFO2023-07-05 10:36:56,224basehttp"GET /seller/sellerhome HTTP/1.1" 200 3660
+INFO2023-07-05 10:37:00,286basehttp"GET /seller/sellerhome HTTP/1.1" 200 3660
+INFO2023-07-05 10:37:00,310basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+WARNING2023-07-05 10:37:01,657logNot Found: /favicon.ico
+WARNING2023-07-05 10:37:01,657basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 10:41:02,947basehttp"GET /seller/sellerhome HTTP/1.1" 200 3897
+INFO2023-07-05 10:41:02,979basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 0
+INFO2023-07-05 10:41:54,116basehttp"GET /seller/sellerhome HTTP/1.1" 200 3897
+INFO2023-07-05 10:41:54,148basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 304 0
+INFO2023-07-05 10:41:56,590basehttp"GET /seller/sellerhome HTTP/1.1" 200 3897
+INFO2023-07-05 10:41:56,624basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 0
+WARNING2023-07-05 10:41:58,081logNot Found: /favicon.ico
+WARNING2023-07-05 10:41:58,081basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 10:44:04,644basehttp"GET /seller/sellerhome HTTP/1.1" 200 5585
+INFO2023-07-05 10:44:04,660basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 304 0
+INFO2023-07-05 10:45:13,269basehttp"GET /seller/sellerhome HTTP/1.1" 200 5585
+INFO2023-07-05 10:45:13,292basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 346
+WARNING2023-07-05 10:45:14,331logNot Found: /favicon.ico
+WARNING2023-07-05 10:45:14,339basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 10:45:52,536basehttp"GET /seller/sellerhome HTTP/1.1" 200 5585
+INFO2023-07-05 10:45:52,560basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 534
+INFO2023-07-05 10:46:25,866basehttp"GET /seller/sellerhome HTTP/1.1" 200 5585
+INFO2023-07-05 10:46:25,886basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 895
+INFO2023-07-05 10:47:08,552basehttp"GET /seller/sellerhome HTTP/1.1" 200 5753
+INFO2023-07-05 10:47:08,570basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 304 0
+INFO2023-07-05 10:47:14,395basehttp"GET /seller/addproduct HTTP/1.1" 200 7533
+INFO2023-07-05 10:47:14,413basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 304 0
+INFO2023-07-05 10:47:16,980basehttp"GET /seller/sellerhome HTTP/1.1" 200 5753
+INFO2023-07-05 10:47:18,841basehttp"GET /seller/changepassword HTTP/1.1" 200 6490
+INFO2023-07-05 10:47:22,681basehttp"GET /seller/sellerhome HTTP/1.1" 200 5753
+INFO2023-07-05 10:47:22,697basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 304 0
+INFO2023-07-05 10:47:56,553basehttp"GET /seller/sellerhome HTTP/1.1" 200 6119
+INFO2023-07-05 10:47:56,569basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 304 0
+INFO2023-07-05 10:48:04,103basehttp"GET /seller/s_logout HTTP/1.1" 302 0
+INFO2023-07-05 10:48:04,119basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-07-05 10:48:09,934basehttp"GET /sellerlogin HTTP/1.1" 200 7965
+INFO2023-07-05 10:48:15,011basehttp"POST /sellerlogin HTTP/1.1" 302 0
+INFO2023-07-05 10:48:15,091basehttp"GET /seller/sellerhome HTTP/1.1" 200 6119
+INFO2023-07-05 10:48:15,115basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 304 0
+INFO2023-07-05 10:48:18,458basehttp"GET /seller/changepassword HTTP/1.1" 200 6856
+INFO2023-07-05 10:51:04,517basehttp"POST /seller/changepassword HTTP/1.1" 200 6946
+INFO2023-07-05 10:51:04,533basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 304 0
+INFO2023-07-05 10:51:04,574basehttp"GET /static/style/seller_change_pwd.css HTTP/1.1" 200 0
+INFO2023-07-05 10:53:08,505basehttp"POST /seller/changepassword HTTP/1.1" 200 6601
+INFO2023-07-05 10:53:08,528basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 895
+INFO2023-07-05 10:53:08,537basehttp"GET /static/style/seller_change_pwd.css HTTP/1.1" 200 639
+WARNING2023-07-05 10:53:15,798logNot Found: /favicon.ico
+WARNING2023-07-05 10:53:15,798basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 10:53:21,409basehttp"GET /seller/changepassword HTTP/1.1" 200 6578
+INFO2023-07-05 10:53:21,429basehttp"GET /static/style/seller_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-05 10:53:25,851basehttp"POST /seller/changepassword HTTP/1.1" 200 6601
+INFO2023-07-05 10:53:30,334basehttp"POST /seller/changepassword HTTP/1.1" 200 6601
+INFO2023-07-05 10:53:30,350basehttp"GET /static/style/seller_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-05 10:53:33,354basehttp"GET /seller/changepassword HTTP/1.1" 200 6578
+INFO2023-07-05 10:56:41,843basehttp"GET /seller/sellerprofile HTTP/1.1" 200 6525
+INFO2023-07-05 10:56:41,859basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 304 0
+INFO2023-07-05 10:56:41,899basehttp"GET /static/style/seller_profile.css HTTP/1.1" 200 0
+INFO2023-07-05 10:56:44,981basehttp"GET /seller/sellerprofile HTTP/1.1" 200 6525
+INFO2023-07-05 10:56:45,002basehttp"GET /static/style/seller_profile.css HTTP/1.1" 200 0
+INFO2023-07-05 10:56:45,005basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 895
+INFO2023-07-05 10:56:45,223basehttp"GET /media/seller/149071_RonKzhj.png HTTP/1.1" 200 19456
+WARNING2023-07-05 10:56:56,552logNot Found: /favicon.ico
+WARNING2023-07-05 10:56:56,553basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 10:57:47,687basehttp"GET /seller/sellerprofile HTTP/1.1" 200 6560
+INFO2023-07-05 10:57:47,718basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 304 0
+INFO2023-07-05 10:57:47,718basehttp"GET /static/style/seller_profile.css HTTP/1.1" 200 422
+INFO2023-07-05 10:58:17,003basehttp"GET /seller/sellerprofile HTTP/1.1" 200 6560
+INFO2023-07-05 10:58:17,021basehttp"GET /static/style/seller_profile.css HTTP/1.1" 200 444
+INFO2023-07-05 10:58:18,370basehttp"GET /seller/sellerprofile HTTP/1.1" 200 6560
+INFO2023-07-05 10:58:18,398basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 895
+INFO2023-07-05 10:58:18,398basehttp"GET /static/style/seller_profile.css HTTP/1.1" 200 444
+INFO2023-07-05 10:58:18,672basehttp"GET /media/seller/149071_RonKzhj.png HTTP/1.1" 200 19456
+WARNING2023-07-05 10:58:20,450logNot Found: /favicon.ico
+WARNING2023-07-05 10:58:20,450basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 10:58:33,226basehttp"GET /seller/sellerprofile HTTP/1.1" 200 6560
+INFO2023-07-05 10:58:33,249basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 895
+INFO2023-07-05 10:58:33,251basehttp"GET /static/style/seller_profile.css HTTP/1.1" 200 445
+INFO2023-07-05 10:58:33,488basehttp"GET /media/seller/149071_RonKzhj.png HTTP/1.1" 200 19456
+WARNING2023-07-05 10:58:34,096logNot Found: /favicon.ico
+WARNING2023-07-05 10:58:34,096basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 10:59:16,999basehttp"GET /seller/sellerprofile HTTP/1.1" 200 6560
+INFO2023-07-05 10:59:17,008basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 895
+INFO2023-07-05 10:59:17,025basehttp"GET /static/style/seller_profile.css HTTP/1.1" 200 450
+INFO2023-07-05 10:59:17,907basehttp"GET /media/seller/149071_RonKzhj.png HTTP/1.1" 200 19456
+WARNING2023-07-05 10:59:18,139logNot Found: /favicon.ico
+WARNING2023-07-05 10:59:18,139basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 11:00:17,708basehttp"GET /seller/sellerprofile HTTP/1.1" 200 6560
+INFO2023-07-05 11:00:17,725basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 895
+INFO2023-07-05 11:00:17,725basehttp"GET /static/style/seller_profile.css HTTP/1.1" 200 530
+INFO2023-07-05 11:00:17,963basehttp"GET /media/seller/149071_RonKzhj.png HTTP/1.1" 200 19456
+WARNING2023-07-05 11:00:19,228logNot Found: /favicon.ico
+WARNING2023-07-05 11:00:19,228basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 11:00:36,456basehttp"GET /seller/sellerprofile HTTP/1.1" 200 6560
+INFO2023-07-05 11:00:36,488basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 895
+INFO2023-07-05 11:00:36,488basehttp"GET /static/style/seller_profile.css HTTP/1.1" 200 499
+INFO2023-07-05 11:00:36,871basehttp"GET /media/seller/149071_RonKzhj.png HTTP/1.1" 200 19456
+WARNING2023-07-05 11:00:37,230logNot Found: /favicon.ico
+WARNING2023-07-05 11:00:37,230basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 11:00:50,955basehttp"GET /seller/sellerprofile HTTP/1.1" 200 6560
+INFO2023-07-05 11:00:50,987basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 895
+INFO2023-07-05 11:00:50,990basehttp"GET /static/style/seller_profile.css HTTP/1.1" 200 498
+INFO2023-07-05 11:00:51,098basehttp"GET /media/seller/149071_RonKzhj.png HTTP/1.1" 200 19456
+WARNING2023-07-05 11:00:51,983logNot Found: /favicon.ico
+WARNING2023-07-05 11:00:51,983basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 11:00:58,614basehttp"GET /seller/sellerprofile HTTP/1.1" 200 6560
+INFO2023-07-05 11:00:58,630basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 895
+INFO2023-07-05 11:00:58,639basehttp"GET /static/style/seller_profile.css HTTP/1.1" 200 498
+INFO2023-07-05 11:00:58,780basehttp"GET /media/seller/149071_RonKzhj.png HTTP/1.1" 200 19456
+WARNING2023-07-05 11:00:59,078logNot Found: /favicon.ico
+WARNING2023-07-05 11:00:59,078basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 11:01:03,892basehttp"GET /seller/sellerprofile HTTP/1.1" 200 6560
+INFO2023-07-05 11:01:03,916basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 895
+INFO2023-07-05 11:01:03,924basehttp"GET /static/style/seller_profile.css HTTP/1.1" 200 498
+INFO2023-07-05 11:01:04,344basehttp"GET /media/seller/149071_RonKzhj.png HTTP/1.1" 200 19456
+WARNING2023-07-05 11:01:04,765logNot Found: /favicon.ico
+WARNING2023-07-05 11:01:04,773basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 11:01:11,820basehttp"GET /seller/sellerprofile HTTP/1.1" 200 6560
+INFO2023-07-05 11:01:11,852basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 895
+INFO2023-07-05 11:01:11,852basehttp"GET /static/style/seller_profile.css HTTP/1.1" 200 498
+INFO2023-07-05 11:01:12,072basehttp"GET /media/seller/149071_RonKzhj.png HTTP/1.1" 200 19456
+WARNING2023-07-05 11:01:12,257logNot Found: /favicon.ico
+WARNING2023-07-05 11:01:12,257basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 11:01:26,701basehttp"GET /seller/sellerprofile HTTP/1.1" 200 6560
+INFO2023-07-05 11:01:26,709basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 895
+INFO2023-07-05 11:01:26,719basehttp"GET /static/style/seller_profile.css HTTP/1.1" 200 498
+INFO2023-07-05 11:01:26,919basehttp"GET /media/seller/149071_RonKzhj.png HTTP/1.1" 200 19456
+WARNING2023-07-05 11:01:27,240logNot Found: /favicon.ico
+WARNING2023-07-05 11:01:27,240basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 11:01:36,109basehttp"GET /seller/sellerhome HTTP/1.1" 200 6119
+INFO2023-07-05 11:01:37,424basehttp"GET /seller/addproduct HTTP/1.1" 200 7899
+INFO2023-07-05 11:01:42,470basehttp"GET /seller/updatestock HTTP/1.1" 200 8268
+INFO2023-07-05 11:01:43,277basehttp"GET /seller/sellerprofile HTTP/1.1" 200 6560
+INFO2023-07-05 11:01:43,294basehttp"GET /static/style/seller_profile.css HTTP/1.1" 304 0
+INFO2023-07-05 11:01:44,174basehttp"GET /seller/view_product HTTP/1.1" 200 11748
+INFO2023-07-05 11:01:45,280basehttp"GET /seller/changepassword HTTP/1.1" 200 6578
+INFO2023-07-05 11:01:45,297basehttp"GET /static/style/seller_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-05 11:01:46,933basehttp"GET /seller/sellerprofile HTTP/1.1" 200 6560
+INFO2023-07-05 11:01:46,957basehttp"GET /static/style/seller_profile.css HTTP/1.1" 304 0
+INFO2023-07-05 11:01:48,546basehttp"GET /seller/addproduct HTTP/1.1" 200 7899
+INFO2023-07-05 11:03:39,334basehttp"GET /seller/addproduct HTTP/1.1" 200 7966
+INFO2023-07-05 11:03:39,350basehttp"GET /static/style/add_product_style.css HTTP/1.1" 200 0
+INFO2023-07-05 11:03:39,350basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 895
+WARNING2023-07-05 11:03:43,079logNot Found: /favicon.ico
+WARNING2023-07-05 11:03:43,079basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 11:04:39,888basehttp"GET /seller/addproduct HTTP/1.1" 200 7601
+INFO2023-07-05 11:04:39,908basehttp"GET /static/style/add_product_style.css HTTP/1.1" 200 0
+INFO2023-07-05 11:04:39,913basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 895
+WARNING2023-07-05 11:04:50,973logNot Found: /favicon.ico
+WARNING2023-07-05 11:04:50,973basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 11:04:53,728basehttp"GET /seller/addproduct HTTP/1.1" 200 7601
+INFO2023-07-05 11:04:53,749basehttp"GET /static/style/add_product_style.css HTTP/1.1" 304 0
+INFO2023-07-05 11:06:14,595basehttp"GET /seller/addproduct HTTP/1.1" 200 7614
+INFO2023-07-05 11:06:14,623basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 895
+INFO2023-07-05 11:06:14,627basehttp"GET /static/style/add_product_style.css HTTP/1.1" 200 639
+WARNING2023-07-05 11:06:16,526logNot Found: /favicon.ico
+WARNING2023-07-05 11:06:16,526basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+ERROR2023-07-05 11:06:41,052logInternal Server Error: /seller/addproduct
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'p_image'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py", line 18, in add_product
+    pimage = request.FILES['p_image']
+             ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'p_image'
+ERROR2023-07-05 11:06:41,058basehttp"POST /seller/addproduct HTTP/1.1" 500 76277
+ERROR2023-07-05 11:06:49,874logInternal Server Error: /seller/addproduct
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py", line 19, in add_product
+    new_product = d(
+                  ^
+NameError: name 'd' is not defined
+ERROR2023-07-05 11:06:49,874basehttp"POST /seller/addproduct HTTP/1.1" 500 68563
+ERROR2023-07-05 11:07:00,716logInternal Server Error: /seller/addproduct
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py", line 19, in add_product
+    new_product = d(
+                  ^
+NameError: name 'd' is not defined
+ERROR2023-07-05 11:07:00,716basehttp"POST /seller/addproduct HTTP/1.1" 500 68567
+ERROR2023-07-05 11:07:06,316logInternal Server Error: /seller/addproduct
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py", line 19, in add_product
+    new_product = d(
+                  ^
+NameError: name 'd' is not defined
+ERROR2023-07-05 11:07:06,316basehttp"POST /seller/addproduct HTTP/1.1" 500 68571
+ERROR2023-07-05 11:07:16,333logInternal Server Error: /seller/addproduct
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py", line 19, in add_product
+    new_product = d(
+                  ^
+NameError: name 'd' is not defined
+ERROR2023-07-05 11:07:16,333basehttp"POST /seller/addproduct HTTP/1.1" 500 68591
+INFO2023-07-05 11:08:36,573autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py changed, reloading.
+INFO2023-07-05 11:08:37,402autoreloadWatching for file changes with StatReloader
+INFO2023-07-05 11:08:38,972autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py changed, reloading.
+INFO2023-07-05 11:08:39,594autoreloadWatching for file changes with StatReloader
+INFO2023-07-05 11:08:42,199autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py changed, reloading.
+INFO2023-07-05 11:08:42,923autoreloadWatching for file changes with StatReloader
+INFO2023-07-05 11:08:44,487autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py changed, reloading.
+INFO2023-07-05 11:08:45,151autoreloadWatching for file changes with StatReloader
+INFO2023-07-05 11:08:47,873autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py changed, reloading.
+INFO2023-07-05 11:08:48,440autoreloadWatching for file changes with StatReloader
+ERROR2023-07-05 11:08:50,145logInternal Server Error: /seller/addproduct
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\fields\__init__.py", line 2018, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py", line 30, in add_product
+    new_product.save()
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1659, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1583, in as_sql
+    value_rows = [
+                 ^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1584, in <listcomp>
+    [
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1585, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1523, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\fields\__init__.py", line 925, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\fields\__init__.py", line 920, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\fields\__init__.py", line 2020, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'p_number' expected a number but got ''.
+ERROR2023-07-05 11:08:50,145basehttp"POST /seller/addproduct HTTP/1.1" 500 141711
+WARNING2023-07-05 11:08:50,494logNot Found: /favicon.ico
+WARNING2023-07-05 11:08:50,494basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 11:08:58,690basehttp"GET /seller/addproduct HTTP/1.1" 200 7614
+INFO2023-07-05 11:08:58,706basehttp"GET /static/style/add_product_style.css HTTP/1.1" 304 0
+INFO2023-07-05 11:08:58,706basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 304 0
+ERROR2023-07-05 11:09:00,723logInternal Server Error: /seller/addproduct
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'p_image'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py", line 18, in add_product
+    pimage = request.FILES['p_image']
+             ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'p_image'
+ERROR2023-07-05 11:09:00,723basehttp"POST /seller/addproduct HTTP/1.1" 500 76283
+ERROR2023-07-05 11:09:09,319logInternal Server Error: /seller/addproduct
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\fields\__init__.py", line 2018, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py", line 30, in add_product
+    new_product.save()
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1659, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1583, in as_sql
+    value_rows = [
+                 ^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1584, in <listcomp>
+    [
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1585, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1523, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\fields\__init__.py", line 925, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\fields\__init__.py", line 920, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\fields\__init__.py", line 2020, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'p_number' expected a number but got ''.
+ERROR2023-07-05 11:09:09,327basehttp"POST /seller/addproduct HTTP/1.1" 500 141631
+ERROR2023-07-05 11:09:17,143logInternal Server Error: /seller/addproduct
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\fields\__init__.py", line 2018, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\seller\views.py", line 30, in add_product
+    new_product.save()
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1659, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1583, in as_sql
+    value_rows = [
+                 ^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1584, in <listcomp>
+    [
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1585, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1523, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\fields\__init__.py", line 925, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\fields\__init__.py", line 920, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\db\models\fields\__init__.py", line 2020, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'p_stock' expected a number but got ''.
+ERROR2023-07-05 11:09:17,152basehttp"POST /seller/addproduct HTTP/1.1" 500 141627
+INFO2023-07-05 11:09:28,058basehttp"POST /seller/addproduct HTTP/1.1" 200 7640
+INFO2023-07-05 11:09:28,066basehttp"GET /static/style/add_product_style.css HTTP/1.1" 304 0
+INFO2023-07-05 11:10:47,216basehttp"GET /seller/s_logout HTTP/1.1" 302 0
+INFO2023-07-05 11:10:47,232basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-07-05 11:10:50,976basehttp"GET /sellerlogin HTTP/1.1" 200 7965
+INFO2023-07-05 11:10:55,326basehttp"POST /sellerlogin HTTP/1.1" 302 0
+INFO2023-07-05 11:10:55,416basehttp"GET /seller/sellerhome HTTP/1.1" 200 6119
+INFO2023-07-05 11:10:59,969basehttp"GET /seller/addproduct HTTP/1.1" 200 7614
+INFO2023-07-05 11:10:59,985basehttp"GET /static/style/add_product_style.css HTTP/1.1" 304 0
+INFO2023-07-05 11:11:16,676basehttp"POST /seller/addproduct HTTP/1.1" 200 7640
+INFO2023-07-05 11:11:16,684basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 304 0
+INFO2023-07-05 11:12:35,607basehttp"POST /seller/addproduct HTTP/1.1" 200 7640
+INFO2023-07-05 11:12:35,782basehttp"GET /static/style/add_product_style.css HTTP/1.1" 200 639
+INFO2023-07-05 11:12:35,782basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 895
+INFO2023-07-05 11:12:37,821basehttp"GET /seller/addproduct HTTP/1.1" 200 7614
+WARNING2023-07-05 11:12:46,839logNot Found: /favicon.ico
+WARNING2023-07-05 11:12:46,839basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 11:13:19,677basehttp"GET /seller/addproduct HTTP/1.1" 200 7614
+INFO2023-07-05 11:13:19,700basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 895
+INFO2023-07-05 11:13:19,701basehttp"GET /static/style/add_product_style.css HTTP/1.1" 200 527
+WARNING2023-07-05 11:13:20,629logNot Found: /favicon.ico
+WARNING2023-07-05 11:13:20,629basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 11:13:35,549basehttp"GET /seller/sellerhome HTTP/1.1" 200 6119
+INFO2023-07-05 11:13:36,505basehttp"GET /seller/addproduct HTTP/1.1" 200 7614
+INFO2023-07-05 11:13:36,521basehttp"GET /static/style/add_product_style.css HTTP/1.1" 304 0
+INFO2023-07-05 11:13:37,736basehttp"GET /seller/updatestock HTTP/1.1" 200 8338
+INFO2023-07-05 11:13:38,641basehttp"GET /seller/sellerprofile HTTP/1.1" 200 6560
+INFO2023-07-05 11:13:38,658basehttp"GET /static/style/seller_profile.css HTTP/1.1" 304 0
+INFO2023-07-05 11:13:40,275basehttp"GET /seller/changepassword HTTP/1.1" 200 6578
+INFO2023-07-05 11:13:40,292basehttp"GET /static/style/seller_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-05 11:13:41,401basehttp"GET /seller/view_product HTTP/1.1" 200 12332
+INFO2023-07-05 11:13:41,446basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 200 711614
+INFO2023-07-05 11:13:45,914basehttp"GET /seller/updatestock HTTP/1.1" 200 8338
+INFO2023-07-05 11:15:41,005basehttp"POST /seller/stock_update HTTP/1.1" 200 13
+INFO2023-07-05 11:15:44,771basehttp"POST /seller/stock_update HTTP/1.1" 200 14
+INFO2023-07-05 11:15:48,026basehttp"GET /seller/updatestock HTTP/1.1" 200 8050
+INFO2023-07-05 11:15:48,049basehttp"GET /static/style/update_stock_style.css HTTP/1.1" 200 0
+INFO2023-07-05 11:15:51,985basehttp"POST /seller/stock_update HTTP/1.1" 200 14
+INFO2023-07-05 11:16:03,046basehttp"GET /seller/updatestock HTTP/1.1" 200 8051
+INFO2023-07-05 11:16:03,062basehttp"GET /static/style/update_stock_style.css HTTP/1.1" 304 0
+INFO2023-07-05 11:16:03,062basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 304 0
+INFO2023-07-05 11:16:50,376basehttp"GET /seller/updatestock HTTP/1.1" 200 8064
+INFO2023-07-05 11:16:50,392basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 895
+INFO2023-07-05 11:16:50,392basehttp"GET /static/style/update_stock_style.css HTTP/1.1" 200 527
+WARNING2023-07-05 11:16:52,509logNot Found: /favicon.ico
+WARNING2023-07-05 11:16:52,509basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 11:17:01,319basehttp"POST /seller/stock_update HTTP/1.1" 200 13
+INFO2023-07-05 11:17:03,115basehttp"POST /seller/stock_update HTTP/1.1" 200 13
+INFO2023-07-05 11:17:05,753basehttp"POST /seller/stock_update HTTP/1.1" 200 12
+INFO2023-07-05 11:17:25,907basehttp"GET /seller/updatestock HTTP/1.1" 200 8064
+INFO2023-07-05 11:17:25,924basehttp"GET /static/style/update_stock_style.css HTTP/1.1" 304 0
+INFO2023-07-05 11:19:24,392basehttp"GET /seller/updatestock HTTP/1.1" 200 8097
+INFO2023-07-05 11:19:24,416basehttp"GET /static/style/update_stock_style.css HTTP/1.1" 200 527
+INFO2023-07-05 11:19:24,416basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 895
+WARNING2023-07-05 11:19:27,923logNot Found: /favicon.ico
+WARNING2023-07-05 11:19:27,923basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 11:20:37,370basehttp"GET /seller/updatestock HTTP/1.1" 200 8097
+INFO2023-07-05 11:20:37,395basehttp"GET /static/style/update_stock_style.css HTTP/1.1" 200 527
+INFO2023-07-05 11:20:37,397basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 963
+WARNING2023-07-05 11:20:39,556logNot Found: /favicon.ico
+WARNING2023-07-05 11:20:39,556basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 11:20:59,080basehttp"GET /seller/updatestock HTTP/1.1" 200 8097
+INFO2023-07-05 11:20:59,109basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 950
+INFO2023-07-05 11:21:06,482basehttp"GET /seller/updatestock HTTP/1.1" 200 8097
+INFO2023-07-05 11:21:06,498basehttp"GET /static/style/update_stock_style.css HTTP/1.1" 304 0
+INFO2023-07-05 11:21:06,498basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 926
+INFO2023-07-05 11:21:14,983basehttp"GET /seller/updatestock HTTP/1.1" 200 8097
+INFO2023-07-05 11:21:15,015basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 937
+INFO2023-07-05 11:21:34,556basehttp"GET /seller/updatestock HTTP/1.1" 200 8097
+INFO2023-07-05 11:21:34,572basehttp"GET /static/style/update_stock_style.css HTTP/1.1" 304 0
+INFO2023-07-05 11:21:34,588basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 200 940
+INFO2023-07-05 11:21:56,174basehttp"GET /seller/sellerhome HTTP/1.1" 200 6152
+INFO2023-07-05 11:21:56,198basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 304 0
+INFO2023-07-05 11:21:58,383basehttp"GET /seller/s_logout HTTP/1.1" 302 0
+INFO2023-07-05 11:21:58,391basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-07-05 11:22:02,152basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-05 11:22:07,680basehttp"POST /customerlogin HTTP/1.1" 302 0
+INFO2023-07-05 11:22:07,809basehttp"GET /customer/customer_home HTTP/1.1" 200 13968
+INFO2023-07-05 11:22:07,849basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 304 0
+INFO2023-07-05 17:14:29,813basehttp"GET /customer/cprofile HTTP/1.1" 200 6875
+INFO2023-07-05 17:14:29,864basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-05 17:14:29,913basehttp"GET /static/style/cust_profile.css HTTP/1.1" 304 0
+INFO2023-07-05 17:14:34,403basehttp"GET /customer/cmycart HTTP/1.1" 200 12493
+INFO2023-07-05 17:14:36,057basehttp"GET /customer/customer_home HTTP/1.1" 200 13968
+INFO2023-07-05 17:14:36,090basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 304 0
+INFO2023-07-05 17:14:38,364basehttp"GET /customer/cmycart HTTP/1.1" 200 12493
+INFO2023-07-05 17:14:39,564basehttp"GET /customer/customer_home HTTP/1.1" 200 13968
+INFO2023-07-05 17:14:40,255basehttp"GET /customer/cmycart HTTP/1.1" 200 12493
+INFO2023-07-05 17:14:41,045basehttp"GET /customer/cprofile HTTP/1.1" 200 6875
+INFO2023-07-05 17:14:42,836basehttp"GET /customer/cmyorders HTTP/1.1" 200 5961
+INFO2023-07-05 17:14:50,277basehttp"GET /customer/cmyorders HTTP/1.1" 200 5961
+INFO2023-07-05 17:14:53,530basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7120
+INFO2023-07-05 17:14:53,546basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-05 17:14:56,580basehttp"GET /customer/c_logout HTTP/1.1" 302 0
+INFO2023-07-05 17:14:56,584basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-07-05 17:14:59,273basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-07-05 17:15:03,509basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-07-05 17:15:04,609basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-07-05 17:15:08,990basehttp"GET /sellerlogin HTTP/1.1" 200 7965
+INFO2023-07-05 17:15:14,358basehttp"POST /sellerlogin HTTP/1.1" 200 7984
+INFO2023-07-05 17:15:20,743basehttp"POST /sellerlogin HTTP/1.1" 302 0
+INFO2023-07-05 17:15:20,817basehttp"GET /seller/sellerhome HTTP/1.1" 200 6152
+INFO2023-07-05 17:15:20,834basehttp"GET /static/style/master_seller_style.css HTTP/1.1" 304 0
+INFO2023-07-05 17:15:41,054basehttp"GET /seller/sellerhome HTTP/1.1" 200 6152
+INFO2023-07-05 17:15:43,604basehttp"GET /seller/sellerhome HTTP/1.1" 200 6153
+INFO2023-07-05 17:15:50,944basehttp"GET /seller/s_logout HTTP/1.1" 302 0
+INFO2023-07-05 17:15:50,955basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-07-05 17:15:52,868basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-05 17:15:57,540basehttp"POST /customerlogin HTTP/1.1" 302 0
+INFO2023-07-05 17:15:57,658basehttp"GET /customer/customer_home HTTP/1.1" 200 13968
+INFO2023-07-05 17:17:30,187basehttp"GET /customer/customer_home HTTP/1.1" 200 13984
+INFO2023-07-05 17:17:37,689basehttp"GET /customer/customer_home HTTP/1.1" 200 13984
+INFO2023-07-05 17:18:08,464basehttp"GET /customer/customer_home HTTP/1.1" 200 14000
+INFO2023-07-05 17:18:20,655basehttp"GET /customer/customer_home HTTP/1.1" 200 14000
+INFO2023-07-05 17:18:23,028basehttp"GET /customer/customer_home HTTP/1.1" 200 14000
+INFO2023-07-05 17:18:23,053basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 947
+INFO2023-07-05 17:18:23,736basehttp"GET /static/images/standing_man.png HTTP/1.1" 200 461367
+INFO2023-07-05 17:18:24,060basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-05 17:18:24,084basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-05 17:18:24,093basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-05 17:18:24,109basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-05 17:18:24,125basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-05 17:18:24,150basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-05 17:18:24,158basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-05 17:18:24,174basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-05 17:18:24,206basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-05 17:18:24,222basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-05 17:18:24,239basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 200 711614
+WARNING2023-07-05 17:18:25,477logNot Found: /favicon.ico
+WARNING2023-07-05 17:18:25,477basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 17:18:29,273basehttp"GET /customer/cprofile HTTP/1.1" 200 6907
+INFO2023-07-05 17:18:29,289basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-05 17:18:42,436basehttp"GET /customer/cmycart HTTP/1.1" 200 12525
+INFO2023-07-05 17:18:42,452basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-05 17:23:34,059basehttp"GET /customer/cmycart HTTP/1.1" 200 12585
+INFO2023-07-05 17:23:34,074basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 947
+INFO2023-07-05 17:23:34,137basehttp"GET /static/style/cart_style.css HTTP/1.1" 200 50
+INFO2023-07-05 17:23:35,026basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-05 17:23:35,040basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-05 17:23:35,048basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-05 17:23:35,056basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-05 17:23:35,072basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+WARNING2023-07-05 17:23:36,214logNot Found: /favicon.ico
+WARNING2023-07-05 17:23:36,214basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 17:25:46,675basehttp"GET /customer/cmycart HTTP/1.1" 200 12720
+INFO2023-07-05 17:25:46,701basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-05 17:25:46,708basehttp"GET /static/style/cart_style.css HTTP/1.1" 200 131
+INFO2023-07-05 17:25:54,813basehttp"GET /customer/cmycart HTTP/1.1" 200 12720
+INFO2023-07-05 17:25:54,845basehttp"GET /static/style/cart_style.css HTTP/1.1" 200 131
+INFO2023-07-05 17:26:18,897basehttp"GET /customer/cmycart HTTP/1.1" 200 12720
+INFO2023-07-05 17:26:18,914basehttp"GET /static/style/cart_style.css HTTP/1.1" 200 156
+INFO2023-07-05 17:26:36,161basehttp"GET /customer/cmycart HTTP/1.1" 200 12722
+INFO2023-07-05 17:26:36,193basehttp"GET /static/style/cart_style.css HTTP/1.1" 304 0
+INFO2023-07-05 17:26:36,193basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-05 17:26:42,323basehttp"GET /customer/cmycart HTTP/1.1" 200 12724
+INFO2023-07-05 17:26:42,339basehttp"GET /static/style/cart_style.css HTTP/1.1" 304 0
+INFO2023-07-05 17:26:42,920basehttp"GET /customer/cmycart HTTP/1.1" 200 12724
+INFO2023-07-05 17:26:43,523basehttp"GET /customer/cmycart HTTP/1.1" 200 12724
+INFO2023-07-05 17:26:43,539basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 947
+INFO2023-07-05 17:26:43,539basehttp"GET /static/style/cart_style.css HTTP/1.1" 200 156
+INFO2023-07-05 17:26:44,065basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-05 17:26:44,074basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-05 17:26:44,082basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-05 17:26:44,090basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-05 17:26:44,098basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+WARNING2023-07-05 17:26:45,136logNot Found: /favicon.ico
+WARNING2023-07-05 17:26:45,136basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 17:27:28,179basehttp"GET /customer/cmycart HTTP/1.1" 200 12724
+INFO2023-07-05 17:27:28,202basehttp"GET /static/style/cart_style.css HTTP/1.1" 200 216
+INFO2023-07-05 17:27:36,826basehttp"GET /customer/cmycart HTTP/1.1" 200 12724
+INFO2023-07-05 17:27:36,846basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-05 17:27:36,860basehttp"GET /static/style/cart_style.css HTTP/1.1" 200 235
+INFO2023-07-05 17:27:51,412basehttp"GET /customer/cmycart HTTP/1.1" 200 12724
+INFO2023-07-05 17:27:51,439basehttp"GET /static/style/cart_style.css HTTP/1.1" 200 245
+INFO2023-07-05 17:27:58,696basehttp"GET /customer/cmycart HTTP/1.1" 200 12724
+INFO2023-07-05 17:27:58,713basehttp"GET /static/style/cart_style.css HTTP/1.1" 200 245
+INFO2023-07-05 17:28:00,954basehttp"GET /customer/cmycart HTTP/1.1" 200 12724
+INFO2023-07-05 17:28:00,971basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 947
+INFO2023-07-05 17:28:00,971basehttp"GET /static/style/cart_style.css HTTP/1.1" 200 245
+INFO2023-07-05 17:28:01,416basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-05 17:28:01,419basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-05 17:28:01,425basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-05 17:28:01,433basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-05 17:28:01,435basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+WARNING2023-07-05 17:28:03,334logNot Found: /favicon.ico
+WARNING2023-07-05 17:28:03,334basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-05 17:28:37,292basehttp"GET /customer/cmycart HTTP/1.1" 200 12724
+INFO2023-07-05 17:28:37,316basehttp"GET /static/style/cart_style.css HTTP/1.1" 200 245
+INFO2023-07-05 17:28:51,717basehttp"GET /customer/cmycart HTTP/1.1" 200 12724
+INFO2023-07-05 17:28:51,736basehttp"GET /static/style/cart_style.css HTTP/1.1" 200 268
+INFO2023-07-05 17:29:08,158basehttp"GET /customer/cmycart HTTP/1.1" 200 12724
+INFO2023-07-05 17:29:08,179basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-05 17:29:08,188basehttp"GET /static/style/cart_style.css HTTP/1.1" 200 269
+INFO2023-07-05 17:29:12,538basehttp"GET /customer/cmycart HTTP/1.1" 200 12724
+INFO2023-07-05 17:29:12,562basehttp"GET /static/style/cart_style.css HTTP/1.1" 200 269
+INFO2023-07-05 17:29:16,613basehttp"GET /customer/cmycart HTTP/1.1" 200 12724
+INFO2023-07-05 17:29:16,641basehttp"GET /static/style/cart_style.css HTTP/1.1" 200 269
+INFO2023-07-05 17:29:38,156basehttp"GET /customer/cmycart HTTP/1.1" 200 12695
+INFO2023-07-05 17:29:38,174basehttp"GET /static/style/cart_style.css HTTP/1.1" 304 0
+INFO2023-07-05 17:37:25,835basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-05 17:37:27,274basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-05 17:37:27,689basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-05 17:37:27,839basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-05 17:37:28,023basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-05 17:37:28,195basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-05 17:37:28,732basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-05 17:37:29,693basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-05 17:37:29,860basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-05 17:37:30,057basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-05 17:37:30,257basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-05 17:37:30,459basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-05 17:37:30,657basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-05 17:37:30,841basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-05 17:37:31,055basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-05 17:37:49,921basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-05 17:37:50,294basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-05 17:37:51,156basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-05 17:37:51,292basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-05 17:37:51,462basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-05 17:37:51,603basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-05 17:37:51,758basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-05 17:37:52,035basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-05 17:37:52,103basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-05 17:37:52,259basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-05 17:37:52,467basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-05 17:37:53,088basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-05 17:37:53,261basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-05 17:37:53,457basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-05 17:37:53,610basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-05 17:37:53,838basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-05 17:37:54,094basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-05 17:37:54,349basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-05 17:37:54,656basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-05 17:37:54,944basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-05 17:45:17,688autoreloadWatching for file changes with StatReloader
+INFO2023-07-05 17:46:42,763basehttp"GET / HTTP/1.1" 200 9446
+INFO2023-07-05 17:46:48,668basehttp"GET /customer/cmycart HTTP/1.1" 302 0
+INFO2023-07-05 17:46:48,684basehttp"GET /customerlogin HTTP/1.1" 200 8138
+INFO2023-07-05 17:46:55,872basehttp"POST /customerlogin HTTP/1.1" 302 0
+INFO2023-07-05 17:46:55,996basehttp"GET /customer/customer_home HTTP/1.1" 200 14000
+INFO2023-07-05 17:46:56,019basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-05 17:47:02,863basehttp"GET /customer/cmycart HTTP/1.1" 200 12695
+INFO2023-07-05 17:47:02,889basehttp"GET /static/style/cart_style.css HTTP/1.1" 304 0
+INFO2023-07-05 17:47:48,380basehttp"GET /customer/cmycart HTTP/1.1" 200 12695

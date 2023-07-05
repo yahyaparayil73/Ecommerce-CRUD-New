@@ -3,13 +3,24 @@
 
 {% block title %}
 <title>Your Cart</title>
+<link rel="stylesheet" href="{% static 'style/cart_style.css' %}">
 
 {% endblock %}
 
 {% block content %}
+<div class="cart_heading_div">
+
+    <h2>Cart</h2>
+    <p>
+
+        <a href="#">Home</a> |
+        <a href="#">Cart</a>
+
+    </p>
+
+</div>
 
 <div class="container" style="margin-bottom: 50px;">
-    <h1>YOUR CART</h1><br>
     <div>
         <table class="table" style="border: 1px;">
             <thead>

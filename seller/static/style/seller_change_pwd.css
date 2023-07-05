@@ -1,0 +1,58 @@
+div {
+
+    font-family: 'Jost', sans-serif;
+
+}
+
+div p {
+
+    text-align: center;
+    margin-top: -25px;
+
+
+}
+
+div h1 {
+
+    text-align: center;
+
+}
+
+form div label {
+
+    margin-bottom: 8px;
+
+
+}
+
+form div input {
+
+    width: 400px !important;
+    border-radius: 0% !important;
+
+
+}
+
+#form_id button {
+
+    border-radius: 0% !important;
+    padding: 10px 30px !important;
+
+
+}
+
+#form_id {
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 450px;
+    margin-left: 330px;
+   
+}
+
+#form_id span {
+
+    color: red;
+
+}

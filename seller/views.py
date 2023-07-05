@@ -5,7 +5,7 @@ from seller.models import Product
 from django.http import JsonResponse
 
 
-@auth_seller
+# @auth_seller
 def add_product(request):
     msg = ''
     if request.method == 'POST':
@@ -16,7 +16,7 @@ def add_product(request):
         pstock = request.POST['p_current_stock']
         pprice = request.POST['p_price']
         pimage = request.FILES['p_image']
-        new_product = d(
+        new_product = Product(
             p_name=pname,
             p_description=pdescription,
             p_category=pcategory,
@@ -33,7 +33,7 @@ def add_product(request):
     return render(request, 'seller/add product.html', {'success_message': msg})
 
 
-@auth_seller
+# @auth_seller
 def change_password(request):
     msg = ''
     if request.method == 'POST':
@@ -49,22 +49,22 @@ def change_password(request):
     return render(request, 'seller/change password.html', {'password_message': msg})
 
 
-@auth_seller
+# @auth_seller
 def seller_home(request):
-    seller = Seller.objects.get(id=request.session['seller'])
-    return render(request, 'seller/seller home.html', {'seller_data': seller})
+    seller_data = Seller.objects.get(id=request.session['seller'])
+    return render(request, 'seller/seller home.html', {'seller_data': seller_data})
 
 
 def product_catalogue(request):
     return render(request, 'seller/product catalogue.html')
 
 
-@auth_seller
+# @auth_seller
 def seller_profile(request):
     seller = Seller.objects.get(id=request.session['seller'])
     return render(request, 'seller/seller profile.html', {'seller_profile_data': seller})
 
-@auth_seller
+# @auth_seller
 def update_stock(request):
     products = Product.objects.filter(
         seller=request.session['seller']).values('id', 'p_name')
@@ -77,17 +77,17 @@ def update_stock(request):
 
     return render(request, 'seller/update stock.html', {'products': products})
 
-@auth_seller
+# @auth_seller
 def view_product(request):
     sellerid = request.session['seller']
     product = Product.objects.filter(seller_id=sellerid)
     return render(request, 'seller/view_product.html', {'product_message': product})
 
-@auth_seller
+# @auth_seller
 def view_orders(request):
     return render(request, 'seller/view orders.html')
 
-@auth_seller
+# @auth_seller
 def master_seller(request):
     return render(request, 'seller/master_seller.html')
 

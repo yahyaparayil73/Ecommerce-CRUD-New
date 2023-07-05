@@ -10,17 +10,24 @@
 
 <div class="container">
     <h1>CUSTOMER PROFILE</h1>
-    <div>
-        <label for="inputEmail4" class="form-label">Name</label>
-        <input type="text" class="form-control" id="inputEmail4" name="customer_name" value="{{ customer_profile.c_name | title}}" readonly>
+    <p>Enter your profile details </p>
+
+    <div id="main_div">
+        <div>
+            <label for="inputEmail4" class="form-label">Name</label>
+            <input type="text" class="form-control" id="inputEmail4" name="customer_name"
+                value="{{ customer_profile.c_name | title}}" readonly>
+        </div>
+        <div>
+            <label for="inputPassword4" class="form-label">Mobile Number</label>
+            <input type="text" class="form-control" id="inputPassword4" name="customer_mobile"
+                value="{{ customer_profile.c_mobile }}" readonly>
+        </div>
+        <div>
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="text" class="form-control" id="inputEmail4" name="customer_phone"
+                value="{{ customer_profile.c_email }}" readonly>
+        </div><br>
     </div>
-    <div>
-        <label for="inputPassword4" class="form-label">Mobile Number</label>
-        <input type="text" class="form-control" id="inputPassword4" name="customer_mobile" value="{{ customer_profile.c_mobile }}" readonly>
-    </div>
-    <div>
-        <label for="inputEmail4" class="form-label">Email</label>
-        <input type="text" class="form-control" id="inputEmail4" name="customer_phone" value="{{ customer_profile.c_email }}" readonly>
-    </div><br>
 </div>
 {% endblock %}

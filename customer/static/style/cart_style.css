@@ -1,0 +1,21 @@
+div {
+
+    font-family: 'Jost', sans-serif;
+
+}
+
+.cart_heading_div {
+
+    height: 150px;
+    background-color: bisque;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.cart_heading_div a {
+
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+
+}

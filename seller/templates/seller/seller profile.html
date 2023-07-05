@@ -3,32 +3,32 @@
 
 {% block title %}
 <title>Seller Profile</title>
+<link rel="stylesheet" href="{% static 'style/seller_profile.css' %}">
 {% endblock %}
 
 {% block content %}
-<div class="container" style="display: grid;  justify-content: center;">
-    <h1 style="color: rgb(91, 48, 84);">
-        <b><u>SELLER PROFILE</u></b>
-    </h1><br>
+<div class="container">
+    <h1>SELLER PROFILE</h1><br>
+    <p>Enter your profile details </p>
+
     <div>
         <img src="{{ seller_profile_data.s_image.url }}" alt="" width="100px">
 
     </div><br>
-    <div style="display: flex;">
-        <label for="inputEmail4"
-            class="form-label">Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your Name" style="width: 400px;"
+    <div>
+        <label for="inputEmail4" class="form-label">Name</label>
+        <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your Name"
             value="{{ seller_profile_data.s_name | title}}" readonly>
     </div><br>
-    <div style="display: flex;">
+    <div>
         <label for="inputPassword4" class="form-label">Email Address</label>&nbsp;&nbsp;&nbsp;&nbsp;
         <input type="email" class="form-control" id="inputPassword4" placeholder="Enter your Email"
-            style="width: 400px;" value="{{ seller_profile_data.s_email }}" readonly>
+            value="{{ seller_profile_data.s_email }}" readonly>
     </div><br>
-    <div style="display: flex;">
+    <div>
         <label for="inputEmail4" class="form-label">Phone Number</label>&nbsp;&nbsp;&nbsp;
         <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your Phone Number"
-            style="width: 400px;" value="{{ seller_profile_data.s_mobile }}" readonly>
+            value="{{ seller_profile_data.s_mobile }}" readonly>
     </div>
 </div>
 {% endblock %}

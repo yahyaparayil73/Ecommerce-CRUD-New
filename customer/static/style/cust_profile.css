@@ -1,7 +1,7 @@
-.container{
+.container {
 
-display: grid;
-justify-content: center;
+    display: grid;
+    justify-content: center;
 
 }
 
@@ -18,8 +18,23 @@ div h1 {
 
 }
 
-div input{
+div input {
 
-border-radius: 0% !important;
+    border-radius: 0% !important;
+
+}
+
+#main_div {
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 450px;
+
+}
+
+div p {
+
+text-align: center;
 
 }

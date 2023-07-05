@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{% static 'style/masterstyle.css' %}">
+    <link rel="stylesheet" href="{% static 'style/master_seller_style.css' %}">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
@@ -16,56 +17,118 @@
     <script src=" https://code.jquery.com/jquery-3.6.4.js"
         integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous">
         </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Jost:wght@100;400;500;600&family=Poppins&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9edefc9b63.js" crossorigin="anonymous"></script>
     {% block title %}
     <title>Master seller</title>
     {% endblock %}
 </head>
 
 <body>
+    <div>
+        <!-- -------------------------start of first heading------------------------------------ -->
+        <div class="first_heading_div">
+            <ul class="heading_ul">
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">
+                        Privacy
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        FAQ
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Careers
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Track your Order
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        My Wishlist
+                    </a>
+                </li>
+                <div class="ul_inside_div">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
 
-    <nav class="navbar navbar-expand-lg bg-primary">
-        <div class="container-fluid">
-            <a class="navbar-brand text-light" href="#"><i>Shop-E-huB</i></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="{% url 'seller:seller_home' %}">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'seller:add_product' %}">Add Product</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'seller:update_stock' %}">Update
-                            Stock</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'seller:seller_profile' %}">Profile</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'seller:view_product' %}">View Products</a>
-                    </li>
-                </ul>
+            </ul>
 
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light" style="padding-left: 40px;">
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'seller:changepassword' %}">Change
-                            Password</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'seller:seller_logout' %}">Logout</a>
-                    </li>
-                </ul>
-            </div>
         </div>
-    </nav>
-    {% block content %}
+        <!-- -------------------------end of first heading------------------------------------ -->
 
-    {% endblock %}
+        <nav class="navbar navbar-expand-lg bg-success">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#"><b>SHOP</b>EHUB</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="{% url 'seller:seller_home' %}">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'seller:add_product' %}">Add Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'seller:update_stock' %}">Update
+                                Stock</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'seller:seller_profile' %}">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'seller:view_product' %}">View Products</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light" style="padding-left: 40px;">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'seller:changepassword' %}">Change
+                                Password</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'seller:seller_logout' %}">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+         <!-- -------------------------start of second heading------------------------------------ -->
+
+         <div class="main_heading_div">
+
+            <h6>Sale Up To 50% Biggest Discounts. Hurry! Limited Period Registration  <u><a href="#">Shop Now</a></u>
+
+            </h6>
+
+        </div>
+        <!-- -------------------------end of second heading------------------------------------ -->
+        {% block content %}
+
+        {% endblock %}
+    </div>
 </body>
 
 </html>
