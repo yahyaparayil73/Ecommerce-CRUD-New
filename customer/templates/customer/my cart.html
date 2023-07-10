@@ -13,16 +13,16 @@
     <h2>Cart</h2>
     <p>
 
-        <a href="#">Home</a> |
+        <a href="{% url 'customer:home' %}">Home</a> |
         <a href="#">Cart</a>
 
     </p>
 
 </div>
 
-<div class="container" style="margin-bottom: 50px;">
-    <div>
-        <table class="table" style="border: 1px;">
+<div class="container">
+    <div class="table_div">
+        <table class="table">
             <thead>
                 <th>
                     Product Image
@@ -47,9 +47,9 @@
             {% for item in cart_items %}
             <tr>
                 <td>
-                    <img src="{{ item.product.p_image.url }}" width="75px">
+                    <img src="{{ item.product.p_image.url }}" width="65px">
                 </td>
-                <td>
+                <td class="Product_name">
                     {{ item.product.p_name |title}}
                 </td>
                 <td>
@@ -58,9 +58,9 @@
                 <td>
                     ₹ {{ item.product.p_price }}
                 </td>
-                <td>
+                <td class="quantity">
                     {% csrf_token %}
-                    <input type="number" id="qty" min="1" data-item="{{ item.product.id }}"><br>
+                    <input type="number" id="qty" min="1" data-item="{{ item.product.id }}" style="width: 50px;"><br>
                     <span id="stock_error"></span>
                     <span id="stock_success"></span>
                 </td>
@@ -71,9 +71,36 @@
             {% endfor %}
         </table>
     </div>
-    <label for="">Total Amount</label>
-    <input type="text" name="" id=""><br><br>
-    <button class="btn btn-warning">Place Order</button>
+
+    <div class="amount_div">
+
+        <table class="amount_table">
+
+            <tr>
+                <td>Subtotal</td>
+                <td>₹100</td>
+            </tr>
+            <tr>
+                <td>Salestax</td>
+                <td>₹100</td>
+            </tr>
+            <tr>
+                <td>Coupon Code</td>
+                <td><a href="">Add Coupon</a></td>
+            </tr>
+            <tr>
+                <td>Grandtotal</td>
+                <td>₹1000</td>
+            </tr>
+        
+
+
+        </table>
+
+        <button class="btn btn-success">Checkout</button>
+
+
+    </div>
 </div>
 
 <script>

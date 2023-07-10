@@ -76,3 +76,12 @@
     color: bisque;
 
 }
+
+#search_button {
+
+    background-color:rgb(57, 95, 166);
+    padding: 10px;
+    color: white;
+    border: 0;
+    border-radius: 0%;
+}

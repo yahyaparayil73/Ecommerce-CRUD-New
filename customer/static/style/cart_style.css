@@ -19,3 +19,43 @@ div {
     color: rgb(75, 75, 75);
 
 }
+
+.quantity {
+
+    width: 10px;
+
+}
+
+.table_div {
+
+    margin-top: 20px;
+    border: 1px solid;
+
+}
+
+.amount_div {
+
+    margin-top: 20px;
+    height: 150px;
+
+}
+
+.amount_table {
+
+    width: 700px;
+    margin-top: 30px;
+
+}
+
+.amount_div button {
+
+    margin-top: 20px;
+    border-radius: 0% !important;
+
+}
+
+.Product_name {
+
+    width: 40px;
+
+}

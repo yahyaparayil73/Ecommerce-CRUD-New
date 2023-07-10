@@ -1,0 +1,58 @@
+span {
+
+    color: red;
+
+}
+
+div {
+
+    font-family: 'Jost', sans-serif;
+
+}
+
+#cart_button {
+
+    border-radius: 0%;
+    color: rgb(181, 62, 62);
+    padding: 10px 25px;
+
+}
+
+#cart_button :hover {
+
+    color: yellow;
+
+}
+
+.card-body button {
+
+    border-radius: 0%;
+    color: green;
+    padding: 10px 25px;
+
+}
+
+.card-body h5 {
+
+    font-size: x-large;
+
+}
+
+.card-body h4 strike {
+
+    color: rgb(181, 62, 62);
+
+}
+
+.card-body h4 {
+
+    color: rgb(149, 132, 49)
+}
+
+
+.card-body p {
+
+    font-size: large;
+    line-height: 15px;
+
+}
