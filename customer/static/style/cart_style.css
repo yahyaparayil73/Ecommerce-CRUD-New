@@ -36,7 +36,10 @@ div {
 .amount_div {
 
     margin-top: 20px;
-    height: 150px;
+    height: 250px;
+    background-color: rgb(235, 238, 240);
+    padding: 10px;
+    padding-left: 40px;
 
 }
 
@@ -57,5 +60,12 @@ div {
 .Product_name {
 
     width: 40px;
+
+}
+
+.cart_delete a{
+
+    text-decoration: none;
+    color: rgb(135, 131, 131);
 
 }

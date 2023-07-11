@@ -41,7 +41,7 @@
 
 }
 
-.navbar div div ul li {
+#nav_dropdown li {
 
     padding-left: 30px;
     font-weight: 500;
@@ -79,9 +79,22 @@
 
 #search_button {
 
-    background-color:rgb(57, 95, 166);
+    background-color: rgb(57, 95, 166);
     padding: 10px;
     color: white;
     border: 0;
     border-radius: 0%;
+}
+
+#logout_ul {
+
+    font-weight: 500;
+    padding-left: 40px;
+
+}
+
+#categories_id ul li a {
+
+color: black;
+
 }

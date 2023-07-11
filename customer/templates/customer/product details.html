@@ -14,19 +14,23 @@
         {% csrf_token %}
         <div class="row g-0 main_div">
             <div class="col-lg-6 image_div">
-                <img src="{{ product.p_image.url }}" class="img-fluid rounded-start" alt="..." width="300px">
+                <img src="{{ product.p_image.url }}" class="img-fluid rounded-start" alt="..." width="280px">
             </div>
             <div class="col-lg-6">
                 <div class="card-body">
+                    <span>{{ msg }}</span>
                     <h5 class="card-title">{{ product.p_name }}</h5>
                     <p class="card-text">{{ product.p_description }}</p>
-                    <h4>₹{{product.p_price}} &nbsp; <h4>MRP <strike>₹1200</strike>  (25% OFF)</h4></h4>
-                    <button id="cart_button" type="submit" class="btn btn-outline-danger">Cart</button>
-                    <button class="btn btn-outline-success">Wishlist</button>
+                    <h4>MRP ₹{{product.p_price}} &nbsp; <h4> <strike>₹1200</strike> (25% OFF)</h4>
+                    </h4>
+                    <p id="tax_p">Inclusive of all Taxes</p>
+                    <button id="cart_button" type="submit" class="btn btn-danger"><i
+                            class="fa-sharp fa-solid fa-bag-shopping" style="color: #ffffff;"></i>Cart</button>
+                    <button class="btn btn-outline-success"><i class="fa-regular fa-heart"></i>Wishlist</button>
                 </div>
             </div>
         </div>
-        <span>{{ msg }}</span>
+
     </form>
 </div>
 

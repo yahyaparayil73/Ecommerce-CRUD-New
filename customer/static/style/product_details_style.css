@@ -4,6 +4,21 @@ span {
 
 }
 
+.card {
+
+    height: 400px;
+    border: 0;
+
+}
+
+form img {
+
+    margin-left: 180px;
+    margin-top: 30px;
+    border-radius: 0%;
+
+}
+
 div {
 
     font-family: 'Jost', sans-serif;
@@ -13,15 +28,16 @@ div {
 #cart_button {
 
     border-radius: 0%;
-    color: rgb(181, 62, 62);
-    padding: 10px 25px;
+    color: white;
+    padding: 10px 35px;
 
 }
 
-#cart_button :hover {
+#cart_button i {
 
-    color: yellow;
-
+    font-size: 16px;
+    padding-right: 8px;
+    padding-top: -15px;
 }
 
 .card-body button {
@@ -29,6 +45,19 @@ div {
     border-radius: 0%;
     color: green;
     padding: 10px 25px;
+
+}
+
+.card-body {
+
+    margin-top: 55px;
+}
+
+.card-body button i {
+
+    padding-right: 8px;
+    font-size: 16px;
+
 
 }
 
@@ -53,6 +82,13 @@ div {
 .card-body p {
 
     font-size: large;
-    line-height: 15px;
+    line-height: 25px;
+
+}
+
+#tax_p {
+
+    color: green;
+    padding: 5px;
 
 }
