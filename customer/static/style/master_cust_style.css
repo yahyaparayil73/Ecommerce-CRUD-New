@@ -5,6 +5,14 @@
 
 }
 
+.heading_ul img {
+
+    width: 15px;
+    margin-right: 5px;
+    margin-top: -2px;
+
+}
+
 .heading_ul li {
     color: black;
     display: inline;
@@ -95,6 +103,6 @@
 
 #categories_id ul li a {
 
-color: black;
+    color: black;
 
 }

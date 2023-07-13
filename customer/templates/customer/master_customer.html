@@ -35,24 +35,32 @@
     <div>
         <div class="first_heading_div">
             <ul class="heading_ul">
-                <li>
-                    <a href="#">About</a>
+                <li data-bs-toggle="dropdown">
+                    <a href="#">Language</a>
                 </li>
-                <li>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#"><img
+                                src="{% static 'images/united-kingdom.png' %}">English</a></li>
+                    <li><a class="dropdown-item" href="#"><img src="{% static 'images/germany.png' %}">German</a></li>
+                    <li><a class="dropdown-item" href="#"><img src="{% static 'images/france.png' %}">French</a></li>
+                    <li><a class="dropdown-item" href="#"><img src="{% static 'images/italy.png' %}">Italian</a></li>
+                    <li><a class="dropdown-item" href="#"><img src="{% static 'images/flag (1).png' %}">Spanish</a></li>
+                </ul>
+                <li data-bs-toggle="dropdown">
                     <a href="#">
-                        Privacy
+                        Currency
                     </a>
                 </li>
-                <li>
-                    <a href="#">
-                        FAQ
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Careers
-                    </a>
-                </li>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#"><img src="{% static 'images/flag.png' %}">Rupees</a></li>
+                    <li><a class="dropdown-item" href="#"><img src="{% static 'images/united-states.png' %}">Dollar</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#"><img
+                                src="{% static 'images/united-arab-emirates.png' %}">Dirham</a></li>
+                    <li><a class="dropdown-item" href="#"><img src="{% static 'images/united-kingdom.png' %}">Pound</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#"><img src="{% static 'images/china.png' %}">Yuan</a></li>
+                </ul>
                 <li>
                     <a href="#">
                         Track your Order

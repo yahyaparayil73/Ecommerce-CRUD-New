@@ -3,41 +3,50 @@
 
 {% block title %}
 <title>Home</title>
+<link rel="stylesheet" href="{% static 'style/cust_home_style.css' %}">
 {% endblock %}
 
 {% block content %}
-<h6 style="color: rgb(61, 87, 126);"> Welcome To ShopEhuB, {{customer_data.c_name | title}} </h6>
-<div class="maindiv" style="display: inline-flex;">
-    <div class="image_div" style="margin-left: 200px;">
-        <img src="{% static 'images/standing_man.png' %}" height="500px" width="400px" alt="" class="imagediv2">
-    </div>
-    <div class="sale_main_heading" style="margin-top: 140px;">
-        <div class="sale_heading">
-            <h6><i>Summer Sale</i></h6>
-        </div>
-        <div class="yahyasample">
-            <h1>Men's Clothing</h1>
-        </div>
-        <h4>UP TO 50% OFF</h4>
-        <button class="btn btn-warning" type="submit"> <b>Shop Now !!</b></button>
-    </div>
-</div>
+<h6> Welcome To ShopEhuB, {{customer_data.c_name | title}} </h6>
 <div class="container">
     <div class="row">
         {% for prdct in product_data %}
         <div class="col-md-4">
-            <div class="card" style="width: 18rem;margin: 1%;">
-                <img src="{{prdct.p_image.url}}" class="card-img-top" alt="..." height="250px">
-                <div class="card-body">
+            <div class="card">
+                <img src="{{prdct.p_image.url}}" class="card-img-top">
+                <div class="popup">
                     <h5 class="card-title"> {{ prdct.p_name | title}} </h5>
                     <p class="card-text">{{ prdct.p_description | title}}</p>
                     <h6 class="card-title">₹{{ prdct.p_price }}</h6>
-                    <h6 class="card-title">{{ prdct.seller.s_name | title}}</h6>
-                    <a href="{% url 'customer:productdetails' prdct.id %}" class="btn btn-success">View</a>
+                    <a href="{% url 'customer:productdetails' prdct.id %}" class="btn btn-warning">View</a>
                 </div>
             </div>
         </div>
         {% endfor %}
     </div>
 </div>
+
+<script>
+
+    // Get all card elements
+    const cards = document.querySelectorAll('.card');
+
+    // Attach event listeners to each card
+    cards.forEach(card => {
+        card.addEventListener('mouseenter', showPopup);
+        card.addEventListener('mouseleave', hidePopup);
+    });
+
+    // Show the popup element
+    function showPopup() {
+        this.querySelector('.popup').style.opacity = '1';
+    }
+
+    // Hide the popup element
+    function hidePopup() {
+        this.querySelector('.popup').style.opacity = '0';
+    }
+
+
+</script>
 {% endblock %}
