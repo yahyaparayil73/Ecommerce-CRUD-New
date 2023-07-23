@@ -45,7 +45,7 @@
             </thead>
             <!-- {{cart_items}} -->
             {% for item in cart_items %}
-            <tr>
+            <tr data-item-id="{{ item.product.id }}">
                 <td>
                     <img src="{{ item.product.p_image.url }}" width="65px">
                 </td>
@@ -68,7 +68,9 @@
                     ₹ {{item.product.p_price}}
                 </td>
                 <td class="cart_delete">
-                    <a href=""><p>Delete</p></a>
+                    <a href="#" class="delete-link">
+                        <p>Delete</p>
+                    </a>
                 </td>
             </tr>
             {% endfor %}
@@ -103,7 +105,7 @@
             <button class="btn btn-success">Checkout</button>
         </div>
 
-        
+
 
 
     </div>
@@ -154,6 +156,28 @@
                 }
             })
         })
+        $('.delete-link').on('click', function (e) {
+            e.preventDefault();
+            var row = $(this).closest('tr'); // Get the parent row of the clicked link
+            var itemId = row.data('item-id'); // Get the unique item ID from the row's data attribute
+
+            // Send an AJAX request to the server to delete the item from the cart
+            $.ajax({
+                type: 'POST',
+                url: "{% url 'customer:delete_item' %}",
+                data: {
+                    item_id: itemId, // Send the item ID to the server
+                    csrfmiddlewaretoken: $('input[name=csrfmiddlewaretoken]').val(), // Include the CSRF token
+                },
+                success: function () {
+                    // On success, remove the row from the table
+                    row.remove();
+                },
+                error: function () {
+                    alert('Error deleting item. Please try again.'); // Handle errors if necessary
+                }
+            });
+        });
     })
 
 </script>

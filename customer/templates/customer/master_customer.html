@@ -35,31 +35,23 @@
     <div>
         <div class="first_heading_div">
             <ul class="heading_ul">
-                <li data-bs-toggle="dropdown">
-                    <a href="#">Language</a>
+                <li data-bs-toggle="dropdown" class="dropdown-toggle">
+                    <a href="#"><img src="{% static 'images/united-kingdom.png' %}">ENG</a>
                 </li>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#"><img
-                                src="{% static 'images/united-kingdom.png' %}">English</a></li>
                     <li><a class="dropdown-item" href="#"><img src="{% static 'images/germany.png' %}">German</a></li>
                     <li><a class="dropdown-item" href="#"><img src="{% static 'images/france.png' %}">French</a></li>
-                    <li><a class="dropdown-item" href="#"><img src="{% static 'images/italy.png' %}">Italian</a></li>
-                    <li><a class="dropdown-item" href="#"><img src="{% static 'images/flag (1).png' %}">Spanish</a></li>
                 </ul>
-                <li data-bs-toggle="dropdown">
+                <li data-bs-toggle="dropdown" class="dropdown-toggle">
                     <a href="#">
-                        Currency
+                        <img src="{% static 'images/flag.png' %}">INR</a>
                     </a>
                 </li>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#"><img src="{% static 'images/flag.png' %}">Rupees</a></li>
-                    <li><a class="dropdown-item" href="#"><img src="{% static 'images/united-states.png' %}">Dollar</a>
+                    <li><a class="dropdown-item" href="#"><img src="{% static 'images/united-states.png' %}">USD</a>
                     </li>
                     <li><a class="dropdown-item" href="#"><img
-                                src="{% static 'images/united-arab-emirates.png' %}">Dirham</a></li>
-                    <li><a class="dropdown-item" href="#"><img src="{% static 'images/united-kingdom.png' %}">Pound</a>
-                    </li>
-                    <li><a class="dropdown-item" href="#"><img src="{% static 'images/china.png' %}">Yuan</a></li>
+                                src="{% static 'images/united-arab-emirates.png' %}">AED</a></li>
                 </ul>
                 <li>
                     <a href="#">
@@ -85,7 +77,7 @@
     </div>
     <nav class="navbar navbar-expand-lg bg-success">
         <div class="container-fluid">
-            <a class="navbar-brand text-light" href="#">
+            <a class="navbar-brand text-light" href="{% url 'customer:home' %}" id="main_heading_a">
                 <b>SHOP</b>EHUB</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -95,13 +87,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light" id="nav_dropdown">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="{% url 'customer:home' %}">Home</a>
+                        <a class="nav-link" href="{% url 'customer:customer_profile' %}">Men</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'customer:mycart' %}">Cart</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'customer:customer_profile' %}">Profile</a>
+                        <a class="nav-link" href="{% url 'customer:customer_profile' %}">Women</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'customer:myorders' %}">Orders</a>
@@ -110,7 +99,7 @@
                 <div class="dropdown" id="categories_id">
                     <button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
-                        All categories
+                        Categories
                     </button>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Men</a></li>
@@ -120,15 +109,31 @@
                 </div> &nbsp;&nbsp;
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search a Product" aria-label="Search">
-                    <button class="btn btn-outline-primary" id="search_button" type="submit">Search</button>
+                    <button class="btn btn-primary" id="search_button" type="submit">Search</button>
                 </form>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light" id="logout_ul">
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'customer:changepassword' %}">Change
-                            Password</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-user"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li class="nav-item">
+                                <a class="nav-link" href="{% url 'customer:customer_profile' %}">Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{% url 'customer:changepassword' %}">Change
+                                    Password</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{% url 'customer:customer_logout' %}">Logout</a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'customer:customer_logout' %}">Logout</a>
+                        <a class="nav-link" aria-current="page" href="{% url 'customer:mycart' %}"> <i
+                                class="fa-solid fa-cart-shopping"></i>
+                        </a>
                     </li>
                 </ul>
             </div>

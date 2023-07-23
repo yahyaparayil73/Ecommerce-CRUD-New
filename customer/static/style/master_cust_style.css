@@ -5,6 +5,18 @@
 
 }
 
+#categories_id button {
+
+    border-radius: 0%;
+
+}
+
+#main_heading_a {
+
+    letter-spacing: 3px;
+
+}
+
 .heading_ul img {
 
     width: 15px;
@@ -49,6 +61,18 @@
 
 }
 
+#logout_ul i {
+
+    font-size: x-large;
+
+}
+
+#logout_ul ul a {
+
+    color: black;
+
+}
+
 #nav_dropdown li {
 
     padding-left: 30px;
@@ -87,8 +111,6 @@
 
 #search_button {
 
-    background-color: rgb(57, 95, 166);
-    padding: 10px;
     color: white;
     border: 0;
     border-radius: 0%;
@@ -96,10 +118,10 @@
 
 #logout_ul {
 
-    font-weight: 500;
     padding-left: 40px;
 
 }
+
 
 #categories_id ul li a {
 

@@ -5,7 +5,7 @@ app_name='ecom_admin'
 
 urlpatterns = [
     path('approve sellers',views.approve_sellers,name='approve sellers'),
-    path('ecom home',views.ecom_home,name='ecom home'),
+    path('ecom_home',views.ecom_home,name='ecom_home'),
     path('view customers',views.view_customers,name='view customers'),
     path('view sellers',views.view_sellers,name='view sellers'),
     path('view orders',views.view_orders,name='view orders'),
@@ -14,6 +14,8 @@ urlpatterns = [
     path('remove customer',views.remove_customer,name='remove customer'),
     path('remove seller',views.remove_seller,name='remove seller'),
     path('remove product',views.remove_product,name='remove product'),
+    path('admin_master',views.admin_master,name='admin_master'),
+
     
 
 ]
