@@ -11887,3 +11887,389 @@ Traceback (most recent call last):
     raise self.error(
 django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'static', expected 'endblock'. Did you forget to register or load this tag?
 ERROR2023-07-24 15:04:37,085basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 500 172523
+INFO2023-07-25 16:47:43,854autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 16:47:47,537basehttp"GET / HTTP/1.1" 200 9208
+WARNING2023-07-25 16:47:48,724logNot Found: /favicon.ico
+WARNING2023-07-25 16:47:48,724basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-25 16:49:05,471basehttp"GET /customerlogin HTTP/1.1" 200 7900
+INFO2023-07-25 16:49:15,333basehttp"POST /customerlogin HTTP/1.1" 302 0
+INFO2023-07-25 16:49:15,470basehttp"GET /customer/customer_home HTTP/1.1" 200 14121
+INFO2023-07-25 16:49:15,503basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-25 16:49:15,503basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 304 0
+INFO2023-07-25 16:49:15,513basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 304 0
+INFO2023-07-25 16:49:15,519basehttp"GET /static/images/germany.png HTTP/1.1" 304 0
+INFO2023-07-25 16:49:15,519basehttp"GET /static/images/france.png HTTP/1.1" 304 0
+INFO2023-07-25 16:49:15,527basehttp"GET /static/images/flag.png HTTP/1.1" 304 0
+INFO2023-07-25 16:49:15,527basehttp"GET /static/images/united-states.png HTTP/1.1" 304 0
+INFO2023-07-25 16:49:15,541basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 304 0
+INFO2023-07-25 16:49:15,544basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 304 0
+INFO2023-07-25 16:55:23,113basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18556
+INFO2023-07-25 16:55:23,146basehttp"GET /static/style/admin_master_style.css HTTP/1.1" 304 0
+ERROR2023-07-25 16:55:27,184logInternal Server Error: /ecom_admin/view customers
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py", line 19, in view_customers
+    return render(request, 'ecom_admin/view customers.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR2023-07-25 16:55:27,192basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 500 172777
+INFO2023-07-25 17:05:56,153basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 11812
+INFO2023-07-25 17:13:07,119basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 11826
+INFO2023-07-25 17:13:07,225basehttp"GET /static/style/admin_master_style.css HTTP/1.1" 200 108
+WARNING2023-07-25 17:13:08,245logNot Found: /favicon.ico
+WARNING2023-07-25 17:13:08,247basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-25 17:13:15,832basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 11826
+INFO2023-07-25 17:13:15,851basehttp"GET /static/style/admin_master_style.css HTTP/1.1" 200 108
+WARNING2023-07-25 17:13:16,138logNot Found: /favicon.ico
+WARNING2023-07-25 17:13:16,138basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-25 17:24:13,040autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 17:24:19,215basehttp"GET / HTTP/1.1" 200 9208
+WARNING2023-07-25 17:24:20,135logNot Found: /favicon.ico
+WARNING2023-07-25 17:24:20,136basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-25 17:24:32,153basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18558
+INFO2023-07-25 17:28:09,597autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 17:28:45,030basehttp"GET / HTTP/1.1" 200 9208
+INFO2023-07-25 17:28:49,156basehttp"GET /customerlogin HTTP/1.1" 200 7900
+INFO2023-07-25 17:28:55,033basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18558
+ERROR2023-07-25 17:28:59,571logInternal Server Error: /ecom_admin/view customers
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'blocktitle'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py", line 19, in view_customers
+    return render(request, 'ecom_admin/view customers.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 3: 'blocktitle'. Did you forget to register or load this tag?
+ERROR2023-07-25 17:28:59,583basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 500 149456
+ERROR2023-07-25 17:42:17,791logInternal Server Error: /ecom_admin/view customers
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py", line 19, in view_customers
+    return render(request, 'ecom_admin/view customers.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR2023-07-25 17:42:17,794basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 500 166519
+INFO2023-07-25 17:45:45,099basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 11887
+INFO2023-07-25 17:45:45,178basehttp"GET /static/style/view_customer.css HTTP/1.1" 200 36
+INFO2023-07-25 17:48:54,419basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 11932
+INFO2023-07-25 17:48:54,433basehttp"GET /static/style/view_customer.css HTTP/1.1" 200 36
+INFO2023-07-25 17:48:54,434basehttp"GET /static/style/admin_master_style.css HTTP/1.1" 200 108
+WARNING2023-07-25 17:48:55,275logNot Found: /favicon.ico
+WARNING2023-07-25 17:48:55,276basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-25 17:49:06,402basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 11889
+INFO2023-07-25 17:51:43,321autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 17:51:44,132autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 17:51:50,940autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 17:51:51,571autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 17:51:57,082autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 17:51:57,614autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 17:52:03,125autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 17:52:03,648autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 17:52:08,087autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 17:52:08,679autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 17:52:10,170autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 17:52:10,723autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 17:52:16,426autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 17:52:17,017autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 17:52:22,757autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 17:52:23,304autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 17:52:27,955autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 17:52:28,590autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 17:52:30,098autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 17:52:30,670autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 17:53:43,622basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 11561
+INFO2023-07-25 17:53:43,622basehttp"GET /static/style/view_customer.css HTTP/1.1" 304 0
+INFO2023-07-25 17:55:16,766autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 17:55:17,409autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 17:55:18,962autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 17:55:19,506autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 17:55:22,098autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 17:55:22,760autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 17:57:18,682basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 12946
+INFO2023-07-25 17:58:27,294basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 12946
+INFO2023-07-25 17:58:27,310basehttp"GET /static/style/view_customer.css HTTP/1.1" 304 0
+INFO2023-07-25 18:00:24,732basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 13258
+INFO2023-07-25 18:00:26,558basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 13258
+INFO2023-07-25 18:00:26,637basehttp"GET /static/style/admin_master_style.css HTTP/1.1" 200 108
+INFO2023-07-25 18:00:26,637basehttp"GET /static/style/view_customer.css HTTP/1.1" 200 77
+WARNING2023-07-25 18:00:27,437logNot Found: /favicon.ico
+WARNING2023-07-25 18:00:27,438basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-25 18:01:01,292basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 13276
+INFO2023-07-25 18:01:01,309basehttp"GET /static/style/admin_master_style.css HTTP/1.1" 200 108
+INFO2023-07-25 18:01:01,316basehttp"GET /static/style/view_customer.css HTTP/1.1" 200 128
+WARNING2023-07-25 18:01:02,039logNot Found: /favicon.ico
+WARNING2023-07-25 18:01:02,040basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-25 18:01:13,553basehttp"GET /ecom_admin/view%20sellers HTTP/1.1" 200 10951
+INFO2023-07-25 18:37:24,822autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 18:37:25,772autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 18:37:28,447autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 18:37:29,006autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 18:37:36,680autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 18:37:37,276autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 18:37:39,638autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 18:37:40,184autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 18:37:51,239autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 18:37:51,951autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 18:38:00,882autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 18:38:01,570autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 18:38:04,166autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 18:38:04,773autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 18:38:06,297autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 18:38:06,881autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 18:38:08,374autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 18:38:08,940autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 18:38:12,595autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-25 18:38:13,152autoreloadWatching for file changes with StatReloader
+INFO2023-07-25 18:38:58,733basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18558
+INFO2023-07-25 18:39:00,017basehttp"GET /ecom_admin/view%20sellers HTTP/1.1" 200 12251
+INFO2023-07-25 18:39:00,038basehttp"GET /static/style/view_customer.css HTTP/1.1" 304 0
+INFO2023-07-25 18:40:59,956basehttp"GET /ecom_admin/view%20sellers HTTP/1.1" 200 12235
+INFO2023-07-25 18:41:00,027basehttp"GET /static/style/view_customer.css HTTP/1.1" 200 128
+INFO2023-07-25 18:41:00,027basehttp"GET /static/style/admin_master_style.css HTTP/1.1" 200 108
+WARNING2023-07-25 18:41:00,924logNot Found: /favicon.ico
+WARNING2023-07-25 18:41:00,925basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-25 18:41:20,456basehttp"GET /ecom_admin/view%20sellers HTTP/1.1" 200 12289
+INFO2023-07-25 18:41:20,472basehttp"GET /static/style/view_customer.css HTTP/1.1" 200 128
+INFO2023-07-25 18:41:20,472basehttp"GET /static/style/admin_master_style.css HTTP/1.1" 200 108
+WARNING2023-07-25 18:41:27,249logNot Found: /favicon.ico
+WARNING2023-07-25 18:41:27,250basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-25 18:41:40,047basehttp"GET /ecom_admin/view%20sellers HTTP/1.1" 200 12289
+INFO2023-07-25 18:41:40,063basehttp"GET /static/style/admin_master_style.css HTTP/1.1" 200 108
+INFO2023-07-25 18:41:40,064basehttp"GET /static/style/view_customer.css HTTP/1.1" 200 128
+WARNING2023-07-25 18:41:40,785logNot Found: /favicon.ico
+WARNING2023-07-25 18:41:40,785basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-25 18:41:44,767basehttp"GET /ecom_admin/view%20sellers HTTP/1.1" 200 12289
+INFO2023-07-25 18:41:44,785basehttp"GET /static/style/admin_master_style.css HTTP/1.1" 200 108
+INFO2023-07-25 18:41:44,785basehttp"GET /static/style/view_customer.css HTTP/1.1" 200 128
+WARNING2023-07-25 18:41:45,507logNot Found: /favicon.ico
+WARNING2023-07-25 18:41:45,508basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-25 18:45:47,102basehttp"GET /ecom_admin/view%20sellers HTTP/1.1" 200 12343
+INFO2023-07-25 18:45:47,119basehttp"GET /static/style/view_customer.css HTTP/1.1" 200 128
+INFO2023-07-25 18:45:47,125basehttp"GET /static/style/admin_master_style.css HTTP/1.1" 200 108
+INFO2023-07-25 18:45:47,343basehttp"GET /media/seller/149071_RonKzhj.png HTTP/1.1" 200 19456
+INFO2023-07-25 18:45:47,344basehttp"GET /media/seller/xdvf.jpg HTTP/1.1" 200 146676
+WARNING2023-07-25 18:45:48,158logNot Found: /favicon.ico
+WARNING2023-07-25 18:45:48,159basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-25 18:46:18,052basehttp"GET /ecom_admin/view%20sellers HTTP/1.1" 200 12399
+INFO2023-07-25 18:46:18,083basehttp"GET /static/style/view_customer.css HTTP/1.1" 200 128
+INFO2023-07-25 18:46:18,084basehttp"GET /static/style/admin_master_style.css HTTP/1.1" 200 108
+INFO2023-07-25 18:46:18,225basehttp"GET /media/seller/149071_RonKzhj.png HTTP/1.1" 200 19456
+INFO2023-07-25 18:46:18,225basehttp"GET /media/seller/xdvf.jpg HTTP/1.1" 200 146676
+WARNING2023-07-25 18:46:18,936logNot Found: /favicon.ico
+WARNING2023-07-25 18:46:18,936basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-25 18:46:27,674basehttp"GET /ecom_admin/view%20sellers HTTP/1.1" 200 12399
+INFO2023-07-25 18:46:27,700basehttp"GET /static/style/admin_master_style.css HTTP/1.1" 200 108
+INFO2023-07-25 18:46:27,700basehttp"GET /static/style/view_customer.css HTTP/1.1" 200 128
+INFO2023-07-25 18:46:27,842basehttp"GET /media/seller/149071_RonKzhj.png HTTP/1.1" 200 19456
+INFO2023-07-25 18:46:27,842basehttp"GET /media/seller/xdvf.jpg HTTP/1.1" 200 146676
+WARNING2023-07-25 18:46:28,582logNot Found: /favicon.ico
+WARNING2023-07-25 18:46:28,583basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-25 18:47:04,053basehttp"GET /ecom_admin/view%20sellers HTTP/1.1" 200 12448
+INFO2023-07-25 18:47:04,070basehttp"GET /static/style/view_customer.css HTTP/1.1" 200 128
+INFO2023-07-25 18:47:04,070basehttp"GET /static/style/admin_master_style.css HTTP/1.1" 200 108
+INFO2023-07-25 18:47:04,359basehttp"GET /media/seller/149071_RonKzhj.png HTTP/1.1" 200 19456
+INFO2023-07-25 18:47:04,374basehttp"GET /media/seller/xdvf.jpg HTTP/1.1" 200 146676
+WARNING2023-07-25 18:47:05,097logNot Found: /favicon.ico
+WARNING2023-07-25 18:47:05,098basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-25 18:47:29,166basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18558
+INFO2023-07-25 18:47:30,271basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 13276
+INFO2023-07-25 18:47:31,478basehttp"GET /ecom_admin/view%20sellers HTTP/1.1" 200 12448
+INFO2023-07-25 18:47:33,218basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 13276
+INFO2023-07-25 18:47:34,023basehttp"GET /ecom_admin/view%20sellers HTTP/1.1" 200 12448
+INFO2023-07-25 18:47:35,779basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 13276
+INFO2023-07-25 18:47:37,209basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18558
+INFO2023-07-25 18:48:09,387basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18556
+INFO2023-07-25 18:48:09,403basehttp"GET /static/style/admin_master_style.css HTTP/1.1" 200 108
+WARNING2023-07-25 18:48:10,157logNot Found: /favicon.ico
+WARNING2023-07-25 18:48:10,158basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-25 18:48:20,964basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18556
+INFO2023-07-25 18:48:22,160basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18556
+INFO2023-07-25 18:48:23,585basehttp"GET /ecom_admin/view%20sellers HTTP/1.1" 200 12446
+INFO2023-07-25 18:48:39,178basehttp"GET /ecom_admin/view%20sellers HTTP/1.1" 200 12444
+INFO2023-07-25 18:48:39,211basehttp"GET /static/style/view_customer.css HTTP/1.1" 200 128
+INFO2023-07-25 18:48:39,211basehttp"GET /static/style/admin_master_style.css HTTP/1.1" 200 108
+INFO2023-07-25 18:48:39,430basehttp"GET /media/seller/149071_RonKzhj.png HTTP/1.1" 200 19456
+INFO2023-07-25 18:48:39,430basehttp"GET /media/seller/xdvf.jpg HTTP/1.1" 200 146676
+WARNING2023-07-25 18:48:40,147logNot Found: /favicon.ico
+WARNING2023-07-25 18:48:40,147basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-25 18:48:53,388basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18556
+INFO2023-07-25 18:49:07,814basehttp"GET /ecom_admin/view%20sellers HTTP/1.1" 200 12444

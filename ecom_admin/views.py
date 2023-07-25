@@ -16,11 +16,13 @@ def ecom_home(request):
 
 
 def view_customers(request):
-    return render(request, 'ecom_admin/view customers.html')
+    customers = Customer.objects.all()
+    return render(request, 'ecom_admin/view customers.html',{'customers':customers})
 
 
 def view_sellers(request):
-    return render(request, 'ecom_admin/view sellers.html')
+    sellers = Seller.objects.all()
+    return render(request, 'ecom_admin/view sellers.html',{'sellers':sellers})
 
 
 def view_orders(request):
