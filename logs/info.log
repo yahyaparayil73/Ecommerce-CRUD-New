@@ -11057,3 +11057,833 @@ WARNING2023-07-23 22:54:15,332basehttp"GET /favicon.ico HTTP/1.1" 404 4165
 INFO2023-07-23 22:55:45,411basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 10939
 INFO2023-07-23 22:56:15,273basehttp- Broken pipe from ('127.0.0.1', 65055)
 INFO2023-07-23 22:56:15,362basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18631
+INFO2023-07-24 14:33:32,787autoreloadWatching for file changes with StatReloader
+INFO2023-07-24 14:33:36,926basehttp"GET /static/style/admin_master_style.css HTTP/1.1" 304 0
+INFO2023-07-24 14:33:36,941basehttp"GET / HTTP/1.1" 200 9208
+WARNING2023-07-24 14:33:37,682logNot Found: /favicon.ico
+WARNING2023-07-24 14:33:37,682basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-24 14:34:13,651basehttp"GET /customerlogin HTTP/1.1" 200 7900
+INFO2023-07-24 14:34:13,670basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-07-24 14:34:33,689basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18631
+INFO2023-07-24 14:41:59,031basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 10939
+INFO2023-07-24 14:42:02,783basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18631
+INFO2023-07-24 14:42:05,151basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18631
+INFO2023-07-24 14:42:05,989basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18631
+INFO2023-07-24 14:42:07,094basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18631
+INFO2023-07-24 14:42:13,078basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18631
+INFO2023-07-24 14:42:15,153basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18631
+INFO2023-07-24 14:42:58,433basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18629
+INFO2023-07-24 14:43:03,338basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18629
+INFO2023-07-24 14:43:31,703basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18544
+INFO2023-07-24 14:43:31,823basehttp"GET /static/style/admin_master_style.css HTTP/1.1" 200 108
+WARNING2023-07-24 14:43:32,715logNot Found: /favicon.ico
+WARNING2023-07-24 14:43:32,715basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-24 14:49:30,808basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18556
+INFO2023-07-24 14:49:32,853basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 10949
+INFO2023-07-24 14:49:37,497basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18556
+INFO2023-07-24 14:49:38,435basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 10949
+INFO2023-07-24 14:49:40,316basehttp"GET /ecom_admin/view%20sellers HTTP/1.1" 200 10949
+INFO2023-07-24 14:49:41,807basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18556
+INFO2023-07-24 14:49:43,742basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18556
+INFO2023-07-24 14:49:44,380basehttp"GET /ecom_admin/view%20sellers HTTP/1.1" 200 10949
+INFO2023-07-24 14:49:45,691basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18556
+INFO2023-07-24 14:49:46,809basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 10949
+INFO2023-07-24 14:49:47,915basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18556
+INFO2023-07-24 14:49:48,871basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 10949
+INFO2023-07-24 14:49:50,497basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18556
+INFO2023-07-24 14:49:51,255basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18556
+INFO2023-07-24 14:49:51,915basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 10949
+INFO2023-07-24 14:49:53,350basehttp"GET /ecom_admin/view%20sellers HTTP/1.1" 200 10949
+INFO2023-07-24 14:49:54,323basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18556
+INFO2023-07-24 14:49:55,132basehttp"GET /ecom_admin/view%20sellers HTTP/1.1" 200 10949
+INFO2023-07-24 14:49:55,780basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 200 10949
+INFO2023-07-24 14:49:57,176basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18556
+ERROR2023-07-24 15:00:47,610logInternal Server Error: /ecom_admin/view customers
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py", line 19, in view_customers
+    return render(request, 'ecom_admin/view customers.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR2023-07-24 15:00:47,617basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 500 172589
+ERROR2023-07-24 15:01:41,002logInternal Server Error: /ecom_admin/view customers
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py", line 19, in view_customers
+    return render(request, 'ecom_admin/view customers.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR2023-07-24 15:01:41,002basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 500 172906
+ERROR2023-07-24 15:01:41,820logInternal Server Error: /ecom_admin/view customers
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py", line 19, in view_customers
+    return render(request, 'ecom_admin/view customers.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR2023-07-24 15:01:41,820basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 500 172906
+ERROR2023-07-24 15:02:14,213logInternal Server Error: /ecom_admin/view customers
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py", line 19, in view_customers
+    return render(request, 'ecom_admin/view customers.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR2023-07-24 15:02:14,213basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 500 173034
+WARNING2023-07-24 15:02:14,354logNot Found: /favicon.ico
+WARNING2023-07-24 15:02:14,354basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+ERROR2023-07-24 15:02:14,925logInternal Server Error: /ecom_admin/view customers
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py", line 19, in view_customers
+    return render(request, 'ecom_admin/view customers.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR2023-07-24 15:02:14,929basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 500 173034
+WARNING2023-07-24 15:02:15,118logNot Found: /favicon.ico
+WARNING2023-07-24 15:02:15,118basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+ERROR2023-07-24 15:02:15,244logInternal Server Error: /ecom_admin/view customers
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py", line 19, in view_customers
+    return render(request, 'ecom_admin/view customers.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR2023-07-24 15:02:15,246basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 500 173034
+WARNING2023-07-24 15:02:15,354logNot Found: /favicon.ico
+WARNING2023-07-24 15:02:15,354basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+ERROR2023-07-24 15:02:15,867logInternal Server Error: /ecom_admin/view customers
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py", line 19, in view_customers
+    return render(request, 'ecom_admin/view customers.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR2023-07-24 15:02:15,869basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 500 173034
+WARNING2023-07-24 15:02:15,988logNot Found: /favicon.ico
+WARNING2023-07-24 15:02:15,988basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+ERROR2023-07-24 15:02:21,324logInternal Server Error: /ecom_admin/view customers
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py", line 19, in view_customers
+    return render(request, 'ecom_admin/view customers.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR2023-07-24 15:02:21,326basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 500 172769
+ERROR2023-07-24 15:02:24,182logInternal Server Error: /ecom_admin/view customers
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py", line 19, in view_customers
+    return render(request, 'ecom_admin/view customers.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR2023-07-24 15:02:24,184basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 500 172735
+ERROR2023-07-24 15:04:35,563logInternal Server Error: /ecom_admin/view customers
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py", line 19, in view_customers
+    return render(request, 'ecom_admin/view customers.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR2023-07-24 15:04:35,563basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 500 172523
+ERROR2023-07-24 15:04:37,081logInternal Server Error: /ecom_admin/view customers
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py", line 19, in view_customers
+    return render(request, 'ecom_admin/view customers.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR2023-07-24 15:04:37,085basehttp"GET /ecom_admin/view%20customers HTTP/1.1" 500 172523
