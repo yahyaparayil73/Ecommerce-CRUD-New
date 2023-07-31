@@ -62,3 +62,10 @@ form {
     padding: 10px;
 
 }
+
+form span {
+
+    color: red;
+    font-style: italic;
+
+}

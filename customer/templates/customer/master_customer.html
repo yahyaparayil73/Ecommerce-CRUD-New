@@ -55,7 +55,7 @@
                 </ul>
                 <li>
                     <a href="#">
-                        Track your Order
+                        Track your Orders
                     </a>
                 </li>
                 <li>
@@ -107,7 +107,7 @@
                         <li><a class="dropdown-item" href="#">Kids</a></li>
                     </ul>
                 </div> &nbsp;&nbsp;
-                <form class="d-flex" role="search">
+                <form class="d-flex" role="search" id="product_search">
                     <input class="form-control me-2" type="search" placeholder="Search a Product" aria-label="Search">
                     <button class="btn btn-primary" id="search_button" type="submit">Search</button>
                 </form>
@@ -117,17 +117,13 @@
                             data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-user"></i>
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li class="nav-item">
-                                <a class="nav-link" href="{% url 'customer:customer_profile' %}">Profile</a>
+                        <ul class="dropdown-menu">
+                            <li ><a class="dropdown-item class_name" href="">Welcome {{ customer_nm.c_name | title }}</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{% url 'customer:changepassword' %}">Change
-                                    Password</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{% url 'customer:customer_logout' %}">Logout</a>
-                            </li>
+                            <li><a class="dropdown-item" href="{% url 'customer:customer_profile' %}">Profile</a></li>
+                            <li><a class="dropdown-item" href="{% url 'customer:customer_logout' %}">Logout</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">

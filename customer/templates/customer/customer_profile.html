@@ -28,6 +28,8 @@
             <input type="text" class="form-control" id="inputEmail4" name="customer_phone"
                 value="{{ customer_profile.c_email }}" readonly>
         </div><br>
+        <a><button class="btn btn-success">Update Profile</button></a>
+        <a href="{% url 'customer:changepassword' %}"><button class="btn btn-danger">Change Password</button></a>
     </div>
 </div>
 {% endblock %}

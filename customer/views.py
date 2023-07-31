@@ -11,9 +11,9 @@ logger = logging.getLogger('django')
 
 @auth_customer
 def customer_home(request):
-    customer = Customer.objects.get(id=request.session['customer'])
+    # customer = Customer.objects.get(id=request.session['customer'])
     products = Product.objects.all()
-    return render(request, 'customer/customer_home.html', {'customer_data': customer, 'product_data': products})
+    return render(request, 'customer/customer_home.html',{'product_data': products})
 
 
 def customer_checkout(request):
@@ -79,7 +79,8 @@ def customer_profile(request):
 
 
 def master_customer(request):
-    return render(request, 'customer/master_customer.html')
+    customer_name = Customer.objects.get(id=request.session['customer'])
+    return render(request, 'customer/master_customer.html',{'customer_nm': customer_name})
 
 
 def customer_logout(request):

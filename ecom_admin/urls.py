@@ -15,6 +15,8 @@ urlpatterns = [
     path('remove seller',views.remove_seller,name='remove seller'),
     path('remove product',views.remove_product,name='remove product'),
     path('admin_master',views.admin_master,name='admin_master'),
+    path('admin_login',views.admin_login,name='admin_login'),
+
 
     
 

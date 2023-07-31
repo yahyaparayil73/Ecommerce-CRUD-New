@@ -7,7 +7,6 @@
 {% endblock %}
 
 {% block content %}
-<h6> Welcome To ShopEhuB, {{customer_data.c_name | title}} </h6>
 <div class="container">
     <div class="row">
         {% for prdct in product_data %}
@@ -28,21 +27,17 @@
 
 <script>
 
-    // Get all card elements
     const cards = document.querySelectorAll('.card');
 
-    // Attach event listeners to each card
     cards.forEach(card => {
         card.addEventListener('mouseenter', showPopup);
         card.addEventListener('mouseleave', hidePopup);
     });
 
-    // Show the popup element
     function showPopup() {
         this.querySelector('.popup').style.opacity = '1';
     }
 
-    // Hide the popup element
     function hidePopup() {
         this.querySelector('.popup').style.opacity = '0';
     }

@@ -1,12 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Login</title>
-</head>
-<body>
-    <h1>admin login</h1>
-</body>
-</html>
+{% extends 'common/master_common.html' %}
+{% load static %}
+{% block title %}
+<title>Admin Login</title>
+<link rel="stylesheet" href="{% static 'style/admin_login.css' %}">
+{% endblock %}
+{% block content %}
+<div>
+    <div class="container">
+        <h1>Admin Login</h1><br>
+        <p>Enter your login details to continue</p>
+        <form method="POST">
+            {% csrf_token %}
+            {{message}}
+            <div>
+                <label for="inputEmail4" class="form-label">User Name</label>
+                <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your User name"
+                    name="username">
+            </div>
+            <div>
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Enter your Password"
+                    name="password">
+            </div>
+            <br>
+            <div>
+                <button type="submit" class="btn btn-success" a>Login</button>
+            </div><br>
+        </form>
+    </div>
+</div>
+{% endblock %}

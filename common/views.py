@@ -22,7 +22,7 @@ def customer_login(request):
             return redirect('customer:home')
 
         except:
-            msg = 'invalid credentials'
+            msg = 'Invalid credentials'
     
     return render(request, 'common/customer login.html',{'message':msg})
 

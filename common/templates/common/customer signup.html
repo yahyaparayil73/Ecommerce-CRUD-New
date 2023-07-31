@@ -19,7 +19,7 @@
 
         <form method="POST">
             {% csrf_token %}
-            {{message}}
+            <span>{{message}}</span>
             <div>
                 <label for="input_name">Your Name</label>
                 <input type="text" class="form-control" id="cust_name" placeholder="Enter Your Name"

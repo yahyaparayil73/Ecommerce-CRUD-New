@@ -12273,3 +12273,1742 @@ WARNING2023-07-25 18:48:40,147logNot Found: /favicon.ico
 WARNING2023-07-25 18:48:40,147basehttp"GET /favicon.ico HTTP/1.1" 404 4165
 INFO2023-07-25 18:48:53,388basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18556
 INFO2023-07-25 18:49:07,814basehttp"GET /ecom_admin/view%20sellers HTTP/1.1" 200 12444
+INFO2023-07-26 14:14:11,116autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:14:12,763basehttp"GET / HTTP/1.1" 200 9208
+INFO2023-07-26 14:14:12,793basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-07-26 14:14:12,839basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-07-26 14:14:12,855basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 304 0
+INFO2023-07-26 14:14:12,871basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 304 0
+INFO2023-07-26 14:14:12,883basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 304 0
+WARNING2023-07-26 14:14:13,839logNot Found: /favicon.ico
+WARNING2023-07-26 14:14:13,839basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+ERROR2023-07-26 14:14:30,874logInternal Server Error: /customer/cmycart
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\decorators.py", line 27, in wrapper
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py", line 26, in customer_mycart
+    return render(request, 'customer/my cart.html', {'cart_items': cart_items})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'delete_item' with no arguments not found. 1 pattern(s) tried: ['customer/delete_item/(?P<item_id>[0-9]+)\\Z']
+ERROR2023-07-26 14:14:30,890basehttp"GET /customer/cmycart HTTP/1.1" 500 169800
+INFO2023-07-26 14:14:46,852basehttp"GET /sellersignup HTTP/1.1" 200 9315
+INFO2023-07-26 14:14:46,873basehttp"GET /static/style/seller_signup_style.css HTTP/1.1" 304 0
+INFO2023-07-26 14:14:48,787basehttp"GET /sellerlogin HTTP/1.1" 200 7727
+INFO2023-07-26 14:14:48,803basehttp"GET /static/style/seller_login_style.css HTTP/1.1" 304 0
+INFO2023-07-26 14:14:51,091basehttp"GET /customersignup HTTP/1.1" 200 12051
+INFO2023-07-26 14:14:51,212basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 886
+INFO2023-07-26 14:14:53,568basehttp"GET /customerlogin HTTP/1.1" 200 7900
+INFO2023-07-26 14:15:05,058basehttp"GET /customerlogin HTTP/1.1" 200 7900
+INFO2023-07-26 14:15:13,883basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18556
+INFO2023-07-26 14:15:13,907basehttp"GET /static/style/admin_master_style.css HTTP/1.1" 304 0
+INFO2023-07-26 14:17:21,320autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\urls.py changed, reloading.
+INFO2023-07-26 14:17:22,162autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:17:24,893autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\urls.py changed, reloading.
+INFO2023-07-26 14:17:25,680autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:17:31,523autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\urls.py changed, reloading.
+INFO2023-07-26 14:17:32,278autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:17:35,973autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\urls.py changed, reloading.
+INFO2023-07-26 14:17:36,650autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:17:53,837autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-26 14:17:54,623autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:17:58,354autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-26 14:17:59,097autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:18:01,589autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-26 14:18:02,214autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:18:05,870autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-26 14:18:06,537autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:18:14,517autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecom_admin\views.py changed, reloading.
+INFO2023-07-26 14:18:15,301autoreloadWatching for file changes with StatReloader
+WARNING2023-07-26 14:20:46,728logNot Found: /common/admin login
+WARNING2023-07-26 14:20:46,728basehttp"GET /common/admin%20login HTTP/1.1" 404 4188
+WARNING2023-07-26 14:20:56,649logNot Found: /common/admin_login
+WARNING2023-07-26 14:20:56,649basehttp"GET /common/admin_login HTTP/1.1" 404 4186
+WARNING2023-07-26 14:21:04,441logNot Found: /common/comadminlogin
+WARNING2023-07-26 14:21:04,441basehttp"GET /common/comadminlogin HTTP/1.1" 404 4192
+INFO2023-07-26 14:21:13,969basehttp"GET /comadminlogin HTTP/1.1" 200 286
+INFO2023-07-26 14:24:36,222basehttp"GET /comadminlogin HTTP/1.1" 200 7619
+INFO2023-07-26 14:24:36,380basehttp"GET /static/style/admin_login.css HTTP/1.1" 200 0
+INFO2023-07-26 14:25:30,608basehttp"GET /comadminlogin HTTP/1.1" 200 7619
+INFO2023-07-26 14:25:30,640basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-07-26 14:25:30,640basehttp"GET /static/style/admin_login.css HTTP/1.1" 200 189
+WARNING2023-07-26 14:25:31,493logNot Found: /favicon.ico
+WARNING2023-07-26 14:25:31,508basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-26 14:25:53,088basehttp"GET /comadminlogin HTTP/1.1" 200 7619
+INFO2023-07-26 14:25:53,099basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-07-26 14:25:53,112basehttp"GET /static/style/admin_login.css HTTP/1.1" 200 331
+WARNING2023-07-26 14:26:03,866logNot Found: /favicon.ico
+WARNING2023-07-26 14:26:03,866basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-26 14:26:44,130basehttp"GET /comadminlogin HTTP/1.1" 200 7619
+INFO2023-07-26 14:26:44,148basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-07-26 14:26:44,149basehttp"GET /static/style/admin_login.css HTTP/1.1" 200 605
+WARNING2023-07-26 14:26:44,902logNot Found: /favicon.ico
+WARNING2023-07-26 14:26:44,902basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-26 14:33:09,306autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:33:10,373autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:33:12,068autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:33:12,736autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:33:15,038autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:33:15,698autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:33:21,048autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:33:21,591autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:33:22,830autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:33:23,380autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:33:27,702autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:33:28,321autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:33:30,608autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:33:31,130autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:33:32,392autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:33:32,882autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:33:35,149autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:33:35,766autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:33:40,093autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:33:40,782autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:33:43,088autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:33:43,674autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:33:45,996autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:33:46,564autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:33:47,837autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:33:48,352autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:33:50,631autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:33:51,174autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:33:58,551autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:33:59,043autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:34:02,337autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:34:02,945autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:34:09,336autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:34:09,953autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:34:11,278autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:34:11,850autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:34:13,170autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:34:13,697autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:34:15,981autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:34:16,493autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:34:25,941autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:34:26,479autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:34:29,762autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:34:30,316autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:34:31,599autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:34:32,101autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:34:33,383autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:34:33,882autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:34:35,130autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:34:35,646autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:34:37,927autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:34:38,519autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:34:41,837autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:34:42,339autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:34:44,631autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:34:45,194autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:34:47,459autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:34:48,002autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:34:49,276autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:34:49,812autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:34:52,084autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:34:52,649autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:35:53,428autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:35:53,947autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:35:56,245autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:35:56,766autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:36:01,099autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\models.py changed, reloading.
+INFO2023-07-26 14:36:01,727autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:40:05,033autoreloadWatching for file changes with StatReloader
+INFO2023-07-26 14:40:06,118basehttp"GET /customersignup HTTP/1.1" 200 12051
+INFO2023-07-26 14:40:07,419basehttp"GET / HTTP/1.1" 200 9208
+INFO2023-07-26 14:40:20,611basehttp"GET /customerlogin HTTP/1.1" 200 7900
+INFO2023-07-26 14:40:21,964basehttp"GET /customersignup HTTP/1.1" 200 12051
+INFO2023-07-26 14:42:01,656basehttp"POST /email_exist HTTP/1.1" 200 23
+INFO2023-07-26 14:42:20,727basehttp"POST /customersignup HTTP/1.1" 200 12083
+INFO2023-07-26 14:46:07,685basehttp"POST /customersignup HTTP/1.1" 200 12096
+INFO2023-07-26 14:46:07,836basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-07-26 14:46:07,868basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 200 927
+WARNING2023-07-26 14:46:10,121logNot Found: /favicon.ico
+WARNING2023-07-26 14:46:10,121basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-26 14:46:15,894basehttp"GET /customersignup HTTP/1.1" 200 12064
+INFO2023-07-26 14:46:15,910basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-07-26 14:46:24,824basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18556
+INFO2023-07-26 14:46:29,976basehttp"GET /ecom_admin/ecom_home HTTP/1.1" 200 18556
+INFO2023-07-26 14:46:44,517basehttp"GET /customersignup HTTP/1.1" 200 12064
+INFO2023-07-26 14:46:44,535basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+ERROR2023-07-26 14:46:47,693logInternal Server Error: /customersignup
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'gender'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\views.py", line 38, in customer_signup
+    cgender = request.POST['gender']
+              ~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'gender'
+ERROR2023-07-26 14:46:47,701basehttp"POST /customersignup HTTP/1.1" 500 76258
+INFO2023-07-26 14:52:10,376basehttp"GET /customerlogin HTTP/1.1" 200 7900
+INFO2023-07-26 14:52:39,216basehttp"GET / HTTP/1.1" 200 9208
+INFO2023-07-26 14:52:46,972basehttp"GET /customerlogin HTTP/1.1" 200 7900
+INFO2023-07-26 14:52:57,698basehttp"GET / HTTP/1.1" 200 9208
+INFO2023-07-26 14:53:00,850basehttp"GET / HTTP/1.1" 200 9208
+INFO2023-07-26 14:53:02,019basehttp"GET / HTTP/1.1" 200 9208
+INFO2023-07-26 14:53:03,164basehttp"GET / HTTP/1.1" 200 9208
+INFO2023-07-26 14:53:04,088basehttp"GET / HTTP/1.1" 200 9208
+INFO2023-07-26 14:53:05,597basehttp"GET / HTTP/1.1" 200 9208
+ERROR2023-07-26 14:53:08,132logInternal Server Error: /customer/cmycart
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\decorators.py", line 27, in wrapper
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py", line 26, in customer_mycart
+    return render(request, 'customer/my cart.html', {'cart_items': cart_items})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'delete_item' with no arguments not found. 1 pattern(s) tried: ['customer/delete_item/(?P<item_id>[0-9]+)\\Z']
+ERROR2023-07-26 14:53:08,148basehttp"GET /customer/cmycart HTTP/1.1" 500 169800
+INFO2023-07-26 14:53:15,433basehttp"GET /customerlogin HTTP/1.1" 200 7900
+INFO2023-07-26 14:53:25,545basehttp"POST /customerlogin HTTP/1.1" 302 0
+INFO2023-07-26 14:53:25,642basehttp"GET /customer/customer_home HTTP/1.1" 200 14121
+INFO2023-07-26 14:53:25,696basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 304 0
+INFO2023-07-26 14:53:25,699basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 304 0
+INFO2023-07-26 14:53:25,701basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 304 0
+INFO2023-07-26 14:53:25,707basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 304 0
+INFO2023-07-26 14:53:25,707basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 304 0
+INFO2023-07-26 14:53:25,707basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 304 0
+INFO2023-07-26 14:53:25,710basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 304 0
+INFO2023-07-26 14:53:25,710basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 304 0
+INFO2023-07-26 14:53:25,710basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 304 0
+INFO2023-07-26 14:53:25,715basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 304 0
+INFO2023-07-26 14:55:01,484basehttp"GET /customer/customer_home HTTP/1.1" 200 14121
+INFO2023-07-26 14:55:01,516basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1432
+INFO2023-07-26 14:55:01,516basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 200 819
+INFO2023-07-26 14:55:02,485basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-26 14:55:02,496basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-26 14:55:02,512basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-26 14:55:02,544basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-26 14:55:02,559basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-26 14:55:02,575basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-07-26 14:55:02,591basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-26 14:55:02,607basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-26 14:55:02,623basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-26 14:55:02,639basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-26 14:55:02,655basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-26 14:55:02,671basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-26 14:55:02,671basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-26 14:55:02,687basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-26 14:55:02,718basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-26 14:55:02,734basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-26 14:55:02,760basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 200 711614
+WARNING2023-07-26 14:55:03,867logNot Found: /favicon.ico
+WARNING2023-07-26 14:55:03,867basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-26 14:55:17,823basehttp"GET /customer/customer_home HTTP/1.1" 200 14121
+INFO2023-07-26 14:55:17,840basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1432
+INFO2023-07-26 14:55:17,840basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 200 820
+INFO2023-07-26 14:55:18,173basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-26 14:55:18,187basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-26 14:55:18,187basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-26 14:55:18,206basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-26 14:55:18,206basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-07-26 14:55:18,206basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-26 14:55:18,207basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-26 14:55:18,207basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-26 14:55:18,215basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-26 14:55:18,216basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-26 14:55:18,216basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-26 14:55:18,216basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-26 14:55:18,219basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-26 14:55:18,226basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-26 14:55:18,237basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-26 14:55:18,237basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-26 14:55:18,265basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 200 711614
+WARNING2023-07-26 14:55:18,383logNot Found: /favicon.ico
+WARNING2023-07-26 14:55:18,383basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-26 14:55:29,156basehttp"GET /customer/customer_home HTTP/1.1" 200 14121
+INFO2023-07-26 14:55:29,172basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1432
+INFO2023-07-26 14:55:29,188basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 200 831
+INFO2023-07-26 14:55:29,317basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-26 14:55:29,317basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-26 14:55:29,330basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-26 14:55:29,330basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-26 14:55:29,346basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-26 14:55:29,346basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-07-26 14:55:29,361basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-26 14:55:29,361basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-26 14:55:29,383basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-26 14:55:29,393basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-26 14:55:29,393basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-26 14:55:29,408basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-26 14:55:29,408basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-26 14:55:29,424basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-26 14:55:29,424basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-26 14:55:29,440basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-26 14:55:29,460basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 200 711614
+WARNING2023-07-26 14:55:31,017logNot Found: /favicon.ico
+WARNING2023-07-26 14:55:31,018basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-26 14:55:49,443basehttp"GET /customer/customer_home HTTP/1.1" 302 0
+INFO2023-07-26 14:55:49,448basehttp"GET /customerlogin HTTP/1.1" 200 7900
+INFO2023-07-26 14:55:49,476basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-07-26 14:55:49,476basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 725
+WARNING2023-07-26 14:55:49,978logNot Found: /favicon.ico
+WARNING2023-07-26 14:55:49,978basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-26 14:56:21,536basehttp"GET /customer/customer_home HTTP/1.1" 200 14121
+INFO2023-07-26 14:56:21,552basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1432
+INFO2023-07-26 14:56:21,560basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 200 829
+INFO2023-07-26 14:56:22,326basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-26 14:56:22,328basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-26 14:56:22,333basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-26 14:56:22,341basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-26 14:56:22,344basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-26 14:56:22,352basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-07-26 14:56:22,358basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-26 14:56:22,366basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-26 14:56:22,366basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-26 14:56:22,374basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-26 14:56:22,383basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-26 14:56:22,386basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-26 14:56:22,391basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-26 14:56:22,399basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-26 14:56:22,407basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-26 14:56:22,415basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-26 14:56:22,423basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 200 711614
+WARNING2023-07-26 14:56:24,013logNot Found: /favicon.ico
+WARNING2023-07-26 14:56:24,021basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-26 14:56:44,373basehttp"GET /customer/customer_home HTTP/1.1" 200 14121
+INFO2023-07-26 14:56:44,389basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1432
+INFO2023-07-26 14:56:44,397basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 200 829
+INFO2023-07-26 14:56:52,431basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-26 14:56:52,438basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-26 14:56:52,440basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-26 14:56:52,445basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-26 14:56:52,453basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-26 14:56:52,453basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-07-26 14:56:52,461basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-26 14:56:52,469basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-26 14:56:52,469basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-26 14:56:52,477basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-26 14:56:52,485basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-26 14:56:52,494basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-26 14:56:52,502basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-26 14:56:52,502basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-26 14:56:52,511basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-26 14:56:52,519basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-26 14:56:52,527basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 200 711614
+WARNING2023-07-26 14:56:55,101logNot Found: /favicon.ico
+WARNING2023-07-26 14:56:55,101basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-26 14:57:03,928basehttp"GET /customer/customer_home HTTP/1.1" 200 14121
+INFO2023-07-26 14:57:03,944basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1432
+INFO2023-07-26 14:57:03,952basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 200 829
+INFO2023-07-26 14:57:04,113basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-26 14:57:04,121basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-26 14:57:04,129basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-26 14:57:04,129basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-26 14:57:04,137basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-26 14:57:04,145basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-07-26 14:57:04,153basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-26 14:57:04,161basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-26 14:57:04,167basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-26 14:57:04,170basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-26 14:57:04,177basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-26 14:57:04,185basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-26 14:57:04,185basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-26 14:57:04,194basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-26 14:57:04,202basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-26 14:57:04,210basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-26 14:57:04,218basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 200 711614
+WARNING2023-07-26 14:57:04,633logNot Found: /favicon.ico
+WARNING2023-07-26 14:57:04,633basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-26 14:57:10,131basehttp"GET /customer/customer_home HTTP/1.1" 200 14121
+INFO2023-07-26 14:57:10,147basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1432
+INFO2023-07-26 14:57:10,156basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 200 829
+INFO2023-07-26 14:57:10,252basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-26 14:57:10,252basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-26 14:57:10,260basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-26 14:57:10,269basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-26 14:57:10,277basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-26 14:57:10,277basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-07-26 14:57:10,285basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-26 14:57:10,293basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-26 14:57:10,301basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-26 14:57:10,309basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-26 14:57:10,309basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-26 14:57:10,318basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-26 14:57:10,325basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-26 14:57:10,333basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-26 14:57:10,341basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-26 14:57:10,341basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-26 14:57:10,357basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 200 711614
+WARNING2023-07-26 14:57:10,517logNot Found: /favicon.ico
+WARNING2023-07-26 14:57:10,517basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-26 14:57:21,855basehttp"GET /customer/customer_home HTTP/1.1" 200 14121
+INFO2023-07-26 14:57:21,871basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1432
+INFO2023-07-26 14:57:21,871basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 200 829
+INFO2023-07-26 14:57:21,996basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-26 14:57:21,996basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-26 14:57:22,012basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-26 14:57:22,018basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-26 14:57:22,028basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-26 14:57:22,028basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-07-26 14:57:22,043basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-26 14:57:22,059basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-26 14:57:22,059basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-26 14:57:22,059basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-26 14:57:22,075basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-26 14:57:22,091basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-26 14:57:22,094basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-26 14:57:22,107basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-26 14:57:22,107basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-26 14:57:22,123basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-26 14:57:22,139basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 200 711614
+WARNING2023-07-26 14:57:22,217logNot Found: /favicon.ico
+WARNING2023-07-26 14:57:22,217basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-26 14:57:29,954basehttp"GET /customer/cproductdetails/7 HTTP/1.1" 200 8706
+INFO2023-07-26 14:57:29,978basehttp"GET /static/style/product_details_style.css HTTP/1.1" 304 0
+INFO2023-07-26 14:57:34,802basehttp"POST /customer/cproductdetails/7 HTTP/1.1" 302 0
+ERROR2023-07-26 14:57:34,991logInternal Server Error: /customer/cmycart
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\decorators.py", line 27, in wrapper
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py", line 26, in customer_mycart
+    return render(request, 'customer/my cart.html', {'cart_items': cart_items})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'delete_item' with no arguments not found. 1 pattern(s) tried: ['customer/delete_item/(?P<item_id>[0-9]+)\\Z']
+ERROR2023-07-26 14:57:34,991basehttp"GET /customer/cmycart HTTP/1.1" 500 170571
+ERROR2023-07-26 14:57:43,069logInternal Server Error: /customer/cmycart
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\decorators.py", line 27, in wrapper
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py", line 26, in customer_mycart
+    return render(request, 'customer/my cart.html', {'cart_items': cart_items})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'delete_item' with no arguments not found. 1 pattern(s) tried: ['customer/delete_item/(?P<item_id>[0-9]+)\\Z']
+ERROR2023-07-26 14:57:43,069basehttp"GET /customer/cmycart HTTP/1.1" 500 170434
+INFO2023-07-26 14:58:15,559basehttp"GET /customer/cmycart HTTP/1.1" 200 12511
+INFO2023-07-26 14:58:15,601basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1432
+INFO2023-07-26 14:58:15,608basehttp"GET /static/style/cart_style.css HTTP/1.1" 200 821
+INFO2023-07-26 14:58:15,905basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-26 14:58:15,913basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-26 14:58:15,917basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-26 14:58:15,935basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-26 14:58:15,935basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-07-26 14:58:15,938basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-26 14:58:15,939basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-26 14:58:15,940basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+WARNING2023-07-26 14:58:16,300logNot Found: /favicon.ico
+WARNING2023-07-26 14:58:16,300basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-26 14:58:23,187basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:23,899basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:24,358basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:24,716basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:25,183basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:25,453basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:25,702basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:25,936basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:26,337basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:26,702basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:27,016basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:27,268basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:27,521basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:27,737basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:27,999basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:28,216basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:28,442basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:28,652basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:28,884basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:29,117basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:29,350basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:29,568basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:29,784basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:29,998basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:30,223basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:30,421basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:30,740basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:30,850basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:31,041basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:31,090basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:32,784basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:32,982basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:33,167basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:33,356basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:33,545basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:33,719basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:33,906basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:34,069basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:34,224basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:34,401basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:34,537basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:34,706basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:34,840basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:34,973basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:35,137basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:35,392basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:35,440basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:35,606basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:35,740basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:35,901basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:36,057basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:36,227basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:36,403basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:36,671basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-26 14:58:37,171basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-26 14:58:37,966basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-26 14:58:38,118basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-26 14:58:38,433basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-26 14:58:38,789basehttp"POST /customer/change_quantity HTTP/1.1" 200 29
+INFO2023-07-26 14:58:39,181basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:39,675basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:40,162basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:40,600basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-26 14:58:49,736basehttp"GET /customer/customer_home HTTP/1.1" 200 14121
+INFO2023-07-26 14:58:49,762basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 304 0
+INFO2023-07-26 14:59:19,521basehttp"GET /customer/cchangepassword HTTP/1.1" 200 8570
+INFO2023-07-26 14:59:19,546basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-26 15:01:12,617basehttp"GET /customer/cchangepassword HTTP/1.1" 200 8590
+INFO2023-07-26 15:01:12,638basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1484
+INFO2023-07-26 15:01:12,638basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 639
+INFO2023-07-26 15:01:12,966basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-26 15:01:12,973basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-26 15:01:12,973basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-26 15:01:12,983basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-26 15:01:12,990basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-26 15:01:12,990basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-26 15:01:15,067logNot Found: /favicon.ico
+WARNING2023-07-26 15:01:15,068basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-26 15:01:23,936basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-26 15:01:42,707basehttp"GET /customer/cchangepassword HTTP/1.1" 200 8590
+INFO2023-07-26 15:01:42,727basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 639
+INFO2023-07-26 15:01:42,732basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-26 15:01:43,160basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-26 15:01:43,169basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-26 15:01:43,182basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-26 15:01:43,185basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-26 15:01:43,193basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-26 15:01:43,202basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-26 15:01:44,121logNot Found: /favicon.ico
+WARNING2023-07-26 15:01:44,129basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-26 15:02:08,299basehttp"GET /customer/cprofile HTTP/1.1" 200 8345
+INFO2023-07-26 15:02:08,318basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-26 15:02:08,318basehttp"GET /static/style/cust_profile.css HTTP/1.1" 304 0
+INFO2023-07-31 11:32:13,125autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 11:32:16,166basehttp"GET / HTTP/1.1" 200 9208
+INFO2023-07-31 11:32:16,622basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-07-31 11:32:16,630basehttp"GET /static/style/project_home_style.css HTTP/1.1" 200 1176
+INFO2023-07-31 11:32:17,146basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 200 1110583
+INFO2023-07-31 11:32:17,158basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 200 711614
+INFO2023-07-31 11:32:17,184basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 200 458486
+WARNING2023-07-31 11:32:17,570logNot Found: /favicon.ico
+WARNING2023-07-31 11:32:17,570basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 11:32:34,564basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-31 11:32:34,582basehttp"GET /static/style/cust_profile.css HTTP/1.1" 304 0
+INFO2023-07-31 11:32:34,777basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 304 0
+INFO2023-07-31 11:32:34,785basehttp"GET /static/images/germany.png HTTP/1.1" 304 0
+INFO2023-07-31 11:32:34,794basehttp"GET /static/images/france.png HTTP/1.1" 304 0
+INFO2023-07-31 11:32:34,802basehttp"GET /static/images/flag.png HTTP/1.1" 304 0
+INFO2023-07-31 11:32:34,810basehttp"GET /static/images/united-states.png HTTP/1.1" 304 0
+INFO2023-07-31 11:32:34,821basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 304 0
+INFO2023-07-31 11:32:52,781basehttp"GET / HTTP/1.1" 200 9208
+INFO2023-07-31 11:32:52,833basehttp"GET /static/style/masterstyle.css HTTP/1.1" 304 0
+INFO2023-07-31 11:32:52,875basehttp"GET /static/style/project_home_style.css HTTP/1.1" 304 0
+INFO2023-07-31 11:32:52,890basehttp"GET /static/images/man-sunglasses-with-sale-sign.jpg HTTP/1.1" 304 0
+INFO2023-07-31 11:32:52,890basehttp"GET /static/images/man-floating-with-shopping-bags.jpg HTTP/1.1" 304 0
+INFO2023-07-31 11:32:52,904basehttp"GET /static/images/expressive-young-woman-posing.jpg HTTP/1.1" 304 0
+WARNING2023-07-31 11:32:54,065logNot Found: /favicon.ico
+WARNING2023-07-31 11:32:54,065basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 11:33:00,975basehttp"GET /customer/cmycart HTTP/1.1" 200 12531
+INFO2023-07-31 11:33:00,998basehttp"GET /static/style/cart_style.css HTTP/1.1" 304 0
+INFO2023-07-31 11:33:10,794basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-31 11:33:11,579basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-31 11:33:12,039basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-31 11:33:12,294basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-31 11:33:12,514basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-31 11:33:12,719basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-31 11:33:12,914basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-31 11:33:13,119basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-31 11:33:13,316basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-31 11:33:13,513basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-31 11:33:13,714basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-31 11:33:13,914basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-31 11:33:14,114basehttp"POST /customer/change_quantity HTTP/1.1" 200 25
+INFO2023-07-31 11:33:17,267basehttp"GET /customer/cmycart HTTP/1.1" 200 12531
+INFO2023-07-31 11:33:28,082basehttp"GET / HTTP/1.1" 200 9208
+INFO2023-07-31 11:33:30,710basehttp"GET /customer/cmycart HTTP/1.1" 200 12531
+INFO2023-07-31 11:33:36,458basehttp"GET /customer/cprofile HTTP/1.1" 200 8345
+INFO2023-07-31 11:43:12,774basehttp"GET /customer/cprofile HTTP/1.1" 200 8345
+INFO2023-07-31 11:43:17,371basehttp"GET /customer/customer_home HTTP/1.1" 200 14141
+INFO2023-07-31 11:43:17,395basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 304 0
+INFO2023-07-31 11:43:17,501basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 304 0
+INFO2023-07-31 11:43:28,640basehttp"GET /customer/cmycart HTTP/1.1" 200 12531
+INFO2023-07-31 11:43:40,118basehttp"GET /customer/cmyorders HTTP/1.1" 200 7431
+INFO2023-07-31 11:52:43,408basehttp"GET /customer/cchangepassword HTTP/1.1" 200 8590
+INFO2023-07-31 11:52:43,466basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 304 0
+INFO2023-07-31 11:53:56,854basehttp"GET /customer/cprofile HTTP/1.1" 200 8345
+INFO2023-07-31 11:53:59,155basehttp"GET /customer/cprofile HTTP/1.1" 200 8345
+INFO2023-07-31 11:53:59,875basehttp"GET /customer/customer_home HTTP/1.1" 200 14141
+INFO2023-07-31 11:54:25,179basehttp"GET /customer/customer_home HTTP/1.1" 200 14141
+INFO2023-07-31 11:54:29,283basehttp"GET /customer/customer_home HTTP/1.1" 200 14141
+INFO2023-07-31 11:54:31,357basehttp"GET /customer/customer_home HTTP/1.1" 200 14141
+INFO2023-07-31 11:54:39,532basehttp"GET /customer/customer_home HTTP/1.1" 200 14141
+INFO2023-07-31 11:54:42,802basehttp"GET /customer/customer_home HTTP/1.1" 200 14141
+INFO2023-07-31 11:54:42,842basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 11:54:42,845basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 200 833
+INFO2023-07-31 11:54:43,255basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 11:54:43,271basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 11:54:43,287basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 11:54:43,303basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 11:54:43,327basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 11:54:43,351basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-07-31 11:54:43,367basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-31 11:54:43,387basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-31 11:54:43,400basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-31 11:54:43,416basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-31 11:54:43,424basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-31 11:54:43,440basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-31 11:54:43,457basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-31 11:54:43,465basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-31 11:54:43,507basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-31 11:54:43,521basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-31 11:54:43,538basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 200 711614
+WARNING2023-07-31 11:54:44,179logNot Found: /favicon.ico
+WARNING2023-07-31 11:54:44,181basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 11:54:50,471basehttp"GET /customer/customer_home HTTP/1.1" 200 14141
+INFO2023-07-31 11:54:50,487basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 11:54:50,495basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 200 832
+INFO2023-07-31 11:54:51,007basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 11:54:51,016basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 11:54:51,018basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 11:54:51,024basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 11:54:51,032basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 11:54:51,040basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-07-31 11:54:51,048basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-31 11:54:51,056basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-31 11:54:51,064basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-31 11:54:51,072basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-31 11:54:51,080basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-31 11:54:51,088basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-31 11:54:51,088basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-31 11:54:51,096basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-31 11:54:51,104basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-31 11:54:51,112basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-31 11:54:51,120basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 200 711614
+WARNING2023-07-31 11:54:52,518logNot Found: /favicon.ico
+WARNING2023-07-31 11:54:52,518basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 11:55:08,572basehttp"GET /customer/cmyorders HTTP/1.1" 200 7431
+INFO2023-07-31 12:03:02,203basehttp"GET /customer/cmyorders HTTP/1.1" 200 7779
+INFO2023-07-31 12:03:02,231basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1488
+INFO2023-07-31 12:03:02,870basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:03:02,870basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:03:02,895basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:03:02,902basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:03:02,902basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:03:02,918basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:03:03,894logNot Found: /favicon.ico
+WARNING2023-07-31 12:03:03,894basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:03:15,219basehttp"GET /customer/cmyorders HTTP/1.1" 200 7779
+INFO2023-07-31 12:03:15,236basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:03:16,504basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:03:16,517basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:03:16,519basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:03:16,527basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:03:16,535basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:03:16,535basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:03:19,578logNot Found: /favicon.ico
+WARNING2023-07-31 12:03:19,578basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:03:50,713basehttp"GET /customer/cmyorders HTTP/1.1" 200 7788
+INFO2023-07-31 12:03:50,745basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:03:51,416basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:03:51,425basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:03:51,435basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:03:51,438basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:03:51,438basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:03:51,451basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:03:52,131logNot Found: /favicon.ico
+WARNING2023-07-31 12:03:52,131basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:05:14,739basehttp"GET /customer/cmyorders HTTP/1.1" 200 7835
+INFO2023-07-31 12:05:14,758basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:05:15,372basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:05:15,379basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:05:15,386basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:05:15,386basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:05:15,401basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:05:15,401basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:05:28,345logNot Found: /favicon.ico
+WARNING2023-07-31 12:05:28,345basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:05:32,596basehttp"GET /customer/cchangepassword HTTP/1.1" 200 8994
+INFO2023-07-31 12:05:32,612basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-31 12:05:35,102basehttp"GET /customer/cprofile HTTP/1.1" 200 8749
+INFO2023-07-31 12:05:37,011basehttp"GET /customer/c_logout HTTP/1.1" 302 0
+INFO2023-07-31 12:05:37,027basehttp"GET / HTTP/1.1" 200 9208
+INFO2023-07-31 12:05:41,885basehttp"GET /customerlogin HTTP/1.1" 200 7900
+INFO2023-07-31 12:05:41,909basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 725
+INFO2023-07-31 12:05:50,107basehttp"POST /customerlogin HTTP/1.1" 200 7919
+INFO2023-07-31 12:05:57,810basehttp"POST /customerlogin HTTP/1.1" 302 0
+INFO2023-07-31 12:05:57,914basehttp"GET /customer/customer_home HTTP/1.1" 200 14545
+INFO2023-07-31 12:05:57,938basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-31 12:05:57,938basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 304 0
+INFO2023-07-31 12:06:05,756basehttp"GET /customer/c_logout HTTP/1.1" 302 0
+INFO2023-07-31 12:06:05,756basehttp"GET / HTTP/1.1" 200 9208
+INFO2023-07-31 12:06:08,095basehttp"GET /customerlogin HTTP/1.1" 200 7900
+INFO2023-07-31 12:06:17,388basehttp"GET /customersignup HTTP/1.1" 200 12064
+INFO2023-07-31 12:06:17,410basehttp"GET /static/style/cust_signup_style.css HTTP/1.1" 304 0
+INFO2023-07-31 12:06:20,680basehttp"GET /customerlogin HTTP/1.1" 200 7900
+INFO2023-07-31 12:08:22,313autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\common\views.py changed, reloading.
+INFO2023-07-31 12:08:23,420autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 12:08:57,621basehttp"GET /customerlogin HTTP/1.1" 200 7913
+INFO2023-07-31 12:08:57,811basehttp"GET /static/style/masterstyle.css HTTP/1.1" 200 1169
+INFO2023-07-31 12:08:57,827basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 200 789
+WARNING2023-07-31 12:08:58,689logNot Found: /favicon.ico
+WARNING2023-07-31 12:08:58,689basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:09:03,668basehttp"POST /customerlogin HTTP/1.1" 200 7932
+INFO2023-07-31 12:09:03,684basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-07-31 12:09:16,201basehttp"POST /customerlogin HTTP/1.1" 302 0
+INFO2023-07-31 12:09:16,314basehttp"GET /customer/customer_home HTTP/1.1" 200 14545
+INFO2023-07-31 12:09:16,335basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-31 12:09:16,335basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 304 0
+INFO2023-07-31 12:09:20,292basehttp"GET /customer/cprofile HTTP/1.1" 200 8749
+INFO2023-07-31 12:10:37,336basehttp"GET /customer/cprofile HTTP/1.1" 200 8813
+INFO2023-07-31 12:10:37,354basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:10:37,360basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 422
+INFO2023-07-31 12:10:37,880basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:10:37,880basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:10:37,895basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:10:37,895basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:10:37,911basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:10:37,911basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:10:39,778logNot Found: /favicon.ico
+WARNING2023-07-31 12:10:39,778basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:11:14,738basehttp"GET /customer/cprofile HTTP/1.1" 200 8878
+INFO2023-07-31 12:11:14,762basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:11:14,763basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 422
+INFO2023-07-31 12:11:15,050basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:11:15,051basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:11:15,051basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:11:15,066basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:11:15,082basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:11:15,082basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:11:15,424logNot Found: /favicon.ico
+WARNING2023-07-31 12:11:15,424basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:12:05,921basehttp"GET /customer/cprofile HTTP/1.1" 200 8878
+INFO2023-07-31 12:12:05,939basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:12:05,939basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 469
+INFO2023-07-31 12:12:06,338basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:12:06,345basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:12:06,347basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:12:06,347basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:12:06,362basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:12:06,362basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:12:07,511logNot Found: /favicon.ico
+WARNING2023-07-31 12:12:07,512basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:12:10,696basehttp"GET /static/style/cust_profile.css HTTP/1.1" 304 0
+INFO2023-07-31 12:13:14,020basehttp"GET /customer/cprofile HTTP/1.1" 200 8878
+INFO2023-07-31 12:13:14,038basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:13:14,044basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 480
+INFO2023-07-31 12:13:14,613basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:13:14,630basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:13:14,638basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:13:14,647basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:13:14,651basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:13:14,663basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:13:15,793logNot Found: /favicon.ico
+WARNING2023-07-31 12:13:15,793basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:13:58,857basehttp"GET /customer/cprofile HTTP/1.1" 200 8889
+INFO2023-07-31 12:13:58,880basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:13:58,890basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 528
+INFO2023-07-31 12:13:59,271basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:13:59,271basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:13:59,286basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:13:59,286basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:13:59,302basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:13:59,302basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:14:42,929logNot Found: /favicon.ico
+WARNING2023-07-31 12:14:42,929basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:15:18,932basehttp"GET /customer/cprofile HTTP/1.1" 200 8889
+INFO2023-07-31 12:15:18,949basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:15:18,956basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 528
+INFO2023-07-31 12:15:19,610basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:15:19,613basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:15:19,619basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:15:19,627basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:15:19,635basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-07-31 12:15:19,635basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+WARNING2023-07-31 12:15:20,232logNot Found: /favicon.ico
+WARNING2023-07-31 12:15:20,232basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:15:24,629basehttp"GET /customer/cprofile HTTP/1.1" 200 8889
+INFO2023-07-31 12:15:24,651basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:15:24,651basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 529
+INFO2023-07-31 12:15:24,729basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:15:24,735basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:15:24,735basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:15:24,743basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:15:24,751basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:15:24,759basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:15:25,620logNot Found: /favicon.ico
+WARNING2023-07-31 12:15:25,620basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:15:30,534basehttp"GET /customer/cprofile HTTP/1.1" 200 8889
+INFO2023-07-31 12:15:30,550basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:15:30,550basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 529
+INFO2023-07-31 12:15:30,830basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:15:30,830basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:15:30,842basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:15:30,851basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:15:30,851basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:15:30,853basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:15:31,354logNot Found: /favicon.ico
+WARNING2023-07-31 12:15:31,354basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:15:41,010basehttp"GET /customer/cprofile HTTP/1.1" 200 8889
+INFO2023-07-31 12:15:41,027basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:15:41,029basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 480
+INFO2023-07-31 12:15:41,379basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:15:41,385basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:15:41,390basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:15:41,390basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:15:41,398basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:15:41,406basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:15:42,246logNot Found: /favicon.ico
+WARNING2023-07-31 12:15:42,246basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:15:47,743basehttp"GET /customer/cprofile HTTP/1.1" 200 8889
+INFO2023-07-31 12:15:47,761basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 480
+INFO2023-07-31 12:15:47,762basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:15:48,035basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:15:48,035basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:15:48,044basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:15:48,052basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-07-31 12:15:48,052basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:15:48,052basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+WARNING2023-07-31 12:15:48,135logNot Found: /favicon.ico
+WARNING2023-07-31 12:15:48,135basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:16:36,663basehttp"GET /customer/cprofile HTTP/1.1" 200 8917
+INFO2023-07-31 12:16:36,696basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 480
+INFO2023-07-31 12:16:36,696basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:16:37,305basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:16:37,305basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:16:37,327basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:16:37,327basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:16:37,327basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:16:37,329basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:16:37,696logNot Found: /favicon.ico
+WARNING2023-07-31 12:16:37,696basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:16:56,148basehttp"GET /customer/cprofile HTTP/1.1" 200 8917
+INFO2023-07-31 12:16:56,163basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:16:56,166basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 508
+INFO2023-07-31 12:16:56,424basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:16:56,429basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:16:56,433basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:16:56,438basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:16:56,439basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-07-31 12:16:56,439basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+WARNING2023-07-31 12:16:56,547logNot Found: /favicon.ico
+WARNING2023-07-31 12:16:56,547basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:16:58,995basehttp"GET /customer/cprofile HTTP/1.1" 200 8917
+INFO2023-07-31 12:16:59,017basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:16:59,017basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 508
+INFO2023-07-31 12:16:59,190basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:16:59,193basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:16:59,198basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:16:59,198basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:16:59,205basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:16:59,214basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:16:59,368logNot Found: /favicon.ico
+WARNING2023-07-31 12:16:59,368basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:17:07,839basehttp"GET /customer/cprofile HTTP/1.1" 200 8917
+INFO2023-07-31 12:17:07,856basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:17:07,861basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 527
+INFO2023-07-31 12:17:08,092basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:17:08,107basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:17:08,107basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:17:08,123basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:17:08,123basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:17:08,139basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:17:08,362logNot Found: /favicon.ico
+WARNING2023-07-31 12:17:08,362basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:17:10,633basehttp"GET /customer/cprofile HTTP/1.1" 200 8917
+INFO2023-07-31 12:17:10,653basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:17:10,653basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 527
+INFO2023-07-31 12:17:10,861basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:17:10,869basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:17:10,875basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:17:10,885basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:17:10,889basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:17:10,894basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:17:11,104logNot Found: /favicon.ico
+WARNING2023-07-31 12:17:11,104basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:17:15,840basehttp"GET /customer/cprofile? HTTP/1.1" 200 8917
+INFO2023-07-31 12:17:15,865basehttp"GET /static/style/cust_profile.css HTTP/1.1" 304 0
+INFO2023-07-31 12:17:45,771basehttp"GET /customer/cprofile? HTTP/1.1" 200 8917
+INFO2023-07-31 12:17:45,795basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:17:45,803basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 549
+INFO2023-07-31 12:17:46,192basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:17:46,206basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:17:46,214basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:17:46,221basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:17:46,221basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:17:46,237basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:17:46,547logNot Found: /favicon.ico
+WARNING2023-07-31 12:17:46,547basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:17:48,844basehttp"GET /customer/cchangepassword HTTP/1.1" 200 8994
+INFO2023-07-31 12:17:56,447basehttp"GET /static/style/cust_profile.css HTTP/1.1" 304 0
+INFO2023-07-31 12:18:35,640basehttp"GET /customer/cprofile? HTTP/1.1" 200 8917
+INFO2023-07-31 12:18:35,657basehttp"GET /static/style/cust_profile.css HTTP/1.1" 304 0
+INFO2023-07-31 12:19:27,498basehttp"GET /customer/cprofile? HTTP/1.1" 200 8917
+INFO2023-07-31 12:19:27,518basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:19:27,519basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 480
+INFO2023-07-31 12:19:27,959basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:19:27,963basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:19:27,971basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:19:27,979basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:19:27,980basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:19:27,980basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:19:29,314logNot Found: /favicon.ico
+WARNING2023-07-31 12:19:29,314basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:19:31,020basehttp"GET /customer/cchangepassword HTTP/1.1" 200 8994
+INFO2023-07-31 12:20:01,012basehttp"GET /customer/cprofile? HTTP/1.1" 200 8924
+INFO2023-07-31 12:20:01,028basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:20:01,028basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 480
+INFO2023-07-31 12:20:01,329basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:20:01,338basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:20:01,346basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:20:01,354basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:20:01,362basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:20:01,363basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:20:02,830logNot Found: /favicon.ico
+WARNING2023-07-31 12:20:02,830basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:21:24,656basehttp"GET /customer/cprofile? HTTP/1.1" 200 8924
+INFO2023-07-31 12:21:24,673basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:21:24,673basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 480
+INFO2023-07-31 12:21:25,434basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:21:25,445basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:21:25,461basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:21:25,463basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:21:25,476basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:21:25,481basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:21:26,846logNot Found: /favicon.ico
+WARNING2023-07-31 12:21:26,846basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:21:32,019basehttp"GET /customer/cprofile? HTTP/1.1" 200 8924
+INFO2023-07-31 12:21:32,035basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:21:32,035basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 480
+INFO2023-07-31 12:21:32,126basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:21:32,132basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:21:32,140basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:21:32,146basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:21:32,149basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:21:32,157basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:21:33,776logNot Found: /favicon.ico
+WARNING2023-07-31 12:21:33,776basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:23:03,829basehttp"GET /customer/cprofile? HTTP/1.1" 200 9079
+INFO2023-07-31 12:23:03,861basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:23:03,861basehttp"GET /static/style/cust_profile.css HTTP/1.1" 200 480
+INFO2023-07-31 12:23:04,138basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:23:04,145basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:23:04,148basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:23:04,161basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:23:04,161basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:23:04,161basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:23:16,329logNot Found: /favicon.ico
+WARNING2023-07-31 12:23:16,331basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:25:15,081basehttp"GET /customer/customer_home HTTP/1.1" 200 14568
+INFO2023-07-31 12:25:15,110basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 304 0
+INFO2023-07-31 12:25:15,110basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-31 12:25:59,983autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 12:26:00,776autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 12:30:25,618basehttp"GET /customer/customer_home HTTP/1.1" 200 14568
+INFO2023-07-31 12:30:25,644basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-31 12:30:25,672basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 304 0
+INFO2023-07-31 12:30:30,632basehttp"GET /customer/customer_home HTTP/1.1" 200 14568
+INFO2023-07-31 12:30:57,067autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 12:30:57,863autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 12:31:01,411autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 12:31:02,048autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 12:31:15,822autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 12:31:16,560autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 12:31:21,296autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 12:31:21,961autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 12:31:33,325autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 12:31:34,067autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 12:31:45,467autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 12:31:46,231autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 12:32:37,032basehttp"GET /customer/customer_home HTTP/1.1" 200 14555
+INFO2023-07-31 12:32:37,219basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:32:37,235basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 200 832
+INFO2023-07-31 12:32:37,728basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:32:37,741basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:32:37,741basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:32:37,757basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:32:37,757basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:32:37,773basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-07-31 12:32:37,780basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-31 12:32:37,789basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-31 12:32:37,805basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-31 12:32:37,821basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-31 12:32:37,821basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-31 12:32:37,837basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-31 12:32:37,837basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-31 12:32:37,852basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-31 12:32:37,868basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-31 12:32:37,868basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-31 12:32:37,884basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 200 711614
+WARNING2023-07-31 12:32:39,075logNot Found: /favicon.ico
+WARNING2023-07-31 12:32:39,075basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:33:00,703basehttp"GET /customer/customer_home HTTP/1.1" 200 14555
+INFO2023-07-31 12:33:09,218basehttp"GET /customer/customer_home HTTP/1.1" 200 14555
+INFO2023-07-31 12:33:59,297basehttp"GET /customer/customer_home HTTP/1.1" 200 14562
+INFO2023-07-31 12:33:59,313basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:33:59,315basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 200 832
+INFO2023-07-31 12:34:00,054basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:34:00,062basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:34:00,070basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:34:00,078basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:34:00,078basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:34:00,086basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-07-31 12:34:00,094basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-31 12:34:00,102basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-31 12:34:00,110basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-31 12:34:00,110basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-31 12:34:00,118basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-31 12:34:00,126basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-31 12:34:00,134basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-31 12:34:00,142basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-31 12:34:00,150basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-31 12:34:00,158basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-31 12:34:00,174basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 200 711614
+WARNING2023-07-31 12:34:01,395logNot Found: /favicon.ico
+WARNING2023-07-31 12:34:01,395basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:38:35,680basehttp"GET /customer/customer_home HTTP/1.1" 200 13951
+INFO2023-07-31 12:38:35,697basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:38:35,738basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 200 832
+INFO2023-07-31 12:38:36,348basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:38:36,355basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:38:36,355basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:38:36,363basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:38:36,371basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:38:36,378basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-07-31 12:38:36,387basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-31 12:38:36,394basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-31 12:38:36,395basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-31 12:38:36,404basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-31 12:38:36,412basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-31 12:38:36,412basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-31 12:38:36,420basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-31 12:38:36,427basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-31 12:38:36,436basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-31 12:38:36,444basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-31 12:38:36,457basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 200 711614
+WARNING2023-07-31 12:38:37,424logNot Found: /favicon.ico
+WARNING2023-07-31 12:38:37,424basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:38:44,533basehttp"GET /customer/customer_home HTTP/1.1" 200 13951
+INFO2023-07-31 12:42:32,040autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 12:42:32,818autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 12:42:39,738autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 12:42:40,370autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 12:42:43,005autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 12:42:43,694autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 12:42:47,912basehttp"GET /customer/customer_home HTTP/1.1" 200 13946
+INFO2023-07-31 12:42:47,957basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:42:47,975basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 200 832
+INFO2023-07-31 12:42:48,775basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:42:48,785basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:42:48,785basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:42:48,793basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:42:48,793basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:42:48,793basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-07-31 12:42:48,809basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-31 12:42:48,809basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-31 12:42:48,824basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-31 12:42:48,824basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-31 12:42:48,840basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-31 12:42:48,840basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-31 12:42:48,856basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-31 12:42:48,856basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-31 12:42:48,872basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-31 12:42:48,876basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-31 12:42:48,887basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 200 711614
+WARNING2023-07-31 12:42:50,218logNot Found: /favicon.ico
+WARNING2023-07-31 12:42:50,218basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:42:52,903basehttp"GET /customer/customer_home HTTP/1.1" 200 13946
+INFO2023-07-31 12:42:59,784basehttp"GET /customer/customer_home HTTP/1.1" 200 13946
+INFO2023-07-31 12:43:55,504basehttp"GET /customer/master_customer HTTP/1.1" 200 7438
+INFO2023-07-31 12:44:24,428autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 12:44:25,172autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 12:44:27,846autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 12:44:28,450autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 12:45:20,349basehttp"GET /customer/master_customer HTTP/1.1" 200 7381
+INFO2023-07-31 12:45:20,461basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 12:45:20,750basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 12:45:20,760basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 12:45:20,762basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 12:45:20,776basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 12:45:20,780basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 12:45:20,792basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 12:45:22,345logNot Found: /favicon.ico
+WARNING2023-07-31 12:45:22,345basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 12:45:40,281basehttp"GET /customer/master_customer HTTP/1.1" 200 7381
+INFO2023-07-31 14:43:56,877autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 14:43:57,867autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 14:43:59,512autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 14:44:00,243autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 14:44:21,538basehttp"GET /customer/master_customer HTTP/1.1" 200 7381
+INFO2023-07-31 14:44:21,714basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 14:44:22,345basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 14:44:22,348basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 14:44:22,361basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 14:44:22,371basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 14:44:22,377basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 14:44:22,392basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 14:44:23,934logNot Found: /favicon.ico
+WARNING2023-07-31 14:44:23,934basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 14:44:33,759basehttp"GET /customer/master_customer HTTP/1.1" 200 7381
+INFO2023-07-31 14:44:33,775basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 14:44:34,205basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 14:44:34,209basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 14:44:34,217basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 14:44:34,221basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 14:44:34,233basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 14:44:34,235basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 14:44:35,572logNot Found: /favicon.ico
+WARNING2023-07-31 14:44:35,572basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 14:45:11,457basehttp"GET /customer/master_customer HTTP/1.1" 200 7388
+INFO2023-07-31 14:45:11,489basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 14:45:11,838basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 14:45:11,854basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 14:45:11,855basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 14:45:11,855basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 14:45:11,870basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 14:45:11,870basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 14:45:13,721logNot Found: /favicon.ico
+WARNING2023-07-31 14:45:13,729basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 14:46:16,723basehttp"GET /customer/master_customer HTTP/1.1" 200 7394
+INFO2023-07-31 14:46:16,757basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1525
+INFO2023-07-31 14:46:17,313basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 14:46:17,324basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 14:46:17,324basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 14:46:17,341basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 14:46:17,341basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 14:46:17,356basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 14:46:20,295logNot Found: /favicon.ico
+WARNING2023-07-31 14:46:20,295basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 14:47:53,436basehttp"GET /customer/master_customer HTTP/1.1" 200 7357
+INFO2023-07-31 14:47:53,459basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1530
+INFO2023-07-31 14:47:53,995basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 14:47:54,003basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 14:47:54,008basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 14:47:54,008basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 14:47:54,016basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 14:47:54,024basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 14:47:56,091logNot Found: /favicon.ico
+WARNING2023-07-31 14:47:56,091basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 14:48:04,643basehttp"GET /customer/master_customer HTTP/1.1" 200 7394
+INFO2023-07-31 14:48:04,659basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1530
+INFO2023-07-31 14:48:04,962basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 14:48:04,964basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 14:48:04,972basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 14:48:04,972basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 14:48:04,980basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 14:48:04,988basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 14:48:06,581logNot Found: /favicon.ico
+WARNING2023-07-31 14:48:06,581basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 14:48:20,413basehttp"GET /customer/master_customer HTTP/1.1" 200 7394
+INFO2023-07-31 14:48:20,429basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1532
+INFO2023-07-31 14:48:20,918basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 14:48:20,923basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 14:48:20,928basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 14:48:20,934basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 14:48:20,934basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 14:48:20,950basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 14:48:22,422logNot Found: /favicon.ico
+WARNING2023-07-31 14:48:22,422basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 14:48:40,394basehttp"GET /customer/master_customer HTTP/1.1" 200 7394
+INFO2023-07-31 14:48:40,410basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1534
+INFO2023-07-31 14:48:52,062basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 14:48:52,062basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 14:48:52,070basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 14:48:52,078basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 14:48:52,086basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 14:48:52,095basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 14:48:52,211logNot Found: /favicon.ico
+WARNING2023-07-31 14:48:52,211basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 14:49:22,015basehttp"GET /customer/master_customer HTTP/1.1" 200 7357
+INFO2023-07-31 14:49:22,031basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1530
+INFO2023-07-31 14:49:22,565basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 14:49:22,570basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 14:49:22,570basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 14:49:22,588basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 14:49:22,602basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 14:49:22,603basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 14:49:24,488logNot Found: /favicon.ico
+WARNING2023-07-31 14:49:24,488basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 14:49:34,163basehttp"GET /customer/master_customer HTTP/1.1" 200 7358
+INFO2023-07-31 14:49:34,186basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1530
+INFO2023-07-31 14:49:34,758basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 14:49:34,762basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 14:49:34,770basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 14:49:34,770basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 14:49:34,778basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 14:49:34,786basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 14:49:36,304logNot Found: /favicon.ico
+WARNING2023-07-31 14:49:36,304basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 14:51:04,863basehttp"GET /customer/master_customer HTTP/1.1" 200 7407
+INFO2023-07-31 14:51:04,895basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1539
+INFO2023-07-31 14:51:05,449basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 14:51:05,456basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 14:51:05,459basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 14:51:05,465basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 14:51:05,472basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 14:51:05,488basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 14:51:07,236logNot Found: /favicon.ico
+WARNING2023-07-31 14:51:07,236basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 14:51:48,471basehttp"GET /customer/master_customer HTTP/1.1" 200 7407
+INFO2023-07-31 14:51:48,492basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1542
+INFO2023-07-31 14:51:49,065basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 14:51:49,073basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 14:51:49,077basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 14:51:49,082basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 14:51:49,086basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 14:51:49,086basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 14:51:49,577logNot Found: /favicon.ico
+WARNING2023-07-31 14:51:49,577basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 14:52:36,423basehttp"GET /customer/master_customer HTTP/1.1" 200 7403
+INFO2023-07-31 14:52:36,447basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1490
+INFO2023-07-31 14:52:37,236basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 14:52:37,238basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 14:52:37,245basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 14:52:37,254basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 14:52:37,259basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 14:52:37,259basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 14:52:39,080logNot Found: /favicon.ico
+WARNING2023-07-31 14:52:39,080basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 14:53:17,862basehttp"GET /customer/master_customer HTTP/1.1" 200 7413
+INFO2023-07-31 14:53:17,893basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1526
+INFO2023-07-31 14:53:18,161basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 14:53:18,171basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 14:53:18,177basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 14:53:18,177basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 14:53:18,192basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 14:53:18,192basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 14:53:31,162logNot Found: /favicon.ico
+WARNING2023-07-31 14:53:31,170basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 14:53:41,158basehttp"GET /customer/master_customer HTTP/1.1" 200 7391
+INFO2023-07-31 14:53:41,175basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-31 14:54:01,803basehttp"GET /customer/master_customer HTTP/1.1" 200 7392
+INFO2023-07-31 14:54:01,819basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1526
+INFO2023-07-31 14:54:02,047basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 14:54:02,055basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 14:54:02,062basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 14:54:02,070basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 14:54:02,077basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 14:54:02,087basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 14:54:02,570logNot Found: /favicon.ico
+WARNING2023-07-31 14:54:02,570basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 14:54:31,271basehttp"GET /customer/master_customer HTTP/1.1" 200 7400
+INFO2023-07-31 14:54:31,284basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1526
+INFO2023-07-31 14:54:31,837basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 14:54:31,837basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 14:54:31,847basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 14:54:31,847basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 14:54:31,847basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 14:54:31,847basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 14:54:32,211logNot Found: /favicon.ico
+WARNING2023-07-31 14:54:32,211basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 14:54:42,203basehttp"GET /customer/master_customer HTTP/1.1" 200 7400
+INFO2023-07-31 14:54:42,211basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-31 14:58:00,904basehttp"GET /customer/master_customer HTTP/1.1" 200 7393
+INFO2023-07-31 14:58:00,933basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1532
+INFO2023-07-31 14:58:01,647basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 14:58:01,657basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 14:58:01,661basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 14:58:01,672basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 14:58:01,677basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 14:58:01,685basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 14:58:03,395logNot Found: /favicon.ico
+WARNING2023-07-31 14:58:03,395basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 14:58:18,868basehttp"GET /customer/master_customer HTTP/1.1" 200 7393
+INFO2023-07-31 14:58:18,892basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-07-31 14:58:18,991basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 14:58:18,998basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 14:58:18,998basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 14:58:19,014basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 14:58:19,014basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 14:58:19,022basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 14:58:20,420logNot Found: /favicon.ico
+WARNING2023-07-31 14:58:20,420basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 19:40:56,030autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 19:40:57,398autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 19:44:04,457autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 19:44:05,244autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 19:44:07,896autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 19:44:08,780autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 19:44:10,366autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 19:44:11,093autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 19:44:13,743autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 19:44:14,440autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 19:44:29,129autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 19:44:44,199basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-07-31 19:45:20,005basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 304 0
+INFO2023-07-31 19:56:08,907basehttp"GET /customer/master_customer HTTP/1.1" 200 7376
+INFO2023-07-31 19:56:09,051basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-07-31 19:56:09,839basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 19:56:09,848basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 19:56:09,848basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 19:56:09,865basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 19:56:09,865basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 19:56:09,881basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 19:56:11,373logNot Found: /favicon.ico
+WARNING2023-07-31 19:56:11,373basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 19:56:34,966autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 19:56:35,760autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:00:44,076autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:00:44,993autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:00:46,373autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:00:47,003autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:00:49,702autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:00:50,628autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:01:04,699basehttp"GET /customer/cprofile HTTP/1.1" 200 7431
+INFO2023-07-31 20:01:04,762basehttp"GET /static/style/cust_profile.css HTTP/1.1" 304 0
+INFO2023-07-31 20:01:41,945autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:01:42,702autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:01:43,703basehttp"GET /customer/cprofile HTTP/1.1" 200 7431
+ERROR2023-07-31 20:02:42,294logInternal Server Error: /customer/customer_home
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\decorators.py", line 27, in wrapper
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py", line 16, in customer_home
+    return render(request, 'customer/customer_home.html', {'customer_data': customer, 'product_data': products})
+                                                                            ^^^^^^^^
+NameError: name 'customer' is not defined
+ERROR2023-07-31 20:02:42,294basehttp"GET /customer/customer_home HTTP/1.1" 500 69689
+WARNING2023-07-31 20:02:42,425logNot Found: /favicon.ico
+WARNING2023-07-31 20:02:42,425basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+ERROR2023-07-31 20:02:56,693logInternal Server Error: /customer/customer_home
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\decorators.py", line 27, in wrapper
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py", line 16, in customer_home
+    return render(request, 'customer/customer_home.html', {'customer_data': customer, 'product_data': products})
+                                                                            ^^^^^^^^
+NameError: name 'customer' is not defined
+ERROR2023-07-31 20:02:56,693basehttp"GET /customer/customer_home HTTP/1.1" 500 69689
+WARNING2023-07-31 20:02:56,787logNot Found: /favicon.ico
+WARNING2023-07-31 20:02:56,787basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+ERROR2023-07-31 20:02:58,744logInternal Server Error: /customer/customer_home
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\decorators.py", line 27, in wrapper
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py", line 16, in customer_home
+    return render(request, 'customer/customer_home.html', {'customer_data': customer, 'product_data': products})
+                                                                            ^^^^^^^^
+NameError: name 'customer' is not defined
+ERROR2023-07-31 20:02:58,756basehttp"GET /customer/customer_home HTTP/1.1" 500 69689
+WARNING2023-07-31 20:02:58,834logNot Found: /favicon.ico
+WARNING2023-07-31 20:02:58,834basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 20:03:19,444autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:03:20,177autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:03:24,805autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:03:25,580autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:03:26,942autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:03:27,597autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:03:29,632basehttp"GET /customer/customer_home HTTP/1.1" 200 7422
+INFO2023-07-31 20:03:29,712basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-07-31 20:03:29,712basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 200 832
+INFO2023-07-31 20:03:30,369basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 20:03:30,383basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 20:03:30,385basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 20:03:30,393basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 20:03:30,401basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 20:03:30,401basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 20:03:42,209logNot Found: /favicon.ico
+WARNING2023-07-31 20:03:42,209basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 20:04:35,613basehttp"GET /customer/cprofile HTTP/1.1" 200 7431
+INFO2023-07-31 20:04:39,419basehttp"GET /customer/cprofile HTTP/1.1" 200 7431
+INFO2023-07-31 20:04:42,306basehttp"GET /customer/cchangepassword HTTP/1.1" 200 7433
+INFO2023-07-31 20:05:22,544basehttp"GET /customer/customer_home HTTP/1.1" 200 13975
+INFO2023-07-31 20:05:22,565basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 200 832
+INFO2023-07-31 20:05:22,565basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-07-31 20:05:23,122basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 20:05:23,138basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 20:05:23,138basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 20:05:23,154basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 20:05:23,170basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 20:05:23,170basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-07-31 20:05:23,185basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-31 20:05:23,185basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-31 20:05:23,201basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-31 20:05:23,217basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-31 20:05:23,217basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-31 20:05:23,232basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-31 20:05:23,248basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-31 20:05:23,248basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-31 20:05:23,264basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-31 20:05:23,280basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-31 20:05:23,308basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 200 711614
+WARNING2023-07-31 20:05:36,706logNot Found: /favicon.ico
+WARNING2023-07-31 20:05:36,706basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 20:06:02,283basehttp"GET /customer/master_customer HTTP/1.1" 200 7393
+INFO2023-07-31 20:06:11,560basehttp"GET /customer/cprofile HTTP/1.1" 200 8482
+INFO2023-07-31 20:06:32,752basehttp"GET /customer/cchangepassword HTTP/1.1" 200 8552
+INFO2023-07-31 20:06:51,867basehttp"GET /customer/cchangepassword HTTP/1.1" 200 8552
+INFO2023-07-31 20:06:51,885basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-07-31 20:06:51,891basehttp"GET /static/style/cust_change_pwd.css HTTP/1.1" 200 639
+INFO2023-07-31 20:06:52,526basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 20:06:52,534basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 20:06:52,534basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 20:06:52,543basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 20:06:52,550basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 20:06:52,558basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 20:07:03,956logNot Found: /favicon.ico
+WARNING2023-07-31 20:07:03,956basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 20:07:16,843basehttp"GET /customer/cchangepassword HTTP/1.1" 200 8408
+INFO2023-07-31 20:23:52,712basehttp"GET /customer/cprofile HTTP/1.1" 200 8338
+INFO2023-07-31 20:23:54,656basehttp"GET /customer/customer_home HTTP/1.1" 200 13822
+INFO2023-07-31 20:29:44,435autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:29:45,468autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:29:47,169autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:29:48,033autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:29:58,341autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:29:59,303autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:30:00,959autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:30:01,710autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:30:03,083autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:30:03,934autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:30:52,556autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:30:53,407autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:30:54,857autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:30:55,647autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:30:59,125autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:31:00,102autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:31:02,616autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:31:03,254autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:31:17,561basehttp"GET /customer/customer_home HTTP/1.1" 200 13827
+INFO2023-07-31 20:31:17,704basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-07-31 20:31:17,742basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 200 832
+INFO2023-07-31 20:31:18,144basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 20:31:18,152basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 20:31:18,159basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 20:31:18,168basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 20:31:18,177basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 20:31:18,188basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-07-31 20:31:18,199basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-07-31 20:31:18,213basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-07-31 20:31:18,226basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-07-31 20:31:18,236basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-07-31 20:31:18,245basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-07-31 20:31:18,255basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-07-31 20:31:18,262basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-07-31 20:31:18,277basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-07-31 20:31:18,286basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-07-31 20:31:18,295basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-07-31 20:31:18,313basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 200 711614
+WARNING2023-07-31 20:31:19,885logNot Found: /favicon.ico
+WARNING2023-07-31 20:31:19,886basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-07-31 20:32:47,618autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:32:48,410autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:33:22,404autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:33:23,201autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:33:37,529basehttp"GET /customer/cprofile HTTP/1.1" 200 8338
+INFO2023-07-31 20:34:04,867basehttp"GET /customer/master_customer HTTP/1.1" 200 7244
+INFO2023-07-31 20:34:23,778autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:34:24,731autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:34:26,331autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:34:27,125autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:34:59,859autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:35:00,732autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:35:08,778autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:35:09,575autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:35:15,213autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py changed, reloading.
+INFO2023-07-31 20:35:15,842autoreloadWatching for file changes with StatReloader
+INFO2023-07-31 20:38:14,164basehttp"GET /customer/customer_home HTTP/1.1" 200 7695
+INFO2023-07-31 20:41:28,635basehttp"GET /customer/customer_home HTTP/1.1" 200 7696
+INFO2023-07-31 20:41:28,790basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-07-31 20:41:28,815basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 200 832
+INFO2023-07-31 20:41:29,195basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-07-31 20:41:29,204basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-07-31 20:41:29,211basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-07-31 20:41:29,219basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-07-31 20:41:29,227basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-07-31 20:41:29,239basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-07-31 20:41:31,369logNot Found: /favicon.ico
+WARNING2023-07-31 20:41:31,370basehttp"GET /favicon.ico HTTP/1.1" 404 4165

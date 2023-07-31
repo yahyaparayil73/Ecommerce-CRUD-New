@@ -31,4 +31,12 @@ class Seller(models.Model) :
     class Meta : 
         db_table = 'seller'
 
+class Admin(models.Model):
+    a_username = models.CharField(max_length = 50)
+    a_password = models.CharField(max_length = 20)
+
+    class Meta:
+        db_table = 'admin'
+
+ 
     

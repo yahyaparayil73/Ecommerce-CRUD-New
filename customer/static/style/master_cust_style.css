@@ -128,3 +128,15 @@
     color: black;
 
 }
+
+#product_search input {
+
+    border-radius: 0%;
+
+}
+
+.class_name{
+
+    color: green !important;
+
+}

@@ -7,6 +7,9 @@ from seller.models import Product
 def approve_sellers(request):
     return render(request, 'ecom_admin/approve sellers.html')
 
+def admin_login(request):
+    return render(request, 'ecom_admin/admin_login.html')
+
 
 def ecom_home(request):
     customer_count = Customer.objects.count()
