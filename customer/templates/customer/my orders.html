@@ -3,10 +3,40 @@
 
 {% block title %}
 <title>My Orders</title>
+<link rel="stylesheet" href="{% static 'style/cust_orders_style.css' %}">
 {% endblock %}
 
 {% block content %}
-<br>
-<h1>My Orders</h1>
+<div class="container main_div">
+    <p>Order Placed on July 16,2023</p>
+    <p>₹2354/-</p>
+    <hr>
+    <div class="row main_row">
+        <div class="col-lg-2">
+            <img src="{% static 'images/blue_shirt.jpg' %}" alt="" width="100px">
+        </div>
+        <div class="col-lg-3 ptags_div">
+            <p>Mens Tshirts</p> <br>
+            <p>Quantity 5</p> <br>
+            <p>₹2978/-</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row main_row">
+        <div class="col-lg-2">
+            <img src="{% static 'images/blue_shirt.jpg' %}" alt="" width="100px">
+        </div>
+        <div class="col-lg-3 ptags_div">
+            <p>Mens Tshirts</p> <br>
+            <p>Quantity 5</p> <br>
+            <p>₹2978/-</p>
+        </div>
+    </div>
+</div>
+<div class="container main_div">
+
+
+
+</div>
 
 {% endblock %}

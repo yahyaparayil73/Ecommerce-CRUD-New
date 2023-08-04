@@ -1,0 +1,31 @@
+.main_div {
+
+    font-family: 'Jost', sans-serif;
+    margin-top: 20px;
+
+
+}
+
+.container {
+
+    border: solid 0.25px rgb(67, 66, 66, 0.5);
+
+}
+
+.main_row {
+
+    padding: 10px;
+
+}
+
+.main_row p {
+
+    line-height: 0px;
+
+}
+
+.ptags_div {
+
+    margin-top: 20px;
+
+}

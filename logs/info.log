@@ -14012,3 +14012,714 @@ INFO2023-07-31 20:41:29,227basehttp"GET /static/images/united-states.png HTTP/1.
 INFO2023-07-31 20:41:29,239basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
 WARNING2023-07-31 20:41:31,369logNot Found: /favicon.ico
 WARNING2023-07-31 20:41:31,370basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 11:51:14,171autoreloadWatching for file changes with StatReloader
+INFO2023-08-01 11:51:17,222basehttp"GET / HTTP/1.1" 200 9208
+WARNING2023-08-01 11:51:18,057logNot Found: /favicon.ico
+WARNING2023-08-01 11:51:18,058basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 11:53:24,475basehttp"GET / HTTP/1.1" 200 9208
+WARNING2023-08-01 11:53:25,382logNot Found: /favicon.ico
+WARNING2023-08-01 11:53:25,383basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 11:54:33,671basehttp"GET /customerlogin HTTP/1.1" 200 7913
+INFO2023-08-01 11:54:33,699basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-08-01 11:54:38,235basehttp"POST /customerlogin HTTP/1.1" 302 0
+INFO2023-08-01 11:54:38,359basehttp"GET /customer/customer_home HTTP/1.1" 200 13790
+INFO2023-08-01 11:54:38,382basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 304 0
+INFO2023-08-01 11:54:38,385basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-08-01 11:55:40,949basehttp"GET /customer/cmyorders HTTP/1.1" 200 7250
+INFO2023-08-01 11:55:44,755basehttp"GET /customer/cprofile HTTP/1.1" 200 8339
+INFO2023-08-01 11:55:44,773basehttp"GET /static/style/cust_profile.css HTTP/1.1" 304 0
+INFO2023-08-01 11:55:49,393basehttp"GET /customer/customer_home HTTP/1.1" 200 13790
+INFO2023-08-01 12:16:39,153autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecommerce\settings.py changed, reloading.
+INFO2023-08-01 12:16:40,119autoreloadWatching for file changes with StatReloader
+INFO2023-08-01 12:16:44,854autoreloadC:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\ecommerce\settings.py changed, reloading.
+INFO2023-08-01 12:16:45,478autoreloadWatching for file changes with StatReloader
+INFO2023-08-01 12:31:35,809basehttp"GET /customer/customer_home HTTP/1.1" 200 13795
+INFO2023-08-01 12:31:35,884basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 12:31:35,889basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 200 832
+INFO2023-08-01 12:31:36,411basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 12:31:36,426basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 12:31:36,736basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 12:31:36,749basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 12:31:36,764basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 12:31:36,779basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 12:31:36,790basehttp"GET /media/product/-473Wx593H-440973993-grey-MODEL_mYrb4A1.webp HTTP/1.1" 200 35812
+INFO2023-08-01 12:31:36,803basehttp"GET /media/product/photo-1620012253295-c15cc3e65df4.jpeg HTTP/1.1" 200 239097
+INFO2023-08-01 12:31:36,812basehttp"GET /media/product/-473Wx593H-462323964-pink-MODEL.webp HTTP/1.1" 200 22672
+INFO2023-08-01 12:31:36,821basehttp"GET /media/product/-473Wx593H-462329145-green-MODEL.webp HTTP/1.1" 200 21326
+INFO2023-08-01 12:31:36,831basehttp"GET /media/product/-473Wx593H-465634623-navy-MODEL.avif HTTP/1.1" 200 18782
+INFO2023-08-01 12:31:36,842basehttp"GET /media/product/-473Wx593H-464531912-olive-MODEL.webp HTTP/1.1" 200 24468
+INFO2023-08-01 12:31:36,852basehttp"GET /media/product/-473Wx593H-461124442-black-MODEL.webp HTTP/1.1" 200 13352
+INFO2023-08-01 12:31:36,865basehttp"GET /media/product/-473Wx593H-464437131-grey-MODEL.webp HTTP/1.1" 200 19386
+INFO2023-08-01 12:31:36,885basehttp"GET /media/product/-473Wx593H-441138160-darkblue-MODEL.webp HTTP/1.1" 200 24768
+INFO2023-08-01 12:31:36,896basehttp"GET /media/product/-473Wx593H-441297863-darkgrey-MODEL.webp HTTP/1.1" 200 30052
+INFO2023-08-01 12:31:36,910basehttp"GET /media/product/man-floating-with-shopping-bags_u4jN2Qy.jpg HTTP/1.1" 200 711614
+WARNING2023-08-01 12:31:38,377logNot Found: /favicon.ico
+WARNING2023-08-01 12:31:38,377basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 12:31:46,009basehttp"GET /customer/cmyorders HTTP/1.1" 200 7255
+INFO2023-08-01 12:35:06,337basehttp"GET /customer/cprofile HTTP/1.1" 200 8344
+ERROR2023-08-01 13:58:46,299logInternal Server Error: /customer/cprofile
+Traceback (most recent call last):
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\decorators.py", line 27, in wrapper
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecommerce_crud\customer\views.py", line 78, in customer_profile
+    return render(request, 'customer/customer_profile.html', {'customer_profile': customer})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\safee\OneDrive\Desktop\Ecommerce Crud New\ecomenv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'customer_home' not found. 'customer_home' is not a valid view function or pattern name.
+ERROR2023-08-01 13:58:46,315basehttp"GET /customer/cprofile HTTP/1.1" 500 148062
+WARNING2023-08-01 13:58:53,497logNot Found: /customer/
+WARNING2023-08-01 13:58:53,497basehttp"GET /customer/ HTTP/1.1" 404 6326
+INFO2023-08-01 13:59:11,216basehttp"GET /customer/cmyorders HTTP/1.1" 200 7277
+INFO2023-08-01 13:59:11,241basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 13:59:11,673basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 13:59:11,684basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 13:59:11,688basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 13:59:11,695basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 13:59:11,700basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 13:59:11,717basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-08-01 13:59:13,227logNot Found: /favicon.ico
+WARNING2023-08-01 13:59:13,227basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 13:59:16,052basehttp"GET /customer/customer_home HTTP/1.1" 200 13817
+INFO2023-08-01 13:59:24,497basehttp"GET /customer/cprofile HTTP/1.1" 200 8366
+INFO2023-08-01 13:59:26,524basehttp"GET /customer/cchangepassword HTTP/1.1" 200 8436
+INFO2023-08-01 14:08:51,849basehttp"GET /customer/cprofile HTTP/1.1" 200 8366
+INFO2023-08-01 20:05:58,111autoreloadWatching for file changes with StatReloader
+INFO2023-08-01 20:06:03,872basehttp"GET / HTTP/1.1" 200 9208
+WARNING2023-08-01 20:06:04,973logNot Found: /favicon.ico
+WARNING2023-08-01 20:06:04,980basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:06:53,330basehttp"GET / HTTP/1.1" 200 9208
+INFO2023-08-01 20:06:57,976basehttp"GET /customerlogin HTTP/1.1" 200 7913
+INFO2023-08-01 20:06:58,002basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-08-01 20:07:09,152basehttp"POST /customerlogin HTTP/1.1" 302 0
+INFO2023-08-01 20:07:09,289basehttp"GET /customer/customer_home HTTP/1.1" 200 13817
+INFO2023-08-01 20:07:09,314basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-08-01 20:07:09,314basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 304 0
+INFO2023-08-01 20:10:47,154basehttp"GET /customer/cmyorders HTTP/1.1" 200 7277
+INFO2023-08-01 20:16:00,224basehttp"GET /customer/cmyorders HTTP/1.1" 200 7301
+INFO2023-08-01 20:16:00,403basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:16:00,721basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:16:00,737basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:16:00,754basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:16:00,777basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:16:00,794basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:16:00,810basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-08-01 20:16:03,295logNot Found: /favicon.ico
+WARNING2023-08-01 20:16:03,295basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:17:29,095basehttp"GET /customer/cmyorders HTTP/1.1" 200 7368
+INFO2023-08-01 20:17:29,112basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:17:29,115basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 51
+INFO2023-08-01 20:17:29,510basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:17:29,512basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:17:29,518basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:17:29,528basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:17:29,529basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:17:29,535basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-08-01 20:17:30,929logNot Found: /favicon.ico
+WARNING2023-08-01 20:17:30,929basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:19:39,743basehttp"GET /customer/cmyorders HTTP/1.1" 200 7412
+INFO2023-08-01 20:19:39,760basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 304 0
+INFO2023-08-01 20:24:20,475basehttp"GET /customer/cmyorders HTTP/1.1" 200 8060
+INFO2023-08-01 20:24:20,494basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:24:20,532basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 51
+INFO2023-08-01 20:24:20,979basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:24:20,985basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:24:20,995basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:24:21,001basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:24:21,001basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:24:21,012basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-08-01 20:24:21,028basehttp"GET /static/style/images/blue_shirt.jpg HTTP/1.1" 404 1840
+WARNING2023-08-01 20:24:21,947basehttp"GET /static/style/images/blue_shirt.jpg HTTP/1.1" 404 1840
+WARNING2023-08-01 20:24:23,253logNot Found: /favicon.ico
+WARNING2023-08-01 20:24:23,253basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:24:57,439basehttp"GET /customer/cmyorders HTTP/1.1" 200 8074
+INFO2023-08-01 20:24:57,461basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:24:57,461basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 51
+INFO2023-08-01 20:24:57,780basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:24:57,784basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:24:57,784basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:24:57,800basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:24:57,800basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:24:57,816basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-08-01 20:24:57,832basehttp"GET /static/style/images/blue_shirt.jpg HTTP/1.1" 404 1840
+WARNING2023-08-01 20:24:58,141basehttp"GET /static/style/images/blue_shirt.jpg HTTP/1.1" 404 1840
+WARNING2023-08-01 20:24:58,727logNot Found: /favicon.ico
+WARNING2023-08-01 20:24:58,727basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:25:07,431basehttp"GET /customer/cmyorders HTTP/1.1" 200 8074
+INFO2023-08-01 20:25:07,452basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:25:07,462basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 51
+INFO2023-08-01 20:25:07,557basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:25:07,563basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:25:07,573basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:25:07,573basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:25:07,589basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:25:07,589basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-08-01 20:25:07,604basehttp"GET /static/style/images/blue_shirt.jpg HTTP/1.1" 404 1840
+WARNING2023-08-01 20:25:07,777basehttp"GET /static/style/images/blue_shirt.jpg HTTP/1.1" 404 1840
+WARNING2023-08-01 20:25:08,302logNot Found: /favicon.ico
+WARNING2023-08-01 20:25:08,302basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:25:29,639basehttp"GET /customer/cmyorders HTTP/1.1" 200 8068
+INFO2023-08-01 20:25:29,661basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:25:29,661basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 51
+INFO2023-08-01 20:25:40,632basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:25:40,636basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:25:40,644basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:25:40,644basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:25:40,652basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:25:40,656basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-08-01 20:25:40,669basehttp"GET /static/style/images/blue_shirt.jpg HTTP/1.1" 404 1840
+INFO2023-08-01 20:25:40,677basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:25:41,518basehttp"GET /static/style/images/blue_shirt.jpg HTTP/1.1" 404 1840
+WARNING2023-08-01 20:25:41,706logNot Found: /favicon.ico
+WARNING2023-08-01 20:25:41,706basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:25:54,631basehttp"GET /customer/cmyorders HTTP/1.1" 200 8068
+INFO2023-08-01 20:25:54,646basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:25:54,655basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 51
+INFO2023-08-01 20:25:55,679basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:25:55,686basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:25:55,688basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:25:55,695basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:25:55,703basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:25:55,711basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-08-01 20:25:55,727basehttp"GET /static/style/images/blue_shirt.jpg HTTP/1.1" 404 1840
+INFO2023-08-01 20:25:55,735basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:25:56,465basehttp"GET /static/style/images/blue_shirt.jpg HTTP/1.1" 404 1840
+WARNING2023-08-01 20:25:56,634logNot Found: /favicon.ico
+WARNING2023-08-01 20:25:56,636basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:26:53,845basehttp"GET /customer/cmyorders HTTP/1.1" 200 8176
+INFO2023-08-01 20:26:53,859basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:26:53,859basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 51
+INFO2023-08-01 20:26:54,352basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:26:54,354basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:26:54,354basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:26:54,369basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:26:54,369basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:26:54,378basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-08-01 20:26:54,399basehttp"GET /static/style/images/blue_shirt.jpg HTTP/1.1" 404 1840
+INFO2023-08-01 20:26:54,399basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:26:55,085basehttp"GET /static/style/images/blue_shirt.jpg HTTP/1.1" 404 1840
+WARNING2023-08-01 20:26:55,561logNot Found: /favicon.ico
+WARNING2023-08-01 20:26:55,562basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:27:41,185basehttp"GET /customer/cmyorders HTTP/1.1" 200 8204
+INFO2023-08-01 20:27:41,201basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:27:41,210basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 51
+INFO2023-08-01 20:27:41,763basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:27:41,779basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:27:41,779basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:27:41,779basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:27:41,795basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:27:41,795basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-08-01 20:27:41,812basehttp"GET /static/style/images/blue_shirt.jpg HTTP/1.1" 404 1840
+INFO2023-08-01 20:27:41,828basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:27:42,428basehttp"GET /static/style/images/blue_shirt.jpg HTTP/1.1" 404 1840
+WARNING2023-08-01 20:27:43,761logNot Found: /favicon.ico
+WARNING2023-08-01 20:27:43,761basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:28:03,936basehttp"GET /customer/cmyorders HTTP/1.1" 200 8219
+INFO2023-08-01 20:28:03,951basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:28:03,951basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 51
+INFO2023-08-01 20:28:04,548basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:28:04,563basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:28:04,563basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:28:04,579basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:28:04,579basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:28:04,595basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-08-01 20:28:04,595basehttp"GET /static/style/images/blue_shirt.jpg HTTP/1.1" 404 1840
+INFO2023-08-01 20:28:04,611basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:28:05,028basehttp"GET /static/style/images/blue_shirt.jpg HTTP/1.1" 404 1840
+WARNING2023-08-01 20:28:05,264logNot Found: /favicon.ico
+WARNING2023-08-01 20:28:05,264basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:28:11,347basehttp"GET /customer/cmyorders HTTP/1.1" 200 8219
+INFO2023-08-01 20:28:11,371basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:28:11,371basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 51
+INFO2023-08-01 20:28:11,652basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:28:11,659basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:28:11,660basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:28:11,666basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:28:11,673basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:28:11,673basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-08-01 20:28:11,700basehttp"GET /static/style/images/blue_shirt.jpg HTTP/1.1" 404 1840
+INFO2023-08-01 20:28:11,700basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:28:11,844logNot Found: /favicon.ico
+WARNING2023-08-01 20:28:11,844basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:28:32,571basehttp"GET /customer/cmyorders HTTP/1.1" 200 8207
+INFO2023-08-01 20:28:32,591basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:28:32,592basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 51
+INFO2023-08-01 20:28:33,080basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:28:33,092basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:28:33,094basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:28:33,100basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:28:33,108basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:28:33,112basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:28:33,112basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:28:43,963logNot Found: /favicon.ico
+WARNING2023-08-01 20:28:43,963basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:29:04,540basehttp"GET /customer/cmyorders HTTP/1.1" 200 8207
+INFO2023-08-01 20:29:04,557basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 51
+INFO2023-08-01 20:29:04,557basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:29:04,927basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:29:04,933basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:29:04,941basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:29:04,941basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:29:04,949basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:29:04,957basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:29:04,965basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:29:05,910logNot Found: /favicon.ico
+WARNING2023-08-01 20:29:05,910basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:29:10,527basehttp"GET /customer/cmyorders HTTP/1.1" 200 8207
+INFO2023-08-01 20:29:25,491basehttp"GET /customer/cmyorders HTTP/1.1" 200 8192
+INFO2023-08-01 20:30:46,912basehttp"GET /customer/cmyorders HTTP/1.1" 200 8285
+INFO2023-08-01 20:30:46,930basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:30:46,930basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 51
+INFO2023-08-01 20:30:47,339basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:30:47,348basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:30:47,350basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:30:47,356basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:30:47,364basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:30:47,372basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:30:47,377basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:30:48,498logNot Found: /favicon.ico
+WARNING2023-08-01 20:30:48,498basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:31:25,208basehttp"GET /customer/cmyorders HTTP/1.1" 200 8295
+INFO2023-08-01 20:31:25,224basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 51
+INFO2023-08-01 20:31:25,228basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:31:25,529basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:31:25,533basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:31:25,541basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:31:25,549basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:31:25,558basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:31:25,566basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:31:25,574basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:31:36,172logNot Found: /favicon.ico
+WARNING2023-08-01 20:31:36,172basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:32:19,731basehttp"GET /customer/cmyorders HTTP/1.1" 200 8311
+INFO2023-08-01 20:32:19,748basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 51
+INFO2023-08-01 20:32:19,748basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:32:19,991basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:32:19,999basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:32:19,999basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:32:20,008basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:32:20,011basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:32:20,011basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:32:20,024basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:32:20,382logNot Found: /favicon.ico
+WARNING2023-08-01 20:32:20,382basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:32:34,352basehttp"GET /customer/cmyorders HTTP/1.1" 200 8311
+INFO2023-08-01 20:32:34,383basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:32:34,383basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 51
+INFO2023-08-01 20:32:34,678basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:32:34,679basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:32:34,686basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:32:34,696basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:32:34,696basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:32:34,696basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:32:34,696basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:32:34,795logNot Found: /favicon.ico
+WARNING2023-08-01 20:32:34,795basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:32:36,929basehttp"GET /customer/cmyorders HTTP/1.1" 200 8311
+INFO2023-08-01 20:32:36,946basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:32:36,946basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 51
+INFO2023-08-01 20:32:37,013basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:32:37,014basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:32:37,024basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:32:37,024basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:32:37,040basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:32:37,040basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:32:37,056basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:32:37,392logNot Found: /favicon.ico
+WARNING2023-08-01 20:32:37,394basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:34:31,836basehttp"GET /customer/cmyorders HTTP/1.1" 200 8315
+INFO2023-08-01 20:34:31,853basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:34:31,863basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 115
+INFO2023-08-01 20:34:32,224basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:34:32,240basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:34:32,240basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:34:32,240basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:34:32,256basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:34:32,256basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:34:32,271basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:34:33,301logNot Found: /favicon.ico
+WARNING2023-08-01 20:34:33,301basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:34:46,990basehttp"GET /customer/cmyorders HTTP/1.1" 200 8315
+INFO2023-08-01 20:34:47,007basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:34:47,014basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 115
+INFO2023-08-01 20:34:47,537basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:34:47,537basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:34:47,558basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:34:47,559basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:34:47,559basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:34:47,559basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:34:47,559basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:34:47,827logNot Found: /favicon.ico
+WARNING2023-08-01 20:34:47,827basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:34:56,889basehttp"GET /customer/cmyorders HTTP/1.1" 200 8315
+INFO2023-08-01 20:34:56,905basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:34:56,913basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 116
+INFO2023-08-01 20:34:57,188basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:34:57,196basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:34:57,204basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:34:57,208basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:34:57,213basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:34:57,221basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:34:57,229basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:34:57,752logNot Found: /favicon.ico
+WARNING2023-08-01 20:34:57,760basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:35:45,040basehttp"GET /customer/cmyorders HTTP/1.1" 200 8315
+INFO2023-08-01 20:35:45,055basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:35:45,057basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 116
+INFO2023-08-01 20:35:45,313basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:35:45,318basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:35:45,349basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:35:45,349basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:35:45,349basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:35:45,350basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:35:45,350basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:35:45,562logNot Found: /favicon.ico
+WARNING2023-08-01 20:35:45,562basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:36:08,588basehttp"GET /customer/cmyorders HTTP/1.1" 200 8315
+INFO2023-08-01 20:36:08,604basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:36:08,604basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 116
+INFO2023-08-01 20:36:15,566basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:36:15,571basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:36:15,573basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:36:15,581basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:36:15,586basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:36:15,593basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:36:15,593basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:36:15,886logNot Found: /favicon.ico
+WARNING2023-08-01 20:36:15,886basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:37:08,456basehttp"GET /customer/cmyorders HTTP/1.1" 200 8352
+INFO2023-08-01 20:37:08,472basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:37:08,472basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 116
+INFO2023-08-01 20:37:08,728basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:37:08,728basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:37:08,742basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:37:08,742basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:37:08,758basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:37:08,773basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:37:08,774basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:37:09,528logNot Found: /favicon.ico
+WARNING2023-08-01 20:37:09,528basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:37:27,538basehttp"GET /customer/cmyorders HTTP/1.1" 200 8361
+INFO2023-08-01 20:37:27,554basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:37:27,554basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 116
+INFO2023-08-01 20:37:28,437basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:37:28,443basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:37:28,456basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+INFO2023-08-01 20:37:28,456basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:37:28,456basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:37:28,459basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:37:28,460basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-08-01 20:37:28,575logNot Found: /favicon.ico
+WARNING2023-08-01 20:37:28,575basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:37:40,935basehttp"GET /customer/cmyorders HTTP/1.1" 200 8368
+INFO2023-08-01 20:37:40,959basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 116
+INFO2023-08-01 20:37:40,959basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:37:41,110basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:37:41,115basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:37:41,123basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:37:41,131basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:37:41,139basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:37:41,147basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:37:41,156basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:37:41,345logNot Found: /favicon.ico
+WARNING2023-08-01 20:37:41,345basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:38:33,080basehttp"GET /customer/cmyorders HTTP/1.1" 200 8368
+INFO2023-08-01 20:38:33,096basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:38:33,096basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 120
+INFO2023-08-01 20:38:33,393basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:38:33,396basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:38:33,396basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:38:33,412basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:38:33,412basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:38:33,428basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:38:33,428basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:38:33,810logNot Found: /favicon.ico
+WARNING2023-08-01 20:38:33,810basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:40:14,055basehttp"GET /customer/cmyorders HTTP/1.1" 200 8371
+INFO2023-08-01 20:40:14,072basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:40:14,072basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 133
+INFO2023-08-01 20:40:14,373basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:40:14,379basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:40:14,389basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:40:14,389basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:40:14,403basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:40:14,403basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:40:14,419basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:40:16,610logNot Found: /favicon.ico
+WARNING2023-08-01 20:40:16,611basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:40:21,095basehttp"GET /customer/cmyorders HTTP/1.1" 200 8371
+INFO2023-08-01 20:40:21,111basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 304 0
+INFO2023-08-01 20:40:36,176basehttp"GET /customer/cmyorders HTTP/1.1" 200 8373
+INFO2023-08-01 20:40:36,185basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 304 0
+INFO2023-08-01 20:41:01,811basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 304 0
+INFO2023-08-01 20:41:23,220basehttp"GET /customer/cmyorders HTTP/1.1" 200 8373
+INFO2023-08-01 20:41:23,240basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 133
+INFO2023-08-01 20:41:23,240basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:41:23,508basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:41:23,517basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:41:23,523basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:41:23,532basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:41:23,540basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:41:23,540basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:41:23,548basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:41:25,331logNot Found: /favicon.ico
+WARNING2023-08-01 20:41:25,331basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:41:47,211basehttp"GET /customer/cmyorders HTTP/1.1" 200 8373
+INFO2023-08-01 20:41:47,228basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:41:47,232basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 133
+INFO2023-08-01 20:41:47,486basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:41:47,498basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:41:47,500basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:41:47,508basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:41:47,516basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:41:47,521basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:41:47,528basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:41:47,892logNot Found: /favicon.ico
+WARNING2023-08-01 20:41:47,892basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:42:08,618basehttp"GET /customer/cmyorders HTTP/1.1" 200 8373
+INFO2023-08-01 20:42:08,643basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:42:08,645basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 133
+INFO2023-08-01 20:42:10,017basehttp"GET /customer/cmyorders HTTP/1.1" 200 8373
+INFO2023-08-01 20:42:10,036basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:42:10,036basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 133
+INFO2023-08-01 20:42:15,472basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:42:15,477basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:42:15,482basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:42:15,499basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:42:15,505basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:42:15,505basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:42:15,505basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:42:15,843logNot Found: /favicon.ico
+WARNING2023-08-01 20:42:15,843basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:42:56,354basehttp"GET /customer/cmyorders HTTP/1.1" 200 8373
+INFO2023-08-01 20:42:56,373basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:42:56,380basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 165
+INFO2023-08-01 20:42:56,852basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:42:56,862basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:42:56,862basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:42:56,874basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:42:56,884basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:42:56,890basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:42:56,900basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:42:58,237logNot Found: /favicon.ico
+WARNING2023-08-01 20:42:58,237basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:43:25,108basehttp"GET /customer/cmyorders HTTP/1.1" 200 8373
+INFO2023-08-01 20:43:25,138basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:43:25,139basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 188
+INFO2023-08-01 20:43:25,387basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:43:25,393basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:43:25,400basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:43:25,404basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:43:25,409basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:43:25,410basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:43:25,411basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:43:25,562logNot Found: /favicon.ico
+WARNING2023-08-01 20:43:25,562basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:44:07,436basehttp"GET /customer/cmyorders HTTP/1.1" 200 8378
+INFO2023-08-01 20:44:07,468basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:44:07,473basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 194
+INFO2023-08-01 20:44:07,739basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:44:07,739basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:44:07,754basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:44:07,754basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:44:07,754basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:44:07,754basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+INFO2023-08-01 20:44:07,754basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+WARNING2023-08-01 20:44:08,203logNot Found: /favicon.ico
+WARNING2023-08-01 20:44:08,213basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:44:20,578basehttp"GET /customer/cmyorders HTTP/1.1" 200 8378
+INFO2023-08-01 20:44:20,605basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:44:20,606basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 194
+INFO2023-08-01 20:44:21,029basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:44:21,038basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:44:21,042basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:44:21,042basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:44:21,058basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:44:21,058basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:44:21,074basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:44:21,618logNot Found: /favicon.ico
+WARNING2023-08-01 20:44:21,618basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:44:33,549basehttp"GET /customer/cmyorders HTTP/1.1" 200 8378
+INFO2023-08-01 20:44:33,565basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 194
+INFO2023-08-01 20:44:33,565basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:44:33,847basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:44:33,858basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:44:33,872basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:44:33,873basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:44:33,873basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:44:33,873basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+INFO2023-08-01 20:44:33,873basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+WARNING2023-08-01 20:44:33,972logNot Found: /favicon.ico
+WARNING2023-08-01 20:44:33,973basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:45:23,458basehttp"GET /customer/cmyorders HTTP/1.1" 200 8378
+INFO2023-08-01 20:45:23,486basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:45:23,493basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 242
+INFO2023-08-01 20:45:23,935basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:45:23,935basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:45:23,961basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:45:23,964basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+INFO2023-08-01 20:45:23,964basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:45:23,964basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:45:23,964basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+WARNING2023-08-01 20:45:24,356logNot Found: /favicon.ico
+WARNING2023-08-01 20:45:24,356basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:45:30,281basehttp"GET /customer/cmyorders HTTP/1.1" 200 8378
+INFO2023-08-01 20:45:30,314basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:45:30,314basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 241
+INFO2023-08-01 20:45:30,464basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:45:30,476basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:45:30,476basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:45:30,489basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:45:30,495basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:45:30,505basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:45:30,511basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:45:30,894logNot Found: /favicon.ico
+WARNING2023-08-01 20:45:30,894basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:45:43,672basehttp"GET /customer/cmyorders HTTP/1.1" 200 8378
+INFO2023-08-01 20:45:43,688basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:45:43,696basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 241
+INFO2023-08-01 20:45:43,886basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:45:43,893basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:45:43,901basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:45:43,904basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:45:43,909basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:45:43,917basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:45:43,922basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:45:44,379logNot Found: /favicon.ico
+WARNING2023-08-01 20:45:44,379basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:45:53,315basehttp"GET /customer/cmyorders HTTP/1.1" 200 8378
+INFO2023-08-01 20:45:53,331basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:45:53,340basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 241
+INFO2023-08-01 20:45:53,618basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:45:53,619basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:45:53,627basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:45:53,630basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:45:53,635basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+INFO2023-08-01 20:45:53,635basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:45:53,635basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+WARNING2023-08-01 20:45:54,112logNot Found: /favicon.ico
+WARNING2023-08-01 20:45:54,112basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:47:31,222basehttp"GET /customer/cmyorders HTTP/1.1" 200 8408
+INFO2023-08-01 20:47:31,244basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:47:31,246basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 286
+INFO2023-08-01 20:47:31,730basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:47:31,737basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:47:31,746basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:47:31,753basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:47:31,761basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:47:31,770basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:47:31,778basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:47:32,995logNot Found: /favicon.ico
+WARNING2023-08-01 20:47:32,995basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:47:52,490basehttp"GET /customer/cmyorders HTTP/1.1" 200 8408
+INFO2023-08-01 20:47:52,521basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:47:52,528basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 287
+INFO2023-08-01 20:47:53,458basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:47:53,458basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:47:53,468basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:47:53,471basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:47:53,472basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:47:53,472basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+INFO2023-08-01 20:47:53,472basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+WARNING2023-08-01 20:47:53,591logNot Found: /favicon.ico
+WARNING2023-08-01 20:47:53,591basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:47:58,377basehttp"GET /customer/cmyorders HTTP/1.1" 200 8408
+INFO2023-08-01 20:47:58,398basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:47:58,401basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 287
+INFO2023-08-01 20:47:58,761basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:47:58,770basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:47:58,774basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:47:58,790basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:47:58,791basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+INFO2023-08-01 20:47:58,791basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:47:58,791basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+WARNING2023-08-01 20:47:58,946logNot Found: /favicon.ico
+WARNING2023-08-01 20:47:58,952basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:48:04,612basehttp"GET /customer/cmyorders HTTP/1.1" 200 8408
+INFO2023-08-01 20:48:04,634basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:48:04,637basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 287
+INFO2023-08-01 20:48:04,991basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:48:04,997basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:48:05,004basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:48:05,004basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:48:05,012basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:48:05,020basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:48:05,025basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:48:05,876logNot Found: /favicon.ico
+WARNING2023-08-01 20:48:05,876basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-01 20:49:01,043basehttp"GET /customer/cmyorders HTTP/1.1" 200 8079
+INFO2023-08-01 20:49:01,059basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 200 1543
+INFO2023-08-01 20:49:01,059basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 200 287
+INFO2023-08-01 20:49:01,726basehttp"GET /static/images/united-kingdom.png HTTP/1.1" 200 30368
+INFO2023-08-01 20:49:01,726basehttp"GET /static/images/germany.png HTTP/1.1" 200 11636
+INFO2023-08-01 20:49:01,740basehttp"GET /static/images/flag.png HTTP/1.1" 200 31628
+INFO2023-08-01 20:49:01,744basehttp"GET /static/images/france.png HTTP/1.1" 200 16395
+INFO2023-08-01 20:49:01,747basehttp"GET /static/images/united-arab-emirates.png HTTP/1.1" 200 18745
+INFO2023-08-01 20:49:01,747basehttp"GET /static/images/united-states.png HTTP/1.1" 200 24631
+INFO2023-08-01 20:49:01,747basehttp"GET /static/images/blue_shirt.jpg HTTP/1.1" 200 18628
+WARNING2023-08-01 20:49:02,107logNot Found: /favicon.ico
+WARNING2023-08-01 20:49:02,107basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-02 20:01:20,478autoreloadWatching for file changes with StatReloader
+INFO2023-08-02 20:01:22,673basehttp"GET / HTTP/1.1" 200 9208
+WARNING2023-08-02 20:01:23,834logNot Found: /favicon.ico
+WARNING2023-08-02 20:01:23,834basehttp"GET /favicon.ico HTTP/1.1" 404 4165
+INFO2023-08-02 20:03:12,725basehttp"GET /customerlogin HTTP/1.1" 200 7913
+INFO2023-08-02 20:03:12,753basehttp"GET /static/style/cust_login_style.css HTTP/1.1" 304 0
+INFO2023-08-02 20:03:18,927basehttp"POST /customerlogin HTTP/1.1" 302 0
+INFO2023-08-02 20:03:19,096basehttp"GET /customer/customer_home HTTP/1.1" 200 13817
+INFO2023-08-02 20:03:19,122basehttp"GET /static/style/master_cust_style.css HTTP/1.1" 304 0
+INFO2023-08-02 20:03:19,123basehttp"GET /static/style/cust_home_style.css HTTP/1.1" 304 0
+INFO2023-08-02 20:03:21,492basehttp"GET /customer/cmyorders HTTP/1.1" 200 8122
+INFO2023-08-02 20:03:21,519basehttp"GET /static/style/cust_orders_style.css HTTP/1.1" 304 0
