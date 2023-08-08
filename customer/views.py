@@ -25,13 +25,6 @@ def customer_mycart(request):
     cart_items = Cart.objects.filter(customer=request.session['customer'])
     return render(request, 'customer/my cart.html', {'cart_items': cart_items})
 
-
-def delete_item(request,item_id):
-    item = Cart.objects.get(id=item_id)
-    item.delete() 
-    return redirect('customer:mycart')
-
-
 def customer_myorders(request):
     return render(request, 'customer/my orders.html')
 
@@ -99,6 +92,20 @@ def change_quantity(request):
     else:
         error_msg = 'In stock'
     return JsonResponse({'error_msg': error_msg})
+
+def total_price(request):
+
+    pid = request.POST['pid'] #pid and qty are the key passed from ajax request
+    qty = request.POST['qty']
+    product = Product.objects.filter(id = pid).values('p_price') # To get the price from the field of the particular product
+    total_amount = (int(qty) * product[0]['p_price'] )
+
+    return JsonResponse({'amount': total_amount})
+
+def delete_item(request,item_id):
+    item = Cart.objects.get(id=item_id)
+    item.delete() 
+    return redirect('customer:mycart')
 
 
 def info(request):

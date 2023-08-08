@@ -60,12 +60,12 @@
                 </td>
                 <td class="quantity">
                     {% csrf_token %}
-                    <input type="number" id="qty" min="1" data-item="{{ item.product.id }}" style="width: 50px;"><br>
+                    <input type="number" class="qty-input" min="1" data-item="{{ item.product.id }}"
+                        style="width: 50px;"><br>
                     <span id="stock_error"></span>
                     <span id="stock_success"></span>
                 </td>
-                <td>
-                    ₹ {{item.product.p_price}}
+                <td class="total_amount">
                 </td>
                 <td class="cart_delete">
                     <a href="#" class="delete-link">
@@ -80,29 +80,14 @@
     <div class="amount_div">
 
         <table class="amount_table">
-
-            <tr>
-                <td>Subtotal</td>
-                <td>₹100</td>
-            </tr>
-            <tr>
-                <td>Salestax</td>
-                <td>₹100</td>
-            </tr>
-            <tr>
-                <td>Coupon Code</td>
-                <td><a href="">Add Coupon</a></td>
-            </tr>
             <tr>
                 <td>Grandtotal</td>
-                <td>₹1000</td>
+                <td class="grand_total">
+                </td>
             </tr>
-
-
-
         </table>
         <div>
-            <button class="btn btn-success">Checkout</button>
+            <button class="btn btn-success">Place Order</button>
         </div>
 
 
@@ -113,12 +98,6 @@
 
 <script>
 
-    // function getTotal(price) {
-    //     let qty = document.getElementById('qty').value
-    //     let total = parseFloat(price) * parseFloat(qty)
-    //     console.log(total)
-    // }
-
     $(document).ready(function () {
         $.ajaxSetup({
             headers: {
@@ -126,7 +105,7 @@
             }
         })
 
-        $('#qty').change(function () {
+        $('.qty-input').change(function () {
 
             $.ajax({
 
@@ -140,7 +119,6 @@
 
                 success: function (response) {
                     let error = response.error_msg
-                    // let success = response.success_msg
                     if (error == "In stock") {
                         $('#stock_error').html(error)
                         $('#stock_error').css('color', 'green')
@@ -150,18 +128,60 @@
                         $('#stock_error').css('color', 'red')
                     }
                     $('#stock_error').html(error)
-                    // $('#stock_success').html(success)
 
 
                 }
             })
         })
+        displayTotalAmount()
+        $.ajaxSetup({
+            headers: {
+                "X-CSRFToken": '{{ csrf_token }}'
+            }
+        })
+
+        $('.quantity input').on('change', function () {
+            let qty = $(this).val()
+            let pid = $(this).attr('data-item')
+
+            $.ajax({
+                url: "{% url 'customer:total_price' %}",
+                method: 'POST',
+                data: {
+                    'pid': pid,
+                    'qty': qty
+                },
+                success: function (response) {
+                    $(this).closest('tr').find('.total_amount').html('₹' + response.amount);
+                    displayTotalAmount()
+                }.bind(this)
+            });
+        });
     })
+
+    function displayTotalAmount() {
+        let amount_cells = document.getElementsByClassName('total_amount');
+        let total = 0;
+
+        for (let i = 0; i < amount_cells.length; i++) {
+            let amount = parseFloat(amount_cells[i].textContent.replace('₹', '')); // Remove the ₹ symbol
+            total += amount;
+        }
+
+        $('.grand_total').html('₹' + total);
+    }
+
+
+    // $.ajaxSetup({
+    //     headers: {
+    //         "X-CSRFToken": '{{ csrf_token }}'
+    //     }
+    // })
+
+    // $('.delete-link').on('click', function () {
+
+
+    // })
 
 </script>
 {% endblock %}
-
-
-
-<!-- onchange="getTotal('{{item.product.p_price}}')"
-                        max="{{item.product.p_stock}}" -->

@@ -8,12 +8,16 @@
 
 {% block content %}
 <div class="container main_div">
-    <p>Order Placed on July 16,2023</p>
-    <p>₹2354/-</p>
+    <div class="orders_heading_div">
+        <p class="order_heading"><b>Order Placed on : </b>July 16,2023</p>
+        <p class="order_heading"><b>Grand Total : </b>₹5999/-</p>
+        <p class="order_heading"><b>Order ID : </b>SEH12304082023</p>
+
+    </div>
     <hr>
     <div class="row main_row">
         <div class="col-lg-2">
-            <img src="{% static 'images/blue_shirt.jpg' %}" alt="" width="100px">
+            <img src="{% static 'images/blue_shirt.jpg' %}" alt="" width="80px">
         </div>
         <div class="col-lg-3 ptags_div">
             <p>Mens Tshirts</p> <br>
@@ -24,7 +28,7 @@
     <hr>
     <div class="row main_row">
         <div class="col-lg-2">
-            <img src="{% static 'images/blue_shirt.jpg' %}" alt="" width="100px">
+            <img src="{% static 'images/blue_shirt.jpg' %}" alt="" width="80px">
         </div>
         <div class="col-lg-3 ptags_div">
             <p>Mens Tshirts</p> <br>
@@ -32,11 +36,6 @@
             <p>₹2978/-</p>
         </div>
     </div>
-</div>
-<div class="container main_div">
-
-
-
 </div>
 
 {% endblock %}

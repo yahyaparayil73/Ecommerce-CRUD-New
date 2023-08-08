@@ -26,6 +26,20 @@
 
 .ptags_div {
 
-    margin-top: 20px;
+    margin-top: 15px;
 
+}
+
+.order_heading {
+
+    padding-left: 80px;
+    color: rgb(107, 110, 110);
+
+
+}
+
+.orders_heading_div {
+
+    display: flex;
+    padding-top: 25px;
 }

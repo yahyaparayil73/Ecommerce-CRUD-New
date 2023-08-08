@@ -14,6 +14,7 @@ urlpatterns=[
     path('change_quantity',views.change_quantity,name ='change_quantity'),
     path('info',views.info,name ='info'),
     path('delete_item/<int:item_id>',views.delete_item, name='delete_item'),
+    path('total_price',views.total_price, name='total_price'),
 
 
 ]
